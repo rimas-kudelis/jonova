@@ -1,828 +1,828 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
-    <key>ascender</key>
-    <integer>1494</integer>
-    <key>capHeight</key>
-    <integer>1464</integer>
-    <key>copyright</key>
-    <string>Copyright (c) 2005-2014 by UAB FOTONIJA. All rights reserved.</string>
-    <key>descender</key>
-    <integer>-460</integer>
-    <key>familyName</key>
-    <string>Jonova Condensed</string>
-    <key>guidelines</key>
-    <array/>
-    <key>italicAngle</key>
-    <real>0.0</real>
-    <key>openTypeGaspRangeRecords</key>
-    <array>
-      <dict>
-        <key>rangeGaspBehavior</key>
-        <array>
-          <integer>1</integer>
-        </array>
-        <key>rangeMaxPPEM</key>
-        <integer>8</integer>
-      </dict>
-      <dict>
-        <key>rangeGaspBehavior</key>
-        <array>
-          <integer>0</integer>
-        </array>
-        <key>rangeMaxPPEM</key>
-        <integer>18</integer>
-      </dict>
-      <dict>
-        <key>rangeGaspBehavior</key>
-        <array>
-          <integer>0</integer>
-          <integer>1</integer>
-        </array>
-        <key>rangeMaxPPEM</key>
-        <integer>65535</integer>
-      </dict>
-    </array>
-    <key>openTypeHeadCreated</key>
-    <string>2014/03/05 10:14:56</string>
-    <key>openTypeHeadFlags</key>
-    <array>
-      <integer>0</integer>
-      <integer>3</integer>
-      <integer>4</integer>
-    </array>
-    <key>openTypeHeadLowestRecPPEM</key>
-    <integer>9</integer>
-    <key>openTypeHheaAscender</key>
-    <integer>1494</integer>
-    <key>openTypeHheaCaretOffset</key>
-    <integer>0</integer>
-    <key>openTypeHheaCaretSlopeRise</key>
-    <integer>1</integer>
-    <key>openTypeHheaCaretSlopeRun</key>
-    <integer>0</integer>
-    <key>openTypeHheaDescender</key>
-    <integer>-460</integer>
-    <key>openTypeHheaLineGap</key>
-    <integer>114</integer>
-    <key>openTypeNameCompatibleFullName</key>
-    <string>Jonova Condensed Regular</string>
-    <key>openTypeNameDescription</key>
-    <string>Copyright (c) 2005-2014 by UAB FOTONIJA. All rights reserved.</string>
-    <key>openTypeNameDesigner</key>
-    <string>Jonas Vaiciulis</string>
-    <key>openTypeNameDesignerURL</key>
-    <string>http://www.fotonija.lt</string>
-    <key>openTypeNameLicense</key>
-    <string>NOTIFICATION OF LICENSE AGREEMENT&#13;
-&#13;
-This typeface is the property of Fotonija and its use by you is covered under the terms of a license agreement. You have obtained this typeface software either directly from Fotonija or together with software distributed by one of Fotonija licensees.&#13;
-&#13;
-This software is a valuable asset of Fotonija. Unless you have entered into a specific license agreement granting you additional rights, your use of this software is limited to your workstation for your own publishing use. You may not copy or distribute this software.&#13;
-&#13;
-If you have any question concerning your rights you should review the license agreement you received with the software or contact Fotonija for a copy of the license agreement.&#13;
-&#13;
-Fotonija can be contacted at:&#13;
-&#13;
-L.Giros g. 4-34&#13;
-LT-06325 Vilnius&#13;
-Lithuania&#13;
-http://www.fotonija.lt&#13;
-e-mail: info@fotonija.lt</string>
-    <key>openTypeNameManufacturer</key>
-    <string>UAB FOTONIJA</string>
-    <key>openTypeNameManufacturerURL</key>
-    <string>http://www.fotonija.lt</string>
-    <key>openTypeNamePreferredFamilyName</key>
-    <string>Jonova Condensed</string>
-    <key>openTypeNamePreferredSubfamilyName</key>
-    <string>Regular</string>
-    <key>openTypeNameRecords</key>
-    <array>
-      <dict>
-        <key>encodingID</key>
-        <integer>0</integer>
-        <key>languageID</key>
-        <integer>0</integer>
-        <key>nameID</key>
-        <integer>0</integer>
-        <key>platformID</key>
+<dict>
+  <key>ascender</key>
+  <integer>1494</integer>
+  <key>capHeight</key>
+  <integer>1464</integer>
+  <key>copyright</key>
+  <string>Copyright (c) 2005-2014 by UAB FOTONIJA. All rights reserved.</string>
+  <key>descender</key>
+  <integer>-460</integer>
+  <key>familyName</key>
+  <string>Jonova Condensed</string>
+  <key>guidelines</key>
+  <array/>
+  <key>italicAngle</key>
+  <integer>0</integer>
+  <key>openTypeGaspRangeRecords</key>
+  <array>
+    <dict>
+      <key>rangeGaspBehavior</key>
+      <array>
         <integer>1</integer>
-        <key>string</key>
-        <string>Copyright (c) 2005-2014 by UAB FOTONIJA. All rights reserved.</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1033</integer>
-        <key>nameID</key>
-        <integer>0</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>Kopijavimo teisės priklauso UAB FOTONIJA, 2005-2014. Visos teisės saugomos. &#13;
-Copyright (c) UAB FOTONIJA, 2005-2014. All rights reserved.</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1063</integer>
-        <key>nameID</key>
-        <integer>0</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>Kopijavimo teisės priklauso UAB FOTONIJA, 2005-2014. Visos teisės saugomos.</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>0</integer>
-        <key>languageID</key>
-        <integer>0</integer>
-        <key>nameID</key>
-        <integer>1</integer>
-        <key>platformID</key>
-        <integer>1</integer>
-        <key>string</key>
-        <string>Jonova Condensed</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1033</integer>
-        <key>nameID</key>
-        <integer>1</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>Jonova Condensed</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1063</integer>
-        <key>nameID</key>
-        <integer>1</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>Jonova Condensed</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>0</integer>
-        <key>languageID</key>
-        <integer>0</integer>
-        <key>nameID</key>
-        <integer>2</integer>
-        <key>platformID</key>
-        <integer>1</integer>
-        <key>string</key>
-        <string>Regular</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1033</integer>
-        <key>nameID</key>
-        <integer>2</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>Regular</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1063</integer>
-        <key>nameID</key>
-        <integer>2</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>Regular</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>0</integer>
-        <key>languageID</key>
-        <integer>0</integer>
-        <key>nameID</key>
-        <integer>3</integer>
-        <key>platformID</key>
-        <integer>1</integer>
-        <key>string</key>
-        <string>FOTONIJA Jonova Condensed Regular</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1033</integer>
-        <key>nameID</key>
-        <integer>3</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>FOTONIJA Jonova Condensed</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1063</integer>
-        <key>nameID</key>
-        <integer>3</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>FOTONIJA Jonova Condensed Regular</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>0</integer>
-        <key>languageID</key>
-        <integer>0</integer>
-        <key>nameID</key>
-        <integer>4</integer>
-        <key>platformID</key>
-        <integer>1</integer>
-        <key>string</key>
-        <string>Jonova Condensed</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1033</integer>
-        <key>nameID</key>
-        <integer>4</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>Jonova Condensed</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1063</integer>
-        <key>nameID</key>
-        <integer>4</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>Jonova-CondensedRegular</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>0</integer>
-        <key>languageID</key>
-        <integer>0</integer>
-        <key>nameID</key>
-        <integer>5</integer>
-        <key>platformID</key>
-        <integer>1</integer>
-        <key>string</key>
-        <string>Version 2.032</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1033</integer>
-        <key>nameID</key>
-        <integer>5</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>Version 2.032</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1063</integer>
-        <key>nameID</key>
-        <integer>5</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>Versija 2.032</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>0</integer>
-        <key>languageID</key>
-        <integer>0</integer>
-        <key>nameID</key>
-        <integer>6</integer>
-        <key>platformID</key>
-        <integer>1</integer>
-        <key>string</key>
-        <string>JonovaCondensed</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1033</integer>
-        <key>nameID</key>
-        <integer>6</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>JonovaCondensed</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1063</integer>
-        <key>nameID</key>
-        <integer>6</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>Jonova-CondensedRegular</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>0</integer>
-        <key>languageID</key>
-        <integer>0</integer>
-        <key>nameID</key>
-        <integer>7</integer>
-        <key>platformID</key>
-        <integer>1</integer>
-        <key>string</key>
-        <string>Jonova is a trademark of UAB FOTONIJA.</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1033</integer>
-        <key>nameID</key>
-        <integer>7</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>Jonova is a trademark of UAB FOTONIJA.</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1063</integer>
-        <key>nameID</key>
-        <integer>7</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>Jonova skiriamasis UAB FOTONIJA prekinis ženklas.</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>0</integer>
-        <key>languageID</key>
-        <integer>0</integer>
-        <key>nameID</key>
-        <integer>8</integer>
-        <key>platformID</key>
-        <integer>1</integer>
-        <key>string</key>
-        <string>UAB FOTONIJA</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1033</integer>
-        <key>nameID</key>
-        <integer>8</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>UAB FOTONIJA</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>0</integer>
-        <key>languageID</key>
-        <integer>0</integer>
-        <key>nameID</key>
-        <integer>9</integer>
-        <key>platformID</key>
-        <integer>1</integer>
-        <key>string</key>
-        <string>Jonas Vaiciulis</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1033</integer>
-        <key>nameID</key>
-        <integer>9</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>Jonas Vaiciulis</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1063</integer>
-        <key>nameID</key>
-        <integer>9</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>Jonas Vaičiulis</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>0</integer>
-        <key>languageID</key>
-        <integer>0</integer>
-        <key>nameID</key>
-        <integer>10</integer>
-        <key>platformID</key>
-        <integer>1</integer>
-        <key>string</key>
-        <string>Copyright (c) 2005-2014 by UAB FOTONIJA. All rights reserved.</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1033</integer>
-        <key>nameID</key>
-        <integer>10</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>Copyright (c) 2005-2014 by UAB FOTONIJA. All rights reserved.</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>0</integer>
-        <key>languageID</key>
-        <integer>0</integer>
-        <key>nameID</key>
-        <integer>11</integer>
-        <key>platformID</key>
-        <integer>1</integer>
-        <key>string</key>
-        <string>http://www.fotonija.lt</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1033</integer>
-        <key>nameID</key>
-        <integer>11</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>http://www.fotonija.lt</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1063</integer>
-        <key>nameID</key>
-        <integer>11</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>http://www.fotonija.lt</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>0</integer>
-        <key>languageID</key>
-        <integer>0</integer>
-        <key>nameID</key>
-        <integer>12</integer>
-        <key>platformID</key>
-        <integer>1</integer>
-        <key>string</key>
-        <string>http://www.fotonija.lt</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1033</integer>
-        <key>nameID</key>
-        <integer>12</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>http://www.fotonija.lt</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1063</integer>
-        <key>nameID</key>
-        <integer>12</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>http://www.fotonija.lt</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>0</integer>
-        <key>languageID</key>
-        <integer>0</integer>
-        <key>nameID</key>
-        <integer>13</integer>
-        <key>platformID</key>
-        <integer>1</integer>
-        <key>string</key>
-        <string>NOTIFICATION OF LICENSE AGREEMENT&#13;
-&#13;
-This typeface is the property of Fotonija and its use by you is covered under the terms of a license agreement. You have obtained this typeface software either directly from Fotonija or together with software distributed by one of Fotonija licensees.&#13;
-&#13;
-This software is a valuable asset of Fotonija. Unless you have entered into a specific license agreement granting you additional rights, your use of this software is limited to your workstation for your own publishing use. You may not copy or distribute this software.&#13;
-&#13;
-If you have any question concerning your rights you should review the license agreement you received with the software or contact Fotonija for a copy of the license agreement.&#13;
-&#13;
-Fotonija can be contacted at:&#13;
-&#13;
-L.Giros g. 4-34&#13;
-LT-06325 Vilnius&#13;
-Lithuania&#13;
-http://www.fotonija.lt&#13;
-e-mail: info@fotonija.lt</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1033</integer>
-        <key>nameID</key>
-        <integer>13</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>NOTIFICATION OF LICENSE AGREEMENT&#13;
-&#13;
-This typeface is the property of Fotonija and its use by you is covered under the terms of a license agreement. You have obtained this typeface software either directly from Fotonija or together with software distributed by one of Fotonija licensees.&#13;
-&#13;
-This software is a valuable asset of Fotonija. Unless you have entered into a specific license agreement granting you additional rights, your use of this software is limited to your workstation for your own publishing use. You may not copy or distribute this software.&#13;
-&#13;
-If you have any question concerning your rights you should review the license agreement you received with the software or contact Fotonija for a copy of the license agreement.&#13;
-&#13;
-Fotonija can be contacted at:&#13;
-&#13;
-L.Giros g. 4-34&#13;
-LT-06325 Vilnius&#13;
-Lithuania&#13;
-http://www.fotonija.lt&#13;
-e-mail: info@fotonija.lt</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1063</integer>
-        <key>nameID</key>
-        <integer>13</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>NOTIFICATION OF LICENSE AGREEMENT&#13;
-&#13;
-This typeface is the property of Fotonija and its use by you is covered under the terms of a license agreement. You have obtained this typeface software either directly from Fotonija or together with software distributed by one of Fotonija licensees.&#13;
-&#13;
-This software is a valuable asset of Fotonija. Unless you have entered into a specific license agreement granting you additional rights, your use of this software is limited to your workstation for your own publishing use. You may not copy or distribute this software.&#13;
-&#13;
-If you have any question concerning your rights you should review the license agreement you received with the software or contact Fotonija for a copy of the license agreement.&#13;
-&#13;
-Fotonija can be contacted at:&#13;
-&#13;
-L.Giros g. 4-34&#13;
-LT-06325 Vilnius&#13;
-Lithuania&#13;
-http://www.fotonija.lt&#13;
-e-mail: info@fotonija.lt</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>0</integer>
-        <key>languageID</key>
-        <integer>0</integer>
-        <key>nameID</key>
-        <integer>16</integer>
-        <key>platformID</key>
-        <integer>1</integer>
-        <key>string</key>
-        <string>Jonova Condensed</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1063</integer>
-        <key>nameID</key>
-        <integer>16</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>Jonova CN</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>0</integer>
-        <key>languageID</key>
-        <integer>0</integer>
-        <key>nameID</key>
-        <integer>17</integer>
-        <key>platformID</key>
-        <integer>1</integer>
-        <key>string</key>
-        <string>Regular</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>1</integer>
-        <key>languageID</key>
-        <integer>1063</integer>
-        <key>nameID</key>
-        <integer>17</integer>
-        <key>platformID</key>
-        <integer>3</integer>
-        <key>string</key>
-        <string>Regular</string>
-      </dict>
-      <dict>
-        <key>encodingID</key>
-        <integer>0</integer>
-        <key>languageID</key>
-        <integer>0</integer>
-        <key>nameID</key>
-        <integer>18</integer>
-        <key>platformID</key>
-        <integer>1</integer>
-        <key>string</key>
-        <string>Jonova Condensed Regular</string>
-      </dict>
-    </array>
-    <key>openTypeNameUniqueID</key>
-    <string>FOTONIJA Jonova Condensed Regular</string>
-    <key>openTypeNameVersion</key>
-    <string>Version 2.032</string>
-    <key>openTypeOS2CodePageRanges</key>
-    <array>
-      <integer>0</integer>
-      <integer>1</integer>
-      <integer>2</integer>
-      <integer>3</integer>
-      <integer>4</integer>
-      <integer>7</integer>
+      </array>
+      <key>rangeMaxPPEM</key>
       <integer>8</integer>
-      <integer>48</integer>
-      <integer>49</integer>
-      <integer>50</integer>
-      <integer>52</integer>
-      <integer>54</integer>
-      <integer>55</integer>
-      <integer>56</integer>
-      <integer>57</integer>
-      <integer>58</integer>
-      <integer>59</integer>
-      <integer>60</integer>
-      <integer>62</integer>
-      <integer>63</integer>
-    </array>
-    <key>openTypeOS2Panose</key>
-    <array>
-      <integer>2</integer>
-      <integer>13</integer>
-      <integer>5</integer>
-      <integer>6</integer>
-      <integer>4</integer>
-      <integer>5</integer>
-      <integer>3</integer>
-      <integer>2</integer>
-      <integer>3</integer>
-      <integer>3</integer>
-    </array>
-    <key>openTypeOS2Selection</key>
-    <array/>
-    <key>openTypeOS2StrikeoutPosition</key>
-    <integer>512</integer>
-    <key>openTypeOS2StrikeoutSize</key>
-    <integer>102</integer>
-    <key>openTypeOS2SubscriptXOffset</key>
+    </dict>
+    <dict>
+      <key>rangeGaspBehavior</key>
+      <array>
+        <integer>0</integer>
+      </array>
+      <key>rangeMaxPPEM</key>
+      <integer>18</integer>
+    </dict>
+    <dict>
+      <key>rangeGaspBehavior</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+      <key>rangeMaxPPEM</key>
+      <integer>65535</integer>
+    </dict>
+  </array>
+  <key>openTypeHeadCreated</key>
+  <string>2014/03/05 10:14:56</string>
+  <key>openTypeHeadFlags</key>
+  <array>
     <integer>0</integer>
-    <key>openTypeOS2SubscriptXSize</key>
-    <integer>1434</integer>
-    <key>openTypeOS2SubscriptYOffset</key>
-    <integer>293</integer>
-    <key>openTypeOS2SubscriptYSize</key>
-    <integer>1331</integer>
-    <key>openTypeOS2SuperscriptXOffset</key>
-    <integer>0</integer>
-    <key>openTypeOS2SuperscriptXSize</key>
-    <integer>1434</integer>
-    <key>openTypeOS2SuperscriptYOffset</key>
-    <integer>928</integer>
-    <key>openTypeOS2SuperscriptYSize</key>
-    <integer>1331</integer>
-    <key>openTypeOS2Type</key>
-    <array/>
-    <key>openTypeOS2TypoAscender</key>
-    <integer>1494</integer>
-    <key>openTypeOS2TypoDescender</key>
-    <integer>-460</integer>
-    <key>openTypeOS2TypoLineGap</key>
-    <integer>114</integer>
-    <key>openTypeOS2UnicodeRanges</key>
-    <array>
+    <integer>3</integer>
+    <integer>4</integer>
+  </array>
+  <key>openTypeHeadLowestRecPPEM</key>
+  <integer>9</integer>
+  <key>openTypeHheaAscender</key>
+  <integer>1494</integer>
+  <key>openTypeHheaCaretOffset</key>
+  <integer>0</integer>
+  <key>openTypeHheaCaretSlopeRise</key>
+  <integer>1</integer>
+  <key>openTypeHheaCaretSlopeRun</key>
+  <integer>0</integer>
+  <key>openTypeHheaDescender</key>
+  <integer>-460</integer>
+  <key>openTypeHheaLineGap</key>
+  <integer>114</integer>
+  <key>openTypeNameCompatibleFullName</key>
+  <string>Jonova Condensed Regular</string>
+  <key>openTypeNameDescription</key>
+  <string>Copyright (c) 2005-2014 by UAB FOTONIJA. All rights reserved.</string>
+  <key>openTypeNameDesigner</key>
+  <string>Jonas Vaiciulis</string>
+  <key>openTypeNameDesignerURL</key>
+  <string>http://www.fotonija.lt</string>
+  <key>openTypeNameLicense</key>
+  <string>NOTIFICATION OF LICENSE AGREEMENT
+
+This typeface is the property of Fotonija and its use by you is covered under the terms of a license agreement. You have obtained this typeface software either directly from Fotonija or together with software distributed by one of Fotonija licensees.
+
+This software is a valuable asset of Fotonija. Unless you have entered into a specific license agreement granting you additional rights, your use of this software is limited to your workstation for your own publishing use. You may not copy or distribute this software.
+
+If you have any question concerning your rights you should review the license agreement you received with the software or contact Fotonija for a copy of the license agreement.
+
+Fotonija can be contacted at:
+
+L.Giros g. 4-34
+LT-06325 Vilnius
+Lithuania
+http://www.fotonija.lt
+e-mail: info@fotonija.lt</string>
+  <key>openTypeNameManufacturer</key>
+  <string>UAB FOTONIJA</string>
+  <key>openTypeNameManufacturerURL</key>
+  <string>http://www.fotonija.lt</string>
+  <key>openTypeNamePreferredFamilyName</key>
+  <string>Jonova Condensed</string>
+  <key>openTypeNamePreferredSubfamilyName</key>
+  <string>Regular</string>
+  <key>openTypeNameRecords</key>
+  <array>
+    <dict>
+      <key>encodingID</key>
       <integer>0</integer>
+      <key>languageID</key>
+      <integer>0</integer>
+      <key>nameID</key>
+      <integer>0</integer>
+      <key>platformID</key>
       <integer>1</integer>
-      <integer>2</integer>
+      <key>string</key>
+      <string>Copyright (c) 2005-2014 by UAB FOTONIJA. All rights reserved.</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1033</integer>
+      <key>nameID</key>
+      <integer>0</integer>
+      <key>platformID</key>
       <integer>3</integer>
+      <key>string</key>
+      <string>Kopijavimo teisės priklauso UAB FOTONIJA, 2005-2014. Visos teisės saugomos. 
+Copyright (c) UAB FOTONIJA, 2005-2014. All rights reserved.</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1063</integer>
+      <key>nameID</key>
+      <integer>0</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>Kopijavimo teisės priklauso UAB FOTONIJA, 2005-2014. Visos teisės saugomos.</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>0</integer>
+      <key>languageID</key>
+      <integer>0</integer>
+      <key>nameID</key>
+      <integer>1</integer>
+      <key>platformID</key>
+      <integer>1</integer>
+      <key>string</key>
+      <string>Jonova Condensed</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1033</integer>
+      <key>nameID</key>
+      <integer>1</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>Jonova Condensed</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1063</integer>
+      <key>nameID</key>
+      <integer>1</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>Jonova Condensed</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>0</integer>
+      <key>languageID</key>
+      <integer>0</integer>
+      <key>nameID</key>
+      <integer>2</integer>
+      <key>platformID</key>
+      <integer>1</integer>
+      <key>string</key>
+      <string>Regular</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1033</integer>
+      <key>nameID</key>
+      <integer>2</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>Regular</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1063</integer>
+      <key>nameID</key>
+      <integer>2</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>Regular</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>0</integer>
+      <key>languageID</key>
+      <integer>0</integer>
+      <key>nameID</key>
+      <integer>3</integer>
+      <key>platformID</key>
+      <integer>1</integer>
+      <key>string</key>
+      <string>FOTONIJA Jonova Condensed Regular</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1033</integer>
+      <key>nameID</key>
+      <integer>3</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>FOTONIJA Jonova Condensed</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1063</integer>
+      <key>nameID</key>
+      <integer>3</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>FOTONIJA Jonova Condensed Regular</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>0</integer>
+      <key>languageID</key>
+      <integer>0</integer>
+      <key>nameID</key>
       <integer>4</integer>
+      <key>platformID</key>
+      <integer>1</integer>
+      <key>string</key>
+      <string>Jonova Condensed</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1033</integer>
+      <key>nameID</key>
+      <integer>4</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>Jonova Condensed</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1063</integer>
+      <key>nameID</key>
+      <integer>4</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>Jonova-CondensedRegular</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>0</integer>
+      <key>languageID</key>
+      <integer>0</integer>
+      <key>nameID</key>
       <integer>5</integer>
+      <key>platformID</key>
+      <integer>1</integer>
+      <key>string</key>
+      <string>Version 2.032</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1033</integer>
+      <key>nameID</key>
+      <integer>5</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>Version 2.032</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1063</integer>
+      <key>nameID</key>
+      <integer>5</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>Versija 2.032</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>0</integer>
+      <key>languageID</key>
+      <integer>0</integer>
+      <key>nameID</key>
       <integer>6</integer>
+      <key>platformID</key>
+      <integer>1</integer>
+      <key>string</key>
+      <string>JonovaCondensed</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1033</integer>
+      <key>nameID</key>
+      <integer>6</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>JonovaCondensed</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1063</integer>
+      <key>nameID</key>
+      <integer>6</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>Jonova-CondensedRegular</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>0</integer>
+      <key>languageID</key>
+      <integer>0</integer>
+      <key>nameID</key>
       <integer>7</integer>
+      <key>platformID</key>
+      <integer>1</integer>
+      <key>string</key>
+      <string>Jonova is a trademark of UAB FOTONIJA.</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1033</integer>
+      <key>nameID</key>
+      <integer>7</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>Jonova is a trademark of UAB FOTONIJA.</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1063</integer>
+      <key>nameID</key>
+      <integer>7</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>Jonova skiriamasis UAB FOTONIJA prekinis ženklas.</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>0</integer>
+      <key>languageID</key>
+      <integer>0</integer>
+      <key>nameID</key>
+      <integer>8</integer>
+      <key>platformID</key>
+      <integer>1</integer>
+      <key>string</key>
+      <string>UAB FOTONIJA</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1033</integer>
+      <key>nameID</key>
+      <integer>8</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>UAB FOTONIJA</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>0</integer>
+      <key>languageID</key>
+      <integer>0</integer>
+      <key>nameID</key>
       <integer>9</integer>
-      <integer>29</integer>
-      <integer>31</integer>
-      <integer>32</integer>
-      <integer>33</integer>
-      <integer>35</integer>
-      <integer>37</integer>
-      <integer>38</integer>
-      <integer>39</integer>
-      <integer>43</integer>
-      <integer>44</integer>
-      <integer>45</integer>
-      <integer>46</integer>
-      <integer>60</integer>
-      <integer>62</integer>
-    </array>
-    <key>openTypeOS2VendorID</key>
-    <string>FTJA</string>
-    <key>openTypeOS2WeightClass</key>
-    <integer>400</integer>
-    <key>openTypeOS2WidthClass</key>
-    <integer>5</integer>
-    <key>openTypeOS2WinAscent</key>
-    <integer>2012</integer>
-    <key>openTypeOS2WinDescent</key>
-    <integer>490</integer>
-    <key>postscriptBlueValues</key>
-    <array/>
-    <key>postscriptFamilyBlues</key>
-    <array/>
-    <key>postscriptFamilyOtherBlues</key>
-    <array/>
-    <key>postscriptIsFixedPitch</key>
-    <false/>
-    <key>postscriptOtherBlues</key>
-    <array/>
-    <key>postscriptStemSnapH</key>
-    <array/>
-    <key>postscriptStemSnapV</key>
-    <array/>
-    <key>postscriptUnderlinePosition</key>
-    <integer>-263</integer>
-    <key>postscriptUnderlineThickness</key>
-    <integer>82</integer>
-    <key>styleMapFamilyName</key>
-    <string>Jonova Condensed</string>
-    <key>styleMapStyleName</key>
-    <string>regular</string>
-    <key>styleName</key>
-    <string>Regular</string>
-    <key>trademark</key>
-    <string>Jonova is a trademark of UAB FOTONIJA.</string>
-    <key>unitsPerEm</key>
-    <integer>2048</integer>
-    <key>versionMajor</key>
+      <key>platformID</key>
+      <integer>1</integer>
+      <key>string</key>
+      <string>Jonas Vaiciulis</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1033</integer>
+      <key>nameID</key>
+      <integer>9</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>Jonas Vaiciulis</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1063</integer>
+      <key>nameID</key>
+      <integer>9</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>Jonas Vaičiulis</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>0</integer>
+      <key>languageID</key>
+      <integer>0</integer>
+      <key>nameID</key>
+      <integer>10</integer>
+      <key>platformID</key>
+      <integer>1</integer>
+      <key>string</key>
+      <string>Copyright (c) 2005-2014 by UAB FOTONIJA. All rights reserved.</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1033</integer>
+      <key>nameID</key>
+      <integer>10</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>Copyright (c) 2005-2014 by UAB FOTONIJA. All rights reserved.</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>0</integer>
+      <key>languageID</key>
+      <integer>0</integer>
+      <key>nameID</key>
+      <integer>11</integer>
+      <key>platformID</key>
+      <integer>1</integer>
+      <key>string</key>
+      <string>http://www.fotonija.lt</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1033</integer>
+      <key>nameID</key>
+      <integer>11</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>http://www.fotonija.lt</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1063</integer>
+      <key>nameID</key>
+      <integer>11</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>http://www.fotonija.lt</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>0</integer>
+      <key>languageID</key>
+      <integer>0</integer>
+      <key>nameID</key>
+      <integer>12</integer>
+      <key>platformID</key>
+      <integer>1</integer>
+      <key>string</key>
+      <string>http://www.fotonija.lt</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1033</integer>
+      <key>nameID</key>
+      <integer>12</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>http://www.fotonija.lt</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1063</integer>
+      <key>nameID</key>
+      <integer>12</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>http://www.fotonija.lt</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>0</integer>
+      <key>languageID</key>
+      <integer>0</integer>
+      <key>nameID</key>
+      <integer>13</integer>
+      <key>platformID</key>
+      <integer>1</integer>
+      <key>string</key>
+      <string>NOTIFICATION OF LICENSE AGREEMENT
+
+This typeface is the property of Fotonija and its use by you is covered under the terms of a license agreement. You have obtained this typeface software either directly from Fotonija or together with software distributed by one of Fotonija licensees.
+
+This software is a valuable asset of Fotonija. Unless you have entered into a specific license agreement granting you additional rights, your use of this software is limited to your workstation for your own publishing use. You may not copy or distribute this software.
+
+If you have any question concerning your rights you should review the license agreement you received with the software or contact Fotonija for a copy of the license agreement.
+
+Fotonija can be contacted at:
+
+L.Giros g. 4-34
+LT-06325 Vilnius
+Lithuania
+http://www.fotonija.lt
+e-mail: info@fotonija.lt</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1033</integer>
+      <key>nameID</key>
+      <integer>13</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>NOTIFICATION OF LICENSE AGREEMENT
+
+This typeface is the property of Fotonija and its use by you is covered under the terms of a license agreement. You have obtained this typeface software either directly from Fotonija or together with software distributed by one of Fotonija licensees.
+
+This software is a valuable asset of Fotonija. Unless you have entered into a specific license agreement granting you additional rights, your use of this software is limited to your workstation for your own publishing use. You may not copy or distribute this software.
+
+If you have any question concerning your rights you should review the license agreement you received with the software or contact Fotonija for a copy of the license agreement.
+
+Fotonija can be contacted at:
+
+L.Giros g. 4-34
+LT-06325 Vilnius
+Lithuania
+http://www.fotonija.lt
+e-mail: info@fotonija.lt</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1063</integer>
+      <key>nameID</key>
+      <integer>13</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>NOTIFICATION OF LICENSE AGREEMENT
+
+This typeface is the property of Fotonija and its use by you is covered under the terms of a license agreement. You have obtained this typeface software either directly from Fotonija or together with software distributed by one of Fotonija licensees.
+
+This software is a valuable asset of Fotonija. Unless you have entered into a specific license agreement granting you additional rights, your use of this software is limited to your workstation for your own publishing use. You may not copy or distribute this software.
+
+If you have any question concerning your rights you should review the license agreement you received with the software or contact Fotonija for a copy of the license agreement.
+
+Fotonija can be contacted at:
+
+L.Giros g. 4-34
+LT-06325 Vilnius
+Lithuania
+http://www.fotonija.lt
+e-mail: info@fotonija.lt</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>0</integer>
+      <key>languageID</key>
+      <integer>0</integer>
+      <key>nameID</key>
+      <integer>16</integer>
+      <key>platformID</key>
+      <integer>1</integer>
+      <key>string</key>
+      <string>Jonova Condensed</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1063</integer>
+      <key>nameID</key>
+      <integer>16</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>Jonova CN</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>0</integer>
+      <key>languageID</key>
+      <integer>0</integer>
+      <key>nameID</key>
+      <integer>17</integer>
+      <key>platformID</key>
+      <integer>1</integer>
+      <key>string</key>
+      <string>Regular</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>1</integer>
+      <key>languageID</key>
+      <integer>1063</integer>
+      <key>nameID</key>
+      <integer>17</integer>
+      <key>platformID</key>
+      <integer>3</integer>
+      <key>string</key>
+      <string>Regular</string>
+    </dict>
+    <dict>
+      <key>encodingID</key>
+      <integer>0</integer>
+      <key>languageID</key>
+      <integer>0</integer>
+      <key>nameID</key>
+      <integer>18</integer>
+      <key>platformID</key>
+      <integer>1</integer>
+      <key>string</key>
+      <string>Jonova Condensed Regular</string>
+    </dict>
+  </array>
+  <key>openTypeNameUniqueID</key>
+  <string>FOTONIJA Jonova Condensed Regular</string>
+  <key>openTypeNameVersion</key>
+  <string>Version 2.032</string>
+  <key>openTypeOS2CodePageRanges</key>
+  <array>
+    <integer>0</integer>
+    <integer>1</integer>
     <integer>2</integer>
-    <key>versionMinor</key>
+    <integer>3</integer>
+    <integer>4</integer>
+    <integer>7</integer>
+    <integer>8</integer>
+    <integer>48</integer>
+    <integer>49</integer>
+    <integer>50</integer>
+    <integer>52</integer>
+    <integer>54</integer>
+    <integer>55</integer>
+    <integer>56</integer>
+    <integer>57</integer>
+    <integer>58</integer>
+    <integer>59</integer>
+    <integer>60</integer>
+    <integer>62</integer>
+    <integer>63</integer>
+  </array>
+  <key>openTypeOS2Panose</key>
+  <array>
+    <integer>2</integer>
+    <integer>13</integer>
+    <integer>5</integer>
+    <integer>6</integer>
+    <integer>4</integer>
+    <integer>5</integer>
+    <integer>3</integer>
+    <integer>2</integer>
+    <integer>3</integer>
+    <integer>3</integer>
+  </array>
+  <key>openTypeOS2Selection</key>
+  <array/>
+  <key>openTypeOS2StrikeoutPosition</key>
+  <integer>512</integer>
+  <key>openTypeOS2StrikeoutSize</key>
+  <integer>102</integer>
+  <key>openTypeOS2SubscriptXOffset</key>
+  <integer>0</integer>
+  <key>openTypeOS2SubscriptXSize</key>
+  <integer>1434</integer>
+  <key>openTypeOS2SubscriptYOffset</key>
+  <integer>293</integer>
+  <key>openTypeOS2SubscriptYSize</key>
+  <integer>1331</integer>
+  <key>openTypeOS2SuperscriptXOffset</key>
+  <integer>0</integer>
+  <key>openTypeOS2SuperscriptXSize</key>
+  <integer>1434</integer>
+  <key>openTypeOS2SuperscriptYOffset</key>
+  <integer>928</integer>
+  <key>openTypeOS2SuperscriptYSize</key>
+  <integer>1331</integer>
+  <key>openTypeOS2Type</key>
+  <array/>
+  <key>openTypeOS2TypoAscender</key>
+  <integer>1494</integer>
+  <key>openTypeOS2TypoDescender</key>
+  <integer>-460</integer>
+  <key>openTypeOS2TypoLineGap</key>
+  <integer>114</integer>
+  <key>openTypeOS2UnicodeRanges</key>
+  <array>
+    <integer>0</integer>
+    <integer>1</integer>
+    <integer>2</integer>
+    <integer>3</integer>
+    <integer>4</integer>
+    <integer>5</integer>
+    <integer>6</integer>
+    <integer>7</integer>
+    <integer>9</integer>
+    <integer>29</integer>
+    <integer>31</integer>
     <integer>32</integer>
-    <key>xHeight</key>
-    <integer>1004</integer>
-  </dict>
+    <integer>33</integer>
+    <integer>35</integer>
+    <integer>37</integer>
+    <integer>38</integer>
+    <integer>39</integer>
+    <integer>43</integer>
+    <integer>44</integer>
+    <integer>45</integer>
+    <integer>46</integer>
+    <integer>60</integer>
+    <integer>62</integer>
+  </array>
+  <key>openTypeOS2VendorID</key>
+  <string>FTJA</string>
+  <key>openTypeOS2WeightClass</key>
+  <integer>400</integer>
+  <key>openTypeOS2WidthClass</key>
+  <integer>5</integer>
+  <key>openTypeOS2WinAscent</key>
+  <integer>2012</integer>
+  <key>openTypeOS2WinDescent</key>
+  <integer>490</integer>
+  <key>postscriptBlueValues</key>
+  <array/>
+  <key>postscriptFamilyBlues</key>
+  <array/>
+  <key>postscriptFamilyOtherBlues</key>
+  <array/>
+  <key>postscriptIsFixedPitch</key>
+  <false/>
+  <key>postscriptOtherBlues</key>
+  <array/>
+  <key>postscriptStemSnapH</key>
+  <array/>
+  <key>postscriptStemSnapV</key>
+  <array/>
+  <key>postscriptUnderlinePosition</key>
+  <integer>-263</integer>
+  <key>postscriptUnderlineThickness</key>
+  <integer>82</integer>
+  <key>styleMapFamilyName</key>
+  <string>Jonova Condensed</string>
+  <key>styleMapStyleName</key>
+  <string>regular</string>
+  <key>styleName</key>
+  <string>Regular</string>
+  <key>trademark</key>
+  <string>Jonova is a trademark of UAB FOTONIJA.</string>
+  <key>unitsPerEm</key>
+  <integer>2048</integer>
+  <key>versionMajor</key>
+  <integer>2</integer>
+  <key>versionMinor</key>
+  <integer>32</integer>
+  <key>xHeight</key>
+  <integer>1004</integer>
+</dict>
 </plist>

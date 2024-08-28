@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uniEFF1" format="2">
   <advance width="2048"/>
   <unicode hex="EFF1"/>
@@ -1775,9 +1775,7 @@
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>
-        <string>
-
-</string>
+        <string/>
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
