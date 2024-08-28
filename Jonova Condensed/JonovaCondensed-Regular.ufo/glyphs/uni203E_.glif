@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni203E" format="2">
+  <advance width="576"/>
+  <unicode hex="203E"/>
+  <outline>
+    <contour>
+      <point x="-42" y="1290" type="line"/>
+      <point x="618" y="1290" type="line"/>
+      <point x="618" y="1168" type="line"/>
+      <point x="-42" y="1168" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 4 values pushed */
+1 2 2 4
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w576l-42+1290l618+1290l618+1168l-42+1168|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="divide" format="2">
+  <advance width="864"/>
+  <unicode hex="00F7"/>
+  <outline>
+    <contour>
+      <point x="164" y="593" type="line"/>
+      <point x="857" y="593" type="line"/>
+      <point x="829" y="381" type="line"/>
+      <point x="136" y="381" type="line"/>
+    </contour>
+    <contour>
+      <point x="556" y="116" type="qcurve"/>
+      <point x="556" y="86"/>
+      <point x="539" y="32"/>
+      <point x="509" y="-7"/>
+      <point x="469" y="-30"/>
+      <point x="446" y="-30" type="qcurve"/>
+      <point x="424" y="-30"/>
+      <point x="383" y="-7"/>
+      <point x="354" y="32"/>
+      <point x="337" y="86"/>
+      <point x="337" y="116" type="qcurve"/>
+      <point x="337" y="146"/>
+      <point x="354" y="200"/>
+      <point x="383" y="239"/>
+      <point x="424" y="262"/>
+      <point x="446" y="262" type="qcurve"/>
+      <point x="469" y="262"/>
+      <point x="509" y="239"/>
+      <point x="539" y="200"/>
+      <point x="556" y="146"/>
+    </contour>
+    <contour>
+      <point x="654" y="858" type="qcurve"/>
+      <point x="654" y="828"/>
+      <point x="637" y="774"/>
+      <point x="608" y="735"/>
+      <point x="567" y="712"/>
+      <point x="545" y="712" type="qcurve"/>
+      <point x="522" y="712"/>
+      <point x="482" y="735"/>
+      <point x="452" y="774"/>
+      <point x="435" y="828"/>
+      <point x="435" y="858" type="qcurve"/>
+      <point x="435" y="888"/>
+      <point x="452" y="942"/>
+      <point x="482" y="981"/>
+      <point x="522" y="1004"/>
+      <point x="545" y="1004" type="qcurve"/>
+      <point x="567" y="1004"/>
+      <point x="608" y="981"/>
+      <point x="637" y="942"/>
+      <point x="654" y="888"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+4 8 14 4
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 9 values pushed */
+6 4 22 4 38 4 54 4 4
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 5 values pushed */
+69 4 85 4 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 3 values pushed */
+34 14 4
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 1 value pushed */
+34
+MDAP[1]	/* MoveDirectAbsPt */
+NPUSHW[ ]	/* 5 values pushed */
+74 34 90 34 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 9 values pushed */
+9 34 25 34 41 34 57 34 4
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 2 values pushed */
+24 8
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+45
+MDRP[11100]	/* MoveDirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  39
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  39 17
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  9
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  9 11
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 4 values pushed */
+1 4 2 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+9
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+19 5
+MIRP[10100]	/* MoveIndirectRelPt */
+NPUSHW[ ]	/* 5 values pushed */
+7 19 23 19 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 1 value pushed */
+39
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+29 5
+MIRP[10100]	/* MoveIndirectRelPt */
+NPUSHW[ ]	/* 5 values pushed */
+8 29 24 29 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>a7b69bec4fd598ccd69fe89faafea09e278a63d2466f87bee1e0b8c77a97d383fa2621935dab50a15dd12443c2d64aed90f3250230f94fbe0212d2f21186fdfb</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

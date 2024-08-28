@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brevecomb" format="2">
+  <unicode hex="0306"/>
+  <outline>
+    <contour>
+      <point x="-420" y="1920" type="line"/>
+      <point x="-420" y="1890"/>
+      <point x="-388" y="1831"/>
+      <point x="-332" y="1784"/>
+      <point x="-255" y="1754"/>
+      <point x="-209" y="1754" type="qcurve"/>
+      <point x="-163" y="1754"/>
+      <point x="-86" y="1784"/>
+      <point x="-30" y="1831"/>
+      <point x="2" y="1890"/>
+      <point x="2" y="1920" type="qcurve"/>
+      <point x="84" y="1920" type="line"/>
+      <point x="84" y="1861"/>
+      <point x="40" y="1756"/>
+      <point x="-38" y="1678"/>
+      <point x="-145" y="1632"/>
+      <point x="-208" y="1632" type="qcurve"/>
+      <point x="-272" y="1632"/>
+      <point x="-380" y="1678"/>
+      <point x="-458" y="1756"/>
+      <point x="-502" y="1861"/>
+      <point x="-502" y="1920" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 3 values pushed */
+0 21 3
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+11 10 3
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+10
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+5
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+16 2
+MIRP[10100]	/* MoveIndirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>7e0d83751fb1e90fc8d91ed8915ad5c354dd68d1244954af0129c865bd3d19aa3ad35a7f218807e65cb365a8407f59270ed519a2b85ab6b342776b5fa7d0c07a</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

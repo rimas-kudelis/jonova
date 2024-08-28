@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="backslash" format="2">
+  <advance width="576"/>
+  <unicode hex="005C"/>
+  <outline>
+    <contour>
+      <point x="347" y="1586" type="line"/>
+      <point x="602" y="-134" type="line"/>
+      <point x="481" y="-152" type="line"/>
+      <point x="226" y="1569" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+1 6 2 4
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w576l347+1586l602-134l481-152l226+1569|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

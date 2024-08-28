@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fraction1" format="2">
+  <advance width="512"/>
+  <unicode hex="2044"/>
+  <outline>
+    <contour>
+      <point x="1125" y="1584" type="line"/>
+      <point x="-233" y="-220" type="line"/>
+      <point x="-359" y="-139" type="line"/>
+      <point x="1000" y="1664" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+3
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w512l1125+1584l-233-220l-359-139l1000+1664|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

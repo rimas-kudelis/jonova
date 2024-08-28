@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jcircumflex" format="2">
+  <advance width="576"/>
+  <unicode hex="0135"/>
+  <outline>
+    <contour>
+      <point x="225" y="1557" type="line"/>
+      <point x="347" y="1557" type="line"/>
+      <point x="579" y="1219" type="line"/>
+      <point x="488" y="1189" type="line"/>
+      <point x="291" y="1434" type="line"/>
+      <point x="281" y="1434" type="line"/>
+      <point x="84" y="1189" type="line"/>
+      <point x="-7" y="1219" type="line"/>
+    </contour>
+    <contour>
+      <point x="207" y="974" type="line"/>
+      <point x="339" y="1004" type="line"/>
+      <point x="369" y="1004" type="line"/>
+      <point x="369" y="-77" type="line"/>
+      <point x="369" y="-196"/>
+      <point x="320" y="-354"/>
+      <point x="229" y="-450"/>
+      <point x="97" y="-490"/>
+      <point x="14" y="-490" type="qcurve"/>
+      <point x="32" y="-388" type="line"/>
+      <point x="68" y="-388"/>
+      <point x="132" y="-365"/>
+      <point x="180" y="-310"/>
+      <point x="207" y="-220"/>
+      <point x="207" y="-152" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+10 6 8 4
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFPVectorToAxis */
+RUTG[ ]	/* RoundUpToGrid */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  9
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  9 15
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  16
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  16 11
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+9
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+3
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+4 2
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+3
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+6
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+16
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+17 1
+MIRP[10100]	/* MoveIndirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>1d1b23550876d7d7232f11999de6b121dbf9c17944c52e50d1b81f560d93d684a053338127f60b05db45c7b7a617f07e4d19493c9e4065edd4a4b5ab65496694</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

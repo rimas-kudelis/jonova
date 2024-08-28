@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="linevertdblnosp" format="2">
+  <unicode hex="030E"/>
+  <outline>
+    <contour>
+      <point x="-129" y="1544" type="line"/>
+      <point x="-80" y="1920" type="line"/>
+      <point x="-18" y="1920" type="line"/>
+      <point x="-68" y="1544" type="line"/>
+    </contour>
+    <contour>
+      <point x="-294" y="1544" type="line"/>
+      <point x="-245" y="1920" type="line"/>
+      <point x="-183" y="1920" type="line"/>
+      <point x="-233" y="1544" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+4
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-129+1544l-80+1920l-18+1920l-68+1544|l-294+1544l-245+1920l-183+1920l-233+1544|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

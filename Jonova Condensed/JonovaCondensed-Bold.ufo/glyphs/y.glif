@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="y" format="2">
+  <advance width="720"/>
+  <unicode hex="0079"/>
+  <outline>
+    <contour>
+      <point x="251" y="1004" type="line"/>
+      <point x="436" y="385" type="line"/>
+      <point x="587" y="1004" type="line"/>
+      <point x="692" y="974" type="line"/>
+      <point x="448" y="-30" type="line"/>
+      <point x="415" y="-167"/>
+      <point x="341" y="-344"/>
+      <point x="252" y="-449"/>
+      <point x="143" y="-490"/>
+      <point x="61" y="-490" type="qcurve"/>
+      <point x="76" y="-378" type="line"/>
+      <point x="116" y="-378"/>
+      <point x="198" y="-340"/>
+      <point x="263" y="-252"/>
+      <point x="315" y="-109"/>
+      <point x="341" y="-3" type="qcurve"/>
+      <point x="31" y="974" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  0
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  0 17
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  2
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  2 17
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  9
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  9 13
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 3 values pushed */
+1 9 0
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>d1ab425d905647ae3ceff63aa390f939f5275187130500fdd9d6eb39a1d41065220273ba21973c2d41f46869b84798d847c056590cb016c831441bbce0216cf0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

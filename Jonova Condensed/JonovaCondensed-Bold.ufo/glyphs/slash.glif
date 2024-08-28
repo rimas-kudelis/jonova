@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slash" format="2">
+  <advance width="432"/>
+  <unicode hex="002F"/>
+  <outline>
+    <contour>
+      <point x="477" y="1556" type="line"/>
+      <point x="109" y="-152" type="line"/>
+      <point x="-45" y="-122" type="line"/>
+      <point x="323" y="1586" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+3
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w432l477+1556l109-152l-45-122l323+1586|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

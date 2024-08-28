@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="questiondown" format="2">
+  <advance width="1024"/>
+  <unicode hex="00BF"/>
+  <outline>
+    <contour>
+      <point x="842" y="125" type="line"/>
+      <point x="778" y="47"/>
+      <point x="616" y="-30"/>
+      <point x="522" y="-30" type="qcurve"/>
+      <point x="462" y="-30"/>
+      <point x="343" y="12"/>
+      <point x="250" y="91"/>
+      <point x="192" y="203"/>
+      <point x="192" y="273" type="qcurve"/>
+      <point x="192" y="339"/>
+      <point x="225" y="436"/>
+      <point x="288" y="516"/>
+      <point x="381" y="591"/>
+      <point x="440" y="635" type="qcurve"/>
+      <point x="489" y="672"/>
+      <point x="557" y="729"/>
+      <point x="599" y="778"/>
+      <point x="618" y="823"/>
+      <point x="618" y="847" type="qcurve"/>
+      <point x="618" y="878"/>
+      <point x="601" y="923"/>
+      <point x="574" y="953"/>
+      <point x="539" y="967"/>
+      <point x="522" y="967" type="qcurve"/>
+      <point x="483" y="967"/>
+      <point x="445" y="949"/>
+      <point x="428" y="933" type="qcurve"/>
+      <point x="354" y="1006" type="line"/>
+      <point x="383" y="1032"/>
+      <point x="475" y="1069"/>
+      <point x="522" y="1069" type="qcurve"/>
+      <point x="563" y="1069"/>
+      <point x="641" y="1042"/>
+      <point x="703" y="987"/>
+      <point x="740" y="903"/>
+      <point x="740" y="846" type="qcurve"/>
+      <point x="740" y="802"/>
+      <point x="705" y="717"/>
+      <point x="645" y="635"/>
+      <point x="565" y="558"/>
+      <point x="520" y="522" type="qcurve"/>
+      <point x="472" y="483"/>
+      <point x="409" y="421"/>
+      <point x="370" y="362"/>
+      <point x="354" y="301"/>
+      <point x="354" y="264" type="qcurve"/>
+      <point x="354" y="216"/>
+      <point x="383" y="144"/>
+      <point x="430" y="96"/>
+      <point x="490" y="72"/>
+      <point x="522" y="72" type="qcurve"/>
+      <point x="553" y="72"/>
+      <point x="616" y="92"/>
+      <point x="673" y="132"/>
+      <point x="722" y="189"/>
+      <point x="740" y="227" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="409" y="1321" type="qcurve"/>
+      <point x="409" y="1344"/>
+      <point x="427" y="1385"/>
+      <point x="458" y="1416"/>
+      <point x="499" y="1434"/>
+      <point x="522" y="1434" type="qcurve"/>
+      <point x="545" y="1434"/>
+      <point x="586" y="1416"/>
+      <point x="617" y="1385"/>
+      <point x="635" y="1344"/>
+      <point x="635" y="1321" type="qcurve"/>
+      <point x="635" y="1298"/>
+      <point x="617" y="1257"/>
+      <point x="586" y="1226"/>
+      <point x="545" y="1208"/>
+      <point x="522" y="1208" type="qcurve"/>
+      <point x="499" y="1208"/>
+      <point x="458" y="1226"/>
+      <point x="427" y="1257"/>
+      <point x="409" y="1298"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+45 6 8 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+35 5 18 4
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 3 values pushed */
+109 55 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 3 values pushed */
+66 18 35
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 1 value pushed */
+66
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+56 8
+MIRP[10100]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+RUTG[ ]	/* RoundUpToGrid */
+PUSHW[ ]	/* 1 value pushed */
+55
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+RUTG[ ]	/* RoundUpToGrid */
+PUSHW[ ]	/* 1 value pushed */
+23
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  3
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  3 9
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+23
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+30 1
+MIRP[10100]	/* MoveIndirectRelPt */
+NPUSHW[ ]	/* 3 values pushed */
+86 30 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 1 value pushed */
+3
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+50 1
+MIRP[10100]	/* MoveIndirectRelPt */
+NPUSHW[ ]	/* 3 values pushed */
+15 55 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 3 values pushed */
+42 55 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 1 value pushed */
+30
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+71
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 2 values pushed */
+61 3
+MIRP[10100]	/* MoveIndirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>c5865658ab2ba127ff3635bb008fb9980fe62144c52ffbecef3d28bcefd307f297fca6fa08026d58052e3da025962aed78716d3af228556f4c99fcc49d222a1f</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

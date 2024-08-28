@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="breveinvsubnosp" format="2">
+  <unicode hex="032F"/>
+  <outline>
+    <contour>
+      <point x="-797" y="-460" type="line"/>
+      <point x="-797" y="-401"/>
+      <point x="-753" y="-298"/>
+      <point x="-676" y="-221"/>
+      <point x="-572" y="-177"/>
+      <point x="-512" y="-177" type="qcurve"/>
+      <point x="-453" y="-177"/>
+      <point x="-350" y="-221"/>
+      <point x="-273" y="-298"/>
+      <point x="-229" y="-401"/>
+      <point x="-229" y="-460" type="qcurve"/>
+      <point x="-308" y="-460" type="line"/>
+      <point x="-308" y="-427"/>
+      <point x="-341" y="-368"/>
+      <point x="-396" y="-324"/>
+      <point x="-471" y="-299"/>
+      <point x="-513" y="-299" type="qcurve"/>
+      <point x="-555" y="-299"/>
+      <point x="-630" y="-324"/>
+      <point x="-685" y="-368"/>
+      <point x="-718" y="-427"/>
+      <point x="-718" y="-460" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 3 values pushed */
+10 11 3
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+0 21 3
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  0
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  0 13
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  10
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  10 13
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+16
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDRP[11100]	/* MoveDirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>03776ea739a4269acd3b1ff704a14e73e82fe8c964a4c01b34f81331f9cbb121cc60faab7aca6956842a2c9e60203fcb2e202154cc7c1fb25a713906b9b8b422</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

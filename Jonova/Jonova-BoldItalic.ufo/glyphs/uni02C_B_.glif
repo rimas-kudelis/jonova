@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni02CB" format="2">
+  <advance width="768"/>
+  <unicode hex="02CB"/>
+  <outline>
+    <contour>
+      <point x="731" y="1141" type="line"/>
+      <point x="399" y="1390" type="line"/>
+      <point x="399" y="1434" type="line"/>
+      <point x="517" y="1552" type="line"/>
+      <point x="561" y="1552" type="line"/>
+      <point x="810" y="1220" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+3
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w768l731+1141l399+1390l399+1434l517+1552l561+1552l810+1220|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

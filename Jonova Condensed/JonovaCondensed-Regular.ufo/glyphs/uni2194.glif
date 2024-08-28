@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2194" format="2">
+  <advance width="1600"/>
+  <unicode hex="2194"/>
+  <outline>
+    <contour>
+      <point x="22" y="487" type="line"/>
+      <point x="512" y="774" type="line"/>
+      <point x="512" y="548" type="line"/>
+      <point x="1088" y="548" type="line"/>
+      <point x="1088" y="774" type="line"/>
+      <point x="1578" y="487" type="line"/>
+      <point x="1088" y="200" type="line"/>
+      <point x="1088" y="426" type="line"/>
+      <point x="512" y="426" type="line"/>
+      <point x="512" y="200" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+6
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+9
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+4
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 4 values pushed */
+3 2 7 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+0 7 3
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 3 values pushed */
+5 7 3
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w1600l22+487l512+774l512+548l1088+548l1088+774l1578+487l1088+200l1088+426l512+426l512+200|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

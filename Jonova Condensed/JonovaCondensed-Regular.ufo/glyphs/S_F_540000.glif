@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="SF540000" format="2">
+  <advance width="2048"/>
+  <unicode hex="256A"/>
+  <outline>
+    <contour>
+      <point x="961" y="-566" type="line"/>
+      <point x="961" y="534" type="line"/>
+      <point x="-20" y="534" type="line"/>
+      <point x="-20" y="656" type="line"/>
+      <point x="961" y="656" type="line"/>
+      <point x="961" y="778" type="line"/>
+      <point x="-20" y="778" type="line"/>
+      <point x="-20" y="900" type="line"/>
+      <point x="961" y="900" type="line"/>
+      <point x="961" y="2000" type="line"/>
+      <point x="1083" y="2000" type="line"/>
+      <point x="1083" y="900" type="line"/>
+      <point x="2068" y="900" type="line"/>
+      <point x="2068" y="778" type="line"/>
+      <point x="1083" y="778" type="line"/>
+      <point x="1083" y="656" type="line"/>
+      <point x="2068" y="656" type="line"/>
+      <point x="2068" y="534" type="line"/>
+      <point x="1083" y="534" type="line"/>
+      <point x="1083" y="-566" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+19 5 0 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+0
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+4
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+8
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+19
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+10
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+19
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+14
+MDRP[10000]	/* MoveDirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+9
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 4 values pushed */
+4 2 1 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+8 2 5 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+8
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+11
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+5
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+13
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+4
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+15
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+1
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+17
+MDRP[10000]	/* MoveDirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>ca300d949f0a85765d42aaa81b1f87bb72f17b67f0c9d2be659a1d09bdbdc419cf7f5423529c0b091a3f16312a702d86260e0499ce0a74c6cdaa31d7d0796164</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

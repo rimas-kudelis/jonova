@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni208E" format="2">
+  <advance width="736"/>
+  <unicode hex="208E"/>
+  <outline>
+    <contour>
+      <point x="254" y="973" type="line"/>
+      <point x="390" y="864"/>
+      <point x="524" y="581"/>
+      <point x="524" y="409" type="qcurve"/>
+      <point x="524" y="60"/>
+      <point x="254" y="-156" type="qcurve"/>
+      <point x="212" y="-114" type="line"/>
+      <point x="300" y="-17"/>
+      <point x="402" y="248"/>
+      <point x="402" y="409" type="qcurve"/>
+      <point x="402" y="479"/>
+      <point x="375" y="623"/>
+      <point x="325" y="760"/>
+      <point x="255" y="883"/>
+      <point x="212" y="931" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+3 5 9 4
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 3 values pushed */
+250 9 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 3 values pushed */
+10 9 1
+DELTAP2[ ]	/* DeltaExceptionP2 */
+NPUSHW[ ]	/* 31 values pushed */
+9 9 25 9 41 9 57 9 73 9 89 9 105 9 121 9 137 9 153 9 169 9 185 9 201 9 217 9 233 9 15
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  0
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  0 15
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w736l254+973o390+864o524+581q524+409o524+60q254-156l212-114o300-17o402+248q402+409o402+479o375+623o325+760o255+883q212+931|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

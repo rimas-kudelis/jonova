@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dnblock" format="2">
+  <advance width="1536"/>
+  <unicode hex="2584"/>
+  <outline>
+    <contour>
+      <point x="-15" y="-566" type="line"/>
+      <point x="-15" y="717" type="line"/>
+      <point x="1551" y="717" type="line"/>
+      <point x="1551" y="-566" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w1536l-15-566l-15+717l1551+717l1551-566|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

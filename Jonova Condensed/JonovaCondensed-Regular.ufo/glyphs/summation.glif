@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="summation" format="2">
+  <advance width="1600"/>
+  <unicode hex="2211"/>
+  <outline>
+    <contour>
+      <point x="172" y="1434" type="line"/>
+      <point x="1401" y="1434" type="line"/>
+      <point x="1377" y="1290" type="line"/>
+      <point x="417" y="1332" type="line"/>
+      <point x="417" y="1322" type="line"/>
+      <point x="975" y="583" type="line"/>
+      <point x="975" y="573" type="line"/>
+      <point x="417" y="-166" type="line"/>
+      <point x="417" y="-176" type="line"/>
+      <point x="1428" y="-134" type="line"/>
+      <point x="1402" y="-278" type="line"/>
+      <point x="172" y="-278" type="line"/>
+      <point x="172" y="-257" type="line"/>
+      <point x="794" y="573" type="line"/>
+      <point x="794" y="583" type="line"/>
+      <point x="172" y="1413" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>66bce37b5f780b26d80939a6538271a476fc410f8d6e24ab534c1e90032f267c2b9eba64ab3db11b2a1f9b8b531cbbc9147a5ccc16b9122a66d89410be04d031</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

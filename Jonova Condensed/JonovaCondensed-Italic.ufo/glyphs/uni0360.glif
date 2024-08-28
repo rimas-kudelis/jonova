@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0360" format="2">
+  <unicode hex="0360"/>
+  <outline>
+    <contour>
+      <point x="-324" y="1515" type="line"/>
+      <point x="-324" y="1573"/>
+      <point x="-286" y="1664"/>
+      <point x="-219" y="1726"/>
+      <point x="-129" y="1759"/>
+      <point x="-78" y="1759" type="qcurve"/>
+      <point x="-36" y="1759"/>
+      <point x="63" y="1741"/>
+      <point x="169" y="1714"/>
+      <point x="277" y="1682"/>
+      <point x="379" y="1655"/>
+      <point x="472" y="1637"/>
+      <point x="509" y="1637" type="qcurve"/>
+      <point x="565" y="1637"/>
+      <point x="629" y="1666"/>
+      <point x="662" y="1705"/>
+      <point x="671" y="1747"/>
+      <point x="671" y="1759" type="qcurve"/>
+      <point x="732" y="1759" type="line"/>
+      <point x="732" y="1701"/>
+      <point x="694" y="1610"/>
+      <point x="627" y="1548"/>
+      <point x="537" y="1515"/>
+      <point x="486" y="1515" type="qcurve"/>
+      <point x="443" y="1515"/>
+      <point x="344" y="1533"/>
+      <point x="239" y="1560"/>
+      <point x="132" y="1592"/>
+      <point x="30" y="1619"/>
+      <point x="-63" y="1637"/>
+      <point x="-101" y="1637" type="qcurve"/>
+      <point x="-154" y="1637"/>
+      <point x="-218" y="1608"/>
+      <point x="-251" y="1569"/>
+      <point x="-263" y="1527"/>
+      <point x="-263" y="1515" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 4 values pushed */
+30 2 35 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+30
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+12
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 2 values pushed */
+17 2
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+35
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+23
+MDRP[10000]	/* MoveDirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>5f73a4f20ae1805a8f500854d427091cff5162504be1719a356eb6ad0188c818a7fb519cbeffd0acebdc77b73337ab40a21ad89d3f37fc7a2ddb9cb21e67e7c9</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

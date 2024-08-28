@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macron" format="2">
+  <advance width="768"/>
+  <unicode hex="00AF"/>
+  <outline>
+    <contour>
+      <point x="370" y="1338" type="line"/>
+      <point x="844" y="1338" type="line"/>
+      <point x="823" y="1216" type="line"/>
+      <point x="349" y="1216" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 4 values pushed */
+1 2 2 4
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w768l370+1338l844+1338l823+1216l349+1216|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rtblock" format="2">
+  <advance width="2048"/>
+  <unicode hex="2590"/>
+  <outline>
+    <contour>
+      <point x="1022" y="-566" type="line"/>
+      <point x="1022" y="2000" type="line"/>
+      <point x="2064" y="2000" type="line"/>
+      <point x="2064" y="-566" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w2048l1022-566l1022+2000l2064+2000l2064-566|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four" format="2">
+  <advance width="840"/>
+  <unicode hex="0034"/>
+  <outline>
+    <contour>
+      <point x="701" y="1434" type="line"/>
+      <point x="723" y="1434" type="line"/>
+      <point x="819" y="1410" type="line"/>
+      <point x="268" y="481" type="line"/>
+      <point x="577" y="496" type="line"/>
+      <point x="599" y="667" type="line"/>
+      <point x="704" y="707" type="line"/>
+      <point x="726" y="707" type="line"/>
+      <point x="699" y="502" type="line"/>
+      <point x="824" y="508" type="line"/>
+      <point x="804" y="365" type="line"/>
+      <point x="681" y="365" type="line"/>
+      <point x="633" y="0" type="line"/>
+      <point x="512" y="0" type="line"/>
+      <point x="560" y="365" type="line"/>
+      <point x="111" y="365" type="line"/>
+      <point x="113" y="385" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  0
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  0 18
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  12
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  12 10
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 3 values pushed */
+2 12 0
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 3 values pushed */
+3 12 0
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>0b67f9ce2e1ffc517ccc72c949f5be62584ac8e6190ee90da553fa59f4635b06083b3f4fe408507e4c7ce9d13ad12b9d2f67a11195dc3450ad7132e9310c2440</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

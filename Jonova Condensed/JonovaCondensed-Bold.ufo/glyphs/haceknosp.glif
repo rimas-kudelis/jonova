@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="haceknosp" format="2">
+  <unicode hex="030C"/>
+  <outline>
+    <contour>
+      <point x="-626" y="1890" type="line"/>
+      <point x="-535" y="1920" type="line"/>
+      <point x="-384" y="1717" type="line"/>
+      <point x="-233" y="1920" type="line"/>
+      <point x="-143" y="1890" type="line"/>
+      <point x="-306" y="1555" type="line"/>
+      <point x="-462" y="1555" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+3
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 3 values pushed */
+2 5 1
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-626+1890l-535+1920l-384+1717l-233+1920l-143+1890l-306+1555l-462+1555|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

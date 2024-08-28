@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acutesubnosp" format="2">
+  <unicode hex="0317"/>
+  <outline>
+    <contour>
+      <point x="-708" y="-417" type="line"/>
+      <point x="-455" y="-85" type="line"/>
+      <point x="-416" y="-85" type="line"/>
+      <point x="-310" y="-192" type="line"/>
+      <point x="-310" y="-231" type="line"/>
+      <point x="-639" y="-490" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  5
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  5 13
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-708-417l-455-85l-416-85l-310-192l-310-231l-639-490|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

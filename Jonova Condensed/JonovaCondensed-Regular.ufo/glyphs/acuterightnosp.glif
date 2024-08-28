@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acuterightnosp" format="2">
+  <unicode hex="0341"/>
+  <outline>
+    <contour>
+      <point x="-624" y="1649" type="line"/>
+      <point x="-313" y="1994" type="line"/>
+      <point x="-283" y="1994" type="line"/>
+      <point x="-201" y="1907" type="line"/>
+      <point x="-201" y="1877" type="line"/>
+      <point x="-567" y="1589" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 1 value pushed */
+4
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-624+1649l-313+1994l-283+1994l-201+1907l-201+1877l-567+1589|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="linevertnosp" format="2">
+  <unicode hex="030D"/>
+  <outline>
+    <contour>
+      <point x="-452" y="1516" type="line"/>
+      <point x="-452" y="1920" type="line"/>
+      <point x="-316" y="1920" type="line"/>
+      <point x="-316" y="1516" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+3 9 0 4
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 4 values pushed */
+1 5 0 4
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-452+1516l-452+1920l-316+1920l-316+1516|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

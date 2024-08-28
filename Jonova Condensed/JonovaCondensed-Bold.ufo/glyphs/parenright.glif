@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parenright" format="2">
+  <advance width="552"/>
+  <unicode hex="0029"/>
+  <outline>
+    <contour>
+      <point x="89" y="1570" type="line"/>
+      <point x="272" y="1412"/>
+      <point x="466" y="927"/>
+      <point x="466" y="593" type="qcurve"/>
+      <point x="466" y="258"/>
+      <point x="272" y="-226"/>
+      <point x="89" y="-384" type="qcurve"/>
+      <point x="74" y="-278" type="line"/>
+      <point x="140" y="-204"/>
+      <point x="228" y="-13"/>
+      <point x="283" y="211"/>
+      <point x="307" y="460"/>
+      <point x="307" y="593" type="qcurve"/>
+      <point x="307" y="711"/>
+      <point x="283" y="957"/>
+      <point x="228" y="1187"/>
+      <point x="140" y="1390"/>
+      <point x="74" y="1464" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+3 9 12 4
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 5 values pushed */
+186 12 202 12 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 23 values pushed */
+9 12 25 12 41 12 57 12 73 12 89 12 105 12 121 12 137 12 153 12 169 12 11
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 1 value pushed */
+3
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+19
+MDRP[11100]	/* MoveDirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+6
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>d7314efa1b2576495a1cf69b834bd78363508d6028d3dd969bdc2081d101c5cb52f9ecd6e0708b226adc580423a372055a59fe00ca0107acb1975305775e664e</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

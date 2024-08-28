@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="righttoleftmark" format="2">
+  <advance width="576"/>
+  <unicode hex="02EB"/>
+  <outline>
+    <contour>
+      <point x="601" y="428" type="line"/>
+      <point x="250" y="428" type="line"/>
+      <point x="194" y="10" type="line"/>
+      <point x="32" y="10" type="line"/>
+      <point x="162" y="992" type="line"/>
+      <point x="324" y="992" type="line"/>
+      <point x="268" y="564" type="line"/>
+      <point x="619" y="564" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+2
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  4
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  4 17
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 4 values pushed */
+7 1 0 4
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w576l601+428l250+428l194+10l32+10l162+992l324+992l268+564l619+564|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

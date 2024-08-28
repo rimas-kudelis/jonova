@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emdash" format="2">
+  <advance width="1128"/>
+  <unicode hex="2014"/>
+  <outline>
+    <contour>
+      <point x="78" y="594" type="line"/>
+      <point x="1206" y="594" type="line"/>
+      <point x="1178" y="382" type="line"/>
+      <point x="50" y="382" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 4 values pushed */
+1 4 2 4
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w1128l78+594l1206+594l1178+382l50+382|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii10069" format="2">
+  <advance width="1344"/>
+  <unicode hex="0434"/>
+  <outline>
+    <contour>
+      <point x="1323" y="112" type="line"/>
+      <point x="1248" y="-312" type="line"/>
+      <point x="1063" y="-334" type="line"/>
+      <point x="1003" y="-334" type="line"/>
+      <point x="1062" y="0" type="line"/>
+      <point x="282" y="0" type="line"/>
+      <point x="226" y="-312" type="line"/>
+      <point x="41" y="-334" type="line"/>
+      <point x="-18" y="-334" type="line"/>
+      <point x="59" y="112" type="line"/>
+      <point x="251" y="112" type="line"/>
+      <point x="717" y="974" type="line"/>
+      <point x="963" y="1004" type="line"/>
+      <point x="1132" y="112" type="line"/>
+    </contour>
+    <contour>
+      <point x="403" y="112" type="line"/>
+      <point x="831" y="112" type="line"/>
+      <point x="719" y="696" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+8 8 6 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+1 8 3 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+15 7 13 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+10 9 14 4
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+2
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+7
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  12
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  12 17
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  4
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  4 11
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 2 values pushed */
+0 2
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+9
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+10
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+14
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+15
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 3 values pushed */
+16 2 12
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>b7e0d0e5706c670ee572e1bc0b91d34ee2b57af3cf493336bb0b615e58d7173886d638abe6c549883e48ab1287ac74a8346b535eafdbd18d4a43ad1f803cffb6</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

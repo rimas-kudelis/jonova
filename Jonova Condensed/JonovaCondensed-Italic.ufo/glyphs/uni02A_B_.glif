@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni02AB" format="2">
+  <advance width="840"/>
+  <unicode hex="02AB"/>
+  <outline>
+    <contour>
+      <point x="317" y="1464" type="line"/>
+      <point x="420" y="1494" type="line"/>
+      <point x="443" y="1494" type="line"/>
+      <point x="374" y="974" type="line"/>
+      <point x="904" y="974" type="line"/>
+      <point x="901" y="949" type="line"/>
+      <point x="341" y="105" type="line"/>
+      <point x="340" y="95" type="line"/>
+      <point x="792" y="125" type="line"/>
+      <point x="776" y="0" type="line"/>
+      <point x="245" y="0" type="line"/>
+      <point x="198" y="32"/>
+      <point x="157" y="142"/>
+      <point x="157" y="204" type="qcurve"/>
+      <point x="157" y="226"/>
+      <point x="161" y="285"/>
+      <point x="164" y="307" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="278" y="188" type="qcurve"/>
+      <point x="728" y="866" type="line"/>
+      <point x="729" y="876" type="line"/>
+      <point x="357" y="850" type="line"/>
+      <point x="284" y="300" type="line"/>
+      <point x="281" y="274"/>
+      <point x="278" y="212"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  3
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  3 16
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 2 values pushed */
+19 1
+MIRP[10100]	/* MoveIndirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>12247f07c9455821dd241c7f586eed3fdecfa17a66f5d790fa2848550cdd0f222f3e6144ea3d4dbd73eb44f041f0aee1f28983b21fe553abc24cdbfb2afd7174</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

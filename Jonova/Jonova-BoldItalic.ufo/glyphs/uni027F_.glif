@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni027F" format="2">
+  <advance width="576"/>
+  <unicode hex="027F"/>
+  <outline>
+    <contour>
+      <point x="221" y="1004" type="line"/>
+      <point x="311" y="1004"/>
+      <point x="445" y="979"/>
+      <point x="535" y="917"/>
+      <point x="580" y="815"/>
+      <point x="580" y="739" type="qcurve"/>
+      <point x="580" y="675"/>
+      <point x="565" y="590" type="qcurve"/>
+      <point x="461" y="0" type="line"/>
+      <point x="179" y="0" type="line"/>
+      <point x="303" y="705" type="line"/>
+      <point x="308" y="737"/>
+      <point x="315" y="787"/>
+      <point x="315" y="807" type="qcurve"/>
+      <point x="315" y="858"/>
+      <point x="263" y="892"/>
+      <point x="201" y="892" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 1 value pushed */
+16
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 4 values pushed */
+5 10 13 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+18 12 5
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  0
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  0 17
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  8
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  8 11
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+16 2
+MIRP[10100]	/* MoveIndirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>0a54b298919e4a1203a796dcd4efdf96c152b4b5f1300062c828f41a00d2ad3fda8739842655287113e7ba8948d5265302a1e7462f48215a4a3a4b7fbd23cf17</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

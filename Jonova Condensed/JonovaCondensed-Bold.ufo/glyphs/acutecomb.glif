@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acutecomb" format="2">
+  <unicode hex="0301"/>
+  <outline>
+    <contour>
+      <point x="-551" y="1597" type="line"/>
+      <point x="-340" y="1966" type="line"/>
+      <point x="-307" y="1966" type="line"/>
+      <point x="-218" y="1848" type="line"/>
+      <point x="-218" y="1804" type="line"/>
+      <point x="-493" y="1516" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-551+1597l-340+1966l-307+1966l-218+1848l-218+1804l-493+1516|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniF004" format="2">
+  <advance width="576"/>
+  <unicode hex="F004"/>
+  <outline>
+    <contour>
+      <point x="176" y="-169" type="line"/>
+      <point x="241" y="-82" type="line"/>
+      <point x="257" y="-82" type="line"/>
+      <point x="264" y="-87"/>
+      <point x="287" y="-114"/>
+      <point x="308" y="-157"/>
+      <point x="325" y="-217"/>
+      <point x="325" y="-256" type="qcurve"/>
+      <point x="325" y="-308"/>
+      <point x="295" y="-391"/>
+      <point x="254" y="-451"/>
+      <point x="215" y="-486"/>
+      <point x="206" y="-490" type="qcurve"/>
+      <point x="190" y="-490" type="line"/>
+      <point x="176" y="-382" type="line"/>
+      <point x="191" y="-365"/>
+      <point x="211" y="-315"/>
+      <point x="211" y="-286" type="qcurve"/>
+      <point x="211" y="-258"/>
+      <point x="195" y="-207"/>
+      <point x="176" y="-190" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+7 9 17 4
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 5 values pushed */
+186 17 202 17 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 23 values pushed */
+9 17 25 17 41 17 57 17 73 17 89 17 105 17 121 17 137 17 153 17 169 17 11
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  12
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  12 13
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>02073b99afced0c3dcd101e33b700accf41d7089fa207857fb73a375f153646f6568a194b384855bcac7e959215137679e838f4e22278c6dd8bb051d95236f97</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

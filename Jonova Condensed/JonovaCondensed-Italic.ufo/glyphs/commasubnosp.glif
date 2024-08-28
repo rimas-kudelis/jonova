@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commasubnosp" format="2">
+  <unicode hex="0326"/>
+  <outline>
+    <contour>
+      <point x="-476" y="-187" type="line"/>
+      <point x="-415" y="-105" type="line"/>
+      <point x="-399" y="-105" type="line"/>
+      <point x="-395" y="-109"/>
+      <point x="-377" y="-134"/>
+      <point x="-358" y="-175"/>
+      <point x="-344" y="-233"/>
+      <point x="-344" y="-269" type="qcurve"/>
+      <point x="-344" y="-303"/>
+      <point x="-360" y="-375"/>
+      <point x="-392" y="-436"/>
+      <point x="-436" y="-482"/>
+      <point x="-463" y="-490" type="qcurve"/>
+      <point x="-476" y="-388" type="line"/>
+      <point x="-461" y="-380"/>
+      <point x="-435" y="-336"/>
+      <point x="-435" y="-302" type="qcurve"/>
+      <point x="-435" y="-270"/>
+      <point x="-457" y="-221"/>
+      <point x="-476" y="-207" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+7 6 16 4
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 5 values pushed */
+218 16 234 16 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 27 values pushed */
+9 16 25 16 41 16 57 16 73 16 89 16 105 16 121 16 137 16 153 16 169 16 185 16 201 16 13
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  12
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  12 12
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>ac9003921d9ee5e66002c79fd2c0005063609c228a915b3cf36a2ac7d62e32348c18ccb8b7344a0f3e303c4372f662b5e767a61b6c6af310f58b3dfec1044388</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="barmidshortnosp" format="2">
+  <unicode hex="0335"/>
+  <outline>
+    <contour>
+      <point x="-799" y="538" type="line"/>
+      <point x="-25" y="538" type="line"/>
+      <point x="-25" y="436" type="line"/>
+      <point x="-799" y="436" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 4 values pushed */
+1 1 2 4
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-799+538l-25+538l-25+436l-799+436|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni224B" format="2">
+  <advance width="768"/>
+  <unicode hex="224B"/>
+  <outline>
+    <contour>
+      <point x="76" y="578" type="line"/>
+      <point x="110" y="605"/>
+      <point x="164" y="637"/>
+      <point x="212" y="655"/>
+      <point x="257" y="661"/>
+      <point x="279" y="661" type="qcurve"/>
+      <point x="318" y="661"/>
+      <point x="381" y="636"/>
+      <point x="436" y="600"/>
+      <point x="488" y="556"/>
+      <point x="542" y="520"/>
+      <point x="603" y="495"/>
+      <point x="641" y="495" type="qcurve"/>
+      <point x="673" y="495"/>
+      <point x="728" y="510"/>
+      <point x="779" y="533"/>
+      <point x="824" y="563"/>
+      <point x="844" y="578" type="qcurve"/>
+      <point x="820" y="396" type="line"/>
+      <point x="766" y="353"/>
+      <point x="670" y="313"/>
+      <point x="617" y="313" type="qcurve"/>
+      <point x="578" y="313"/>
+      <point x="515" y="338"/>
+      <point x="459" y="374"/>
+      <point x="408" y="418"/>
+      <point x="353" y="454"/>
+      <point x="293" y="479"/>
+      <point x="255" y="479" type="qcurve"/>
+      <point x="196" y="479"/>
+      <point x="101" y="436"/>
+      <point x="52" y="396" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="125" y="942" type="line"/>
+      <point x="158" y="969"/>
+      <point x="212" y="1001"/>
+      <point x="260" y="1019"/>
+      <point x="305" y="1025"/>
+      <point x="327" y="1025" type="qcurve"/>
+      <point x="366" y="1025"/>
+      <point x="429" y="1000"/>
+      <point x="484" y="964"/>
+      <point x="536" y="920"/>
+      <point x="590" y="884"/>
+      <point x="651" y="859"/>
+      <point x="689" y="859" type="qcurve"/>
+      <point x="721" y="859"/>
+      <point x="777" y="874"/>
+      <point x="827" y="897"/>
+      <point x="872" y="927"/>
+      <point x="893" y="942" type="qcurve"/>
+      <point x="869" y="760" type="line"/>
+      <point x="814" y="717"/>
+      <point x="718" y="677"/>
+      <point x="665" y="677" type="qcurve"/>
+      <point x="626" y="677"/>
+      <point x="563" y="702"/>
+      <point x="508" y="738"/>
+      <point x="456" y="782"/>
+      <point x="401" y="818"/>
+      <point x="341" y="843"/>
+      <point x="303" y="843" type="qcurve"/>
+      <point x="244" y="843"/>
+      <point x="149" y="800"/>
+      <point x="101" y="760" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="28" y="214" type="line"/>
+      <point x="62" y="241"/>
+      <point x="116" y="273"/>
+      <point x="164" y="291"/>
+      <point x="209" y="297"/>
+      <point x="231" y="297" type="qcurve"/>
+      <point x="270" y="297"/>
+      <point x="332" y="272"/>
+      <point x="388" y="236"/>
+      <point x="439" y="192"/>
+      <point x="494" y="156"/>
+      <point x="555" y="131"/>
+      <point x="593" y="131" type="qcurve"/>
+      <point x="625" y="131"/>
+      <point x="680" y="146"/>
+      <point x="731" y="169"/>
+      <point x="776" y="199"/>
+      <point x="796" y="214" type="qcurve"/>
+      <point x="772" y="32" type="line"/>
+      <point x="718" y="-11"/>
+      <point x="622" y="-51"/>
+      <point x="569" y="-51" type="qcurve"/>
+      <point x="530" y="-51"/>
+      <point x="467" y="-26"/>
+      <point x="411" y="10"/>
+      <point x="360" y="54"/>
+      <point x="305" y="90"/>
+      <point x="245" y="115"/>
+      <point x="207" y="115" type="qcurve"/>
+      <point x="148" y="115"/>
+      <point x="53" y="72"/>
+      <point x="4" y="32" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 4 values pushed */
+76 3 85 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+69 3 92 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+37 3 60 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+44 3 53 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+12 3 21 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+5 3 28 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+17 28 5
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 3 values pushed */
+31 21 12
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 3 values pushed */
+49 60 37
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 3 values pushed */
+63 53 44
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 3 values pushed */
+81 92 69
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 3 values pushed */
+95 85 76
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>1773ec798d01d624286ef3b041ea6864e28320e0b47f249b46a1e4700640d90aeb7a52114d6c28cbabce17404fd0eee9a4896c2c81f839b11e9860fe88919c1a</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

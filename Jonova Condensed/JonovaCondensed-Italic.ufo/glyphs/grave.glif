@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="grave" format="2">
+  <advance width="576"/>
+  <unicode hex="0060"/>
+  <outline>
+    <contour>
+      <point x="513" y="1116" type="line"/>
+      <point x="239" y="1404" type="line"/>
+      <point x="239" y="1434" type="line"/>
+      <point x="300" y="1521" type="line"/>
+      <point x="323" y="1521" type="line"/>
+      <point x="556" y="1176" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+3
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w576l513+1116l239+1404l239+1434l300+1521l323+1521l556+1176|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

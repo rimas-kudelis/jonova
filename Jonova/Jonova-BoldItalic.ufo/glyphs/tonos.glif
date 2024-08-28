@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tonos" format="2">
+  <advance width="768"/>
+  <unicode hex="0384"/>
+  <outline>
+    <contour>
+      <point x="424" y="1191" type="line"/>
+      <point x="592" y="1580" type="line"/>
+      <point x="622" y="1588" type="line"/>
+      <point x="761" y="1505" type="line"/>
+      <point x="768" y="1476" type="line"/>
+      <point x="519" y="1138" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDAP[1]	/* MoveDirectAbsPt */
+RUTG[ ]	/* RoundUpToGrid */
+PUSHW[ ]	/* 1 value pushed */
+2
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w768l424+1191l592+1580l622+1588l761+1505l768+1476l519+1138|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

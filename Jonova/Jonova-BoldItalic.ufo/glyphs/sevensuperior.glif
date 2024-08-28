@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sevensuperior" format="2">
+  <advance width="736"/>
+  <unicode hex="2077"/>
+  <outline>
+    <contour>
+      <point x="906" y="1464" type="line"/>
+      <point x="900" y="1428" type="line"/>
+      <point x="414" y="586" type="line"/>
+      <point x="250" y="604" type="line"/>
+      <point x="744" y="1371" type="line"/>
+      <point x="323" y="1343" type="line"/>
+      <point x="344" y="1464" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 1 value pushed */
+5
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 4 values pushed */
+2 6 3 4
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+2
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 2 values pushed */
+6 2
+MIRP[10100]	/* MoveIndirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w736l906+1464l900+1428l414+586l250+604l744+1371l323+1343l344+1464|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

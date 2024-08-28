@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="x" format="2">
+  <advance width="768"/>
+  <unicode hex="0078"/>
+  <outline>
+    <contour>
+      <point x="320" y="1004" type="line"/>
+      <point x="468" y="616" type="line"/>
+      <point x="476" y="616" type="line"/>
+      <point x="727" y="1004" type="line"/>
+      <point x="805" y="974" type="line"/>
+      <point x="509" y="527" type="line"/>
+      <point x="508" y="517" type="line"/>
+      <point x="713" y="0" type="line"/>
+      <point x="578" y="-30" type="line"/>
+      <point x="418" y="374" type="line"/>
+      <point x="410" y="374" type="line"/>
+      <point x="145" y="-30" type="line"/>
+      <point x="67" y="0" type="line"/>
+      <point x="378" y="470" type="line"/>
+      <point x="380" y="480" type="line"/>
+      <point x="184" y="974" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  0
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  0 16
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  3
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  3 16
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  8
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  8 10
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  11
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  11 10
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>542b68e6ba3063b0dfb505d4e2c1c214e2c0aa232641d8ac57e8693aa25329fc8c85d9a4f7d9e834b02b90a5081b563808ab7dc1d1144cfa74e3dabb19c63185</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

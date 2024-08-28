@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni025F" format="2">
+  <advance width="432"/>
+  <unicode hex="025F"/>
+  <outline>
+    <contour>
+      <point x="106" y="599" type="line"/>
+      <point x="193" y="599" type="line"/>
+      <point x="242" y="974" type="line"/>
+      <point x="413" y="1004" type="line"/>
+      <point x="458" y="1004" type="line"/>
+      <point x="404" y="599" type="line"/>
+      <point x="521" y="599" type="line"/>
+      <point x="502" y="461" type="line"/>
+      <point x="387" y="467" type="line"/>
+      <point x="315" y="-76" type="line"/>
+      <point x="299" y="-202"/>
+      <point x="238" y="-362"/>
+      <point x="150" y="-455"/>
+      <point x="35" y="-490"/>
+      <point x="-37" y="-490" type="qcurve"/>
+      <point x="-22" y="-378" type="line"/>
+      <point x="3" y="-378"/>
+      <point x="38" y="-363"/>
+      <point x="63" y="-323"/>
+      <point x="80" y="-250"/>
+      <point x="89" y="-191" type="qcurve"/>
+      <point x="177" y="479" type="line"/>
+      <point x="91" y="487" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  3
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  3 17
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  14
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  14 13
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>4c842ccb911317fcc4893c87cd7e7038eb140ff1241722bc7bfa90dfa2e21be18d5c6857ece8da3e4300a9703e4aeca425998350aede8f298ca9bd6df9882bd4</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

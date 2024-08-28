@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="graveleftnosp" format="2">
+  <unicode hex="0340"/>
+  <outline>
+    <contour>
+      <point x="-358" y="1589" type="line"/>
+      <point x="-724" y="1877" type="line"/>
+      <point x="-724" y="1907" type="line"/>
+      <point x="-642" y="1994" type="line"/>
+      <point x="-612" y="1994" type="line"/>
+      <point x="-301" y="1649" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 1 value pushed */
+5
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+3
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-358+1589l-724+1877l-724+1907l-642+1994l-612+1994l-301+1649|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

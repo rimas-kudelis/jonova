@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lslash" format="2">
+  <advance width="816"/>
+  <unicode hex="0141"/>
+  <outline>
+    <contour>
+      <point x="467" y="1464" type="line"/>
+      <point x="389" y="885" type="line"/>
+      <point x="518" y="1004" type="line"/>
+      <point x="533" y="896" type="line"/>
+      <point x="371" y="746" type="line"/>
+      <point x="289" y="122" type="line"/>
+      <point x="758" y="142" type="line"/>
+      <point x="739" y="0" type="line"/>
+      <point x="137" y="0" type="line"/>
+      <point x="215" y="601" type="line"/>
+      <point x="113" y="505" type="line"/>
+      <point x="98" y="613" type="line"/>
+      <point x="233" y="739" type="line"/>
+      <point x="326" y="1434" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  0
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  0 18
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w816l467+1464l389+885l518+1004l533+896l371+746l289+122l758+142l739+0l137+0l215+601l113+505l98+613l233+739l326+1434|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

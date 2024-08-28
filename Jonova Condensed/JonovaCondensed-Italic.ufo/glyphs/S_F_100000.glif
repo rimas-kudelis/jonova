@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="SF100000" format="2">
+  <advance width="1536"/>
+  <unicode hex="2500"/>
+  <outline>
+    <contour>
+      <point x="45" y="656" type="line"/>
+      <point x="45" y="778" type="line"/>
+      <point x="1611" y="778" type="line"/>
+      <point x="1611" y="656" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 4 values pushed */
+1 2 0 4
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w1536l45+656l45+778l1611+778l1611+656|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

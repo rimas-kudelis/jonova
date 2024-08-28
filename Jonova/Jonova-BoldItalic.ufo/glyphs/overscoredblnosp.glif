@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="overscoredblnosp" format="2">
+  <unicode hex="033F"/>
+  <outline>
+    <contour>
+      <point x="-714" y="1717" type="line"/>
+      <point x="269" y="1717" type="line"/>
+      <point x="239" y="1555" type="line"/>
+      <point x="-744" y="1555" type="line"/>
+    </contour>
+    <contour>
+      <point x="-661" y="2017" type="line"/>
+      <point x="322" y="2017" type="line"/>
+      <point x="292" y="1855" type="line"/>
+      <point x="-691" y="1855" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+2
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 2 values pushed */
+1 1
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 2 values pushed */
+6 1
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 2 values pushed */
+5 1
+MIRP[10100]	/* MoveIndirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-714+1717l269+1717l239+1555l-744+1555|l-661+2017l322+2017l292+1855l-691+1855|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

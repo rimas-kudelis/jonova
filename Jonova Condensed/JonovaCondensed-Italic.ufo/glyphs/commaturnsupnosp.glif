@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaturnsupnosp" format="2">
+  <unicode hex="0312"/>
+  <outline>
+    <contour>
+      <point x="-84" y="1629" type="line"/>
+      <point x="-184" y="1516" type="line"/>
+      <point x="-200" y="1516" type="line"/>
+      <point x="-203" y="1520"/>
+      <point x="-215" y="1542"/>
+      <point x="-227" y="1575"/>
+      <point x="-236" y="1620"/>
+      <point x="-236" y="1646" type="qcurve"/>
+      <point x="-236" y="1693"/>
+      <point x="-212" y="1775"/>
+      <point x="-174" y="1845"/>
+      <point x="-125" y="1902"/>
+      <point x="-98" y="1924" type="qcurve"/>
+      <point x="-53" y="1865" type="line"/>
+      <point x="-81" y="1841"/>
+      <point x="-119" y="1771"/>
+      <point x="-119" y="1727" type="qcurve"/>
+      <point x="-119" y="1696"/>
+      <point x="-95" y="1659"/>
+      <point x="-82" y="1650" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+16 6 7 4
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 27 values pushed */
+6 16 22 16 38 16 54 16 70 16 86 16 102 16 118 16 134 16 150 16 166 16 182 16 198 16 13
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 5 values pushed */
+213 16 229 16 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+12
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>e3a48263c7ac2a7dd62fd732ad1620ba4aa1135b3f21dd95e929d506833ccdebf65baecf0cfb576b5305d8fee3843fbc89708d32b38922c548fce0304b2ed933</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

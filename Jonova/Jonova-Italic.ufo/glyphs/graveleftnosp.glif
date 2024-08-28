@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="graveleftnosp" format="2">
+  <unicode hex="0340"/>
+  <outline>
+    <contour>
+      <point x="-67" y="1589" type="line"/>
+      <point x="-433" y="1877" type="line"/>
+      <point x="-433" y="1907" type="line"/>
+      <point x="-351" y="1994" type="line"/>
+      <point x="-321" y="1994" type="line"/>
+      <point x="-10" y="1649" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+RUTG[ ]	/* RoundUpToGrid */
+PUSHW[ ]	/* 1 value pushed */
+3
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-67+1589l-433+1877l-433+1907l-351+1994l-321+1994l-10+1649|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

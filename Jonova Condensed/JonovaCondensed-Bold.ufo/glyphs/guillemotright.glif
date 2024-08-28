@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guillemotright" format="2">
+  <advance width="768"/>
+  <unicode hex="00BB"/>
+  <outline>
+    <contour>
+      <point x="489" y="906" type="line"/>
+      <point x="737" y="487" type="line"/>
+      <point x="491" y="68" type="line"/>
+      <point x="328" y="106" type="line"/>
+      <point x="524" y="487" type="line"/>
+      <point x="328" y="868" type="line"/>
+    </contour>
+    <contour>
+      <point x="193" y="906" type="line"/>
+      <point x="440" y="487" type="line"/>
+      <point x="194" y="68" type="line"/>
+      <point x="32" y="106" type="line"/>
+      <point x="227" y="487" type="line"/>
+      <point x="32" y="868" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+6
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+2
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+8
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w768l489+906l737+487l491+68l328+106l524+487l328+868|l193+906l440+487l194+68l32+106l227+487l32+868|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii10020" format="2">
+  <advance width="1088"/>
+  <unicode hex="0413"/>
+  <outline>
+    <contour>
+      <point x="434" y="1434" type="line"/>
+      <point x="1213" y="1434" type="line"/>
+      <point x="1188" y="1292" type="line"/>
+      <point x="595" y="1312" type="line"/>
+      <point x="364" y="0" type="line"/>
+      <point x="182" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  4
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  4 10
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w1088l434+1434l1213+1434l1188+1292l595+1312l364+0l182+0|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

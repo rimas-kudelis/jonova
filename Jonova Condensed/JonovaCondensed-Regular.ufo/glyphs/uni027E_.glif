@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni027E" format="2">
+  <advance width="432"/>
+  <unicode hex="027E"/>
+  <outline>
+    <contour>
+      <point x="413" y="1004" type="qcurve"/>
+      <point x="399" y="902" type="line"/>
+      <point x="354" y="902"/>
+      <point x="296" y="872"/>
+      <point x="263" y="814"/>
+      <point x="251" y="731"/>
+      <point x="251" y="677" type="qcurve"/>
+      <point x="251" y="0" type="line"/>
+      <point x="129" y="0" type="line"/>
+      <point x="129" y="648" type="line"/>
+      <point x="129" y="750"/>
+      <point x="155" y="886"/>
+      <point x="221" y="969"/>
+      <point x="329" y="1004"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 1 value pushed */
+14
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+8
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 2 values pushed */
+7 5
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDRP[11100]	/* MoveDirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  0
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  0 15
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 2 values pushed */
+1 1
+MIRP[10100]	/* MoveIndirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w432q413+1004l399+902o354+902o296+872o263+814o251+731q251+677l251+0l129+0l129+648o129+750o155+886o221+969o329+1004|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

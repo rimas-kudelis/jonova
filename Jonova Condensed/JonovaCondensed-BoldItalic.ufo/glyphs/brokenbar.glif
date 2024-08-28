@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brokenbar" format="2">
+  <advance width="552"/>
+  <unicode hex="00A6"/>
+  <outline>
+    <contour>
+      <point x="584" y="1682" type="line"/>
+      <point x="474" y="848" type="line"/>
+      <point x="285" y="848" type="line"/>
+      <point x="395" y="1682" type="line"/>
+    </contour>
+    <contour>
+      <point x="136" y="-278" type="line"/>
+      <point x="247" y="556" type="line"/>
+      <point x="436" y="556" type="line"/>
+      <point x="325" y="-278" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+4
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w552l584+1682l474+848l285+848l395+1682|l136-278l247+556l436+556l325-278|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="periodcentered" format="2">
+  <advance width="576"/>
+  <unicode hex="00B7"/>
+  <outline>
+    <contour>
+      <point x="149" y="489" type="qcurve"/>
+      <point x="149" y="517"/>
+      <point x="170" y="567"/>
+      <point x="208" y="604"/>
+      <point x="257" y="626"/>
+      <point x="286" y="626" type="qcurve"/>
+      <point x="315" y="626"/>
+      <point x="366" y="604"/>
+      <point x="403" y="567"/>
+      <point x="425" y="517"/>
+      <point x="425" y="489" type="qcurve"/>
+      <point x="425" y="460"/>
+      <point x="403" y="409"/>
+      <point x="366" y="371"/>
+      <point x="315" y="350"/>
+      <point x="286" y="350" type="qcurve"/>
+      <point x="257" y="350"/>
+      <point x="208" y="371"/>
+      <point x="170" y="409"/>
+      <point x="149" y="460"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 3 values pushed */
+10 0 3
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 9 values pushed */
+6 10 22 10 38 10 54 10 4
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+5 15 3
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>8dae161d09abae26e1dcebe64283d31c0c579fc68cce387cdf01e18f41f3046f1ae84d9344875de759c79756c9cdb0a60bc28cbaf428bd2f1d9579f128e547d6</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

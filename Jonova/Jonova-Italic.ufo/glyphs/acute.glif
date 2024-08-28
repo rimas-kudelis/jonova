@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acute" format="2">
+  <advance width="768"/>
+  <unicode hex="00B4"/>
+  <outline>
+    <contour>
+      <point x="414" y="1176" type="line"/>
+      <point x="725" y="1521" type="line"/>
+      <point x="755" y="1521" type="line"/>
+      <point x="837" y="1434" type="line"/>
+      <point x="837" y="1404" type="line"/>
+      <point x="471" y="1116" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 1 value pushed */
+3
+MDAP[1]	/* MoveDirectAbsPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+RUTG[ ]	/* RoundUpToGrid */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDRP[11100]	/* MoveDirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w768l414+1176l725+1521l755+1521l837+1434l837+1404l471+1116|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

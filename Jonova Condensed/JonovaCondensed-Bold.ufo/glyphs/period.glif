@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period" format="2">
+  <advance width="432"/>
+  <unicode hex="002E"/>
+  <outline>
+    <contour>
+      <point x="338" y="131" type="qcurve"/>
+      <point x="338" y="98"/>
+      <point x="319" y="39"/>
+      <point x="286" y="-5"/>
+      <point x="242" y="-30"/>
+      <point x="217" y="-30" type="qcurve"/>
+      <point x="192" y="-30"/>
+      <point x="148" y="-5"/>
+      <point x="115" y="39"/>
+      <point x="96" y="98"/>
+      <point x="96" y="131" type="qcurve"/>
+      <point x="96" y="164"/>
+      <point x="115" y="223"/>
+      <point x="148" y="267"/>
+      <point x="192" y="292"/>
+      <point x="217" y="292" type="qcurve"/>
+      <point x="242" y="292"/>
+      <point x="286" y="267"/>
+      <point x="319" y="223"/>
+      <point x="338" y="164"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+0 8 10 4
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 9 values pushed */
+6 0 22 0 38 0 54 0 4
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 5 values pushed */
+69 0 85 0 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  5
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  5 11
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 2 values pushed */
+15 5
+MIRP[10100]	/* MoveIndirectRelPt */
+NPUSHW[ ]	/* 5 values pushed */
+7 15 23 15 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>129e3070aa2660fef7756927eb9ba8bf7e61bfc857393494fdfb47de0a17c044e75a2e65d5cb06b4ef05c604a2b6f6bfb029d063674ec05f4ee301ca32856238</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

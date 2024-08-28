@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ogoneknosp" format="2">
+  <unicode hex="0328"/>
+  <outline>
+    <contour>
+      <point x="-199" y="-407" type="line"/>
+      <point x="-246" y="-428"/>
+      <point x="-322" y="-450"/>
+      <point x="-367" y="-450" type="qcurve"/>
+      <point x="-420" y="-450"/>
+      <point x="-495" y="-423"/>
+      <point x="-543" y="-376"/>
+      <point x="-566" y="-315"/>
+      <point x="-566" y="-280" type="qcurve"/>
+      <point x="-566" y="-225"/>
+      <point x="-522" y="-134"/>
+      <point x="-451" y="-61"/>
+      <point x="-364" y="-3"/>
+      <point x="-321" y="20" type="qcurve"/>
+      <point x="-175" y="0" type="line"/>
+      <point x="-211" y="-17"/>
+      <point x="-292" y="-61"/>
+      <point x="-359" y="-117"/>
+      <point x="-404" y="-186"/>
+      <point x="-404" y="-227" type="qcurve"/>
+      <point x="-404" y="-265"/>
+      <point x="-355" y="-308"/>
+      <point x="-323" y="-308" type="qcurve"/>
+      <point x="-292" y="-308"/>
+      <point x="-243" y="-284"/>
+      <point x="-223" y="-270" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 1 value pushed */
+14
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 4 values pushed */
+19 6 8 4
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 7 values pushed */
+27 0 43 0 59 0 3
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 3 values pushed */
+123 0 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+13
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+22
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+3
+MDRP[11100]	/* MoveDirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>8a1730eb800728058f4a0d67ed81faefe861bd0395aa4e8b76309900c285383e49bcd1c32b86809a00977836f0ebe2ea2f2ff2337156d548fe886ef2d2bb8003</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

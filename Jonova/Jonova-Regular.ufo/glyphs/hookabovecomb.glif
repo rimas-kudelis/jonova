@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hookabovecomb" format="2">
+  <unicode hex="0309"/>
+  <outline>
+    <contour>
+      <point x="-566" y="1598" type="line"/>
+      <point x="-566" y="1628"/>
+      <point x="-545" y="1669"/>
+      <point x="-514" y="1701"/>
+      <point x="-477" y="1727"/>
+      <point x="-446" y="1757"/>
+      <point x="-425" y="1796"/>
+      <point x="-425" y="1825" type="qcurve"/>
+      <point x="-425" y="1861"/>
+      <point x="-470" y="1904"/>
+      <point x="-505" y="1904" type="qcurve"/>
+      <point x="-522" y="1904"/>
+      <point x="-558" y="1888"/>
+      <point x="-586" y="1861"/>
+      <point x="-604" y="1824"/>
+      <point x="-604" y="1803" type="qcurve"/>
+      <point x="-686" y="1803" type="line"/>
+      <point x="-686" y="1837"/>
+      <point x="-656" y="1903"/>
+      <point x="-604" y="1954"/>
+      <point x="-534" y="1986"/>
+      <point x="-494" y="1986" type="qcurve"/>
+      <point x="-454" y="1986"/>
+      <point x="-384" y="1960"/>
+      <point x="-332" y="1916"/>
+      <point x="-303" y="1857"/>
+      <point x="-303" y="1823" type="qcurve"/>
+      <point x="-303" y="1789"/>
+      <point x="-327" y="1737"/>
+      <point x="-363" y="1699"/>
+      <point x="-406" y="1675"/>
+      <point x="-425" y="1669" type="qcurve"/>
+      <point x="-461" y="1657"/>
+      <point x="-484" y="1605"/>
+      <point x="-484" y="1570" type="qcurve"/>
+      <point x="-484" y="1516" type="line"/>
+      <point x="-566" y="1516" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+35 5 36 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+26 5 7 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+16 5 15 4
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 3 values pushed */
+52 16 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[0]	/* SetFPVectorToAxis */
+RDTG[ ]	/* RoundDownToGrid */
+PUSHW[ ]	/* 1 value pushed */
+35
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+RUTG[ ]	/* RoundUpToGrid */
+PUSHW[ ]	/* 1 value pushed */
+16
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+RUTG[ ]	/* RoundUpToGrid */
+PUSHW[ ]	/* 1 value pushed */
+21
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+NPUSHW[ ]	/* 5 values pushed */
+94 21 110 21 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 3 values pushed */
+77 21 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 2 values pushed */
+10 1
+MIRP[10100]	/* MoveIndirectRelPt */
+NPUSHW[ ]	/* 5 values pushed */
+61 35 77 35 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>d9a7f409bdca4034ccd9577b6f3fe6b152546c73db0301262c817d219c69c58f62ae6c7c33bfdc0fdc6b7fcdb7c96dd656bf1e12b8ac90898dff338115a1ca02</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

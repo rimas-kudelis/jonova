@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaturnsupnosp" format="2">
+  <unicode hex="0312"/>
+  <outline>
+    <contour>
+      <point x="-112" y="1629" type="line"/>
+      <point x="-245" y="1516" type="line"/>
+      <point x="-266" y="1516" type="line"/>
+      <point x="-270" y="1520"/>
+      <point x="-286" y="1542"/>
+      <point x="-302" y="1575"/>
+      <point x="-314" y="1620"/>
+      <point x="-314" y="1646" type="qcurve"/>
+      <point x="-314" y="1693"/>
+      <point x="-283" y="1775"/>
+      <point x="-232" y="1845"/>
+      <point x="-166" y="1902"/>
+      <point x="-130" y="1924" type="qcurve"/>
+      <point x="-71" y="1865" type="line"/>
+      <point x="-108" y="1841"/>
+      <point x="-159" y="1771"/>
+      <point x="-159" y="1727" type="qcurve"/>
+      <point x="-159" y="1696"/>
+      <point x="-126" y="1659"/>
+      <point x="-109" y="1650" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 1 value pushed */
+16
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+7
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+16
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+13
+MDRP[11100]	/* MoveDirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+RUTG[ ]	/* RoundUpToGrid */
+PUSHW[ ]	/* 1 value pushed */
+12
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+NPUSHW[ ]	/* 3 values pushed */
+140 12 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>5f3529face0e1bb8ffe56ecda907c88aa10491948937c3f608ad5a12cb72c7b7239b7ca0975528635939fdb3176f7b1d07285b8ccf36b27a2be93d5d2d4980c2</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

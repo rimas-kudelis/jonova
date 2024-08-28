@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcomb" format="2">
+  <unicode hex="0302"/>
+  <outline>
+    <contour>
+      <point x="56" y="1632" type="line"/>
+      <point x="-24" y="1602" type="line"/>
+      <point x="-136" y="1817" type="line"/>
+      <point x="-143" y="1817" type="line"/>
+      <point x="-312" y="1602" type="line"/>
+      <point x="-384" y="1632" type="line"/>
+      <point x="-187" y="1920" type="line"/>
+      <point x="-65" y="1920" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+4
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+6
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l56+1632l-24+1602l-136+1817l-143+1817l-312+1602l-384+1632l-187+1920l-65+1920|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acutedblnosp" format="2">
+  <unicode hex="030B"/>
+  <outline>
+    <contour>
+      <point x="-629" y="1576" type="line"/>
+      <point x="-501" y="1913" type="line"/>
+      <point x="-480" y="1920" type="line"/>
+      <point x="-402" y="1856" type="line"/>
+      <point x="-397" y="1830" type="line"/>
+      <point x="-576" y="1533" type="line"/>
+    </contour>
+    <contour>
+      <point x="-363" y="1576" type="line"/>
+      <point x="-235" y="1913" type="line"/>
+      <point x="-214" y="1920" type="line"/>
+      <point x="-136" y="1856" type="line"/>
+      <point x="-131" y="1830" type="line"/>
+      <point x="-311" y="1533" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+2
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+7
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+11
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-629+1576l-501+1913l-480+1920l-402+1856l-397+1830l-576+1533|l-363+1576l-235+1913l-214+1920l-136+1856l-131+1830l-311+1533|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

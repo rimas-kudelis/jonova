@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gravesubnosp" format="2">
+  <unicode hex="0316"/>
+  <outline>
+    <contour>
+      <point x="-349" y="-490" type="line"/>
+      <point x="-561" y="-231" type="line"/>
+      <point x="-556" y="-192" type="line"/>
+      <point x="-462" y="-85" type="line"/>
+      <point x="-433" y="-85" type="line"/>
+      <point x="-287" y="-417" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+3
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  0
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  0 13
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-349-490l-561-231l-556-192l-462-85l-433-85l-287-417|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

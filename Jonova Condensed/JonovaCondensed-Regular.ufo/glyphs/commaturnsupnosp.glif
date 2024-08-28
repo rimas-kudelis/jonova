@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaturnsupnosp" format="2">
+  <unicode hex="0312"/>
+  <outline>
+    <contour>
+      <point x="-299" y="1629" type="line"/>
+      <point x="-412" y="1516" type="line"/>
+      <point x="-433" y="1516" type="line"/>
+      <point x="-438" y="1520"/>
+      <point x="-462" y="1546"/>
+      <point x="-488" y="1591"/>
+      <point x="-507" y="1656"/>
+      <point x="-507" y="1700" type="qcurve"/>
+      <point x="-507" y="1745"/>
+      <point x="-481" y="1826"/>
+      <point x="-438" y="1895"/>
+      <point x="-385" y="1952"/>
+      <point x="-358" y="1974" type="qcurve"/>
+      <point x="-299" y="1915" type="line"/>
+      <point x="-309" y="1904"/>
+      <point x="-332" y="1876"/>
+      <point x="-352" y="1840"/>
+      <point x="-365" y="1797"/>
+      <point x="-365" y="1773" type="qcurve"/>
+      <point x="-365" y="1746"/>
+      <point x="-349" y="1704"/>
+      <point x="-328" y="1673"/>
+      <point x="-305" y="1653"/>
+      <point x="-299" y="1649" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+18 5 7 4
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 3 values pushed */
+2 18 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 1 value pushed */
+18
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+23
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+13
+MDRP[10000]	/* MoveDirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+RUTG[ ]	/* RoundUpToGrid */
+PUSHW[ ]	/* 1 value pushed */
+12
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>c7394535da3d48ce0183a8ebb778601c45036fddf5c6baf83bf63a58bcabb9b207f0aa7ce1d932e6960dc3b0fa90879a63c8214c80ad9ae565b1a8c60e544b49</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

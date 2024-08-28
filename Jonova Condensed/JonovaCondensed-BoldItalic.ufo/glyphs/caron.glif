@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caron" format="2">
+  <advance width="576"/>
+  <unicode hex="02C7"/>
+  <outline>
+    <contour>
+      <point x="244" y="1494" type="line"/>
+      <point x="338" y="1524" type="line"/>
+      <point x="462" y="1321" type="line"/>
+      <point x="640" y="1524" type="line"/>
+      <point x="727" y="1494" type="line"/>
+      <point x="519" y="1159" type="line"/>
+      <point x="363" y="1159" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+3
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 3 values pushed */
+2 5 1
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w576l244+1494l338+1524l462+1321l640+1524l727+1494l519+1159l363+1159|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

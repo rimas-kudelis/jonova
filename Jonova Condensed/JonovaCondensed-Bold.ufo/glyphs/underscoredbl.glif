@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="underscoredbl" format="2">
+  <advance width="768"/>
+  <unicode hex="2017"/>
+  <outline>
+    <contour>
+      <point x="-36" y="-315" type="line"/>
+      <point x="804" y="-315" type="line"/>
+      <point x="804" y="-470" type="line"/>
+      <point x="-36" y="-470" type="line"/>
+    </contour>
+    <contour>
+      <point x="-36" y="-119" type="line"/>
+      <point x="804" y="-119" type="line"/>
+      <point x="804" y="-275" type="line"/>
+      <point x="-36" y="-275" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 4 values pushed */
+1 1 2 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+5 1 6 4
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w768l-36-315l804-315l804-470l-36-470|l-36-119l804-119l804-275l-36-275|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

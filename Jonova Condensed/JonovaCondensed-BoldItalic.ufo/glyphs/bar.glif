@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bar" format="2">
+  <advance width="552"/>
+  <unicode hex="007C"/>
+  <outline>
+    <contour>
+      <point x="602" y="1682" type="line"/>
+      <point x="342" y="-278" type="line"/>
+      <point x="153" y="-278" type="line"/>
+      <point x="413" y="1682" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w552l602+1682l342-278l153-278l413+1682|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

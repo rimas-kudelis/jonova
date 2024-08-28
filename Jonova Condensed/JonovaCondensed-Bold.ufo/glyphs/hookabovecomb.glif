@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hookabovecomb" format="2">
+  <unicode hex="0309"/>
+  <outline>
+    <contour>
+      <point x="-450" y="1602" type="line"/>
+      <point x="-450" y="1640"/>
+      <point x="-425" y="1698"/>
+      <point x="-396" y="1753"/>
+      <point x="-371" y="1811"/>
+      <point x="-371" y="1850" type="qcurve"/>
+      <point x="-371" y="1887"/>
+      <point x="-394" y="1927"/>
+      <point x="-414" y="1927" type="qcurve"/>
+      <point x="-434" y="1927"/>
+      <point x="-467" y="1872"/>
+      <point x="-467" y="1830" type="qcurve"/>
+      <point x="-574" y="1830" type="line"/>
+      <point x="-574" y="1875"/>
+      <point x="-545" y="1953"/>
+      <point x="-493" y="2011"/>
+      <point x="-424" y="2045"/>
+      <point x="-384" y="2045" type="qcurve"/>
+      <point x="-344" y="2045"/>
+      <point x="-278" y="2009"/>
+      <point x="-230" y="1950"/>
+      <point x="-205" y="1876"/>
+      <point x="-205" y="1838" type="qcurve"/>
+      <point x="-205" y="1802"/>
+      <point x="-225" y="1751"/>
+      <point x="-257" y="1711"/>
+      <point x="-292" y="1679"/>
+      <point x="-323" y="1649"/>
+      <point x="-344" y="1616"/>
+      <point x="-344" y="1595" type="qcurve"/>
+      <point x="-344" y="1516" type="line"/>
+      <point x="-450" y="1516" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+22 7 12 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+0 12 22
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+22
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+5 6
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+29 9
+MIRP[10100]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+30
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 4 values pushed */
+17 2 8 4
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>83818ea02bd734ee1395f2eae70e3315724e8818b50bae6f53d87a836cd73a2e6b8b3b856b841d87555bf3157a193fc4c76918594af861a1da2437903861b399</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

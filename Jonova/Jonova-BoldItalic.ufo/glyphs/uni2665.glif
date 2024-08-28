@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2665" format="2">
+  <advance width="2048"/>
+  <unicode hex="2665"/>
+  <outline>
+    <contour>
+      <point x="1124" y="-30" type="qcurve"/>
+      <point x="1050" y="21"/>
+      <point x="883" y="170"/>
+      <point x="718" y="348"/>
+      <point x="568" y="547"/>
+      <point x="453" y="750"/>
+      <point x="384" y="950"/>
+      <point x="384" y="1039" type="qcurve"/>
+      <point x="384" y="1125"/>
+      <point x="436" y="1279"/>
+      <point x="534" y="1396"/>
+      <point x="676" y="1464"/>
+      <point x="765" y="1464" type="qcurve"/>
+      <point x="981" y="1464"/>
+      <point x="1124" y="1242" type="qcurve"/>
+      <point x="1266" y="1464"/>
+      <point x="1484" y="1464" type="qcurve"/>
+      <point x="1574" y="1464"/>
+      <point x="1715" y="1395"/>
+      <point x="1812" y="1278"/>
+      <point x="1864" y="1124"/>
+      <point x="1864" y="1038" type="qcurve"/>
+      <point x="1864" y="948"/>
+      <point x="1795" y="749"/>
+      <point x="1680" y="546"/>
+      <point x="1530" y="347"/>
+      <point x="1365" y="170"/>
+      <point x="1198" y="21"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  12
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  12 19
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  16
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  16 19
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  0
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  0 11
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 3 values pushed */
+14 0 12
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>751c053a128c821e715fa144bf3f41c015b8ab43b568112dafd068f195ccb98aba434096151d339aa4307bedb370c67a63ac4d699bc3c4f49ccb093fddb4575a</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

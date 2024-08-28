@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="summation" format="2">
+  <advance width="1200"/>
+  <unicode hex="2211"/>
+  <outline>
+    <contour>
+      <point x="318" y="1434" type="line"/>
+      <point x="1240" y="1434" type="line"/>
+      <point x="1217" y="1272" type="line"/>
+      <point x="576" y="1313" type="line"/>
+      <point x="901" y="577" type="line"/>
+      <point x="382" y="-157" type="line"/>
+      <point x="1035" y="-116" type="line"/>
+      <point x="1013" y="-278" type="line"/>
+      <point x="92" y="-278" type="line"/>
+      <point x="95" y="-257" type="line"/>
+      <point x="674" y="577" type="line"/>
+      <point x="316" y="1413" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w1200l318+1434l1240+1434l1217+1272l576+1313l901+577l382-157l1035-116l1013-278l92-278l95-257l674+577l316+1413|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

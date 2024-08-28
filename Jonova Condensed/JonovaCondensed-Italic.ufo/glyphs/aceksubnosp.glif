@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aceksubnosp" format="2">
+  <unicode hex="032C"/>
+  <outline>
+    <contour>
+      <point x="-626" y="-172" type="line"/>
+      <point x="-547" y="-142" type="line"/>
+      <point x="-434" y="-357" type="line"/>
+      <point x="-427" y="-357" type="line"/>
+      <point x="-259" y="-142" type="line"/>
+      <point x="-187" y="-172" type="line"/>
+      <point x="-384" y="-460" type="line"/>
+      <point x="-506" y="-460" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+4
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  6
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  6 14
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-626-172l-547-142l-434-357l-427-357l-259-142l-187-172l-384-460l-506-460|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

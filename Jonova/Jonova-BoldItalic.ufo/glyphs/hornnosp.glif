@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hornnosp" format="2">
+  <unicode hex="031B"/>
+  <outline>
+    <contour>
+      <point x="213" y="1122" type="line"/>
+      <point x="403" y="1122" type="line"/>
+      <point x="415" y="1098" type="line"/>
+      <point x="403" y="1030"/>
+      <point x="341" y="901"/>
+      <point x="225" y="801"/>
+      <point x="45" y="740"/>
+      <point x="-84" y="740" type="qcurve"/>
+      <point x="-59" y="882" type="line"/>
+      <point x="1" y="882"/>
+      <point x="86" y="903"/>
+      <point x="145" y="954"/>
+      <point x="182" y="1036"/>
+      <point x="193" y="1098" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 1 value pushed */
+2
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+7
+MDAP[1]	/* MoveDirectAbsPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+7
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 2 values pushed */
+8 1
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDRP[11100]	/* MoveDirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l213+1122l403+1122l415+1098o403+1030o341+901o225+801o45+740q-84+740l-59+882o1+882o86+903o145+954o182+1036q193+1098|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

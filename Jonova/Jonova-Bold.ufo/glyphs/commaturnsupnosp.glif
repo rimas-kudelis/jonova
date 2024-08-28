@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaturnsupnosp" format="2">
+  <unicode hex="0312"/>
+  <outline>
+    <contour>
+      <point x="-388" y="1664" type="line"/>
+      <point x="-536" y="1516" type="line"/>
+      <point x="-563" y="1516" type="line"/>
+      <point x="-571" y="1523"/>
+      <point x="-603" y="1560"/>
+      <point x="-635" y="1623"/>
+      <point x="-660" y="1710"/>
+      <point x="-660" y="1767" type="qcurve"/>
+      <point x="-660" y="1826"/>
+      <point x="-626" y="1923"/>
+      <point x="-571" y="2001"/>
+      <point x="-501" y="2060"/>
+      <point x="-465" y="2083" type="qcurve"/>
+      <point x="-388" y="2006" type="line"/>
+      <point x="-402" y="1996"/>
+      <point x="-433" y="1965"/>
+      <point x="-460" y="1921"/>
+      <point x="-478" y="1867"/>
+      <point x="-478" y="1834" type="qcurve"/>
+      <point x="-478" y="1803"/>
+      <point x="-457" y="1755"/>
+      <point x="-427" y="1719"/>
+      <point x="-397" y="1696"/>
+      <point x="-388" y="1690" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+18 6 7 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+18
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+13
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+23
+MDRP[10000]	/* MoveDirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+12
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>4c72429abd73333fbeb8fa0472f61ef3c5e0bac5690cf29cb70b111f6768301d20b6bd7f80d4758d279dad99f88215954016957f0ed93ecba2ebe072c8a33f7b</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

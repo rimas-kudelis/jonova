@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iota" format="2">
+  <advance width="576"/>
+  <unicode hex="03B9"/>
+  <outline>
+    <contour>
+      <point x="559" y="1004" type="line"/>
+      <point x="429" y="269" type="line"/>
+      <point x="426" y="251"/>
+      <point x="422" y="219"/>
+      <point x="422" y="205" type="qcurve"/>
+      <point x="422" y="142"/>
+      <point x="493" y="82"/>
+      <point x="575" y="82" type="qcurve"/>
+      <point x="555" y="-30" type="line"/>
+      <point x="435" y="-30"/>
+      <point x="276" y="-3"/>
+      <point x="183" y="54"/>
+      <point x="146" y="142"/>
+      <point x="146" y="203" type="qcurve"/>
+      <point x="146" y="233"/>
+      <point x="153" y="303"/>
+      <point x="160" y="342" type="qcurve"/>
+      <point x="271" y="974" type="line"/>
+      <point x="499" y="1004" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+4 10 13 4
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 5 values pushed */
+6 4 22 4 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  0
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  0 17
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  8
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  8 11
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 2 values pushed */
+7 2
+MIRP[10100]	/* MoveIndirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>04f49c154f4fd12cae53089c75d3076ab5d64d901e9ca148ad0a1166bf488ca2f005073e8721b3d77db93e381aaff7e48318b078d15d26bbd915f5637bf37722</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

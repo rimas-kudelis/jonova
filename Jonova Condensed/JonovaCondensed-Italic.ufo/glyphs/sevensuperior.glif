@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sevensuperior" format="2">
+  <advance width="552"/>
+  <unicode hex="2077"/>
+  <outline>
+    <contour>
+      <point x="659" y="1464" type="line"/>
+      <point x="656" y="1444" type="line"/>
+      <point x="290" y="586" type="line"/>
+      <point x="193" y="604" type="line"/>
+      <point x="551" y="1382" type="line"/>
+      <point x="264" y="1359" type="line"/>
+      <point x="278" y="1464" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+2
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w552l659+1464l656+1444l290+586l193+604l551+1382l264+1359l278+1464|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotaccentcomb" format="2">
+  <unicode hex="0307"/>
+  <outline>
+    <contour>
+      <point x="-508" y="1718" type="qcurve"/>
+      <point x="-508" y="1758"/>
+      <point x="-452" y="1814"/>
+      <point x="-412" y="1814" type="qcurve"/>
+      <point x="-372" y="1814"/>
+      <point x="-316" y="1758"/>
+      <point x="-316" y="1718" type="qcurve"/>
+      <point x="-316" y="1678"/>
+      <point x="-372" y="1622"/>
+      <point x="-412" y="1622" type="qcurve"/>
+      <point x="-452" y="1622"/>
+      <point x="-508" y="1678"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 2 values pushed */
+6 7
+MIRP[10100]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+3
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 2 values pushed */
+9 4
+MIRP[10100]	/* MoveIndirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0q-508+1718o-508+1758o-452+1814q-412+1814o-372+1814o-316+1758q-316+1718o-316+1678o-372+1622q-412+1622o-452+1622o-508+1678|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

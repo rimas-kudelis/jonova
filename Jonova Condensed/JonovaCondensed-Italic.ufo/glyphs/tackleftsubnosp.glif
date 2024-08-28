@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tackleftsubnosp" format="2">
+  <unicode hex="0318"/>
+  <outline>
+    <contour>
+      <point x="-399" y="-224" type="line"/>
+      <point x="-377" y="-60" type="line"/>
+      <point x="-301" y="-60" type="line"/>
+      <point x="-358" y="-490" type="line"/>
+      <point x="-434" y="-490" type="line"/>
+      <point x="-413" y="-326" type="line"/>
+      <point x="-521" y="-326" type="line"/>
+      <point x="-507" y="-224" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  3
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  3 12
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-399-224l-377-60l-301-60l-358-490l-434-490l-413-326l-521-326l-507-224|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

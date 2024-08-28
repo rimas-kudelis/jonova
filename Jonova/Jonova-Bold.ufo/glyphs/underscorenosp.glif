@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="underscorenosp" format="2">
+  <unicode hex="0332"/>
+  <outline>
+    <contour>
+      <point x="-1061" y="-168" type="line"/>
+      <point x="63" y="-168" type="line"/>
+      <point x="36" y="-330" type="line"/>
+      <point x="-1088" y="-330" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 4 values pushed */
+1 1 2 4
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-1061-168l63-168l36-330l-1088-330|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

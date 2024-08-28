@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2192" format="2">
+  <advance width="1600"/>
+  <unicode hex="2192"/>
+  <outline>
+    <contour>
+      <point x="1112" y="548" type="line"/>
+      <point x="1112" y="774" type="line"/>
+      <point x="1602" y="487" type="line"/>
+      <point x="1112" y="200" type="line"/>
+      <point x="1112" y="426" type="line"/>
+      <point x="138" y="426" type="line"/>
+      <point x="138" y="548" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+3
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 4 values pushed */
+0 2 4 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+2 4 0
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w1600l1112+548l1112+774l1602+487l1112+200l1112+426l138+426l138+548|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acuterightnosp" format="2">
+  <unicode hex="0341"/>
+  <outline>
+    <contour>
+      <point x="-379" y="1759" type="line"/>
+      <point x="-177" y="2048" type="line"/>
+      <point x="-133" y="2048" type="line"/>
+      <point x="-15" y="1930" type="line"/>
+      <point x="-15" y="1886" type="line"/>
+      <point x="-302" y="1678" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+RUTG[ ]	/* RoundUpToGrid */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-379+1759l-177+2048l-133+2048l-15+1930l-15+1886l-302+1678|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
