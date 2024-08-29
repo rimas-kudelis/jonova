@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
   <key>ascender</key>
-  <integer>1494</integer>
+  <integer>2012</integer>
   <key>capHeight</key>
   <integer>1464</integer>
   <key>copyright</key>
   <string>Copyright © 2005-2024, Jonas Vaičiulis.
 Copyright © 2005-2024, UAB Fotonija (https://www.fotonija.lt/).</string>
   <key>descender</key>
-  <integer>-460</integer>
+  <integer>-490</integer>
   <key>familyName</key>
   <string>Jonova</string>
   <key>openTypeHeadCreated</key>
@@ -24,13 +24,13 @@ Copyright © 2005-2024, UAB Fotonija (https://www.fotonija.lt/).</string>
   <key>openTypeHeadLowestRecPPEM</key>
   <integer>9</integer>
   <key>openTypeHheaAscender</key>
-  <integer>1494</integer>
+  <integer>2012</integer>
   <key>openTypeHheaCaretSlopeRise</key>
   <integer>1</integer>
   <key>openTypeHheaCaretSlopeRun</key>
   <integer>0</integer>
   <key>openTypeHheaDescender</key>
-  <integer>-460</integer>
+  <integer>-490</integer>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
@@ -159,9 +159,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2Type</key>
   <array/>
   <key>openTypeOS2TypoAscender</key>
-  <integer>1494</integer>
+  <integer>2012</integer>
   <key>openTypeOS2TypoDescender</key>
-  <integer>-460</integer>
+  <integer>-490</integer>
   <key>openTypeOS2TypoLineGap</key>
   <integer>0</integer>
   <key>openTypeOS2UnicodeRanges</key>
