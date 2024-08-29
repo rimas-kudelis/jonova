@@ -41,9 +41,9 @@
   </dict>
   <key>b</key>
   <dict>
-    <key>quotedblright</key>
+    <key>public.kern2.quote.double</key>
     <integer>-383</integer>
-    <key>quoteright</key>
+    <key>public.kern2.quote.single</key>
     <integer>-339</integer>
   </dict>
   <key>cent</key>
@@ -127,9 +127,9 @@
   <dict>
     <key>comma</key>
     <integer>-239</integer>
-    <key>quotedblright</key>
+    <key>public.kern2.quote.double</key>
     <integer>-293</integer>
-    <key>quoteright</key>
+    <key>public.kern2.quote.single</key>
     <integer>-251</integer>
   </dict>
   <key>periodcentered</key>
@@ -155,12 +155,12 @@
     <integer>-271</integer>
     <key>public.kern2.Y</key>
     <integer>-375</integer>
+    <key>public.kern2.quote.double</key>
+    <integer>-429</integer>
+    <key>public.kern2.quote.single</key>
+    <integer>-385</integer>
     <key>public.kern2.v</key>
     <integer>-271</integer>
-    <key>quotedblright</key>
-    <integer>-429</integer>
-    <key>quoteright</key>
-    <integer>-385</integer>
   </dict>
   <key>public.kern1.A.markAbove</key>
   <dict>
@@ -172,12 +172,12 @@
     <integer>-220</integer>
     <key>public.kern2.Y</key>
     <integer>-220</integer>
+    <key>public.kern2.quote.double</key>
+    <integer>-220</integer>
+    <key>public.kern2.quote.single</key>
+    <integer>-220</integer>
     <key>public.kern2.v</key>
     <integer>-271</integer>
-    <key>quotedblright</key>
-    <integer>-220</integer>
-    <key>quoteright</key>
-    <integer>-220</integer>
   </dict>
   <key>public.kern1.B</key>
   <dict>
@@ -232,9 +232,9 @@
     <integer>-263</integer>
     <key>public.kern2.Y</key>
     <integer>-357</integer>
-    <key>quotedblright</key>
+    <key>public.kern2.quote.double</key>
     <integer>-557</integer>
-    <key>quoteright</key>
+    <key>public.kern2.quote.single</key>
     <integer>-513</integer>
   </dict>
   <key>public.kern1.O</key>
@@ -363,86 +363,64 @@
   </dict>
   <key>public.kern1.a</key>
   <dict>
-    <key>quotedblright</key>
+    <key>public.kern2.quote.double</key>
     <integer>-325</integer>
-    <key>quoteright</key>
+    <key>public.kern2.quote.single</key>
     <integer>-283</integer>
   </dict>
   <key>public.kern1.e</key>
   <dict>
-    <key>quotedblright</key>
+    <key>public.kern2.quote.double</key>
     <integer>-279</integer>
-    <key>quoteright</key>
+    <key>public.kern2.quote.single</key>
     <integer>-237</integer>
   </dict>
   <key>public.kern1.h</key>
   <dict>
-    <key>quotedblright</key>
+    <key>public.kern2.quote.double</key>
     <integer>-343</integer>
-    <key>quoteright</key>
+    <key>public.kern2.quote.single</key>
     <integer>-299</integer>
   </dict>
   <key>public.kern1.i</key>
   <dict>
-    <key>quotedblright</key>
+    <key>public.kern2.quote.double</key>
     <integer>-273</integer>
+    <key>public.kern2.quote.single</key>
+    <integer>-231</integer>
   </dict>
   <key>public.kern1.m</key>
   <dict>
-    <key>quotedblright</key>
+    <key>public.kern2.quote.double</key>
     <integer>-273</integer>
+    <key>public.kern2.quote.single</key>
+    <integer>-231</integer>
   </dict>
   <key>public.kern1.n</key>
   <dict>
-    <key>quotedblright</key>
+    <key>public.kern2.quote.double</key>
     <integer>-285</integer>
-    <key>quoteright</key>
+    <key>public.kern2.quote.single</key>
     <integer>-243</integer>
   </dict>
   <key>public.kern1.o</key>
   <dict>
     <key>comma</key>
     <integer>-237</integer>
-    <key>quotedblright</key>
+    <key>public.kern2.quote.double</key>
     <integer>-323</integer>
-    <key>quoteright</key>
+    <key>public.kern2.quote.single</key>
     <integer>-281</integer>
   </dict>
-  <key>public.kern1.r</key>
+  <key>public.kern1.o.markAbove</key>
   <dict>
     <key>comma</key>
-    <integer>-367</integer>
-    <key>period</key>
-    <integer>-359</integer>
+    <integer>-237</integer>
   </dict>
-  <key>public.kern1.s</key>
+  <key>public.kern1.quote.double</key>
   <dict>
-    <key>quotedblright</key>
-    <integer>-253</integer>
-  </dict>
-  <key>public.kern1.w</key>
-  <dict>
-    <key>comma</key>
-    <integer>-319</integer>
-    <key>period</key>
-    <integer>-315</integer>
-  </dict>
-  <key>public.kern1.y</key>
-  <dict>
-    <key>comma</key>
-    <integer>-323</integer>
-    <key>period</key>
-    <integer>-315</integer>
-  </dict>
-  <key>q</key>
-  <dict>
-    <key>quotedblright</key>
-    <integer>-307</integer>
-    <key>quoteright</key>
-    <integer>-263</integer>
-  </dict>
-  <key>quotedblleft</key>
-  <dict>
+    <key>dcaron</key>
+    <integer>0</integer>
     <key>g</key>
     <integer>-401</integer>
     <key>p</key>
@@ -478,8 +456,10 @@
     <key>q</key>
     <integer>-335</integer>
   </dict>
-  <key>quoteleft</key>
+  <key>public.kern1.quote.single</key>
   <dict>
+    <key>dcaron</key>
+    <integer>0</integer>
     <key>g</key>
     <integer>-357</integer>
     <key>p</key>
@@ -515,16 +495,40 @@
     <key>q</key>
     <integer>-291</integer>
   </dict>
-  <key>quoteright</key>
+  <key>public.kern1.r</key>
   <dict>
-    <key>public.kern2.d</key>
-    <integer>-417</integer>
-    <key>public.kern2.m</key>
-    <integer>-297</integer>
-    <key>public.kern2.r</key>
-    <integer>-303</integer>
-    <key>public.kern2.s</key>
-    <integer>-295</integer>
+    <key>comma</key>
+    <integer>-367</integer>
+    <key>period</key>
+    <integer>-359</integer>
+  </dict>
+  <key>public.kern1.s</key>
+  <dict>
+    <key>public.kern2.quote.double</key>
+    <integer>-253</integer>
+    <key>public.kern2.quote.single</key>
+    <integer>-211</integer>
+  </dict>
+  <key>public.kern1.w</key>
+  <dict>
+    <key>comma</key>
+    <integer>-319</integer>
+    <key>period</key>
+    <integer>-315</integer>
+  </dict>
+  <key>public.kern1.y</key>
+  <dict>
+    <key>comma</key>
+    <integer>-323</integer>
+    <key>period</key>
+    <integer>-315</integer>
+  </dict>
+  <key>q</key>
+  <dict>
+    <key>public.kern2.quote.double</key>
+    <integer>-307</integer>
+    <key>public.kern2.quote.single</key>
+    <integer>-263</integer>
   </dict>
   <key>seven</key>
   <dict>

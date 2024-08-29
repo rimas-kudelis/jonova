@@ -247,41 +247,13 @@
   <key>public.kern1.a</key>
   <array>
     <string>a</string>
-    <string>aacute</string>
-    <string>abreve</string>
-    <string>acircumflex</string>
-    <string>adieresis</string>
-    <string>adotabove</string>
-    <string>agrave</string>
-    <string>amacron</string>
-    <string>aogonacute</string>
-    <string>aogonek</string>
-    <string>aogontilde</string>
-    <string>aring</string>
-    <string>atilde</string>
     <string>uni1EA1</string>
-    <string>uniEE07</string>
-    <string>uniEE1B</string>
   </array>
   <key>public.kern1.e</key>
   <array>
-    <string>afiEC03</string>
-    <string>afiEC05</string>
     <string>afii10070</string>
-    <string>afii10071</string>
     <string>e</string>
-    <string>eacute</string>
-    <string>ebreve</string>
-    <string>ecaron</string>
-    <string>ecircumflex</string>
-    <string>edieresis</string>
-    <string>edotaccent</string>
-    <string>edotacute</string>
-    <string>edottilde</string>
-    <string>egrave</string>
-    <string>emacron</string>
     <string>eogonek</string>
-    <string>etilde</string>
   </array>
   <key>public.kern1.h</key>
   <array>
@@ -317,9 +289,14 @@
   </array>
   <key>public.kern1.o</key>
   <array>
-    <string>afiEC0B</string>
     <string>afii10080</string>
     <string>o</string>
+    <string>uni0275</string>
+    <string>uniEE10</string>
+  </array>
+  <key>public.kern1.o.markAbove</key>
+  <array>
+    <string>afiEC0B</string>
     <string>oacute</string>
     <string>obreve</string>
     <string>ocircumflex</string>
@@ -329,10 +306,20 @@
     <string>oslashacute</string>
     <string>otilde</string>
     <string>uni0151</string>
-    <string>uni0275</string>
-    <string>uniEE10</string>
     <string>uniEE12</string>
     <string>uniEE13</string>
+  </array>
+  <key>public.kern1.quote.double</key>
+  <array>
+    <string>quotedblleft</string>
+    <string>quotedblright</string>
+    <string>uni201F</string>
+  </array>
+  <key>public.kern1.quote.single</key>
+  <array>
+    <string>quoteleft</string>
+    <string>quoteright</string>
+    <string>uni201B</string>
   </array>
   <key>public.kern1.r</key>
   <array>
@@ -346,12 +333,8 @@
   <array>
     <string>afii10102</string>
     <string>s</string>
-    <string>sacute</string>
-    <string>scaron</string>
     <string>scedilla</string>
-    <string>scircumflex</string>
     <string>uni0282</string>
-    <string>uni1E61</string>
     <string>uni1E63</string>
     <string>uniEE15</string>
   </array>
@@ -489,11 +472,7 @@
   <array>
     <string>afii10083</string>
     <string>c</string>
-    <string>cacute</string>
-    <string>ccaron</string>
     <string>ccedilla</string>
-    <string>ccircumflex</string>
-    <string>cdotaccent</string>
   </array>
   <key>public.kern2.d</key>
   <array>
@@ -562,6 +541,18 @@
     <string>uni0151</string>
     <string>uniEE12</string>
     <string>uniEE13</string>
+  </array>
+  <key>public.kern2.quote.double</key>
+  <array>
+    <string>quotedblleft</string>
+    <string>quotedblright</string>
+    <string>uni201F</string>
+  </array>
+  <key>public.kern2.quote.single</key>
+  <array>
+    <string>quoteleft</string>
+    <string>quoteright</string>
+    <string>uni201B</string>
   </array>
   <key>public.kern2.r</key>
   <array>
