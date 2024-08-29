@@ -1,41 +1,63 @@
-languagesystem latn dflt;
-languagesystem latn zz01;
-table GDEF {
-    GlyphClassDef [], [], [], [];
-} GDEF;
+# Mark classes
+markClass gravecomb <anchor -400 1500> @default;
+markClass acutecomb <anchor -630 1500> @default;
+markClass [
+    circumflexcomb
+    tildecomb
+    macroncomb
+    overscorecomb
+    brevecomb
+    dotaccentcomb
+    dieresiscomb
+    hookabovecomb
+    ringnosp
+    acutedblnosp
+    haceknosp
+    linevertnosp
+    linevertdblnosp
+    gravedblnosp
+    candrabindunosp
+    breveinvnosp
+    commaturnsupnosp
+    apostrophesupnosp
+    commasuprevnosp
+    commasuprightnosp
+] <anchor -512 1500> @default;
+markClass [
+    gravesubnosp
+    acutesubnosp
+    dotbelowcomb
+    dotdblsubnosp
+    ringsubnosp
+    commasubnosp
+    linevertsubnosp
+    bridgesubnosp
+    archdblsubnosp
+    aceksubnosp
+    circumflexsubnosp
+    brevesubnosp
+    breveinvsubnosp
+    tildesubnosp
+    macronsubnosp
+    underscorenosp
+    underscoredblnosp
+    ringrighthalfsubnosp
+    bridgeinvsubnosp
+    squaresubnosp
+    seagullsubnosp
+] <anchor -512 0> @below;
+markClass [
+    tildemidnosp
+    barmidshortnosp
+    barmidlongnosp
+    slashshortnosp
+    slashlongnosp
+] <anchor -512 500> @middle;
+markClass ogoneknosp <anchor -512 0> @ogonek;
+markClass cedillanosp <anchor -512 0> @cedilla;
 
-    markClass gravecomb <anchor -400 1500> @Anchor2__Anchor2;
-    markClass acutecomb <anchor -630 1500> @Anchor2__Anchor2;
-    markClass [circumflexcomb tildecomb macroncomb overscorecomb brevecomb dotaccentcomb dieresiscomb hookabovecomb ringnosp acutedblnosp haceknosp linevertnosp linevertdblnosp gravedblnosp candrabindunosp breveinvnosp commaturnsupnosp apostrophesupnosp commasuprevnosp commasuprightnosp] <anchor -512 1500> @Anchor2__Anchor2;
-
-    markClass gravecomb <anchor -400 1500> @Anchor4__Anchor4;
-    markClass acutecomb <anchor -630 1500> @Anchor4__Anchor4;
-    markClass [circumflexcomb tildecomb macroncomb overscorecomb brevecomb dotaccentcomb dieresiscomb hookabovecomb ringnosp acutedblnosp haceknosp linevertnosp linevertdblnosp gravedblnosp candrabindunosp breveinvnosp commaturnsupnosp apostrophesupnosp commasuprevnosp commasuprightnosp] <anchor -512 1500> @Anchor4__Anchor4;
-
-    markClass gravecomb <anchor -400 1500> @Anchor6__Anchor6;
-    markClass acutecomb <anchor -630 1500> @Anchor6__Anchor6;
-    markClass tildecomb <anchor -512 1500> @Anchor6__Anchor6;
-
-    markClass gravecomb <anchor -400 1500> @Anchor8__Anchor8;
-    markClass acutecomb <anchor -630 1500> @Anchor8__Anchor8;
-    markClass tildecomb <anchor -512 1500> @Anchor8__Anchor8;
-
-    markClass [gravesubnosp acutesubnosp dotbelowcomb dotdblsubnosp ringsubnosp commasubnosp linevertsubnosp bridgesubnosp archdblsubnosp aceksubnosp circumflexsubnosp brevesubnosp breveinvsubnosp tildesubnosp macronsubnosp underscorenosp underscoredblnosp ringrighthalfsubnosp bridgeinvsubnosp squaresubnosp seagullsubnosp] <anchor -512 0> @Anchor10__Anchor10;
-
-    markClass [gravesubnosp acutesubnosp dotbelowcomb dotdblsubnosp ringsubnosp commasubnosp linevertsubnosp bridgesubnosp archdblsubnosp aceksubnosp circumflexsubnosp brevesubnosp breveinvsubnosp tildesubnosp macronsubnosp underscorenosp underscoredblnosp ringrighthalfsubnosp bridgeinvsubnosp squaresubnosp seagullsubnosp] <anchor -512 0> @Anchor12__Anchor12;
-
-    markClass [tildemidnosp barmidshortnosp barmidlongnosp slashshortnosp slashlongnosp] <anchor -512 500> @Anchor14__Anchor14;
-
-    markClass [tildemidnosp barmidshortnosp barmidlongnosp slashshortnosp slashlongnosp] <anchor -512 500> @Anchor16__Anchor16;
-
-    markClass ogoneknosp <anchor -512 0> @Anchor18__Anchor18;
-
-    markClass cedillanosp <anchor -512 0> @Anchor20__Anchor20;
-
-
-lookup LigatureSubstitution1 {
-    lookupflag 0;
-    ;
+# Lookups
+lookup LigatureSubstitution {
     sub A gravecomb by Agrave;
     sub A acutecomb by Aacute;
     sub A circumflexcomb by Acircumflex;
@@ -348,671 +370,258 @@ lookup LigatureSubstitution1 {
     sub Uogonek tildecomb by Uogontilde;
     sub uogonek acutecomb by uogonacute;
     sub uogonek tildecomb by uogontilde;
-} LigatureSubstitution1;
+} LigatureSubstitution;
 
-lookup MarkToBase1 {
-    lookupflag 0;
-    ;
-            pos base [A D K Z]
-            <anchor 672 1600> mark @Anchor2__Anchor2;
-        pos base [B E F V X Y]
-            <anchor 624 1600> mark @Anchor2__Anchor2;
-        pos base [C U]
-            <anchor 772 1600> mark @Anchor2__Anchor2;
-        pos base G
-            <anchor 864 1600> mark @Anchor2__Anchor2;
-        pos base [H N]
-            <anchor 752 1600> mark @Anchor2__Anchor2;
-        pos base [I L]
-            <anchor 288 1600> mark @Anchor2__Anchor2;
-        pos base J
-            <anchor 452 1600> mark @Anchor2__Anchor2;
-        pos base M
-            <anchor 914 1600> mark @Anchor2__Anchor2;
-        pos base [O Q]
-            <anchor 800 1600> mark @Anchor2__Anchor2;
-        pos base [P R S T]
-            <anchor 576 1600> mark @Anchor2__Anchor2;
-        pos base W
-            <anchor 984 1600> mark @Anchor2__Anchor2;
+lookup MarkAboveCapital {
+    pos base [A D K Z]
+        <anchor 672 1600> mark @default;
+    pos base [B E F V X Y]
+        <anchor 624 1600> mark @default;
+    pos base [C U]
+        <anchor 772 1600> mark @default;
+    pos base G
+        <anchor 864 1600> mark @default;
+    pos base [H N]
+        <anchor 752 1600> mark @default;
+    pos base [I L]
+        <anchor 288 1600> mark @default;
+    pos base J
+        <anchor 452 1600> mark @default;
+    pos base M
+        <anchor 914 1600> mark @default;
+    pos base [O Q]
+        <anchor 800 1600> mark @default;
+    pos base [P R S T]
+        <anchor 576 1600> mark @default;
+    pos base W
+        <anchor 984 1600> mark @default;
+} MarkAboveCapital;
 
-} MarkToBase1;
+lookup MarkAboveSmall {
+    pos base [a c e]
+        <anchor 532 1100> mark @default;
+    pos base [b h]
+        <anchor 594 1600> mark @default;
+    pos base d
+        <anchor 480 1600> mark @default;
+    pos base f
+        <anchor 432 1600> mark @default;
+    pos base [g v x y z]
+        <anchor 512 1100> mark @default;
+    pos base [i j l]
+        <anchor 288 1600> mark @default;
+    pos base k
+        <anchor 532 1600> mark @default;
+    pos base m
+        <anchor 832 1100> mark @default;
+    pos base n
+        <anchor 624 1100> mark @default;
+    pos base [o p q u]
+        <anchor 560 1100> mark @default;
+    pos base [r s]
+        <anchor 432 1100> mark @default;
+    pos base t
+        <anchor 336 1600> mark @default;
+    pos base w
+        <anchor 752 1100> mark @default;
+} MarkAboveSmall;
 
-lookup MarkToBase3 {
-    lookupflag 0;
-    ;
-    # Original source: 1 
-            pos base [a c e]
-            <anchor 532 1100> mark @Anchor4__Anchor4;
-        pos base [b h]
-            <anchor 594 1600> mark @Anchor4__Anchor4;
-        pos base d
-            <anchor 480 1600> mark @Anchor4__Anchor4;
-        pos base f
-            <anchor 432 1600> mark @Anchor4__Anchor4;
-        pos base [g v x y z]
-            <anchor 512 1100> mark @Anchor4__Anchor4;
-        pos base [i j l]
-            <anchor 288 1600> mark @Anchor4__Anchor4;
-        pos base k
-            <anchor 532 1600> mark @Anchor4__Anchor4;
-        pos base m
-            <anchor 832 1100> mark @Anchor4__Anchor4;
-        pos base n
-            <anchor 624 1100> mark @Anchor4__Anchor4;
-        pos base [o p q u]
-            <anchor 560 1100> mark @Anchor4__Anchor4;
-        pos base [r s]
-            <anchor 432 1100> mark @Anchor4__Anchor4;
-        pos base t
-            <anchor 336 1600> mark @Anchor4__Anchor4;
-        pos base w
-            <anchor 752 1100> mark @Anchor4__Anchor4;
+lookup MarkAboveLTCapital {
+    pos base Aogonek
+        <anchor 672 1600> mark @default;
+    pos base Edotaccent
+        <anchor 554 1850> mark @default;
+    pos base Eogonek
+        <anchor 554 1600> mark @default;
+    pos base Iogonek
+        <anchor 288 1600> mark @default;
+    pos base Umacron
+        <anchor 772 1800> mark @default;
+    pos base Uogonek
+        <anchor 772 1600> mark @default;
+} MarkAboveLTCapital;
 
-} MarkToBase3;
+lookup MarkAboveLTSmall {
+    pos base [aogonek eogonek]
+        <anchor 532 1100> mark @default;
+    pos base edotaccent
+        <anchor 532 1450> mark @default;
+    pos base iogonek
+        <anchor 288 1450> mark @default;
+    pos base umacron
+        <anchor 560 1450> mark @default;
+    pos base uogonek
+        <anchor 560 1100> mark @default;
+} MarkAboveLTSmall;
 
-lookup MarkToBase5 {
-    lookupflag 0;
-    ;
-    # Original source: 2 
-            pos base Aogonek
-            <anchor 672 1600> mark @Anchor6__Anchor6;
-        pos base Edotaccent
-            <anchor 554 1850> mark @Anchor6__Anchor6;
-        pos base Eogonek
-            <anchor 554 1600> mark @Anchor6__Anchor6;
-        pos base Iogonek
-            <anchor 288 1600> mark @Anchor6__Anchor6;
-        pos base Umacron
-            <anchor 772 1800> mark @Anchor6__Anchor6;
-        pos base Uogonek
-            <anchor 772 1600> mark @Anchor6__Anchor6;
+lookup MarkBelowCapital {
+    pos base A
+        <anchor 642 0> mark @below;
+    pos base [B D E F L V X]
+        <anchor 624 0> mark @below;
+    pos base [C U]
+        <anchor 772 0> mark @below;
+    pos base G
+        <anchor 864 0> mark @below;
+    pos base [H N]
+        <anchor 752 0> mark @below;
+    pos base [I J]
+        <anchor 288 0> mark @below;
+    pos base [K Y Z]
+        <anchor 672 0> mark @below;
+    pos base M
+        <anchor 914 0> mark @below;
+    pos base [O Q]
+        <anchor 800 0> mark @below;
+    pos base [P R S T]
+        <anchor 576 0> mark @below;
+    pos base W
+        <anchor 984 0> mark @below;
+} MarkBelowCapital;
 
-} MarkToBase5;
+lookup MarkBelowSmall {
+    pos base [a b c d e k n o u]
+        <anchor 560 0> mark @below;
+    pos base f
+        <anchor 400 0> mark @below;
+    pos base g
+        <anchor 560 -400> mark @below;
+    pos base h
+        <anchor 594 0> mark @below;
+    pos base i
+        <anchor 288 0> mark @below;
+    pos base j
+        <anchor 288 -400> mark @below;
+    pos base [l r]
+        <anchor 336 0> mark @below;
+    pos base m
+        <anchor 832 0> mark @below;
+    pos base [p q]
+        <anchor 560 -300> mark @below;
+    pos base [s t]
+        <anchor 432 0> mark @below;
+    pos base [v x z]
+        <anchor 512 0> mark @below;
+    pos base w
+        <anchor 752 0> mark @below;
+    pos base y
+        <anchor 512 -300> mark @below;
+} MarkBelowSmall;
 
-lookup MarkToBase7 {
-    lookupflag 0;
-    ;
-    # Original source: 3 
-            pos base [aogonek eogonek]
-            <anchor 532 1100> mark @Anchor8__Anchor8;
-        pos base edotaccent
-            <anchor 532 1450> mark @Anchor8__Anchor8;
-        pos base iogonek
-            <anchor 288 1450> mark @Anchor8__Anchor8;
-        pos base umacron
-            <anchor 560 1450> mark @Anchor8__Anchor8;
-        pos base uogonek
-            <anchor 560 1100> mark @Anchor8__Anchor8;
+lookup MarkMiddleCapital {
+    pos base [A C]
+        <anchor 672 712> mark @middle;
+    pos base [B E F]
+        <anchor 624 780> mark @middle;
+    pos base D
+        <anchor 772 712> mark @middle;
+    pos base G
+        <anchor 800 670> mark @middle;
+    pos base H
+        <anchor 752 1100> mark @middle;
+    pos base [I L]
+        <anchor 288 712> mark @middle;
+    pos base J
+        <anchor 452 712> mark @middle;
+    pos base [K S V X Y]
+        <anchor 624 712> mark @middle;
+    pos base M
+        <anchor 864 712> mark @middle;
+    pos base N
+        <anchor 752 712> mark @middle;
+    pos base [O Q U]
+        <anchor 800 712> mark @middle;
+    pos base [P R T]
+        <anchor 576 712> mark @middle;
+    pos base W
+        <anchor 984 712> mark @middle;
+    pos base Z
+        <anchor 642 712> mark @middle;
+} MarkMiddleCapital;
 
-} MarkToBase7;
+lookup MarkMiddleSmall {
+    pos base [a n o p q u]
+        <anchor 560 486> mark @middle;
+    pos base b
+        <anchor 594 486> mark @middle;
+    pos base c
+        <anchor 532 486> mark @middle;
+    pos base d
+        <anchor 760 1200> mark @middle;
+    pos base e
+        <anchor 532 550> mark @middle;
+    pos base f
+        <anchor 400 486> mark @middle;
+    pos base [g v x y]
+        <anchor 512 486> mark @middle;
+    pos base [h k]
+        <anchor 288 1200> mark @middle;
+    pos base [i j r]
+        <anchor 288 486> mark @middle;
+    pos base l
+        <anchor 288 760> mark @middle;
+    pos base m
+        <anchor 832 486> mark @middle;
+    pos base s
+        <anchor 432 486> mark @middle;
+    pos base t
+        <anchor 336 486> mark @middle;
+    pos base w
+        <anchor 752 486> mark @middle;
+    pos base z
+        <anchor 480 486> mark @middle;
+} MarkMiddleSmall;
 
-lookup MarkToBase9 {
-    lookupflag 0;
-    ;
-    # Original source: 4 
-            pos base A
-            <anchor 642 0> mark @Anchor10__Anchor10;
-        pos base [B D E F L V X]
-            <anchor 624 0> mark @Anchor10__Anchor10;
-        pos base [C U]
-            <anchor 772 0> mark @Anchor10__Anchor10;
-        pos base G
-            <anchor 864 0> mark @Anchor10__Anchor10;
-        pos base [H N]
-            <anchor 752 0> mark @Anchor10__Anchor10;
-        pos base [I J]
-            <anchor 288 0> mark @Anchor10__Anchor10;
-        pos base [K Y Z]
-            <anchor 672 0> mark @Anchor10__Anchor10;
-        pos base M
-            <anchor 914 0> mark @Anchor10__Anchor10;
-        pos base [O Q]
-            <anchor 800 0> mark @Anchor10__Anchor10;
-        pos base [P R S T]
-            <anchor 576 0> mark @Anchor10__Anchor10;
-        pos base W
-            <anchor 984 0> mark @Anchor10__Anchor10;
+lookup MarkOgonek {
+    pos base A
+        <anchor 950 0> mark @ogonek;
+    pos base [E U]
+        <anchor 600 0> mark @ogonek;
+    pos base [I i]
+        <anchor 50 0> mark @ogonek;
+    pos base [a u]
+        <anchor 650 0> mark @ogonek;
+    pos base e
+        <anchor 400 0> mark @ogonek;
+} MarkOgonek;
 
-} MarkToBase9;
+lookup MarkCedilla {
+    pos base C
+        <anchor 672 0> mark @cedilla;
+    pos base D
+        <anchor 452 0> mark @cedilla;
+    pos base H
+        <anchor 268 0> mark @cedilla;
+    pos base [S c d]
+        <anchor 512 0> mark @cedilla;
+    pos base T
+        <anchor 554 0> mark @cedilla;
+    pos base h
+        <anchor 204 0> mark @cedilla;
+    pos base s
+        <anchor 400 0> mark @cedilla;
+    pos base t
+        <anchor 432 0> mark @cedilla;
+} MarkCedilla;
 
-lookup MarkToBase11 {
-    lookupflag 0;
-    ;
-    # Original source: 5 
-            pos base [a b c d e k n o u]
-            <anchor 560 0> mark @Anchor12__Anchor12;
-        pos base f
-            <anchor 400 0> mark @Anchor12__Anchor12;
-        pos base g
-            <anchor 560 -400> mark @Anchor12__Anchor12;
-        pos base h
-            <anchor 594 0> mark @Anchor12__Anchor12;
-        pos base i
-            <anchor 288 0> mark @Anchor12__Anchor12;
-        pos base j
-            <anchor 288 -400> mark @Anchor12__Anchor12;
-        pos base [l r]
-            <anchor 336 0> mark @Anchor12__Anchor12;
-        pos base m
-            <anchor 832 0> mark @Anchor12__Anchor12;
-        pos base [p q]
-            <anchor 560 -300> mark @Anchor12__Anchor12;
-        pos base [s t]
-            <anchor 432 0> mark @Anchor12__Anchor12;
-        pos base [v x z]
-            <anchor 512 0> mark @Anchor12__Anchor12;
-        pos base w
-            <anchor 752 0> mark @Anchor12__Anchor12;
-        pos base y
-            <anchor 512 -300> mark @Anchor12__Anchor12;
-
-} MarkToBase11;
-
-lookup MarkToBase13 {
-    lookupflag 0;
-    ;
-    # Original source: 6 
-            pos base [A C]
-            <anchor 672 712> mark @Anchor14__Anchor14;
-        pos base [B E F]
-            <anchor 624 780> mark @Anchor14__Anchor14;
-        pos base D
-            <anchor 772 712> mark @Anchor14__Anchor14;
-        pos base G
-            <anchor 800 670> mark @Anchor14__Anchor14;
-        pos base H
-            <anchor 752 1100> mark @Anchor14__Anchor14;
-        pos base [I L]
-            <anchor 288 712> mark @Anchor14__Anchor14;
-        pos base J
-            <anchor 452 712> mark @Anchor14__Anchor14;
-        pos base [K S V X Y]
-            <anchor 624 712> mark @Anchor14__Anchor14;
-        pos base M
-            <anchor 864 712> mark @Anchor14__Anchor14;
-        pos base N
-            <anchor 752 712> mark @Anchor14__Anchor14;
-        pos base [O Q U]
-            <anchor 800 712> mark @Anchor14__Anchor14;
-        pos base [P R T]
-            <anchor 576 712> mark @Anchor14__Anchor14;
-        pos base W
-            <anchor 984 712> mark @Anchor14__Anchor14;
-        pos base Z
-            <anchor 642 712> mark @Anchor14__Anchor14;
-
-} MarkToBase13;
-
-lookup MarkToBase15 {
-    lookupflag 0;
-    ;
-    # Original source: 7 
-            pos base [a n o p q u]
-            <anchor 560 486> mark @Anchor16__Anchor16;
-        pos base b
-            <anchor 594 486> mark @Anchor16__Anchor16;
-        pos base c
-            <anchor 532 486> mark @Anchor16__Anchor16;
-        pos base d
-            <anchor 760 1200> mark @Anchor16__Anchor16;
-        pos base e
-            <anchor 532 550> mark @Anchor16__Anchor16;
-        pos base f
-            <anchor 400 486> mark @Anchor16__Anchor16;
-        pos base [g v x y]
-            <anchor 512 486> mark @Anchor16__Anchor16;
-        pos base [h k]
-            <anchor 288 1200> mark @Anchor16__Anchor16;
-        pos base [i j r]
-            <anchor 288 486> mark @Anchor16__Anchor16;
-        pos base l
-            <anchor 288 760> mark @Anchor16__Anchor16;
-        pos base m
-            <anchor 832 486> mark @Anchor16__Anchor16;
-        pos base s
-            <anchor 432 486> mark @Anchor16__Anchor16;
-        pos base t
-            <anchor 336 486> mark @Anchor16__Anchor16;
-        pos base w
-            <anchor 752 486> mark @Anchor16__Anchor16;
-        pos base z
-            <anchor 480 486> mark @Anchor16__Anchor16;
-
-} MarkToBase15;
-
-lookup MarkToBase17 {
-    lookupflag 0;
-    ;
-    # Original source: 8 
-            pos base A
-            <anchor 950 0> mark @Anchor18__Anchor18;
-        pos base [E U]
-            <anchor 600 0> mark @Anchor18__Anchor18;
-        pos base [I i]
-            <anchor 50 0> mark @Anchor18__Anchor18;
-        pos base [a u]
-            <anchor 650 0> mark @Anchor18__Anchor18;
-        pos base e
-            <anchor 400 0> mark @Anchor18__Anchor18;
-
-} MarkToBase17;
-
-lookup MarkToBase19 {
-    lookupflag 0;
-    ;
-    # Original source: 9 
-            pos base C
-            <anchor 672 0> mark @Anchor20__Anchor20;
-        pos base D
-            <anchor 452 0> mark @Anchor20__Anchor20;
-        pos base H
-            <anchor 268 0> mark @Anchor20__Anchor20;
-        pos base [S c d]
-            <anchor 512 0> mark @Anchor20__Anchor20;
-        pos base T
-            <anchor 554 0> mark @Anchor20__Anchor20;
-        pos base h
-            <anchor 204 0> mark @Anchor20__Anchor20;
-        pos base s
-            <anchor 400 0> mark @Anchor20__Anchor20;
-        pos base t
-            <anchor 432 0> mark @Anchor20__Anchor20;
-
-} MarkToBase19;
-
+# Features
 feature liga {
     script latn;
     language dflt;
-            script latn;
-        language dflt;
-        lookup LigatureSubstitution1;
-
+    lookup LigatureSubstitution;
 } liga;
 
-feature liga {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup LigatureSubstitution1;
-
-} liga;
-
-feature zz01 {
-    script latn;
-    language dflt;
-            script latn;
-        language dflt;
-        lookup LigatureSubstitution1;
-
-} zz01;
-
-feature zz01 {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup LigatureSubstitution1;
-
-} zz01;
-
-feature zz01 {
-    script latn;
-    language dflt;
-            script latn;
-        language dflt;
-        lookup MarkToBase1;
-
-} zz01;
-
-feature zz01 {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup MarkToBase1;
-
-} zz01;
-
 feature mark {
     script latn;
     language dflt;
-            script latn;
-        language dflt;
-        lookup MarkToBase1;
-
+    lookup MarkAboveCapital;
+    lookup MarkAboveSmall;
+    lookup MarkAboveLTCapital;
+    lookup MarkAboveLTSmall;
+    lookup MarkBelowCapital;
+    lookup MarkBelowSmall;
+    lookup MarkMiddleCapital;
+    lookup MarkMiddleSmall;
+    lookup MarkOgonek;
+    lookup MarkCedilla;
 } mark;
-
-feature mark {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup MarkToBase1;
-
-} mark;
-
-feature mark {
-    script latn;
-    language dflt;
-            script latn;
-        language dflt;
-        lookup MarkToBase3;
-
-} mark;
-
-feature mark {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup MarkToBase3;
-
-} mark;
-
-feature mark {
-    script latn;
-    language dflt;
-            script latn;
-        language dflt;
-        lookup MarkToBase5;
-
-} mark;
-
-feature mark {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup MarkToBase5;
-
-} mark;
-
-feature mark {
-    script latn;
-    language dflt;
-            script latn;
-        language dflt;
-        lookup MarkToBase7;
-
-} mark;
-
-feature mark {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup MarkToBase7;
-
-} mark;
-
-feature mark {
-    script latn;
-    language dflt;
-            script latn;
-        language dflt;
-        lookup MarkToBase9;
-
-} mark;
-
-feature mark {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup MarkToBase9;
-
-} mark;
-
-feature mark {
-    script latn;
-    language dflt;
-            script latn;
-        language dflt;
-        lookup MarkToBase11;
-
-} mark;
-
-feature mark {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup MarkToBase11;
-
-} mark;
-
-feature mark {
-    script latn;
-    language dflt;
-            script latn;
-        language dflt;
-        lookup MarkToBase13;
-
-} mark;
-
-feature mark {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup MarkToBase13;
-
-} mark;
-
-feature mark {
-    script latn;
-    language dflt;
-            script latn;
-        language dflt;
-        lookup MarkToBase15;
-
-} mark;
-
-feature mark {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup MarkToBase15;
-
-} mark;
-
-feature mark {
-    script latn;
-    language dflt;
-            script latn;
-        language dflt;
-        lookup MarkToBase17;
-
-} mark;
-
-feature mark {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup MarkToBase17;
-
-} mark;
-
-feature mark {
-    script latn;
-    language dflt;
-            script latn;
-        language dflt;
-        lookup MarkToBase19;
-
-} mark;
-
-feature mark {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup MarkToBase19;
-
-} mark;
-
-feature zz02 {
-    script latn;
-    language dflt;
-            script latn;
-        language dflt;
-        lookup MarkToBase3;
-
-} zz02;
-
-feature zz02 {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup MarkToBase3;
-
-} zz02;
-
-feature zz03 {
-    script latn;
-    language dflt;
-            script latn;
-        language dflt;
-        lookup MarkToBase5;
-
-} zz03;
-
-feature zz03 {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup MarkToBase5;
-
-} zz03;
-
-feature zz04 {
-    script latn;
-    language dflt;
-            script latn;
-        language dflt;
-        lookup MarkToBase7;
-
-} zz04;
-
-feature zz04 {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup MarkToBase7;
-
-} zz04;
-
-feature zz05 {
-    script latn;
-    language dflt;
-            script latn;
-        language dflt;
-        lookup MarkToBase9;
-
-} zz05;
-
-feature zz05 {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup MarkToBase9;
-
-} zz05;
-
-feature zz06 {
-    script latn;
-    language dflt;
-            script latn;
-        language dflt;
-        lookup MarkToBase11;
-
-} zz06;
-
-feature zz06 {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup MarkToBase11;
-
-} zz06;
-
-feature zz07 {
-    script latn;
-    language dflt;
-            script latn;
-        language dflt;
-        lookup MarkToBase13;
-
-} zz07;
-
-feature zz07 {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup MarkToBase13;
-
-} zz07;
-
-feature zz08 {
-    script latn;
-    language dflt;
-            script latn;
-        language dflt;
-        lookup MarkToBase15;
-
-} zz08;
-
-feature zz08 {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup MarkToBase15;
-
-} zz08;
-
-feature zz09 {
-    script latn;
-    language dflt;
-            script latn;
-        language dflt;
-        lookup MarkToBase17;
-
-} zz09;
-
-feature zz09 {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup MarkToBase17;
-
-} zz09;
-
-feature zz10 {
-    script latn;
-    language dflt;
-            script latn;
-        language dflt;
-        lookup MarkToBase19;
-
-} zz10;
-
-feature zz10 {
-    script latn;
-    language zz01;
-            script latn;
-        language zz01;
-        lookup MarkToBase19;
-
-} zz10;
