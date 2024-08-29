@@ -54,7 +54,7 @@ DELTAP1[ ]	/* DeltaExceptionP1 */
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>2993746570794ce3ad9dd30b0ae60c53127d4667710780ea44041db37bc7a61c15a79dd4de59cf15790e5891ef1a8beb4189058dc39a3202967b7ad2c5e6cc50</string>
+        <string>29d5e2d8b4e67ccfeab5dc08c0c0d9b8e3656788cabd412695d2a20a13b528dd41bc0cdecba42ee12662e48b674fccf91c64a042ebddfeda34605e06b4ad98e2</string>
       </dict>
       <key>public.truetype.overlap</key>
       <false/>

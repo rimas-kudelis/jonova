@@ -51,7 +51,7 @@ IUP[1]	/* InterpolateUntPts */
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>w576[l379+1464l379+0l197+0l197+1434|(+1+0+0+1+0+0)][l157+1364l631+1364l610+1242l136+1242|(+1+0+0+1-99+460)]</string>
+        <string>w576[l379+1464l379+0l197+0l197+1434|(+1.0+0.0+0.0+1.0+0+0)][l157+1364l631+1364l610+1242l136+1242|(+1.0+0.0+0.0+1.0-99+460)]</string>
       </dict>
       <key>public.truetype.overlap</key>
       <false/>
