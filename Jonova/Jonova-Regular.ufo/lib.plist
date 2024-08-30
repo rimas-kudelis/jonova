@@ -1978,7 +1978,7 @@
     <key>dieresiscomb</key>
     <string>mark</string>
     <key>dieresistonos</key>
-    <string>mark</string>
+    <string>base</string>
     <key>divide</key>
     <string>base</string>
     <key>dkshade</key>
@@ -2548,7 +2548,7 @@
     <key>tonemid</key>
     <string>base</string>
     <key>tonos</key>
-    <string>mark</string>
+    <string>base</string>
     <key>trademark</key>
     <string>base</string>
     <key>triaglf</key>
@@ -2814,11 +2814,11 @@
     <key>uni02D1</key>
     <string>base</string>
     <key>uni02EC</key>
-    <string>mark</string>
+    <string>base</string>
     <key>uni02ED</key>
-    <string>mark</string>
+    <string>base</string>
     <key>uni02EE</key>
-    <string>mark</string>
+    <string>base</string>
     <key>uni0342</key>
     <string>mark</string>
     <key>uni0343</key>
