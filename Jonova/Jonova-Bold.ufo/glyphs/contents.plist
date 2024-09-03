@@ -4,10 +4,6 @@
 <dict>
   <key>.notdef</key>
   <string>_notdef.glif</string>
-  <key>.notdef#1</key>
-  <string>_notdef#1.glif</string>
-  <key>.notdef#2</key>
-  <string>_notdef#2.glif</string>
   <key>.null</key>
   <string>_null.glif</string>
   <key>A</key>
@@ -1566,6 +1562,8 @@
   <string>uni0272.glif</string>
   <key>uni0273</key>
   <string>uni0273.glif</string>
+  <key>uni0274</key>
+  <string>uni0274.glif</string>
   <key>uni0275</key>
   <string>uni0275.glif</string>
   <key>uni0276</key>
@@ -2132,6 +2130,8 @@
   <string>uniE_F_F_9.glif</string>
   <key>uniF004</key>
   <string>uniF_004.glif</string>
+  <key>uniF006</key>
+  <string>uniF_006.glif</string>
   <key>uniF8FD</key>
   <string>uniF_8F_D_.glif</string>
   <key>union</key>

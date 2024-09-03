@@ -2,6 +2,7 @@
 <glyph name="Umacron" format="2">
   <advance width="1504"/>
   <unicode hex="016A"/>
+  <anchor x="772" y="1800" name="AccentDefault"/>
   <outline>
     <component base="U" identifier="component0"/>
     <component base="uni02C9" xOffset="430" yOffset="460" identifier="component1"/>
@@ -41,7 +42,7 @@ IUP[1]	/* InterpolateUntPts */
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>9bf959829a4398574efe74c175b8be225a9178176cc0ae677309bb964c3dd9a91bc55a848bb10f93a2c1d32c19b5c2402e066551cc6247d39209b5024eec1138</string>
+        <string>6e154a4cb951f800b1fd74e0de9a091ea9a6b366121104fa8c498e9ef9e707c794b51221a0861bce0e988918ca97005593780c26fd0b8e23ac0f61bcde35f0c2</string>
       </dict>
       <key>public.truetype.overlap</key>
       <false/>
