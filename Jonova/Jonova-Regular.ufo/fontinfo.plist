@@ -92,6 +92,10 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <string>UAB Fotonija</string>
   <key>openTypeNameManufacturerURL</key>
   <string>https://www.fotonija.lt</string>
+  <key>openTypeNamePreferredFamilyName</key>
+  <string>Jonova</string>
+  <key>openTypeNamePreferredSubfamilyName</key>
+  <string>Regular</string>
   <key>openTypeNameUniqueID</key>
   <string>Fotonija:Jonova Regular:2024</string>
   <key>openTypeNameVersion</key>
