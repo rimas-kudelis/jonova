@@ -1,5 +1,12 @@
+# Language systems used by features.
+# It seems fontmake doesn't add them, so, unless they are specified here, things like mark placement don't work.
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem cyrl dflt;
+
 # Glyph classes
-@COMBINING_MARKS_ABOVE_TYPICAL = [
+@COMBINING_MARKS_ABOVE = [
+    acutecomb
     acutedblnosp
     apostrophesupnosp
     brevecomb
@@ -11,6 +18,7 @@
     commaturnsupnosp
     dieresiscomb
     dotaccentcomb
+    gravecomb
     gravedblnosp
     haceknosp
     hookabovecomb
@@ -21,6 +29,7 @@
     overscoredblnosp
     ringnosp
     tildecomb
+    tildevertsupnosp
     uni0342
     uni0346
     uni034A
@@ -28,61 +37,6 @@
     uni034c
     xsupnosp
 ];
-@COMBINING_MARKS_ABOVE = [
-    @COMBINING_MARKS_ABOVE_TYPICAL
-    acutecomb
-    gravecomb
-    tildevertsupnosp
-];
-@COMBINING_MARKS_BELOW = [
-    aceksubnosp
-    acutesubnosp
-    archdblsubnosp
-    breveinvsubnosp
-    brevesubnosp
-    bridgeinvsubnosp
-    bridgesubnosp
-    circumflexsubnosp
-    commasubnosp
-    dotbelowcomb
-    dotdblsubnosp
-    gravesubnosp
-    linevertsubnosp
-    macronsubnosp
-    ringlefthalfsubnosp
-    ringrighthalfsubnosp
-    ringsubnosp
-    seagullsubnosp
-    squaresubnosp
-    tildesubnosp
-    underscoredblnosp
-    underscorenosp
-];
-@COMBINING_MARKS_MIDDLE = [
-    barmidlongnosp
-    barmidshortnosp
-    slashlongnosp
-    slashshortnosp
-    tildemidnosp
-];
-@COMBINING_MARKS_LEFT_RIGHT = [
-    commaturnsupnosp
-    apostrophesupnosp
-    commasuprevnosp
-    commasuprightnosp
-    anglesupnosp
-    hornnosp
-];
-
-# Mark classes
-markClass @COMBINING_MARKS_ABOVE_TYPICAL <anchor -512 1500> @default;
-markClass gravecomb <anchor -400 1500> @default;
-markClass acutecomb <anchor -630 1500> @default;
-markClass tildevertsupnosp <anchor -512 1340> @default;
-markClass @COMBINING_MARKS_BELOW <anchor -512 0> @below;
-markClass @COMBINING_MARKS_MIDDLE <anchor -512 500> @middle;
-markClass ogoneknosp <anchor -512 0> @ogonek;
-markClass cedillanosp <anchor -512 0> @cedilla;
 
 # Features
 feature ccmp {
@@ -411,233 +365,3 @@ feature liga {
         sub uogonek tildecomb by uogontilde;
     } LigatureSubstitution;
 } liga;
-
-feature mark {
-    # Not sure why, but this feature refused to work in LibO while script and language were left at default
-    script latn;
-    language dflt;
-    lookup MarkAboveCapital {
-        pos base [A D K Z]
-            <anchor 672 1600> mark @default;
-        pos base [B E F V X Y]
-            <anchor 624 1600> mark @default;
-        pos base [C U]
-            <anchor 772 1600> mark @default;
-        pos base G
-            <anchor 864 1600> mark @default;
-        pos base [H N]
-            <anchor 752 1600> mark @default;
-        pos base [I L]
-            <anchor 288 1600> mark @default;
-        pos base J
-            <anchor 452 1600> mark @default;
-        pos base M
-            <anchor 914 1600> mark @default;
-        pos base [O Q]
-            <anchor 800 1600> mark @default;
-        pos base [P R S T]
-            <anchor 576 1600> mark @default;
-        pos base W
-            <anchor 984 1600> mark @default;
-    } MarkAboveCapital;
-    lookup MarkAboveSmall {
-        pos base [a c e]
-            <anchor 532 1100> mark @default;
-        pos base [b h]
-            <anchor 594 1600> mark @default;
-        pos base d
-            <anchor 480 1600> mark @default;
-        pos base dotlessi
-            <anchor 288 1100> mark @default;
-        pos base f
-            <anchor 432 1600> mark @default;
-        pos base [g v x y z]
-            <anchor 512 1100> mark @default;
-        pos base [i j l]
-            <anchor 288 1600> mark @default;
-        pos base k
-            <anchor 532 1600> mark @default;
-        pos base m
-            <anchor 832 1100> mark @default;
-        pos base n
-            <anchor 624 1100> mark @default;
-        pos base [o p q u]
-            <anchor 560 1100> mark @default;
-        pos base [r s]
-            <anchor 432 1100> mark @default;
-        pos base t
-            <anchor 336 1600> mark @default;
-        pos base w
-            <anchor 752 1100> mark @default;
-    } MarkAboveSmall;
-    lookup MarkAboveLTCapital {
-        pos base Aogonek
-            <anchor 672 1600> mark @default;
-        pos base Edotaccent
-            <anchor 554 1850> mark @default;
-        pos base Eogonek
-            <anchor 554 1600> mark @default;
-        pos base Iogonek
-            <anchor 288 1600> mark @default;
-        pos base Umacron
-            <anchor 772 1800> mark @default;
-        pos base Uogonek
-            <anchor 772 1600> mark @default;
-    } MarkAboveLTCapital;
-    lookup MarkAboveLTSmall {
-        pos base [aogonek eogonek]
-            <anchor 532 1100> mark @default;
-        pos base edotaccent
-            <anchor 532 1450> mark @default;
-        pos base iogonek
-            <anchor 288 1450> mark @default;
-        pos base umacron
-            <anchor 560 1450> mark @default;
-        pos base uogonek
-            <anchor 560 1100> mark @default;
-    } MarkAboveLTSmall;
-    lookup MarkBelowCapital {
-        pos base A
-            <anchor 642 0> mark @below;
-        pos base [B D E F L V X]
-            <anchor 624 0> mark @below;
-        pos base [C U]
-            <anchor 772 0> mark @below;
-        pos base G
-            <anchor 864 0> mark @below;
-        pos base [H N]
-            <anchor 752 0> mark @below;
-        pos base [I J]
-            <anchor 288 0> mark @below;
-        pos base [K Y Z]
-            <anchor 672 0> mark @below;
-        pos base M
-            <anchor 914 0> mark @below;
-        pos base [O Q]
-            <anchor 800 0> mark @below;
-        pos base [P R S T]
-            <anchor 576 0> mark @below;
-        pos base W
-            <anchor 984 0> mark @below;
-    } MarkBelowCapital;
-    lookup MarkBelowSmall {
-        pos base [a b c d e k n o u]
-            <anchor 560 0> mark @below;
-        pos base f
-            <anchor 400 0> mark @below;
-        pos base g
-            <anchor 560 -400> mark @below;
-        pos base h
-            <anchor 594 0> mark @below;
-        pos base [dotlessi i]
-            <anchor 288 0> mark @below;
-        pos base j
-            <anchor 288 -400> mark @below;
-        pos base [l r]
-            <anchor 336 0> mark @below;
-        pos base m
-            <anchor 832 0> mark @below;
-        pos base [p q]
-            <anchor 560 -300> mark @below;
-        pos base [s t]
-            <anchor 432 0> mark @below;
-        pos base [v x z]
-            <anchor 512 0> mark @below;
-        pos base w
-            <anchor 752 0> mark @below;
-        pos base y
-            <anchor 512 -300> mark @below;
-    } MarkBelowSmall;
-    lookup MarkMiddleCapital {
-        pos base [A C]
-            <anchor 672 712> mark @middle;
-        pos base [B E F]
-            <anchor 624 780> mark @middle;
-        pos base D
-            <anchor 772 712> mark @middle;
-        pos base G
-            <anchor 800 670> mark @middle;
-        pos base H
-            <anchor 752 1100> mark @middle;
-        pos base [I L]
-            <anchor 288 712> mark @middle;
-        pos base J
-            <anchor 452 712> mark @middle;
-        pos base [K S V X Y]
-            <anchor 624 712> mark @middle;
-        pos base M
-            <anchor 864 712> mark @middle;
-        pos base N
-            <anchor 752 712> mark @middle;
-        pos base [O Q U]
-            <anchor 800 712> mark @middle;
-        pos base [P R T]
-            <anchor 576 712> mark @middle;
-        pos base W
-            <anchor 984 712> mark @middle;
-        pos base Z
-            <anchor 642 712> mark @middle;
-    } MarkMiddleCapital;
-    lookup MarkMiddleSmall {
-        pos base [a n o p q u]
-            <anchor 560 486> mark @middle;
-        pos base b
-            <anchor 594 486> mark @middle;
-        pos base c
-            <anchor 532 486> mark @middle;
-        pos base d
-            <anchor 760 1200> mark @middle;
-        pos base e
-            <anchor 532 550> mark @middle;
-        pos base f
-            <anchor 400 486> mark @middle;
-        pos base [g v x y]
-            <anchor 512 486> mark @middle;
-        pos base [h k]
-            <anchor 288 1200> mark @middle;
-        pos base [dotlessi i j r]
-            <anchor 288 486> mark @middle;
-        pos base l
-            <anchor 288 760> mark @middle;
-        pos base m
-            <anchor 832 486> mark @middle;
-        pos base s
-            <anchor 432 486> mark @middle;
-        pos base t
-            <anchor 336 486> mark @middle;
-        pos base w
-            <anchor 752 486> mark @middle;
-        pos base z
-            <anchor 480 486> mark @middle;
-    } MarkMiddleSmall;
-    lookup MarkOgonek {
-        pos base A
-            <anchor 950 0> mark @ogonek;
-        pos base [E U]
-            <anchor 600 0> mark @ogonek;
-        pos base [I dotlessi i]
-            <anchor 50 0> mark @ogonek;
-        pos base [a u]
-            <anchor 650 0> mark @ogonek;
-        pos base e
-            <anchor 400 0> mark @ogonek;
-    } MarkOgonek;
-    lookup MarkCedilla {
-        pos base C
-            <anchor 672 0> mark @cedilla;
-        pos base D
-            <anchor 452 0> mark @cedilla;
-        pos base H
-            <anchor 268 0> mark @cedilla;
-        pos base [S c d]
-            <anchor 512 0> mark @cedilla;
-        pos base T
-            <anchor 554 0> mark @cedilla;
-        pos base h
-            <anchor 204 0> mark @cedilla;
-        pos base s
-            <anchor 400 0> mark @cedilla;
-        pos base t
-            <anchor 432 0> mark @cedilla;
-    } MarkCedilla;
-} mark;
