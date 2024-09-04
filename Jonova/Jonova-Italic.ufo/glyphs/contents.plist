@@ -4,8 +4,6 @@
 <dict>
   <key>.notdef</key>
   <string>_notdef.glif</string>
-  <key>.notdef#1</key>
-  <string>_notdef#1.glif</string>
   <key>.null</key>
   <string>_null.glif</string>
   <key>A</key>
@@ -1566,6 +1564,8 @@
   <string>uni0272.glif</string>
   <key>uni0273</key>
   <string>uni0273.glif</string>
+  <key>uni0274</key>
+  <string>uni0274.glif</string>
   <key>uni0275</key>
   <string>uni0275.glif</string>
   <key>uni0276</key>
