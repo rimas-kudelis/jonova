@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="slashlongnosp" format="2">
   <unicode hex="0338"/>
+  <anchor x="-512" y="500" name="_AccentMiddle"/>
   <outline>
     <contour>
       <point x="-1155" y="-327" type="line"/>

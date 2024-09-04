@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acutecomb" format="2">
   <unicode hex="0301"/>
+  <anchor x="-630" y="1500" name="_AccentDefault"/>
   <outline>
     <contour>
       <point x="-443" y="1597" type="line"/>

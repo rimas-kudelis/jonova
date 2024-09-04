@@ -2,6 +2,10 @@
 <glyph name="C" format="2">
   <advance width="1344"/>
   <unicode hex="0043"/>
+  <anchor x="772" y="0" name="AccentBelow"/>
+  <anchor x="672" y="0" name="AccentCedilla"/>
+  <anchor x="772" y="1600" name="AccentDefault"/>
+  <anchor x="672" y="712" name="AccentMiddle"/>
   <outline>
     <contour>
       <point x="1541" y="1235" type="qcurve"/>
