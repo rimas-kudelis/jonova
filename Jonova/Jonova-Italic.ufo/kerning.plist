@@ -530,8 +530,6 @@
   <dict>
     <key>public.kern2.A</key>
     <integer>-252</integer>
-    <key>public.kern2.A.markAbove</key>
-    <integer>-252</integer>
   </dict>
   <key>three</key>
   <dict>
