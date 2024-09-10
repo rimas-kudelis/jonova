@@ -1,5 +1,7 @@
 Copyright © 2005-2024, Jonas Vaičiulis.
 Copyright © 2005-2024, UAB Fotonija (https://fotonija.lt/).
+Copyright © 2024, Rimas Kudelis (rimas@kudelis.lt),
+with Reserved Font Name Jonova.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
