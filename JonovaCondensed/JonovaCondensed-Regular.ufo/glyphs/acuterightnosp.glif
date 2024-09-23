@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acuterightnosp" format="2">
   <unicode hex="0341"/>
+  <anchor x="-630" y="1600" name="_AccentDefault"/>
   <outline>
     <contour>
       <point x="-624" y="1649" type="line"/>

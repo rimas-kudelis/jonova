@@ -2,6 +2,7 @@
 <glyph name="Edotaccent" format="2">
   <advance width="816"/>
   <unicode hex="0116"/>
+  <anchor x="500" y="1850" name="AccentDefault"/>
   <outline>
     <component base="E" identifier="component0"/>
     <component base="dotaccent" xOffset="128" yOffset="460" identifier="component1"/>
@@ -38,7 +39,7 @@ IUP[1]	/* InterpolateUntPts */
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>79e01381ab037c5486fd79ad94f450affb24af0380a4dd19edb35f3e9e6d9deee00dff134f878eb8a824b2a41ed35bb30492be5f58e33d84d20f3e30ac33a8cc</string>
+        <string>f71bc9dc37cfd99e8b794c8f32f9cab0964aaac30267a2cffa9e842ca995fc04575181c9f4c2dd694910fcc8f629bb09a85886a76d9bf5479da0cc9542976135</string>
       </dict>
       <key>public.truetype.overlap</key>
       <false/>

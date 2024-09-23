@@ -42,7 +42,7 @@ IUP[1]	/* InterpolateUntPts */
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>b028b7864d2a68dcaf8714d6431e9161f7cd326f336c87dae2d60ae14c7e9f12c0ecb76282cc1d8e607646dbef4404a60b7d44847d4ee02f4f5e4232404b472d</string>
+        <string>2de897b7da409fed9205d014844eac61fdf24f0e1792e6d6cceee4e48181cfe8b316950991e7857f96c6c562adec103ef62019eef3f7dd2fbb8fe358d0217532</string>
       </dict>
       <key>public.truetype.overlap</key>
       <false/>
