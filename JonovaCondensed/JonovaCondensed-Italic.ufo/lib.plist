@@ -2584,9 +2584,9 @@
     <string>ligature</string>
     <key>umacrontilde</key>
     <string>ligature</string>
-    <key>underscore</key>
-    <string>base</string>
     <key>undercommaaccent</key>
+    <string>base</string>
+    <key>underscore</key>
     <string>base</string>
     <key>underscoredbl</key>
     <string>base</string>
