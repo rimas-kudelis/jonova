@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breveinvnosp" format="2">
   <unicode hex="0311"/>
+  <anchor x="-400" y="1500" name="_AccentDefault"/>
   <outline>
     <contour>
       <point x="-6" y="1632" type="line"/>
