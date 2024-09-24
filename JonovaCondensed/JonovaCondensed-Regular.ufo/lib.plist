@@ -1094,7 +1094,7 @@
     <string>uniEFE8</string>
     <string>uniEFE9</string>
     <string>uniEFEA</string>
-    <string>uniEFEB</string>
+    <string>uniEFEC</string>
     <string>uniEFFE</string>
     <string>uniEFFD</string>
     <string>uniEFEF</string>
@@ -3216,7 +3216,7 @@
     <string>base</string>
     <key>uniEFEA</key>
     <string>base</string>
-    <key>uniEFEB</key>
+    <key>uniEFEC</key>
     <string>base</string>
     <key>uniEFEF</key>
     <string>base</string>
