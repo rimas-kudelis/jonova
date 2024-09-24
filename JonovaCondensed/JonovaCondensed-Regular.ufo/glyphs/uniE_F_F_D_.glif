@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uniEFFD" format="2">
   <advance width="2048"/>
-  <unicode hex="EFEE"/>
+  <unicode hex="EFFD"/>
   <outline>
     <contour>
       <point x="1332" y="370" type="qcurve"/>

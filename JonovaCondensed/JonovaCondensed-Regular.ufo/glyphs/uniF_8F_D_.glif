@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uniF8FD" format="2">
-  <advance width="1024"/>
+  <advance width="2048"/>
   <unicode hex="F8FD"/>
   <outline>
     <contour>
@@ -388,7 +388,7 @@ IUP[1]	/* InterpolateUntPts */
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>dc7c4b1435332533de70021421f2826d3a83af83662e7ddad9758ab829b24451a060a598fdbe5197cc644149eb06d8d6f6b2aeab86a41cf908b69b0ee3a55527</string>
+        <string>44e3c8496344787cb7169299660b7cd115cd70a9b2913aaeee7438d7d5fe3111e5f2e9ab01001af6d4e7ff1b503d02d507a03afdc5990f53063c46f48b7ac455</string>
       </dict>
     </dict>
   </lib>
