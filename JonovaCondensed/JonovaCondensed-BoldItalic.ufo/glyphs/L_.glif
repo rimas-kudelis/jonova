@@ -2,6 +2,9 @@
 <glyph name="L" format="2">
   <advance width="816"/>
   <unicode hex="004C"/>
+  <anchor x="300" y="0" name="AccentBelow"/>
+  <anchor x="250" y="1600" name="AccentDefault"/>
+  <anchor x="120" y="712" name="AccentMiddle"/>
   <outline>
     <contour>
       <point x="287" y="1434" type="line"/>

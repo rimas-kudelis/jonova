@@ -2,6 +2,9 @@
 <glyph name="g" format="2">
   <advance width="840"/>
   <unicode hex="0067"/>
+  <anchor x="200" y="-500" name="AccentBelow"/>
+  <anchor x="450" y="1100" name="AccentDefault"/>
+  <anchor x="500" y="500" name="AccentMiddle"/>
   <outline>
     <contour>
       <point x="521" y="974" type="qcurve"/>

@@ -2,6 +2,10 @@
 <glyph name="c" format="2">
   <advance width="768"/>
   <unicode hex="0063"/>
+  <anchor x="250" y="0" name="AccentBelow"/>
+  <anchor x="300" y="0" name="AccentCedilla"/>
+  <anchor x="400" y="1100" name="AccentDefault"/>
+  <anchor x="300" y="500" name="AccentMiddle"/>
   <outline>
     <contour>
       <point x="734" y="740" type="line"/>
