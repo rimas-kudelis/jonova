@@ -184,8 +184,8 @@
   <string>L_ambda.glif</string>
   <key>Lcaron</key>
   <string>L_caron.glif</string>
-  <key>Lcedilla</key>
-  <string>L_cedilla.glif</string>
+  <key>Lcommaaccent</key>
+  <string>L_commaaccent.glif</string>
   <key>Ldot</key>
   <string>L_dot.glif</string>
   <key>Lslash</key>
@@ -1112,8 +1112,8 @@
   <string>lambda.glif</string>
   <key>lcaron</key>
   <string>lcaron.glif</string>
-  <key>lcedilla</key>
-  <string>lcedilla.glif</string>
+  <key>lcommaaccent</key>
+  <string>lcommaaccent.glif</string>
   <key>ldot</key>
   <string>ldot.glif</string>
   <key>lefttorightmark</key>

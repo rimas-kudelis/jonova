@@ -118,7 +118,7 @@ feature liga {
         sub K commasubnosp by Kcommaaccent;
         sub L tildecomb by Ltilde;
         sub L acutecomb by Lacute;
-        sub L commasubnosp by Lcedilla;
+        sub L commasubnosp by Lcommaaccent;
         sub L commasuprightnosp by Lcaron;
         sub L dotaccentcomb by Ldot;
         sub L slashshortnosp by Lslash;
@@ -257,7 +257,7 @@ feature liga {
         sub j circumflexcomb by jcircumflex;
         sub j tildecomb by jtilde;
         sub l acutecomb by lacute;
-        sub l commasubnosp by lcedilla;
+        sub l commasubnosp by lcommaaccent;
         sub l commasuprightnosp by lcaron;
         sub l dotaccentcomb by ldot;
         sub l slashshortnosp by lslash;

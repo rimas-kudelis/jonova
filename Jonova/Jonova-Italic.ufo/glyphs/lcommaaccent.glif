@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Lcedilla" format="2">
-  <advance width="1088"/>
-  <unicode hex="013B"/>
+<glyph name="lcommaaccent" format="2">
+  <advance width="576"/>
+  <unicode hex="013C"/>
   <outline>
-    <component base="L" identifier="component0"/>
-    <component base="uniF004" xOffset="80" identifier="component1"/>
+    <component base="l" identifier="component0"/>
+    <component base="uniF004" xOffset="-109" identifier="component1"/>
   </outline>
   <lib>
     <dict>

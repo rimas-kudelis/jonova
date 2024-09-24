@@ -262,8 +262,8 @@
     <string>kgreenlandic</string>
     <string>Lacute</string>
     <string>lacute</string>
-    <string>Lcedilla</string>
-    <string>lcedilla</string>
+    <string>Lcommaaccent</string>
+    <string>lcommaaccent</string>
     <string>Lcaron</string>
     <string>lcaron</string>
     <string>Ldot</string>
@@ -1295,7 +1295,7 @@
     <string>base</string>
     <key>Lcaron</key>
     <string>base</string>
-    <key>Lcedilla</key>
+    <key>Lcommaaccent</key>
     <string>base</string>
     <key>Ldot</key>
     <string>base</string>
@@ -2221,7 +2221,7 @@
     <string>base</string>
     <key>lcaron</key>
     <string>base</string>
-    <key>lcedilla</key>
+    <key>lcommaaccent</key>
     <string>base</string>
     <key>ldot</key>
     <string>base</string>
