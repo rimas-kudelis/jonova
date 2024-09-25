@@ -298,8 +298,6 @@
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>
-    <string>.null</string>
-    <string>nonmarkingreturn</string>
     <string>space</string>
     <string>exclam</string>
     <string>quotedbl</string>
@@ -1406,8 +1404,6 @@
   <key>public.openTypeCategories</key>
   <dict>
     <key>.notdef</key>
-    <string>base</string>
-    <key>.null</key>
     <string>base</string>
     <key>A</key>
     <string>base</string>
