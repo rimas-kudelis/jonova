@@ -2,27 +2,33 @@
 <glyph name="dollar" format="2">
   <advance width="840"/>
   <unicode hex="0024"/>
+  <guideline x="0" y="1336" angle="0"/>
+  <guideline x="0" y="1176" angle="333"/>
+  <guideline x="0" y="98" angle="0"/>
+  <guideline x="0" y="127" angle="45"/>
+  <guideline x="719" y="0" angle="90"/>
+  <guideline x="16" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="548" y="1464" type="qcurve"/>
+      <point x="548" y="1464" type="qcurve" name="hr00"/>
       <point x="563" y="1576" type="line"/>
-      <point x="673" y="1600" type="line"/>
+      <point x="673" y="1600" type="line" name="ih01"/>
       <point x="655" y="1464" type="line"/>
       <point x="701" y="1459"/>
       <point x="769" y="1432"/>
       <point x="822" y="1392"/>
       <point x="866" y="1341"/>
       <point x="889" y="1312" type="qcurve"/>
-      <point x="805" y="1200" type="line"/>
+      <point x="805" y="1200" type="line" name="ih02"/>
       <point x="782" y="1247"/>
       <point x="703" y="1329"/>
-      <point x="639" y="1346" type="qcurve"/>
+      <point x="639" y="1346" type="qcurve" name="sh02"/>
       <point x="575" y="861" type="line"/>
       <point x="625" y="822"/>
       <point x="715" y="738"/>
       <point x="783" y="639"/>
       <point x="823" y="521"/>
-      <point x="823" y="449" type="qcurve"/>
+      <point x="823" y="449" type="qcurve" name="sh01"/>
       <point x="823" y="382"/>
       <point x="794" y="264"/>
       <point x="742" y="163"/>
@@ -31,12 +37,12 @@
       <point x="501" y="-22"/>
       <point x="457" y="-30" type="qcurve"/>
       <point x="442" y="-142" type="line"/>
-      <point x="332" y="-165" type="line"/>
+      <point x="332" y="-165" type="line" name="ih03"/>
       <point x="350" y="-30" type="line"/>
       <point x="280" y="-24"/>
       <point x="152" y="43"/>
       <point x="87" y="121" type="qcurve"/>
-      <point x="172" y="233" type="line"/>
+      <point x="172" y="233" type="line" name="iv01"/>
       <point x="211" y="161"/>
       <point x="311" y="91"/>
       <point x="365" y="83" type="qcurve"/>
@@ -45,29 +51,29 @@
       <point x="306" y="775"/>
       <point x="245" y="864"/>
       <point x="212" y="969"/>
-      <point x="212" y="1033" type="qcurve"/>
+      <point x="212" y="1033" type="qcurve" name="sh03"/>
       <point x="212" y="1125"/>
       <point x="272" y="1275"/>
       <point x="367" y="1386"/>
       <point x="487" y="1454"/>
     </contour>
     <contour>
-      <point x="634" y="371" type="qcurve"/>
+      <point x="634" y="371" type="qcurve" name="ah01"/>
       <point x="634" y="436"/>
       <point x="588" y="543"/>
-      <point x="539" y="588" type="qcurve"/>
-      <point x="472" y="82" type="line"/>
+      <point x="539" y="588" type="qcurve" name="ih04"/>
+      <point x="472" y="82" type="line" name="ih05"/>
       <point x="510" y="98"/>
       <point x="570" y="155"/>
       <point x="611" y="231"/>
       <point x="634" y="321"/>
     </contour>
     <contour>
-      <point x="401" y="1104" type="qcurve"/>
+      <point x="401" y="1104" type="qcurve" name="sh04"/>
       <point x="401" y="1055"/>
       <point x="435" y="968"/>
-      <point x="479" y="937" type="qcurve"/>
-      <point x="533" y="1346" type="line"/>
+      <point x="479" y="937" type="qcurve" name="ih06"/>
+      <point x="533" y="1346" type="line" name="ih07"/>
       <point x="502" y="1332"/>
       <point x="453" y="1283"/>
       <point x="419" y="1220"/>
@@ -76,6 +82,53 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -144 -21</string>
+              <string>hstem 1600 -20</string>
+              <string>vstem 212 189</string>
+              <string>vstem 634 189</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="lsb" align="round"/&gt;
+    &lt;ttc code="alignh" point="ah01" align="round"/&gt;
+    &lt;ttc code="mdeltah" point="ah01" delta="3" ppm1="17" ppm2="18"/&gt;
+    &lt;ttc code="mdeltah" point="ah01" delta="2" ppm1="9" ppm2="16"/&gt;
+    &lt;ttc code="singleh" point1="ah01" point2="sh01" stem="T1 V: 182"/&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="ah01" point2="sh01"/&gt;
+    &lt;ttc code="interpolateh" point="ih02" point1="ah01" point2="sh01"/&gt;
+    &lt;ttc code="singleh" point1="ah01" point2="sh02" align="round"/&gt;
+    &lt;ttc code="singleh" point1="lsb" point2="sh03" align="round"/&gt;
+    &lt;ttc code="singleh" point1="sh03" point2="sh04" stem="T1 V: 182"/&gt;
+    &lt;ttc code="mdeltah" point="sh04" delta="-2" ppm1="9" ppm2="16"/&gt;
+    &lt;ttc code="mdeltah" point="sh04" delta="-3" ppm1="17" ppm2="18"/&gt;
+    &lt;ttc code="interpolateh" point="ih03" point1="sh03" point2="sh04"/&gt;
+    &lt;ttc code="interpolateh" point="ih04" point1="sh03" point2="sh01"/&gt;
+    &lt;ttc code="interpolateh" point="ih05" point1="sh03" point2="sh01"/&gt;
+    &lt;ttc code="interpolateh" point="ih06" point1="sh03" point2="sh01"/&gt;
+    &lt;ttc code="interpolateh" point="ih07" point1="sh03" point2="sh01"/&gt;
+    &lt;ttc code="singleh" point1="sh01" point2="rsb" round="true"/&gt;
+    &lt;ttc code="alignv" point="ih01" align="round"/&gt;
+    &lt;ttc code="alignv" point="ih03" align="round"/&gt;
+    &lt;ttc code="interpolatev" point="ih02" point1="ih03" point2="ih01"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="ih03" point2="ih01"/&gt;
+    &lt;ttc code="interpolatev" point="ih04" point1="ih03" point2="ih01"/&gt;
+    &lt;ttc code="interpolatev" point="ih05" point1="ih03" point2="ih01"/&gt;
+    &lt;ttc code="interpolatev" point="ih06" point1="ih03" point2="ih01"/&gt;
+    &lt;ttc code="interpolatev" point="ih07" point1="ih03" point2="ih01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

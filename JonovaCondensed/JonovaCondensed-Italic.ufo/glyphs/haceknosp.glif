@@ -1,21 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="haceknosp" format="2">
   <unicode hex="030C"/>
+  <guideline x="-662" y="0" angle="90"/>
   <anchor x="-400" y="1500" name="_AccentDefault"/>
   <outline>
     <contour>
-      <point x="-350" y="1890" type="line"/>
-      <point x="-271" y="1920" type="line"/>
+      <point x="-350" y="1890" type="line" name="hr00"/>
+      <point x="-271" y="1920" type="line" name="av01"/>
       <point x="-159" y="1705" type="line"/>
       <point x="-152" y="1705" type="line"/>
-      <point x="17" y="1920" type="line"/>
+      <point x="17" y="1920" type="line" name="av02"/>
       <point x="89" y="1890" type="line"/>
-      <point x="-108" y="1602" type="line"/>
+      <point x="-108" y="1602" type="line" name="av03"/>
       <point x="-230" y="1602" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1623 -21</string>
+              <string>hstem 1920 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+    &lt;ttc code="alignv" point="av03" align="round"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

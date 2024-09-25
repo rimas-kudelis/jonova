@@ -2,18 +2,41 @@
 <glyph name="acute" format="2">
   <advance width="576"/>
   <unicode hex="00B4"/>
+  <guideline x="1955" y="0" angle="90"/>
+  <guideline x="508" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="175" y="1219" type="line"/>
-      <point x="386" y="1588" type="line"/>
+      <point x="175" y="1219" type="line" name="hr00"/>
+      <point x="386" y="1588" type="line" name="av01"/>
       <point x="419" y="1588" type="line"/>
       <point x="507" y="1470" type="line"/>
       <point x="507" y="1426" type="line"/>
-      <point x="233" y="1138" type="line"/>
+      <point x="233" y="1138" type="line" name="av02"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1159 -21</string>
+              <string>hstem 1588 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

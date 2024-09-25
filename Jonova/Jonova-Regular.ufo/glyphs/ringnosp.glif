@@ -4,44 +4,44 @@
   <anchor x="-512" y="1500" name="_AccentDefault"/>
   <outline>
     <contour>
-      <point x="-620" y="1718" type="qcurve"/>
+      <point x="-620" y="1718" type="qcurve" name="ah01"/>
       <point x="-620" y="1695"/>
       <point x="-603" y="1656"/>
       <point x="-574" y="1627"/>
       <point x="-535" y="1610"/>
-      <point x="-512" y="1610" type="qcurve"/>
+      <point x="-512" y="1610" type="qcurve" name="av02"/>
       <point x="-490" y="1610"/>
       <point x="-450" y="1627"/>
       <point x="-421" y="1656"/>
       <point x="-404" y="1695"/>
-      <point x="-404" y="1718" type="qcurve"/>
+      <point x="-404" y="1718" type="qcurve" name="ah02"/>
       <point x="-404" y="1740"/>
       <point x="-421" y="1780"/>
       <point x="-450" y="1810"/>
       <point x="-490" y="1827"/>
-      <point x="-512" y="1827" type="qcurve"/>
+      <point x="-512" y="1827" type="qcurve" name="av01"/>
       <point x="-535" y="1827"/>
       <point x="-574" y="1810"/>
       <point x="-603" y="1780"/>
       <point x="-620" y="1740"/>
     </contour>
     <contour>
-      <point x="-702" y="1718" type="qcurve"/>
+      <point x="-702" y="1718" type="qcurve" name="sh01"/>
       <point x="-702" y="1757"/>
       <point x="-672" y="1826"/>
       <point x="-621" y="1879"/>
       <point x="-551" y="1909"/>
-      <point x="-512" y="1909" type="qcurve"/>
+      <point x="-512" y="1909" type="qcurve" name="sv01"/>
       <point x="-473" y="1909"/>
       <point x="-403" y="1879"/>
       <point x="-352" y="1826"/>
       <point x="-322" y="1757"/>
-      <point x="-322" y="1718" type="qcurve"/>
+      <point x="-322" y="1718" type="qcurve" name="sh02"/>
       <point x="-322" y="1679"/>
       <point x="-352" y="1610"/>
       <point x="-403" y="1558"/>
       <point x="-473" y="1528"/>
-      <point x="-512" y="1528" type="qcurve"/>
+      <point x="-512" y="1528" type="qcurve" name="sv02"/>
       <point x="-551" y="1528"/>
       <point x="-621" y="1558"/>
       <point x="-672" y="1610"/>
@@ -50,6 +50,46 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>ah01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1528 82</string>
+              <string>hstem 1827 82</string>
+              <string>vstem -702 82</string>
+              <string>vstem -404 82</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="ah01" align="round"/&gt;
+    &lt;ttc code="alignh" point="ah02" align="round"/&gt;
+    &lt;ttc code="mdeltah" point="ah01" delta="5" ppm1="12" ppm2="12"/&gt;
+    &lt;ttc code="mdeltah" point="ah02" delta="8" ppm1="18" ppm2="18"/&gt;
+    &lt;ttc code="mdeltah" point="ah02" delta="1" ppm1="13" ppm2="13"/&gt;
+    &lt;ttc code="singleh" point1="ah01" point2="sh01" round="true"/&gt;
+    &lt;ttc code="mdeltah" point="sh01" delta="6" ppm1="12" ppm2="12"/&gt;
+    &lt;ttc code="mdeltah" point="sh01" delta="2" ppm1="9" ppm2="11"/&gt;
+    &lt;ttc code="singleh" point1="ah02" point2="sh02" round="true"/&gt;
+    &lt;ttc code="mdeltah" point="sh02" delta="-2" ppm1="9" ppm2="11"/&gt;
+    &lt;ttc code="mdeltah" point="sh02" delta="-3" ppm1="12" ppm2="12"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+    &lt;ttc code="mdeltav" point="av02" delta="5" ppm1="12" ppm2="12"/&gt;
+    &lt;ttc code="mdeltav" point="av01" delta="8" ppm1="25" ppm2="25"/&gt;
+    &lt;ttc code="mdeltav" point="av01" delta="1" ppm1="24" ppm2="24"/&gt;
+    &lt;ttc code="singlev" point1="av01" point2="sv01" round="true"/&gt;
+    &lt;ttc code="singlev" point1="av02" point2="sv02" round="true"/&gt;
+    &lt;ttc code="mdeltav" point="sv02" delta="6" ppm1="13" ppm2="13"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

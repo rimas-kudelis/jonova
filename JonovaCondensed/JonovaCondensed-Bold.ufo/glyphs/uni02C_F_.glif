@@ -2,18 +2,43 @@
 <glyph name="uni02CF" format="2">
   <advance width="576"/>
   <unicode hex="02CF"/>
+  <guideline x="0" y="1346" angle="0"/>
+  <guideline x="284" y="0" angle="90"/>
+  <guideline x="392" y="0" angle="100"/>
+  <guideline x="-153" y="0" angle="65"/>
   <outline>
     <contour>
-      <point x="193" y="-411" type="line"/>
-      <point x="380" y="-79" type="line"/>
+      <point x="193" y="-411" type="line" name="hr00"/>
+      <point x="380" y="-79" type="line" name="av01"/>
       <point x="413" y="-79" type="line"/>
       <point x="501" y="-197" type="line"/>
       <point x="501" y="-241" type="line"/>
-      <point x="252" y="-490" type="line"/>
+      <point x="252" y="-490" type="line" name="ab01"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -469 -21</string>
+              <string>hstem -79 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 1"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

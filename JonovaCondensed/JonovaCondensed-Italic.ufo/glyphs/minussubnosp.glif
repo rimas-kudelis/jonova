@@ -3,35 +3,61 @@
   <unicode hex="0320"/>
   <outline>
     <contour>
-      <point x="-588" y="-169" type="line"/>
+      <point x="-588" y="-169" type="line" name="av01"/>
       <point x="-589" y="-174"/>
       <point x="-589" y="-184" type="qcurve"/>
       <point x="-589" y="-201"/>
       <point x="-575" y="-219"/>
       <point x="-557" y="-219" type="qcurve"/>
-      <point x="-269" y="-219" type="line"/>
+      <point x="-269" y="-219" type="line" name="dv02"/>
       <point x="-248" y="-219"/>
       <point x="-227" y="-192"/>
-      <point x="-224" y="-169" type="qcurve"/>
+      <point x="-224" y="-169" type="qcurve" name="av02"/>
       <point x="-194" y="-169" type="line"/>
-      <point x="-223" y="-391" type="line"/>
+      <point x="-223" y="-391" type="line" name="av03"/>
       <point x="-254" y="-391" type="line"/>
       <point x="-253" y="-387"/>
       <point x="-253" y="-380"/>
-      <point x="-253" y="-377" type="qcurve"/>
+      <point x="-253" y="-377" type="qcurve" name="av04"/>
       <point x="-253" y="-360"/>
       <point x="-267" y="-341"/>
-      <point x="-286" y="-341" type="qcurve"/>
+      <point x="-286" y="-341" type="qcurve" name="dv01"/>
       <point x="-573" y="-341" type="line"/>
       <point x="-595" y="-341"/>
       <point x="-614" y="-368"/>
-      <point x="-617" y="-391" type="qcurve"/>
+      <point x="-617" y="-391" type="qcurve" name="av05"/>
       <point x="-648" y="-391" type="line"/>
       <point x="-619" y="-169" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -370 -21</string>
+              <string>hstem -341 122</string>
+              <string>hstem -169 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+    &lt;ttc code="alignv" point="av03" align="round"/&gt;
+    &lt;ttc code="alignv" point="av04" align="round"/&gt;
+    &lt;ttc code="alignv" point="av05" align="round"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 122"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

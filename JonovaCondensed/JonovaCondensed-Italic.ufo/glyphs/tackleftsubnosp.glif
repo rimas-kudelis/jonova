@@ -3,10 +3,10 @@
   <unicode hex="0318"/>
   <outline>
     <contour>
-      <point x="-399" y="-224" type="line"/>
-      <point x="-377" y="-60" type="line"/>
+      <point x="-399" y="-224" type="line" name="hr00"/>
+      <point x="-377" y="-60" type="line" name="av01"/>
       <point x="-301" y="-60" type="line"/>
-      <point x="-358" y="-490" type="line"/>
+      <point x="-358" y="-490" type="line" name="ab01"/>
       <point x="-434" y="-490" type="line"/>
       <point x="-413" y="-326" type="line"/>
       <point x="-521" y="-326" type="line"/>
@@ -15,6 +15,27 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -469 -21</string>
+              <string>hstem -60 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 1"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

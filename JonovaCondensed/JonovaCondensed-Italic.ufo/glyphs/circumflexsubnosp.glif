@@ -4,18 +4,40 @@
   <anchor x="-500" y="0" name="_AccentBelow"/>
   <outline>
     <contour>
-      <point x="-221" y="-430" type="line"/>
-      <point x="-301" y="-460" type="line"/>
+      <point x="-221" y="-430" type="line" name="hr00"/>
+      <point x="-301" y="-460" type="line" name="ab01"/>
       <point x="-413" y="-245" type="line"/>
       <point x="-420" y="-245" type="line"/>
-      <point x="-589" y="-460" type="line"/>
+      <point x="-589" y="-460" type="line" name="ab02"/>
       <point x="-660" y="-430" type="line"/>
-      <point x="-464" y="-142" type="line"/>
+      <point x="-464" y="-142" type="line" name="av01"/>
       <point x="-342" y="-142" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -439 -21</string>
+              <string>hstem -142 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 2"/&gt;
+    &lt;ttc code="alignb" point="ab02" zone="b: 2"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

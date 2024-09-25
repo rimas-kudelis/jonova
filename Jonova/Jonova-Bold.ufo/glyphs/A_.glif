@@ -2,29 +2,74 @@
 <glyph name="A" format="2">
   <advance width="1344"/>
   <unicode hex="0041"/>
+  <guideline x="15" y="0" angle="68"/>
+  <guideline x="189" y="0" angle="68"/>
+  <guideline x="1330" y="0" angle="112"/>
+  <guideline x="991" y="0" angle="112"/>
   <anchor x="642" y="0" name="AccentBelow"/>
   <anchor x="672" y="1600" name="AccentDefault"/>
   <anchor x="672" y="712" name="AccentMiddle"/>
   <anchor x="950" y="0" name="AccentOgonek"/>
   <outline>
     <contour>
-      <point x="594" y="1434" type="line"/>
-      <point x="738" y="1464" type="line"/>
-      <point x="1328" y="0" type="line"/>
-      <point x="1003" y="-30" type="line"/>
-      <point x="852" y="345" type="line"/>
+      <point x="594" y="1434" type="line" name="dh01"/>
+      <point x="738" y="1464" type="line" name="dh02"/>
+      <point x="1328" y="0" type="line" name="sh01"/>
+      <point x="1003" y="-30" type="line" name="sh02"/>
+      <point x="852" y="345" type="line" name="sv01"/>
       <point x="329" y="345" type="line"/>
-      <point x="177" y="-30" type="line"/>
-      <point x="14" y="0" type="line"/>
+      <point x="177" y="-30" type="line" name="sh04"/>
+      <point x="14" y="0" type="line" name="sh03"/>
     </contour>
     <contour>
-      <point x="794" y="487" type="line"/>
-      <point x="590" y="992" type="line"/>
-      <point x="386" y="487" type="line"/>
+      <point x="794" y="487" type="line" name="sh05"/>
+      <point x="590" y="992" type="line" name="mh01"/>
+      <point x="386" y="487" type="line" name="sh06"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -9 -21</string>
+              <string>hstem 345 142</string>
+              <string>hstem 1464 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="lsb" align="round"/&gt;
+    &lt;ttc code="alignh" point="rsb" align="round"/&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 142"/&gt;
+    &lt;ttc code="singleh" point1="rsb" point2="sh01"/&gt;
+    &lt;ttc code="singleh" point1="sh01" point2="sh02" stem="T1 V: 282"/&gt;
+    &lt;ttc code="singleh" point1="lsb" point2="sh03"/&gt;
+    &lt;ttc code="singleh" point1="sh03" point2="sh04" round="true"/&gt;
+    &lt;ttc code="singleh" point1="sh02" point2="sh05"/&gt;
+    &lt;ttc code="mdeltah" point="mh01" delta="-1" ppm1="13" ppm2="13"/&gt;
+    &lt;ttc code="singleh" point1="sh04" point2="sh06"/&gt;
+    &lt;ttc code="alignt" point="dh01" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="dh02" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="sh02" zone="b: 0"/&gt;
+    &lt;ttc code="alignb" point="sh04" zone="b: 0"/&gt;
+    &lt;ttc code="interpolatev" point="sh05" point1="dh01" point2="sh02"/&gt;
+    &lt;ttc code="singlev" point1="sh05" point2="sv01" stem="T1 H: 142"/&gt;
+    &lt;ttc code="singlev" point1="dh01" point2="mh01" round="true"/&gt;
+    &lt;ttc code="mdeltav" point="mh01" delta="6" ppm1="16" ppm2="16"/&gt;
+    &lt;ttc code="mdeltav" point="mh01" delta="8" ppm1="18" ppm2="18"/&gt;
+    &lt;ttc code="mdeltav" point="mh01" delta="5" ppm1="13" ppm2="13"/&gt;
+    &lt;ttc code="mdeltav" point="mh01" delta="4" ppm1="17" ppm2="17"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

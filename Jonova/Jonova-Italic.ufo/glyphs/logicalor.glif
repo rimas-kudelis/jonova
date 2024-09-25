@@ -2,9 +2,11 @@
 <glyph name="logicalor" format="2">
   <advance width="1504"/>
   <unicode hex="2228"/>
+  <guideline x="766" y="0" angle="65"/>
+  <guideline x="738" y="0" angle="115"/>
   <outline>
     <contour>
-      <point x="393" y="1189" type="line"/>
+      <point x="393" y="1189" type="line" name="hr00"/>
       <point x="507" y="1219" type="line"/>
       <point x="793" y="235" type="line"/>
       <point x="1425" y="1219" type="line"/>
@@ -14,6 +16,21 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -9 -21</string>
+              <string>hstem 1219 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

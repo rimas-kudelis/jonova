@@ -2,16 +2,39 @@
 <glyph name="backslash" format="2">
   <advance width="576"/>
   <unicode hex="005C"/>
+  <guideline x="389" y="0" angle="106"/>
   <outline>
     <contour>
-      <point x="387" y="1586" type="line"/>
-      <point x="642" y="-134" type="line"/>
-      <point x="431" y="-152" type="line"/>
+      <point x="387" y="1586" type="line" name="av01"/>
+      <point x="642" y="-134" type="line" name="dh02"/>
+      <point x="431" y="-152" type="line" name="dh01"/>
       <point x="176" y="1569" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -131 -21</string>
+              <string>hstem 1586 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 212"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="dh01" align="round"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

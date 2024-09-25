@@ -2,6 +2,19 @@
 <glyph name="uniEFEF" format="2">
   <advance width="2048"/>
   <unicode hex="EFEF"/>
+  <guideline x="0" y="1701" angle="0"/>
+  <guideline x="0" y="1446" angle="16"/>
+  <guideline x="0" y="1363" angle="16"/>
+  <guideline x="0" y="1288" angle="16"/>
+  <guideline x="0" y="1240" angle="16"/>
+  <guideline x="0" y="1517" angle="16"/>
+  <guideline x="990" y="0" angle="106"/>
+  <guideline x="934" y="0" angle="106"/>
+  <guideline x="920" y="0" angle="106"/>
+  <guideline x="1003" y="0" angle="106"/>
+  <guideline x="64" y="0" angle="63.22"/>
+  <guideline x="1985" y="0" angle="90"/>
+  <guideline x="62" y="0" angle="90"/>
   <outline>
     <contour>
       <point x="2010" y="493" type="line"/>

@@ -2,6 +2,7 @@
 <glyph name="iacutedot" format="2">
   <advance width="576"/>
   <unicode hex="E00D"/>
+  <guideline x="148" y="0" angle="90"/>
   <outline>
     <component base="i" identifier="component0"/>
     <component base="acute" xOffset="-68" yOffset="400" identifier="component1"/>

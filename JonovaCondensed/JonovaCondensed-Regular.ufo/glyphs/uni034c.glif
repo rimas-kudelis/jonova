@@ -4,88 +4,138 @@
   <anchor x="-400" y="1500" name="_AccentDefault"/>
   <outline>
     <contour>
-      <point x="-790" y="1779" type="line"/>
+      <point x="-790" y="1779" type="line" name="sh01"/>
       <point x="-790" y="1802"/>
       <point x="-760" y="1869"/>
       <point x="-702" y="1930"/>
       <point x="-617" y="1974"/>
-      <point x="-561" y="1974" type="qcurve"/>
+      <point x="-561" y="1974" type="qcurve" name="sv07"/>
       <point x="-515" y="1974"/>
       <point x="-449" y="1951"/>
       <point x="-398" y="1917"/>
       <point x="-356" y="1878"/>
       <point x="-312" y="1844"/>
       <point x="-261" y="1821"/>
-      <point x="-227" y="1821" type="qcurve"/>
+      <point x="-227" y="1821" type="qcurve" name="sv05"/>
       <point x="-193" y="1821"/>
       <point x="-139" y="1847"/>
       <point x="-101" y="1891"/>
       <point x="-82" y="1945"/>
-      <point x="-82" y="1974" type="qcurve"/>
+      <point x="-82" y="1974" type="qcurve" name="sv08"/>
       <point x="-57" y="1974" type="line"/>
-      <point x="3" y="1914" type="line"/>
+      <point x="3" y="1914" type="line" name="sh02"/>
       <point x="3" y="1891"/>
       <point x="-27" y="1824"/>
       <point x="-86" y="1762"/>
       <point x="-172" y="1719"/>
-      <point x="-228" y="1719" type="qcurve"/>
+      <point x="-228" y="1719" type="qcurve" name="sv04"/>
       <point x="-277" y="1719"/>
       <point x="-344" y="1742"/>
       <point x="-394" y="1776"/>
       <point x="-433" y="1815"/>
       <point x="-474" y="1849"/>
       <point x="-525" y="1872"/>
-      <point x="-562" y="1872" type="qcurve"/>
+      <point x="-562" y="1872" type="qcurve" name="sv06"/>
       <point x="-596" y="1872"/>
       <point x="-649" y="1846"/>
       <point x="-686" y="1802"/>
       <point x="-705" y="1747"/>
-      <point x="-705" y="1719" type="qcurve"/>
+      <point x="-705" y="1719" type="qcurve" name="sv09"/>
       <point x="-730" y="1719" type="line"/>
     </contour>
     <contour>
-      <point x="-790" y="1524" type="line"/>
+      <point x="-790" y="1524" type="line" name="ah01"/>
       <point x="-790" y="1547"/>
       <point x="-760" y="1614"/>
       <point x="-702" y="1675"/>
       <point x="-617" y="1719"/>
-      <point x="-561" y="1719" type="qcurve"/>
+      <point x="-561" y="1719" type="qcurve" name="sv02"/>
       <point x="-515" y="1719"/>
       <point x="-449" y="1696"/>
       <point x="-398" y="1662"/>
       <point x="-356" y="1623"/>
       <point x="-312" y="1589"/>
       <point x="-261" y="1566"/>
-      <point x="-227" y="1566" type="qcurve"/>
+      <point x="-227" y="1566" type="qcurve" name="dv02"/>
       <point x="-193" y="1566"/>
       <point x="-139" y="1592"/>
       <point x="-101" y="1636"/>
       <point x="-82" y="1690"/>
-      <point x="-82" y="1719" type="qcurve"/>
+      <point x="-82" y="1719" type="qcurve" name="sv03"/>
       <point x="-57" y="1719" type="line"/>
-      <point x="3" y="1659" type="line"/>
+      <point x="3" y="1659" type="line" name="ah02"/>
       <point x="3" y="1636"/>
       <point x="-27" y="1569"/>
       <point x="-86" y="1507"/>
       <point x="-172" y="1464"/>
-      <point x="-228" y="1464" type="qcurve"/>
+      <point x="-228" y="1464" type="qcurve" name="dv01"/>
       <point x="-277" y="1464"/>
       <point x="-344" y="1487"/>
       <point x="-394" y="1521"/>
       <point x="-433" y="1560"/>
       <point x="-474" y="1594"/>
       <point x="-525" y="1617"/>
-      <point x="-562" y="1617" type="qcurve"/>
+      <point x="-562" y="1617" type="qcurve" name="sv01"/>
       <point x="-596" y="1617"/>
       <point x="-649" y="1591"/>
       <point x="-686" y="1547"/>
       <point x="-705" y="1492"/>
-      <point x="-705" y="1464" type="qcurve"/>
+      <point x="-705" y="1464" type="qcurve" name="sv10"/>
       <point x="-730" y="1464" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1464 102</string>
+              <string>hstem 1617 102</string>
+              <string>hstem 1872 102</string>
+              <string>vstem -790 85</string>
+              <string>vstem -82 85</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>sv08</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1464 102</string>
+              <string>hstem 1719 102</string>
+              <string>hstem 1872 102</string>
+              <string>vstem -790 85</string>
+              <string>vstem -82 85</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="ah01" align="round"/&gt;
+    &lt;ttc code="alignh" point="ah02" align="round"/&gt;
+    &lt;ttc code="singleh" point1="ah01" point2="sh01"/&gt;
+    &lt;ttc code="singleh" point1="ah02" point2="sh02"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" round="true"/&gt;
+    &lt;ttc code="singlev" point1="dv02" point2="sv01"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv02" round="true"/&gt;
+    &lt;ttc code="mdeltav" point="sv02" delta="2" ppm1="20" ppm2="20"/&gt;
+    &lt;ttc code="singlev" point1="sv02" point2="sv03"/&gt;
+    &lt;ttc code="singlev" point1="sv03" point2="sv04"/&gt;
+    &lt;ttc code="singlev" point1="sv04" point2="sv05" round="true"/&gt;
+    &lt;ttc code="singlev" point1="sv05" point2="sv06"/&gt;
+    &lt;ttc code="singlev" point1="sv06" point2="sv07" round="true"/&gt;
+    &lt;ttc code="singlev" point1="sv07" point2="sv08"/&gt;
+    &lt;ttc code="singlev" point1="sv04" point2="sv09"/&gt;
+    &lt;ttc code="singlev" point1="dv01" point2="sv10"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

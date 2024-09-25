@@ -2,16 +2,40 @@
 <glyph name="backslash" format="2">
   <advance width="576"/>
   <unicode hex="005C"/>
+  <guideline x="640" y="0" angle="112"/>
   <outline>
     <contour>
-      <point x="68" y="1586" type="line"/>
-      <point x="626" y="-134" type="line"/>
-      <point x="508" y="-152" type="line"/>
-      <point x="-50" y="1569" type="line"/>
+      <point x="68" y="1586" type="line" name="dh01"/>
+      <point x="626" y="-134" type="line" name="dh04"/>
+      <point x="508" y="-152" type="line" name="dh03"/>
+      <point x="-50" y="1569" type="line" name="dh02"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -131 -21</string>
+              <string>hstem 1586 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 122"/&gt;
+    &lt;ttc code="doubleh" point1="dh03" point2="dh04" stem="X: 122"/&gt;
+    &lt;ttc code="alignv" point="dh01" align="round"/&gt;
+    &lt;ttc code="alignv" point="dh03" align="round"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

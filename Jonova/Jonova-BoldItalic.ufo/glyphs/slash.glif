@@ -2,6 +2,8 @@
 <glyph name="slash" format="2">
   <advance width="576"/>
   <unicode hex="002F"/>
+  <guideline x="-27" y="0" angle="74"/>
+  <guideline x="188" y="0" angle="65"/>
   <outline>
     <contour>
       <point x="937" y="1556" type="line"/>

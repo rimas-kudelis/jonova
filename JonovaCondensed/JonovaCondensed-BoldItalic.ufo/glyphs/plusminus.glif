@@ -2,30 +2,60 @@
 <glyph name="plusminus" format="2">
   <advance width="864"/>
   <unicode hex="00B1"/>
+  <guideline x="710" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="84" y="212" type="line"/>
+      <point x="84" y="212" type="line" name="sv01"/>
       <point x="836" y="212" type="line"/>
-      <point x="808" y="0" type="line"/>
+      <point x="808" y="0" type="line" name="ab01"/>
       <point x="56" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="168" y="762" type="line"/>
-      <point x="196" y="974" type="line"/>
+      <point x="168" y="762" type="line" name="sv02"/>
+      <point x="196" y="974" type="line" name="at01"/>
       <point x="481" y="974" type="line"/>
-      <point x="531" y="1355" type="line"/>
+      <point x="531" y="1355" type="line" name="av01"/>
       <point x="690" y="1355" type="line"/>
-      <point x="640" y="974" type="line"/>
+      <point x="640" y="974" type="line" name="at02"/>
       <point x="925" y="974" type="line"/>
-      <point x="897" y="762" type="line"/>
-      <point x="612" y="762" type="line"/>
+      <point x="897" y="762" type="line" name="sv03"/>
+      <point x="612" y="762" type="line" name="sv04"/>
       <point x="562" y="381" type="line"/>
       <point x="403" y="381" type="line"/>
-      <point x="453" y="762" type="line"/>
+      <point x="453" y="762" type="line" name="sv05"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 212</string>
+              <string>hstem 762 212</string>
+              <string>hstem 1355 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 0"/&gt;
+    &lt;ttc code="alignt" point="at02" zone="t: 0"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv01" stem="T1 H: 212"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sv02" stem="T1 H: 212"/&gt;
+    &lt;ttc code="singlev" point1="sv02" point2="sv03"/&gt;
+    &lt;ttc code="singlev" point1="sv03" point2="sv04"/&gt;
+    &lt;ttc code="singlev" point1="sv04" point2="sv05"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

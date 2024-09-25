@@ -2,24 +2,25 @@
 <glyph name="uni2219" format="2">
   <advance width="384"/>
   <unicode hex="2219"/>
+  <guideline x="171" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="172" y="487" type="qcurve"/>
+      <point x="172" y="487" type="qcurve" name="dh01"/>
       <point x="172" y="509"/>
       <point x="185" y="550"/>
       <point x="209" y="581"/>
       <point x="239" y="599"/>
-      <point x="256" y="599" type="qcurve"/>
+      <point x="256" y="599" type="qcurve" name="dv02"/>
       <point x="272" y="599"/>
       <point x="303" y="581"/>
       <point x="326" y="550"/>
       <point x="340" y="509"/>
-      <point x="340" y="487" type="qcurve"/>
+      <point x="340" y="487" type="qcurve" name="dh02"/>
       <point x="340" y="464"/>
       <point x="326" y="424"/>
       <point x="303" y="393"/>
       <point x="272" y="375"/>
-      <point x="256" y="375" type="qcurve"/>
+      <point x="256" y="375" type="qcurve" name="dv01"/>
       <point x="239" y="375"/>
       <point x="209" y="393"/>
       <point x="185" y="424"/>
@@ -28,6 +29,30 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 375 224</string>
+              <string>vstem 172 168</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 162"/&gt;
+    &lt;ttc code="mdeltah" point="dh02" delta="-2" ppm1="9" ppm2="16"/&gt;
+    &lt;ttc code="mdeltah" point="dh02" delta="-3" ppm1="17" ppm2="18"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="rsb" round="true"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 246"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

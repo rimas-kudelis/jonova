@@ -1,59 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni034A" format="2">
   <unicode hex="034A"/>
+  <guideline x="-414" y="0" angle="90"/>
   <anchor x="-512" y="1500" name="_AccentDefault"/>
   <outline>
     <contour>
-      <point x="-652" y="1557" type="line"/>
-      <point x="-569" y="1700" type="line"/>
+      <point x="-652" y="1557" type="line" name="hr00"/>
+      <point x="-569" y="1700" type="line" name="dh02"/>
       <point x="-593" y="1720"/>
       <point x="-644" y="1743"/>
-      <point x="-681" y="1743" type="qcurve"/>
+      <point x="-681" y="1743" type="qcurve" name="dv03"/>
       <point x="-715" y="1743"/>
       <point x="-768" y="1717"/>
       <point x="-805" y="1673"/>
       <point x="-824" y="1618"/>
-      <point x="-824" y="1590" type="qcurve"/>
+      <point x="-824" y="1590" type="qcurve" name="sv01"/>
       <point x="-849" y="1590" type="line"/>
-      <point x="-909" y="1650" type="line"/>
+      <point x="-909" y="1650" type="line" name="ah02"/>
       <point x="-909" y="1673"/>
       <point x="-879" y="1740"/>
       <point x="-821" y="1801"/>
       <point x="-736" y="1845"/>
-      <point x="-680" y="1845" type="qcurve"/>
+      <point x="-680" y="1845" type="qcurve" name="dv04"/>
       <point x="-646" y="1845"/>
       <point x="-592" y="1832"/>
       <point x="-552" y="1814"/>
       <point x="-526" y="1794"/>
-      <point x="-519" y="1788" type="qcurve"/>
-      <point x="-443" y="1920" type="line"/>
+      <point x="-519" y="1788" type="qcurve" name="dv05"/>
+      <point x="-443" y="1920" type="line" name="sv02"/>
       <point x="-372" y="1879" type="line"/>
-      <point x="-455" y="1734" type="line"/>
+      <point x="-455" y="1734" type="line" name="dh01"/>
       <point x="-431" y="1715"/>
       <point x="-380" y="1692"/>
-      <point x="-346" y="1692" type="qcurve"/>
+      <point x="-346" y="1692" type="qcurve" name="dv02"/>
       <point x="-312" y="1692"/>
       <point x="-258" y="1718"/>
       <point x="-220" y="1762"/>
       <point x="-201" y="1816"/>
-      <point x="-201" y="1845" type="qcurve"/>
-      <point x="-176" y="1845" type="line"/>
-      <point x="-116" y="1785" type="line"/>
+      <point x="-201" y="1845" type="qcurve" name="sv03"/>
+      <point x="-176" y="1845" type="line" name="av01"/>
+      <point x="-116" y="1785" type="line" name="ah01"/>
       <point x="-116" y="1762"/>
       <point x="-146" y="1695"/>
       <point x="-205" y="1633"/>
       <point x="-291" y="1590"/>
-      <point x="-347" y="1590" type="qcurve"/>
+      <point x="-347" y="1590" type="qcurve" name="dv01"/>
       <point x="-382" y="1590"/>
       <point x="-435" y="1603"/>
       <point x="-474" y="1620"/>
       <point x="-500" y="1638"/>
-      <point x="-507" y="1644" type="qcurve"/>
-      <point x="-581" y="1516" type="line"/>
+      <point x="-507" y="1644" type="qcurve" name="dv06"/>
+      <point x="-581" y="1516" type="line" name="sv04"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1212 -21</string>
+              <string>hstem 1265 102</string>
+              <string>hstem 1418 102</string>
+              <string>hstem 1595 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="ah01" align="round"/&gt;
+    &lt;ttc code="alignh" point="ah02" align="round"/&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 122"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 102"/&gt;
+    &lt;ttc code="doublev" point1="dv03" point2="dv04" stem="Y: 102"/&gt;
+    &lt;ttc code="doublev" point1="dv05" point2="dv06" round="true"/&gt;
+    &lt;ttc code="singlev" point1="dv01" point2="sv01"/&gt;
+    &lt;ttc code="singlev" point1="av01" point2="sv02" round="true"/&gt;
+    &lt;ttc code="singlev" point1="dv04" point2="sv03"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv04" round="true"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

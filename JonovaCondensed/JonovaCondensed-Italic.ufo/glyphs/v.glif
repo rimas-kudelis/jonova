@@ -2,23 +2,50 @@
 <glyph name="v" format="2">
   <advance width="768"/>
   <unicode hex="0076"/>
+  <guideline x="478" y="0" angle="112"/>
+  <guideline x="338" y="0" angle="112"/>
+  <guideline x="430" y="0" angle="68"/>
+  <guideline x="338" y="0" angle="68"/>
+  <guideline x="365" y="0" angle="90"/>
   <anchor x="300" y="0" name="AccentBelow"/>
   <anchor x="300" y="1100" name="AccentDefault"/>
   <anchor x="250" y="486" name="AccentMiddle"/>
   <outline>
     <contour>
-      <point x="307" y="1004" type="line"/>
+      <point x="307" y="1004" type="line" name="at01"/>
       <point x="434" y="230" type="line"/>
       <point x="442" y="230" type="line"/>
-      <point x="775" y="1004" type="line"/>
+      <point x="775" y="1004" type="line" name="at02"/>
       <point x="853" y="974" type="line"/>
-      <point x="430" y="0" type="line"/>
+      <point x="430" y="0" type="line" name="ab01"/>
       <point x="338" y="0" type="line"/>
       <point x="172" y="974" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 21 -21</string>
+              <string>hstem 1004 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 0"/&gt;
+    &lt;ttc code="alignt" point="at02" zone="t: 0"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

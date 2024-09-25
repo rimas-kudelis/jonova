@@ -2,45 +2,46 @@
 <glyph name="zeta" format="2">
   <advance width="1024"/>
   <unicode hex="03B6"/>
+  <guideline x="232" y="0" angle="80"/>
   <outline>
     <contour>
-      <point x="604" y="72" type="qcurve"/>
+      <point x="604" y="72" type="qcurve" name="sv01"/>
       <point x="680" y="72"/>
       <point x="796" y="39"/>
       <point x="872" y="-21"/>
       <point x="911" y="-106"/>
-      <point x="911" y="-158" type="qcurve"/>
+      <point x="911" y="-158" type="qcurve" name="sh01"/>
       <point x="911" y="-227"/>
       <point x="858" y="-339"/>
       <point x="769" y="-417"/>
       <point x="652" y="-460"/>
-      <point x="588" y="-460" type="qcurve"/>
+      <point x="588" y="-460" type="qcurve" name="ab01"/>
       <point x="536" y="-460"/>
       <point x="444" y="-436"/>
       <point x="367" y="-394"/>
       <point x="305" y="-338"/>
       <point x="283" y="-305" type="qcurve"/>
-      <point x="384" y="-203" type="line"/>
+      <point x="384" y="-203" type="line" name="ih01"/>
       <point x="397" y="-230"/>
       <point x="436" y="-286"/>
       <point x="488" y="-330"/>
       <point x="553" y="-358"/>
-      <point x="594" y="-358" type="qcurve"/>
+      <point x="594" y="-358" type="qcurve" name="sv02"/>
       <point x="634" y="-358"/>
       <point x="701" y="-331"/>
       <point x="750" y="-284"/>
       <point x="778" y="-221"/>
-      <point x="778" y="-184" type="qcurve"/>
+      <point x="778" y="-184" type="qcurve" name="ah01"/>
       <point x="778" y="-153"/>
       <point x="757" y="-97"/>
       <point x="711" y="-55"/>
       <point x="638" y="-30"/>
-      <point x="586" y="-30" type="qcurve"/>
+      <point x="586" y="-30" type="qcurve" name="ab02"/>
       <point x="484" y="-30"/>
       <point x="325" y="31"/>
       <point x="215" y="142"/>
       <point x="158" y="294"/>
-      <point x="158" y="386" type="qcurve"/>
+      <point x="158" y="386" type="qcurve" name="sh02"/>
       <point x="158" y="477"/>
       <point x="195" y="630"/>
       <point x="276" y="770"/>
@@ -59,7 +60,7 @@
       <point x="522" y="848"/>
       <point x="400" y="680"/>
       <point x="330" y="494"/>
-      <point x="330" y="387" type="qcurve"/>
+      <point x="330" y="387" type="qcurve" name="sh03"/>
       <point x="330" y="319"/>
       <point x="364" y="203"/>
       <point x="433" y="119"/>
@@ -68,6 +69,39 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -460 102</string>
+              <string>hstem -30 102</string>
+              <string>hstem 1322 112</string>
+              <string>vstem 158 172</string>
+              <string>vstem 778 133</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="lsb" align="round"/&gt;
+    &lt;ttc code="alignh" point="ah01" align="round"/&gt;
+    &lt;ttc code="singleh" point1="ah01" point2="sh01" stem="X: 122"/&gt;
+    &lt;ttc code="singleh" point1="lsb" point2="sh02" round="true" align="round"/&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="sh02" point2="sh01"/&gt;
+    &lt;ttc code="singleh" point1="sh02" point2="sh03" stem="X: 162"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 2"/&gt;
+    &lt;ttc code="alignb" point="ab02" zone="b: 0"/&gt;
+    &lt;ttc code="singlev" point1="ab02" point2="sv01" stem="Y: 102"/&gt;
+    &lt;ttc code="interpolatev" point="ih01" point1="ab01" point2="ab02"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv02" stem="Y: 102"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

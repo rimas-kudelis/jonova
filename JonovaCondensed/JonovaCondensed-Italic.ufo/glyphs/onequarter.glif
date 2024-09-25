@@ -2,6 +2,9 @@
 <glyph name="onequarter" format="2">
   <advance width="1164"/>
   <unicode hex="00BC"/>
+  <guideline x="56" y="0" angle="90"/>
+  <guideline x="1107" y="0" angle="90"/>
+  <guideline x="271" y="0" angle="58"/>
   <outline>
     <component base="onesuperior" xOffset="-29" identifier="component0"/>
     <component base="uni2084" xOffset="600" identifier="component1"/>

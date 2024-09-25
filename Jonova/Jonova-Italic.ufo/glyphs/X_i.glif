@@ -2,9 +2,10 @@
 <glyph name="Xi" format="2">
   <advance width="1088"/>
   <unicode hex="039E"/>
+  <guideline x="92" y="0" angle="80"/>
   <outline>
     <contour>
-      <point x="117" y="142" type="line"/>
+      <point x="117" y="142" type="line" name="hr00"/>
       <point x="995" y="142" type="line"/>
       <point x="970" y="0" type="line"/>
       <point x="92" y="0" type="line"/>
@@ -24,6 +25,22 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 142</string>
+              <string>hstem 717 122</string>
+              <string>hstem 1292 142</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

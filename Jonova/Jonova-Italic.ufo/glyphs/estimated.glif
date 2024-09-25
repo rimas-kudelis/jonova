@@ -2,9 +2,11 @@
 <glyph name="estimated" format="2">
   <advance width="1248"/>
   <unicode hex="212E"/>
+  <guideline x="0" y="-85" angle="45"/>
+  <guideline x="0" y="1060" angle="315"/>
   <outline>
     <contour>
-      <point x="710" y="1004" type="qcurve"/>
+      <point x="710" y="1004" type="qcurve" name="hr00"/>
       <point x="828" y="1004"/>
       <point x="1035" y="923"/>
       <point x="1189" y="782"/>
@@ -15,8 +17,8 @@
       <point x="491" y="116"/>
       <point x="629" y="72"/>
       <point x="710" y="72" type="qcurve"/>
-      <point x="789" y="72"/>
-      <point x="931" y="116"/>
+      <point x="789" y="72" name="hr01"/>
+      <point x="931" y="116" name="hr02"/>
       <point x="989" y="158" type="qcurve"/>
       <point x="1150" y="158" type="line"/>
       <point x="1111" y="115"/>
@@ -48,6 +50,48 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -30 188</string>
+              <string>hstem 487 102</string>
+              <string>hstem 902 102</string>
+              <string>vstem 141 292</string>
+              <string>vstem 987 292</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -30 102</string>
+              <string>hstem 487 102</string>
+              <string>hstem 902 102</string>
+              <string>vstem 141 292</string>
+              <string>vstem 987 292</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -30 188</string>
+              <string>hstem 487 102</string>
+              <string>hstem 902 102</string>
+              <string>vstem 141 292</string>
+              <string>vstem 987 292</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

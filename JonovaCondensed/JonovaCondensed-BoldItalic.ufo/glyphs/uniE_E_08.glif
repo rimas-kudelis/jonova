@@ -2,6 +2,8 @@
 <glyph name="uniEE08" format="2">
   <advance width="816"/>
   <unicode hex="EE08"/>
+  <guideline x="26" y="0" angle="90"/>
+  <guideline x="460" y="0" angle="90"/>
   <outline>
     <component base="F" identifier="component0"/>
     <component base="macronsubnosp" xOffset="623" identifier="component1"/>

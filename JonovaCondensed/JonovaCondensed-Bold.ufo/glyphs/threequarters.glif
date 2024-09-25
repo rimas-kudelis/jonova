@@ -2,6 +2,8 @@
 <glyph name="threequarters" format="2">
   <advance width="1164"/>
   <unicode hex="00BE"/>
+  <guideline x="59" y="0" angle="90"/>
+  <guideline x="1107" y="0" angle="90"/>
   <outline>
     <component base="uni2084" xOffset="630" identifier="component0"/>
     <component base="fraction1" xOffset="420" identifier="component1"/>

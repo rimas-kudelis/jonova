@@ -2,6 +2,7 @@
 <glyph name="uni2238" format="2">
   <advance width="1600"/>
   <unicode hex="2238"/>
+  <guideline x="768" y="0" angle="90"/>
   <outline>
     <component base="emdash" xOffset="48" identifier="component0"/>
     <component base="dotaccent" xOffset="416" yOffset="-429" identifier="component1"/>

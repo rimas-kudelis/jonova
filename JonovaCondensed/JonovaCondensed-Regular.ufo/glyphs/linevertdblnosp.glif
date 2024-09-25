@@ -4,20 +4,48 @@
   <anchor x="-400" y="1500" name="_AccentDefault"/>
   <outline>
     <contour>
-      <point x="-344" y="1531" type="line"/>
-      <point x="-344" y="1907" type="line"/>
+      <point x="-344" y="1531" type="line" name="dh02"/>
+      <point x="-344" y="1907" type="line" name="av01"/>
       <point x="-262" y="1907" type="line"/>
-      <point x="-262" y="1531" type="line"/>
+      <point x="-262" y="1531" type="line" name="sh01"/>
     </contour>
     <contour>
-      <point x="-564" y="1531" type="line"/>
-      <point x="-564" y="1907" type="line"/>
+      <point x="-564" y="1531" type="line" name="sh02"/>
+      <point x="-564" y="1907" type="line" name="av02"/>
       <point x="-482" y="1907" type="line"/>
-      <point x="-482" y="1531" type="line"/>
+      <point x="-482" y="1531" type="line" name="dh01"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1531 376</string>
+              <string>vstem -564 82</string>
+              <string>vstem -344 82</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="rsb" align="round"/&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" round="true"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="sh01" round="true"/&gt;
+    &lt;ttc code="singleh" point1="dh01" point2="sh02" round="true"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+    &lt;ttc code="alignv" point="dh02" align="round"/&gt;
+    &lt;ttc code="alignv" point="sh02" align="round"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

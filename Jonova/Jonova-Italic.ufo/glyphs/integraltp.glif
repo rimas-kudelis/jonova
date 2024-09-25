@@ -2,9 +2,10 @@
 <glyph name="integraltp" format="2">
   <advance width="1024"/>
   <unicode hex="2320"/>
+  <guideline x="0" y="1924" angle="0"/>
   <outline>
     <contour>
-      <point x="697" y="1542" type="line"/>
+      <point x="697" y="1542" type="line" name="hr00"/>
       <point x="715" y="1640"/>
       <point x="771" y="1776"/>
       <point x="867" y="1860"/>
@@ -23,6 +24,21 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -439 -21</string>
+              <string>hstem 1796 102</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

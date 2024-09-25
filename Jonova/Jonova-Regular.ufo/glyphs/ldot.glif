@@ -2,12 +2,18 @@
 <glyph name="ldot" format="2">
   <advance width="736"/>
   <unicode hex="0140"/>
+  <guideline x="413" y="0" angle="90"/>
   <outline>
     <component base="l" identifier="component0"/>
     <component base="dotaccent" xOffset="236" yOffset="-609" identifier="component1"/>
   </outline>
   <lib>
     <dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="sh02-0" point2="sh01-1" stem="X: 162"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.objectLibs</key>
       <dict>
         <key>component0</key>

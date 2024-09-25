@@ -2,57 +2,92 @@
 <glyph name="afii10047" format="2">
   <advance width="1008"/>
   <unicode hex="042D"/>
+  <guideline x="181" y="0" angle="80"/>
   <outline>
     <contour>
-      <point x="184" y="1235" type="line"/>
+      <point x="184" y="1235" type="line" name="hr00"/>
       <point x="268" y="1343"/>
       <point x="473" y="1464"/>
-      <point x="603" y="1464" type="qcurve"/>
+      <point x="603" y="1464" type="qcurve" name="at01"/>
       <point x="695" y="1464"/>
       <point x="863" y="1380"/>
       <point x="991" y="1223"/>
       <point x="1067" y="998"/>
-      <point x="1067" y="856" type="qcurve"/>
+      <point x="1067" y="856" type="qcurve" name="dh02"/>
       <point x="1067" y="738"/>
       <point x="1017" y="516"/>
       <point x="928" y="319"/>
       <point x="804" y="155"/>
       <point x="657" y="36"/>
       <point x="492" y="-30"/>
-      <point x="405" y="-30" type="qcurve"/>
+      <point x="405" y="-30" type="qcurve" name="ab01"/>
       <point x="340" y="-30"/>
       <point x="233" y="5"/>
       <point x="147" y="67"/>
       <point x="77" y="151"/>
       <point x="47" y="199" type="qcurve"/>
-      <point x="139" y="321" type="line"/>
+      <point x="139" y="321" type="line" name="iv01"/>
       <point x="159" y="270"/>
       <point x="218" y="192"/>
       <point x="293" y="139"/>
       <point x="377" y="112"/>
-      <point x="424" y="112" type="qcurve"/>
+      <point x="424" y="112" type="qcurve" name="sv01"/>
       <point x="497" y="112"/>
       <point x="625" y="211"/>
       <point x="728" y="374"/>
       <point x="800" y="585"/>
-      <point x="818" y="697" type="qcurve"/>
+      <point x="818" y="697" type="qcurve" name="dv01"/>
       <point x="272" y="697" type="line"/>
       <point x="291" y="839" type="line"/>
-      <point x="833" y="839" type="line"/>
+      <point x="833" y="839" type="line" name="dh01"/>
       <point x="833" y="927"/>
       <point x="812" y="1100"/>
       <point x="757" y="1237"/>
       <point x="660" y="1322"/>
-      <point x="584" y="1322" type="qcurve"/>
+      <point x="584" y="1322" type="qcurve" name="sv02"/>
       <point x="538" y="1322"/>
       <point x="456" y="1297"/>
       <point x="381" y="1245"/>
       <point x="311" y="1167"/>
-      <point x="275" y="1113" type="qcurve"/>
+      <point x="275" y="1113" type="qcurve" name="iv02"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -30 142</string>
+              <string>hstem 697 142</string>
+              <string>hstem 1322 142</string>
+              <string>vstem 833 234</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 212"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="rsb" round="true"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dh01" stem="T1 H: 142"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="ab01" point2="at01"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv01" stem="T1 H: 142"/&gt;
+    &lt;ttc code="mdeltav" point="sv01" delta="-1" ppm1="9" ppm2="19"/&gt;
+    &lt;ttc code="mdeltav" point="sv01" delta="-2" ppm1="20" ppm2="21"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sv02" stem="T1 H: 142"/&gt;
+    &lt;ttc code="mdeltav" point="sv02" delta="2" ppm1="20" ppm2="21"/&gt;
+    &lt;ttc code="mdeltav" point="sv02" delta="1" ppm1="9" ppm2="19"/&gt;
+    &lt;ttc code="interpolatev" point="iv02" point1="ab01" point2="at01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

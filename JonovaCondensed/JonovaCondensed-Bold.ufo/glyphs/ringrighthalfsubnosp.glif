@@ -4,32 +4,74 @@
   <anchor x="-512" y="0" name="_AccentBelow"/>
   <outline>
     <contour>
-      <point x="-476" y="-368" type="line"/>
+      <point x="-476" y="-368" type="line" name="sh01"/>
       <point x="-445" y="-368" type="line"/>
       <point x="-419" y="-368"/>
       <point x="-383" y="-320"/>
-      <point x="-383" y="-285" type="qcurve"/>
+      <point x="-383" y="-285" type="qcurve" name="sh02"/>
       <point x="-383" y="-249"/>
       <point x="-419" y="-201"/>
-      <point x="-445" y="-201" type="qcurve"/>
-      <point x="-476" y="-201" type="line"/>
-      <point x="-476" y="-79" type="line"/>
+      <point x="-445" y="-201" type="qcurve" name="hr00"/>
+      <point x="-476" y="-201" type="line" name="dh01"/>
+      <point x="-476" y="-79" type="line" name="sv01"/>
       <point x="-445" y="-79" type="line"/>
       <point x="-413" y="-79"/>
       <point x="-357" y="-112"/>
       <point x="-315" y="-167"/>
       <point x="-291" y="-242"/>
-      <point x="-291" y="-284" type="qcurve"/>
+      <point x="-291" y="-284" type="qcurve" name="dh02"/>
       <point x="-291" y="-326"/>
       <point x="-315" y="-401"/>
       <point x="-357" y="-457"/>
       <point x="-413" y="-490"/>
-      <point x="-445" y="-490" type="qcurve"/>
+      <point x="-445" y="-490" type="qcurve" name="ab01"/>
       <point x="-476" y="-490" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -490 411</string>
+              <string>vstem -476 185</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -490 411</string>
+              <string>vstem -383 92</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>sv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -490 411</string>
+              <string>vstem -476 185</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 182"/&gt;
+    &lt;ttc code="singleh" point1="dh01" point2="sh01"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="sh02" stem="T1 V: 142"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 1"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv01" stem="T1 H: 282"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

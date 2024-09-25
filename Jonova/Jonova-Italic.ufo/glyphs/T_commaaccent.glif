@@ -2,9 +2,10 @@
 <glyph name="Tcommaaccent" format="2">
   <advance width="1152"/>
   <unicode hex="0162"/>
+  <guideline x="621" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="284" y="1434" type="line"/>
+      <point x="284" y="1434" type="line" name="hr00"/>
       <point x="1372" y="1434" type="line"/>
       <point x="1347" y="1292" type="line"/>
       <point x="898" y="1312" type="line"/>
@@ -48,6 +49,24 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -490 82</string>
+              <string>hstem -190 80</string>
+              <string>hstem 21 -21</string>
+              <string>hstem 1302 132</string>
+              <string>vstem 631 122</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

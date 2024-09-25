@@ -2,16 +2,42 @@
 <glyph name="fraction1" format="2">
   <advance width="384"/>
   <unicode hex="2044"/>
+  <guideline x="0" y="2072" angle="330"/>
+  <guideline x="-310" y="0" angle="90"/>
+  <guideline x="699" y="0" angle="90"/>
+  <guideline x="-191" y="0" angle="60"/>
+  <guideline x="-51" y="0" angle="60"/>
   <outline>
     <contour>
-      <point x="844" y="1584" type="line"/>
-      <point x="-175" y="-220" type="line"/>
+      <point x="844" y="1584" type="line" name="hr00"/>
+      <point x="-175" y="-220" type="line" name="av01"/>
       <point x="-269" y="-139" type="line"/>
-      <point x="750" y="1664" type="line"/>
+      <point x="750" y="1664" type="line" name="av02"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -199 -21</string>
+              <string>hstem 1664 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

@@ -2,19 +2,46 @@
 <glyph name="afii10029" format="2">
   <advance width="1248"/>
   <unicode hex="041B"/>
+  <guideline x="16" y="0" angle="70"/>
+  <guideline x="1232" y="0" angle="110"/>
   <outline>
     <contour>
-      <point x="903" y="-30" type="line"/>
-      <point x="715" y="978" type="line"/>
-      <point x="171" y="-30" type="line"/>
-      <point x="16" y="0" type="line"/>
+      <point x="903" y="-30" type="line" name="dh01"/>
+      <point x="715" y="978" type="line" name="iv01"/>
+      <point x="171" y="-30" type="line" name="dh03"/>
+      <point x="16" y="0" type="line" name="dh04"/>
       <point x="790" y="1434" type="line"/>
-      <point x="957" y="1464" type="line"/>
-      <point x="1232" y="0" type="line"/>
+      <point x="957" y="1464" type="line" name="at01"/>
+      <point x="1232" y="0" type="line" name="dh02"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -9 -21</string>
+              <string>hstem 1464 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 302"/&gt;
+    &lt;ttc code="doubleh" point1="dh03" point2="dh04" stem="T1 V: 142"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="dh01" zone="b: 0"/&gt;
+    &lt;ttc code="alignb" point="dh03" zone="b: 0"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="dh01" point2="at01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

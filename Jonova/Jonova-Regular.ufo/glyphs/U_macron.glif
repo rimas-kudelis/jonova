@@ -2,6 +2,8 @@
 <glyph name="Umacron" format="2">
   <advance width="1504"/>
   <unicode hex="016A"/>
+  <guideline x="0" y="454" angle="0"/>
+  <guideline x="1198" y="0" angle="90"/>
   <anchor x="772" y="1800" name="AccentDefault"/>
   <outline>
     <component base="U" identifier="component0"/>
@@ -9,6 +11,12 @@
   </outline>
   <lib>
     <dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="ah01-1" align="round"/&gt;
+    &lt;ttc code="mdeltav" point="mv01-1" delta="-4" ppm1="20" ppm2="20"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.objectLibs</key>
       <dict>
         <key>component0</key>

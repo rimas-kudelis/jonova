@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildemidnosp" format="2">
   <unicode hex="0334"/>
+  <guideline x="383" y="0" angle="135"/>
+  <guideline x="-440" y="0" angle="134.86"/>
   <anchor x="-512" y="500" name="_AccentMiddle"/>
   <outline>
     <contour>
-      <point x="-669" y="407" type="line"/>
+      <point x="-669" y="407" type="line" name="hr00"/>
       <point x="-669" y="435"/>
       <point x="-642" y="518"/>
       <point x="-590" y="596"/>
       <point x="-513" y="651"/>
-      <point x="-463" y="651" type="qcurve"/>
+      <point x="-463" y="651" type="qcurve" name="dv04"/>
       <point x="-422" y="651"/>
       <point x="-362" y="624"/>
       <point x="-316" y="583"/>
       <point x="-278" y="535"/>
       <point x="-239" y="494"/>
       <point x="-193" y="467"/>
-      <point x="-162" y="467" type="qcurve"/>
+      <point x="-162" y="467" type="qcurve" name="dv02"/>
       <point x="-131" y="467"/>
       <point x="-83" y="499"/>
       <point x="-49" y="551"/>
@@ -27,14 +29,14 @@
       <point x="3" y="458"/>
       <point x="-50" y="380"/>
       <point x="-128" y="325"/>
-      <point x="-178" y="325" type="qcurve"/>
+      <point x="-178" y="325" type="qcurve" name="dv01"/>
       <point x="-222" y="325"/>
       <point x="-282" y="352"/>
       <point x="-327" y="393"/>
       <point x="-362" y="441"/>
       <point x="-400" y="482"/>
       <point x="-446" y="509"/>
-      <point x="-479" y="509" type="qcurve"/>
+      <point x="-479" y="509" type="qcurve" name="dv03"/>
       <point x="-509" y="509"/>
       <point x="-557" y="477"/>
       <point x="-590" y="425"/>
@@ -44,6 +46,27 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 325 142</string>
+              <string>hstem 509 142</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="T1 H: 142"/&gt;
+    &lt;ttc code="doublev" point1="dv03" point2="dv04" stem="T1 H: 142"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

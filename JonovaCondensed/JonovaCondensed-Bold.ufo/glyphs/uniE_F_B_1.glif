@@ -2,6 +2,7 @@
 <glyph name="uniEFB1" format="2">
   <advance width="1200"/>
   <unicode hex="EFB1"/>
+  <guideline x="612" y="0" angle="90"/>
   <outline>
     <component base="emdash" xOffset="36" identifier="component0"/>
     <component base="acute" xOffset="265" identifier="component1"/>

@@ -7,15 +7,15 @@
   <anchor x="250" y="712" name="AccentMiddle"/>
   <outline>
     <contour>
-      <point x="279" y="1434" type="line"/>
-      <point x="416" y="1464" type="line"/>
+      <point x="279" y="1434" type="line" name="dh01"/>
+      <point x="416" y="1464" type="line" name="dh02"/>
       <point x="416" y="492" type="line"/>
       <point x="416" y="324"/>
       <point x="352" y="119"/>
       <point x="242" y="7"/>
       <point x="95" y="-30"/>
-      <point x="12" y="-30" type="qcurve"/>
-      <point x="30" y="112" type="line"/>
+      <point x="12" y="-30" type="qcurve" name="sh01"/>
+      <point x="30" y="112" type="line" name="sv01"/>
       <point x="59" y="112"/>
       <point x="117" y="120"/>
       <point x="173" y="143"/>
@@ -27,6 +27,32 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -30 142</string>
+              <string>hstem 1464 -20</string>
+              <string>vstem 279 137</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="lsb" align="round"/&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 122"/&gt;
+    &lt;ttc code="singleh" point1="lsb" point2="sh01"/&gt;
+    &lt;ttc code="alignt" point="dh02" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="sh01" zone="b: 0"/&gt;
+    &lt;ttc code="singlev" point1="sh01" point2="sv01" stem="Y: 122"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

@@ -4,32 +4,72 @@
   <unicode hex="EFF9"/>
   <outline>
     <contour>
-      <point x="1724" y="1234" type="line"/>
-      <point x="1924" y="1234" type="line"/>
-      <point x="1924" y="0" type="line"/>
-      <point x="124" y="0" type="line"/>
+      <point x="1724" y="1234" type="line" name="dh09"/>
+      <point x="1924" y="1234" type="line" name="dh10"/>
+      <point x="1924" y="0" type="line" name="ab01"/>
+      <point x="124" y="0" type="line" name="dh01"/>
       <point x="124" y="1234" type="line"/>
       <point x="324" y="1234" type="line"/>
-      <point x="324" y="200" type="line"/>
-      <point x="624" y="200" type="line"/>
-      <point x="624" y="919" type="line"/>
-      <point x="924" y="919" type="line"/>
-      <point x="924" y="1434" type="line"/>
+      <point x="324" y="200" type="line" name="dh02"/>
+      <point x="624" y="200" type="line" name="dh03"/>
+      <point x="624" y="919" type="line" name="sv01"/>
+      <point x="924" y="919" type="line" name="dh05"/>
+      <point x="924" y="1434" type="line" name="at01"/>
       <point x="1124" y="1434" type="line"/>
-      <point x="1124" y="919" type="line"/>
+      <point x="1124" y="919" type="line" name="dh06"/>
       <point x="1424" y="919" type="line"/>
-      <point x="1424" y="200" type="line"/>
-      <point x="1724" y="200" type="line"/>
+      <point x="1424" y="200" type="line" name="dh08"/>
+      <point x="1724" y="200" type="line" name="sv02"/>
     </contour>
     <contour>
-      <point x="1224" y="200" type="line"/>
-      <point x="1224" y="719" type="line"/>
+      <point x="1224" y="200" type="line" name="dh07"/>
+      <point x="1224" y="719" type="line" name="dv01"/>
       <point x="824" y="719" type="line"/>
-      <point x="824" y="200" type="line"/>
+      <point x="824" y="200" type="line" name="dh04"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh09</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 200</string>
+              <string>hstem 719 200</string>
+              <string>hstem 1434 -20</string>
+              <string>vstem 124 200</string>
+              <string>vstem 624 200</string>
+              <string>vstem 924 200</string>
+              <string>vstem 1224 200</string>
+              <string>vstem 1724 200</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 192"/&gt;
+    &lt;ttc code="doubleh" point1="dh03" point2="dh04" stem="X: 192"/&gt;
+    &lt;ttc code="doubleh" point1="dh05" point2="dh06" stem="X: 192"/&gt;
+    &lt;ttc code="doubleh" point1="dh07" point2="dh08" stem="X: 192"/&gt;
+    &lt;ttc code="doubleh" point1="dh09" point2="dh10" stem="X: 192"/&gt;
+    &lt;ttc code="singleh" point1="dh10" point2="rsb" round="true"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dh06" stem="Y: 202"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="dh02" stem="Y: 202"/&gt;
+    &lt;ttc code="singlev" point1="dh06" point2="sv01"/&gt;
+    &lt;ttc code="singlev" point1="dh02" point2="dh08"/&gt;
+    &lt;ttc code="singlev" point1="dh08" point2="sv02"/&gt;
+    &lt;ttc code="singlev" point1="sv02" point2="dh07"/&gt;
+    &lt;ttc code="singlev" point1="dh07" point2="dh04"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

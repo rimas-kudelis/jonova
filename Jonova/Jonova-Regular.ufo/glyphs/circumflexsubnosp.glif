@@ -4,18 +4,45 @@
   <anchor x="-512" y="0" name="_AccentBelow"/>
   <outline>
     <contour>
-      <point x="-219" y="-430" type="line"/>
-      <point x="-320" y="-460" type="line"/>
-      <point x="-507" y="-245" type="line"/>
+      <point x="-219" y="-430" type="line" name="dh02"/>
+      <point x="-320" y="-460" type="line" name="dh01"/>
+      <point x="-507" y="-245" type="line" name="sv01"/>
       <point x="-517" y="-245" type="line"/>
-      <point x="-704" y="-460" type="line"/>
-      <point x="-805" y="-430" type="line"/>
+      <point x="-704" y="-460" type="line" name="dh03"/>
+      <point x="-805" y="-430" type="line" name="dh04"/>
       <point x="-593" y="-142" type="line"/>
-      <point x="-431" y="-142" type="line"/>
+      <point x="-431" y="-142" type="line" name="sv02"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -439 -21</string>
+              <string>hstem -142 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" round="true"/&gt;
+    &lt;ttc code="doubleh" point1="dh03" point2="dh04" round="true"/&gt;
+    &lt;ttc code="alignb" point="dh01" zone="b: 2"/&gt;
+    &lt;ttc code="alignb" point="dh03" zone="b: 2"/&gt;
+    &lt;ttc code="singlev" point1="dh01" point2="sv01" round="true"/&gt;
+    &lt;ttc code="mdeltav" point="sv01" delta="5" ppm1="14" ppm2="14"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv02" round="true"/&gt;
+    &lt;ttc code="mdeltav" point="sv02" delta="-3" ppm1="15" ppm2="15"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

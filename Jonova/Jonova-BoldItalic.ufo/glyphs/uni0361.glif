@@ -1,25 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0361" format="2">
   <unicode hex="0361"/>
+  <guideline x="0" y="1216" angle="0"/>
+  <guideline x="487" y="0" angle="135"/>
+  <guideline x="-487" y="0" angle="45"/>
+  <guideline x="-693" y="0" angle="90"/>
+  <guideline x="694" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="935" y="1515" type="line"/>
+      <point x="935" y="1515" type="line" name="av03"/>
       <point x="875" y="1554"/>
       <point x="729" y="1616"/>
       <point x="565" y="1659"/>
       <point x="388" y="1683"/>
-      <point x="298" y="1683" type="qcurve"/>
+      <point x="298" y="1683" type="qcurve" name="av01"/>
       <point x="216" y="1683"/>
       <point x="43" y="1659"/>
       <point x="-124" y="1615"/>
       <point x="-278" y="1553"/>
-      <point x="-340" y="1515" type="qcurve"/>
+      <point x="-340" y="1515" type="qcurve" name="av02"/>
       <point x="-406" y="1581" type="line"/>
       <point x="-332" y="1650"/>
       <point x="-163" y="1747"/>
       <point x="17" y="1808"/>
       <point x="205" y="1835"/>
-      <point x="298" y="1835" type="qcurve"/>
+      <point x="298" y="1835" type="qcurve" name="sv01"/>
       <point x="391" y="1835"/>
       <point x="579" y="1808"/>
       <point x="760" y="1748"/>
@@ -29,6 +34,31 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av03</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1165 -21</string>
+              <string>hstem 1312 152</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+    &lt;ttc code="alignv" point="av03" align="round"/&gt;
+    &lt;ttc code="mdeltav" point="av01" delta="8" ppm1="9" ppm2="9"/&gt;
+    &lt;ttc code="mdeltav" point="av01" delta="8" ppm1="20" ppm2="21"/&gt;
+    &lt;ttc code="singlev" point1="av01" point2="sv01" stem="T1 H: 142"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

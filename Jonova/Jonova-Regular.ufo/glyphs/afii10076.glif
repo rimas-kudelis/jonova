@@ -2,6 +2,8 @@
 <glyph name="afii10076" format="2">
   <advance width="1024"/>
   <unicode hex="043A"/>
+  <guideline x="-99" y="0" angle="45"/>
+  <guideline x="985" y="0" angle="130"/>
   <outline>
     <contour>
       <point x="314" y="1004" type="line"/>

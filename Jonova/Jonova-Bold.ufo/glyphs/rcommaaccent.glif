@@ -2,6 +2,7 @@
 <glyph name="rcommaaccent" format="2">
   <advance width="736"/>
   <unicode hex="0157"/>
+  <guideline x="-294" y="0" angle="90"/>
   <outline>
     <component base="r" identifier="component0"/>
     <component base="uniF004" xOffset="-129" identifier="component1"/>

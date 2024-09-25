@@ -2,11 +2,36 @@
 <glyph name="ltshade" format="2">
   <advance width="2048"/>
   <unicode hex="2591"/>
+  <guideline x="0" y="-232" angle="0"/>
+  <guideline x="0" y="1839" angle="0"/>
+  <guideline x="0" y="803" angle="0"/>
+  <guideline x="0" y="2011" angle="0"/>
+  <guideline x="0" y="1666" angle="0"/>
+  <guideline x="0" y="976" angle="0"/>
+  <guideline x="0" y="1493" angle="0"/>
+  <guideline x="0" y="1148" angle="0"/>
+  <guideline x="0" y="1322" angle="0"/>
+  <guideline x="0" y="631" angle="0"/>
+  <guideline x="0" y="458" angle="0"/>
+  <guideline x="0" y="286" angle="0"/>
+  <guideline x="0" y="113" angle="0"/>
+  <guideline x="0" y="-59" angle="0"/>
+  <guideline x="0" y="-405" angle="0"/>
+  <guideline x="232" y="0" angle="45"/>
+  <guideline x="87" y="0" angle="90"/>
+  <guideline x="1803" y="0" angle="90"/>
+  <guideline x="1890" y="0" angle="90"/>
+  <guideline x="173" y="0" angle="90"/>
+  <guideline x="259" y="0" angle="90"/>
+  <guideline x="345" y="0" angle="90"/>
+  <guideline x="432" y="0" angle="90"/>
+  <guideline x="604" y="0" angle="90"/>
+  <guideline x="1294" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="1450" y="-321" type="line"/>
+      <point x="1450" y="-321" type="line" name="hr00"/>
       <point x="1535" y="-411" type="line"/>
-      <point x="1450" y="-500" type="line"/>
+      <point x="1450" y="-500" type="line" name="av01"/>
       <point x="1365" y="-411" type="line"/>
     </contour>
     <contour>
@@ -22,7 +47,7 @@
       <point x="1706" y="1732" type="line"/>
     </contour>
     <contour>
-      <point x="1963" y="2000" type="line"/>
+      <point x="1963" y="2000" type="line" name="av07"/>
       <point x="2048" y="1911" type="line"/>
       <point x="1963" y="1822" type="line"/>
       <point x="1878" y="1912" type="line"/>
@@ -88,7 +113,7 @@
       <point x="1878" y="483" type="line"/>
     </contour>
     <contour>
-      <point x="1621" y="2000" type="line"/>
+      <point x="1621" y="2000" type="line" name="av08"/>
       <point x="1706" y="1911" type="line"/>
       <point x="1621" y="1822" type="line"/>
       <point x="1536" y="1911" type="line"/>
@@ -144,7 +169,7 @@
     <contour>
       <point x="1792" y="-321" type="line"/>
       <point x="1878" y="-410" type="line"/>
-      <point x="1792" y="-499" type="line"/>
+      <point x="1792" y="-499" type="line" name="av02"/>
       <point x="1706" y="-410" type="line"/>
     </contour>
     <contour>
@@ -174,7 +199,7 @@
     <contour>
       <point x="768" y="-321" type="line"/>
       <point x="853" y="-411" type="line"/>
-      <point x="768" y="-500" type="line"/>
+      <point x="768" y="-500" type="line" name="av03"/>
       <point x="683" y="-411" type="line"/>
     </contour>
     <contour>
@@ -190,7 +215,7 @@
       <point x="1024" y="1732" type="line"/>
     </contour>
     <contour>
-      <point x="1280" y="2000" type="line"/>
+      <point x="1280" y="2000" type="line" name="av09"/>
       <point x="1365" y="1911" type="line"/>
       <point x="1280" y="1822" type="line"/>
       <point x="1195" y="1912" type="line"/>
@@ -256,7 +281,7 @@
       <point x="1195" y="483" type="line"/>
     </contour>
     <contour>
-      <point x="939" y="2000" type="line"/>
+      <point x="939" y="2000" type="line" name="av10"/>
       <point x="1024" y="1911" type="line"/>
       <point x="939" y="1822" type="line"/>
       <point x="854" y="1911" type="line"/>
@@ -312,7 +337,7 @@
     <contour>
       <point x="1109" y="-321" type="line"/>
       <point x="1195" y="-410" type="line"/>
-      <point x="1109" y="-499" type="line"/>
+      <point x="1109" y="-499" type="line" name="av04"/>
       <point x="1024" y="-410" type="line"/>
     </contour>
     <contour>
@@ -342,7 +367,7 @@
     <contour>
       <point x="85" y="-321" type="line"/>
       <point x="170" y="-411" type="line"/>
-      <point x="85" y="-500" type="line"/>
+      <point x="85" y="-500" type="line" name="av05"/>
       <point x="0" y="-411" type="line"/>
     </contour>
     <contour>
@@ -358,7 +383,7 @@
       <point x="341" y="1732" type="line"/>
     </contour>
     <contour>
-      <point x="597" y="2000" type="line"/>
+      <point x="597" y="2000" type="line" name="av11"/>
       <point x="683" y="1911" type="line"/>
       <point x="597" y="1822" type="line"/>
       <point x="512" y="1912" type="line"/>
@@ -424,7 +449,7 @@
       <point x="512" y="483" type="line"/>
     </contour>
     <contour>
-      <point x="256" y="2000" type="line"/>
+      <point x="256" y="2000" type="line" name="av12"/>
       <point x="341" y="1911" type="line"/>
       <point x="256" y="1822" type="line"/>
       <point x="171" y="1911" type="line"/>
@@ -480,7 +505,7 @@
     <contour>
       <point x="426" y="-321" type="line"/>
       <point x="512" y="-410" type="line"/>
-      <point x="426" y="-499" type="line"/>
+      <point x="426" y="-499" type="line" name="av06"/>
       <point x="341" y="-410" type="line"/>
     </contour>
     <contour>
@@ -510,6 +535,37 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -479 -21</string>
+              <string>hstem 2000 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+    &lt;ttc code="alignv" point="av03" align="round"/&gt;
+    &lt;ttc code="alignv" point="av04" align="round"/&gt;
+    &lt;ttc code="alignv" point="av05" align="round"/&gt;
+    &lt;ttc code="alignv" point="av06" align="round"/&gt;
+    &lt;ttc code="alignv" point="av07" align="round"/&gt;
+    &lt;ttc code="alignv" point="av08" align="round"/&gt;
+    &lt;ttc code="alignv" point="av09" align="round"/&gt;
+    &lt;ttc code="alignv" point="av10" align="round"/&gt;
+    &lt;ttc code="alignv" point="av11" align="round"/&gt;
+    &lt;ttc code="alignv" point="av12" align="round"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

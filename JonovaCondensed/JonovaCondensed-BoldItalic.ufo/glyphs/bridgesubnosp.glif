@@ -4,18 +4,57 @@
   <anchor x="-512" y="0" name="_AccentBelow"/>
   <outline>
     <contour>
-      <point x="-144" y="-136" type="line"/>
-      <point x="-188" y="-460" type="line"/>
+      <point x="-144" y="-136" type="line" name="sv01"/>
+      <point x="-188" y="-460" type="line" name="ab01"/>
       <point x="-324" y="-460" type="line"/>
-      <point x="-300" y="-278" type="line"/>
+      <point x="-300" y="-278" type="line" name="sv02"/>
       <point x="-542" y="-278" type="line"/>
-      <point x="-566" y="-460" type="line"/>
+      <point x="-566" y="-460" type="line" name="ab02"/>
       <point x="-703" y="-460" type="line"/>
-      <point x="-659" y="-136" type="line"/>
+      <point x="-659" y="-136" type="line" name="sv03"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -460 324</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>sv02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -278 142</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>ab02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -460 324</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 2"/&gt;
+    &lt;ttc code="alignb" point="ab02" zone="b: 2"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv01" stem="T1 H: 282"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv02" stem="T1 H: 142"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv03"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

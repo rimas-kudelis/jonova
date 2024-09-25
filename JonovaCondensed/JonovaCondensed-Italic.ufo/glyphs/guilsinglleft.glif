@@ -2,18 +2,40 @@
 <glyph name="guilsinglleft" format="2">
   <advance width="552"/>
   <unicode hex="2039"/>
+  <guideline x="0" y="901" angle="0"/>
   <outline>
     <contour>
-      <point x="488" y="906" type="line"/>
+      <point x="488" y="906" type="line" name="av01"/>
       <point x="561" y="876" type="line"/>
       <point x="308" y="487" type="line"/>
       <point x="457" y="98" type="line"/>
-      <point x="376" y="68" type="line"/>
+      <point x="376" y="68" type="line" name="av02"/>
       <point x="185" y="487" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 89 -21</string>
+              <string>hstem 906 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

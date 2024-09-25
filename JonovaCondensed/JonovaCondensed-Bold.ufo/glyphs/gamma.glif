@@ -4,20 +4,46 @@
   <unicode hex="03B3"/>
   <outline>
     <contour>
-      <point x="490" y="-460" type="line"/>
-      <point x="323" y="-490" type="line"/>
-      <point x="278" y="-490" type="line"/>
+      <point x="490" y="-460" type="line" name="dh02"/>
+      <point x="323" y="-490" type="line" name="ab01"/>
+      <point x="278" y="-490" type="line" name="dh01"/>
       <point x="278" y="71" type="line"/>
       <point x="32" y="974" type="line"/>
-      <point x="249" y="1004" type="line"/>
-      <point x="440" y="308" type="line"/>
-      <point x="629" y="1004" type="line"/>
+      <point x="249" y="1004" type="line" name="at01"/>
+      <point x="440" y="308" type="line" name="ih01"/>
+      <point x="629" y="1004" type="line" name="at02"/>
       <point x="736" y="974" type="line"/>
       <point x="490" y="71" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -469 -21</string>
+              <string>hstem 1004 -20</string>
+              <string>vstem 278 212</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 212"/&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="dh01" point2="dh02"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 0"/&gt;
+    &lt;ttc code="alignt" point="at02" zone="t: 0"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 1"/&gt;
+    &lt;ttc code="interpolatev" point="ih01" point1="ab01" point2="at01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

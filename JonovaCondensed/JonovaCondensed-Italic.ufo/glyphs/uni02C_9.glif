@@ -2,16 +2,36 @@
 <glyph name="uni02C9" format="2">
   <advance width="576"/>
   <unicode hex="02C9"/>
+  <guideline x="519" y="0" angle="80"/>
   <outline>
     <contour>
-      <point x="719" y="1298" type="line"/>
-      <point x="703" y="1176" type="line"/>
+      <point x="719" y="1298" type="line" name="dv02"/>
+      <point x="703" y="1176" type="line" name="dv01"/>
       <point x="182" y="1176" type="line"/>
       <point x="198" y="1298" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dv02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1176 122</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 122"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

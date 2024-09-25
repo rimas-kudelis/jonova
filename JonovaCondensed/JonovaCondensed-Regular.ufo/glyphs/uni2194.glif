@@ -4,20 +4,47 @@
   <unicode hex="2194"/>
   <outline>
     <contour>
-      <point x="22" y="487" type="line"/>
-      <point x="512" y="774" type="line"/>
+      <point x="22" y="487" type="line" name="iv01"/>
+      <point x="512" y="774" type="line" name="av03"/>
       <point x="512" y="548" type="line"/>
-      <point x="1088" y="548" type="line"/>
-      <point x="1088" y="774" type="line"/>
-      <point x="1578" y="487" type="line"/>
-      <point x="1088" y="200" type="line"/>
-      <point x="1088" y="426" type="line"/>
+      <point x="1088" y="548" type="line" name="dv02"/>
+      <point x="1088" y="774" type="line" name="av04"/>
+      <point x="1578" y="487" type="line" name="iv02"/>
+      <point x="1088" y="200" type="line" name="av01"/>
+      <point x="1088" y="426" type="line" name="dv01"/>
       <point x="512" y="426" type="line"/>
-      <point x="512" y="200" type="line"/>
+      <point x="512" y="200" type="line" name="av02"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>iv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 221 -21</string>
+              <string>hstem 426 122</string>
+              <string>hstem 774 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+    &lt;ttc code="alignv" point="av03" align="round"/&gt;
+    &lt;ttc code="alignv" point="av04" align="round"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 122"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="dv01" point2="dv02"/&gt;
+    &lt;ttc code="interpolatev" point="iv02" point1="dv01" point2="dv02"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

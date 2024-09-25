@@ -2,9 +2,58 @@
 <glyph name="shade" format="2">
   <advance width="2048"/>
   <unicode hex="2592"/>
+  <guideline x="0" y="-232" angle="0"/>
+  <guideline x="0" y="1839" angle="0"/>
+  <guideline x="0" y="803" angle="0"/>
+  <guideline x="0" y="2011" angle="0"/>
+  <guideline x="0" y="1666" angle="0"/>
+  <guideline x="0" y="975" angle="0"/>
+  <guideline x="0" y="1493" angle="0"/>
+  <guideline x="0" y="1148" angle="0"/>
+  <guideline x="0" y="1320" angle="0"/>
+  <guideline x="0" y="631" angle="0"/>
+  <guideline x="0" y="458" angle="0"/>
+  <guideline x="0" y="285" angle="0"/>
+  <guideline x="0" y="113" angle="0"/>
+  <guideline x="0" y="-59" angle="0"/>
+  <guideline x="0" y="-405" angle="0"/>
+  <guideline x="0" y="1924" angle="0"/>
+  <guideline x="0" y="-146" angle="0"/>
+  <guideline x="0" y="27" angle="0"/>
+  <guideline x="0" y="371" angle="0"/>
+  <guideline x="0" y="544" angle="0"/>
+  <guideline x="0" y="890" angle="0"/>
+  <guideline x="0" y="1062" angle="0"/>
+  <guideline x="0" y="1285" angle="0"/>
+  <guideline x="0" y="1580" angle="0"/>
+  <guideline x="301" y="0" angle="45"/>
+  <guideline x="166" y="0" angle="90"/>
+  <guideline x="1891" y="0" angle="90"/>
+  <guideline x="2064" y="0" angle="90"/>
+  <guideline x="253" y="0" angle="90"/>
+  <guideline x="339" y="0" angle="90"/>
+  <guideline x="425" y="0" angle="90"/>
+  <guideline x="511" y="0" angle="90"/>
+  <guideline x="683" y="0" angle="90"/>
+  <guideline x="1374" y="0" angle="90"/>
+  <guideline x="1029" y="0" angle="90"/>
+  <guideline x="1201" y="0" angle="90"/>
+  <guideline x="1546" y="0" angle="90"/>
+  <guideline x="1719" y="0" angle="90"/>
+  <guideline x="856" y="0" angle="90"/>
+  <guideline x="598" y="0" angle="90"/>
+  <guideline x="769" y="0" angle="90"/>
+  <guideline x="942" y="0" angle="90"/>
+  <guideline x="1115" y="0" angle="90"/>
+  <guideline x="1460" y="0" angle="90"/>
+  <guideline x="1633" y="0" angle="90"/>
+  <guideline x="1805" y="0" angle="90"/>
+  <guideline x="1978" y="0" angle="90"/>
+  <guideline x="2150" y="0" angle="90"/>
+  <guideline x="1288" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="165" y="1285" type="line"/>
+      <point x="165" y="1285" type="line" name="hr00"/>
       <point x="251" y="1197" type="line"/>
       <point x="165" y="1107" type="line"/>
       <point x="251" y="1018" type="line"/>
@@ -702,6 +751,21 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -479 -21</string>
+              <string>hstem 2000 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

@@ -4,33 +4,33 @@
   <anchor x="-300" y="1500" name="_AccentDefault"/>
   <outline>
     <contour>
-      <point x="-248" y="1864" type="qcurve"/>
-      <point x="-222" y="1864"/>
+      <point x="-248" y="1864" type="qcurve" name="sv02"/>
+      <point x="-222" y="1864" name="hr00"/>
       <point x="-182" y="1843"/>
-      <point x="-149" y="1812"/>
-      <point x="-121" y="1776"/>
-      <point x="-92" y="1745"/>
+      <point x="-149" y="1812" name="hr01"/>
+      <point x="-121" y="1776" name="hr02"/>
+      <point x="-92" y="1745" name="hr03"/>
       <point x="-62" y="1724"/>
-      <point x="-44" y="1724" type="qcurve"/>
-      <point x="-6" y="1724"/>
+      <point x="-44" y="1724" type="qcurve" name="dv02"/>
+      <point x="-6" y="1724" name="hr04"/>
       <point x="43" y="1804"/>
-      <point x="51" y="1864" type="qcurve"/>
+      <point x="51" y="1864" type="qcurve" name="sv03"/>
       <point x="142" y="1864" type="line"/>
       <point x="132" y="1795"/>
       <point x="94" y="1686"/>
       <point x="41" y="1611"/>
       <point x="-27" y="1572"/>
-      <point x="-65" y="1572" type="qcurve"/>
+      <point x="-65" y="1572" type="qcurve" name="dv01"/>
       <point x="-91" y="1572"/>
       <point x="-130" y="1593"/>
       <point x="-163" y="1624"/>
       <point x="-190" y="1660"/>
       <point x="-218" y="1691"/>
       <point x="-249" y="1712"/>
-      <point x="-269" y="1712" type="qcurve"/>
+      <point x="-269" y="1712" type="qcurve" name="sv01"/>
       <point x="-307" y="1712"/>
       <point x="-355" y="1632"/>
-      <point x="-363" y="1572" type="qcurve"/>
+      <point x="-363" y="1572" type="qcurve" name="sv04"/>
       <point x="-455" y="1572" type="line"/>
       <point x="-446" y="1641"/>
       <point x="-407" y="1750"/>
@@ -40,6 +40,77 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sv02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1712 152</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1572 152</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1712 152</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1572 152</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr03</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1712 152</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>dv02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1572 152</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr04</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1712 152</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="T1 H: 142"/&gt;
+    &lt;ttc code="singlev" point1="dv02" point2="sv01" align="round"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv02" stem="T1 H: 142"/&gt;
+    &lt;ttc code="singlev" point1="sv02" point2="sv03"/&gt;
+    &lt;ttc code="singlev" point1="dv01" point2="sv04"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

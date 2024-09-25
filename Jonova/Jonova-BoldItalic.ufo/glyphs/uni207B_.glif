@@ -4,14 +4,35 @@
   <unicode hex="207B"/>
   <outline>
     <contour>
-      <point x="870" y="1116" type="line"/>
-      <point x="845" y="974" type="line"/>
-      <point x="233" y="974" type="line"/>
+      <point x="870" y="1116" type="line" name="ah01"/>
+      <point x="845" y="974" type="line" name="dv01"/>
+      <point x="233" y="974" type="line" name="ah02"/>
       <point x="258" y="1116" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>ah01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 974 142</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="ah01" align="round"/&gt;
+    &lt;ttc code="alignh" point="ah02" align="round"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="ah01" stem="T1 H: 142"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

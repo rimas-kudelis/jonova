@@ -2,11 +2,12 @@
 <glyph name="quotesingle" format="2">
   <advance width="432"/>
   <unicode hex="0027"/>
+  <guideline x="1343" y="0" angle="135"/>
   <outline>
     <contour>
-      <point x="281" y="901" type="line"/>
+      <point x="281" y="901" type="line" name="av01"/>
       <point x="307" y="1434" type="line"/>
-      <point x="334" y="1464" type="line"/>
+      <point x="334" y="1464" type="line" name="at01"/>
       <point x="485" y="1464" type="line"/>
       <point x="503" y="1434" type="line"/>
       <point x="388" y="901" type="line"/>
@@ -14,6 +15,27 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 922 -21</string>
+              <string>hstem 1464 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

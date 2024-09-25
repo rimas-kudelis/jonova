@@ -2,28 +2,60 @@
 <glyph name="Tbar" format="2">
   <advance width="864"/>
   <unicode hex="0166"/>
+  <guideline x="231" y="0" angle="90"/>
+  <guideline x="648" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="23" y="1434" type="line"/>
+      <point x="23" y="1434" type="line" name="at01"/>
       <point x="863" y="1434" type="line"/>
       <point x="842" y="1272" type="line"/>
-      <point x="549" y="1312" type="line"/>
+      <point x="549" y="1312" type="line" name="sh01"/>
       <point x="549" y="839" type="line"/>
-      <point x="746" y="839" type="line"/>
-      <point x="728" y="697" type="line"/>
+      <point x="746" y="839" type="line" name="dv02"/>
+      <point x="728" y="697" type="line" name="dv01"/>
       <point x="549" y="697" type="line"/>
-      <point x="549" y="0" type="line"/>
-      <point x="315" y="0" type="line"/>
-      <point x="315" y="697" type="line"/>
+      <point x="549" y="0" type="line" name="dh02"/>
+      <point x="315" y="0" type="line" name="dh01"/>
+      <point x="315" y="697" type="line" name="sv01"/>
       <point x="122" y="697" type="line"/>
-      <point x="140" y="839" type="line"/>
-      <point x="315" y="839" type="line"/>
+      <point x="140" y="839" type="line" name="sv02"/>
+      <point x="315" y="839" type="line" name="sh02"/>
       <point x="315" y="1313" type="line"/>
-      <point x="2" y="1271" type="line"/>
+      <point x="2" y="1271" type="line" name="iv01"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 21 -21</string>
+              <string>hstem 697 142</string>
+              <string>hstem 1434 -20</string>
+              <string>vstem 315 234</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 212"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="sh01"/&gt;
+    &lt;ttc code="singleh" point1="dh01" point2="sh02"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="dh02" zone="b: 0"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="T1 H: 142"/&gt;
+    &lt;ttc code="singlev" point1="dv01" point2="sv01"/&gt;
+    &lt;ttc code="singlev" point1="dv02" point2="sv02"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="dh02" point2="at01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

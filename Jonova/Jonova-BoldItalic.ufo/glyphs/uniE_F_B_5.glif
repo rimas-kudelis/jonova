@@ -2,9 +2,15 @@
 <glyph name="uniEFB5" format="2">
   <advance width="2048"/>
   <unicode hex="EFB5"/>
+  <guideline x="0" y="676" angle="0"/>
+  <guideline x="-440" y="0" angle="45"/>
+  <guideline x="2488" y="0" angle="135"/>
+  <guideline x="1024" y="0" angle="90"/>
+  <guideline x="2211" y="0" angle="135"/>
+  <guideline x="-163" y="0" angle="45"/>
   <outline>
     <contour>
-      <point x="1282" y="1464" type="line"/>
+      <point x="1282" y="1464" type="line" name="at01"/>
       <point x="1916" y="694" type="line"/>
       <point x="1918" y="692"/>
       <point x="1922" y="682"/>
@@ -12,11 +18,11 @@
       <point x="1922" y="654"/>
       <point x="1890" y="626"/>
       <point x="1872" y="626" type="qcurve"/>
-      <point x="1480" y="626" type="line"/>
+      <point x="1480" y="626" type="line" name="dv01"/>
       <point x="1371" y="11" type="line"/>
       <point x="1368" y="-6"/>
       <point x="1340" y="-30"/>
-      <point x="1323" y="-30" type="qcurve"/>
+      <point x="1323" y="-30" type="qcurve" name="ab01"/>
       <point x="713" y="-30" type="line"/>
       <point x="697" y="-30"/>
       <point x="678" y="-10"/>
@@ -24,7 +30,7 @@
       <point x="678" y="6"/>
       <point x="679" y="9"/>
       <point x="679" y="11" type="qcurve"/>
-      <point x="788" y="626" type="line"/>
+      <point x="788" y="626" type="line" name="sv01"/>
       <point x="396" y="626" type="line"/>
       <point x="380" y="626"/>
       <point x="361" y="646"/>
@@ -35,16 +41,42 @@
     </contour>
     <contour>
       <point x="1233" y="1186" type="line"/>
-      <point x="788" y="808" type="line"/>
+      <point x="788" y="808" type="line" name="sv02"/>
       <point x="1002" y="808" type="line"/>
-      <point x="886" y="152" type="line"/>
+      <point x="886" y="152" type="line" name="sv03"/>
       <point x="1214" y="152" type="line"/>
       <point x="1330" y="808" type="line"/>
-      <point x="1544" y="808" type="line"/>
+      <point x="1544" y="808" type="line" name="dv02"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -30 182</string>
+              <string>hstem 626 182</string>
+              <string>hstem 1464 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="T1 H: 182"/&gt;
+    &lt;ttc code="singlev" point1="dv01" point2="sv01"/&gt;
+    &lt;ttc code="singlev" point1="dv02" point2="sv02"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv03" stem="T1 H: 182"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

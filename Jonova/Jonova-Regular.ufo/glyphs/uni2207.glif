@@ -2,20 +2,46 @@
 <glyph name="uni2207" format="2">
   <advance width="1600"/>
   <unicode hex="2207"/>
+  <guideline x="176" y="0" angle="68"/>
+  <guideline x="1360" y="0" angle="112"/>
+  <guideline x="1138" y="0" angle="112"/>
+  <guideline x="255" y="0" angle="68"/>
   <outline>
     <contour>
-      <point x="800" y="-30" type="line"/>
-      <point x="118" y="1434" type="line"/>
+      <point x="800" y="-30" type="line" name="ab01"/>
+      <point x="118" y="1434" type="line" name="at01"/>
       <point x="1482" y="1434" type="line"/>
     </contour>
     <contour>
       <point x="832" y="296" type="line"/>
-      <point x="1306" y="1312" type="line"/>
+      <point x="1306" y="1312" type="line" name="sv01"/>
       <point x="358" y="1312" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>ab01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -9 -21</string>
+              <string>hstem 1312 122</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sv01" stem="Y: 122"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

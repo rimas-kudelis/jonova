@@ -4,15 +4,15 @@
   <unicode hex="0429"/>
   <outline>
     <contour>
-      <point x="266" y="1464" type="line"/>
+      <point x="266" y="1464" type="line" name="hr00"/>
       <point x="266" y="122" type="line"/>
       <point x="615" y="122" type="line"/>
       <point x="615" y="1434" type="line"/>
-      <point x="752" y="1464" type="line"/>
+      <point x="752" y="1464" type="line" name="hr01"/>
       <point x="752" y="122" type="line"/>
       <point x="1101" y="122" type="line"/>
       <point x="1101" y="1434" type="line"/>
-      <point x="1238" y="1464" type="line"/>
+      <point x="1238" y="1464" type="line" name="hr02"/>
       <point x="1238" y="122" type="line"/>
       <point x="1374" y="122" type="line"/>
       <point x="1374" y="-315" type="line"/>
@@ -24,6 +24,51 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -324 -21</string>
+              <string>hstem 0 122</string>
+              <string>hstem 1464 -20</string>
+              <string>vstem 129 137</string>
+              <string>vstem 615 137</string>
+              <string>vstem 1101 137</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -324 -21</string>
+              <string>hstem 0 122</string>
+              <string>hstem 1464 -20</string>
+              <string>vstem 129 137</string>
+              <string>vstem 615 137</string>
+              <string>vstem 1238 136</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -324 -21</string>
+              <string>hstem 0 122</string>
+              <string>hstem 1464 -20</string>
+              <string>vstem 129 137</string>
+              <string>vstem 615 137</string>
+              <string>vstem 1101 137</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

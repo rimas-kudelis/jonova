@@ -4,46 +4,82 @@
   <unicode hex="042B"/>
   <outline>
     <contour>
-      <point x="99" y="1434" type="line"/>
-      <point x="333" y="1464" type="line"/>
-      <point x="333" y="849" type="line"/>
+      <point x="99" y="1434" type="line" name="dh01"/>
+      <point x="333" y="1464" type="line" name="dh02"/>
+      <point x="333" y="849" type="line" name="dv01"/>
       <point x="423" y="849" type="line"/>
       <point x="522" y="849"/>
       <point x="672" y="775"/>
       <point x="773" y="654"/>
       <point x="825" y="497"/>
-      <point x="825" y="415" type="qcurve"/>
+      <point x="825" y="415" type="qcurve" name="dh04"/>
       <point x="825" y="332"/>
       <point x="778" y="182"/>
       <point x="680" y="68"/>
       <point x="527" y="0"/>
-      <point x="423" y="0" type="qcurve"/>
+      <point x="423" y="0" type="qcurve" name="ab01"/>
       <point x="99" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="375" y="132" type="line"/>
+      <point x="375" y="132" type="line" name="sv01"/>
       <point x="434" y="132"/>
       <point x="513" y="182"/>
       <point x="563" y="262"/>
       <point x="584" y="364"/>
-      <point x="584" y="415" type="qcurve"/>
+      <point x="584" y="415" type="qcurve" name="dh03"/>
       <point x="584" y="473"/>
       <point x="563" y="582"/>
       <point x="513" y="666"/>
       <point x="434" y="717"/>
       <point x="375" y="717" type="qcurve"/>
-      <point x="333" y="717" type="line"/>
+      <point x="333" y="717" type="line" name="sh01"/>
       <point x="333" y="132" type="line"/>
     </contour>
     <contour>
-      <point x="938" y="1434" type="line"/>
-      <point x="1172" y="1464" type="line"/>
-      <point x="1172" y="0" type="line"/>
+      <point x="938" y="1434" type="line" name="dh05"/>
+      <point x="1172" y="1464" type="line" name="dh06"/>
+      <point x="1172" y="0" type="line" name="ab02"/>
       <point x="938" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 132</string>
+              <string>hstem 717 132</string>
+              <string>hstem 1464 -20</string>
+              <string>vstem 99 234</string>
+              <string>vstem 584 241</string>
+              <string>vstem 938 234</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 212"/&gt;
+    &lt;ttc code="doubleh" point1="dh03" point2="dh04" stem="T1 V: 212"/&gt;
+    &lt;ttc code="doubleh" point1="dh05" point2="dh06" stem="T1 V: 212"/&gt;
+    &lt;ttc code="mdeltah" point="dh03" delta="3" ppm1="13" ppm2="14"/&gt;
+    &lt;ttc code="mdeltah" point="dh03" delta="2" ppm1="9" ppm2="12"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="sh01"/&gt;
+    &lt;ttc code="singleh" point1="dh06" point2="rsb" round="true"/&gt;
+    &lt;ttc code="alignt" point="dh02" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="dh06" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="alignb" point="ab02" zone="b: 0"/&gt;
+    &lt;ttc code="doublev" point1="sh01" point2="dv01" stem="T1 H: 142"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv01" stem="T1 H: 142"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

@@ -2,9 +2,14 @@
 <glyph name="Lslash" format="2">
   <advance width="816"/>
   <unicode hex="0141"/>
+  <guideline x="0" y="504" angle="35"/>
+  <guideline x="0" y="627" angle="35"/>
+  <guideline x="461" y="0" angle="90"/>
+  <guideline x="26" y="0" angle="90"/>
+  <guideline x="579" y="0" angle="100"/>
   <outline>
     <contour>
-      <point x="467" y="1464" type="line"/>
+      <point x="467" y="1464" type="line" name="at01"/>
       <point x="389" y="885" type="line"/>
       <point x="518" y="1004" type="line"/>
       <point x="533" y="896" type="line"/>
@@ -22,6 +27,26 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 132</string>
+              <string>hstem 1464 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

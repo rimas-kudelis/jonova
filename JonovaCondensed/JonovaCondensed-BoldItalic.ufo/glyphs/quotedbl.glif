@@ -2,19 +2,23 @@
 <glyph name="quotedbl" format="2">
   <advance width="552"/>
   <unicode hex="0022"/>
+  <guideline x="0" y="854" angle="0"/>
+  <guideline x="0" y="953" angle="0"/>
+  <guideline x="184" y="0" angle="90"/>
+  <guideline x="125" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="197" y="901" type="line"/>
+      <point x="197" y="901" type="line" name="av01"/>
       <point x="223" y="1434" type="line"/>
-      <point x="250" y="1464" type="line"/>
+      <point x="250" y="1464" type="line" name="at01"/>
       <point x="401" y="1464" type="line"/>
       <point x="419" y="1434" type="line"/>
       <point x="304" y="901" type="line"/>
     </contour>
     <contour>
-      <point x="485" y="901" type="line"/>
+      <point x="485" y="901" type="line" name="av02"/>
       <point x="511" y="1434" type="line"/>
-      <point x="538" y="1464" type="line"/>
+      <point x="538" y="1464" type="line" name="at02"/>
       <point x="689" y="1464" type="line"/>
       <point x="707" y="1434" type="line"/>
       <point x="592" y="901" type="line"/>
@@ -22,6 +26,29 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 922 -21</string>
+              <string>hstem 1464 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="at02" zone="t: 1"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

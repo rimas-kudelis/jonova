@@ -1,37 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ogoneknosp" format="2">
   <unicode hex="0328"/>
+  <guideline x="0" y="-406" angle="0"/>
+  <guideline x="-132" y="0" angle="90"/>
   <anchor x="-512" y="0" name="_AccentOgonek"/>
   <outline>
     <contour>
-      <point x="-181" y="20" type="qcurve"/>
+      <point x="-181" y="20" type="qcurve" name="av01"/>
       <point x="-131" y="0" type="line"/>
       <point x="-164" y="-26"/>
       <point x="-221" y="-82"/>
       <point x="-263" y="-142"/>
       <point x="-287" y="-207"/>
-      <point x="-287" y="-241" type="qcurve"/>
+      <point x="-287" y="-241" type="qcurve" name="dh02"/>
       <point x="-287" y="-279"/>
       <point x="-254" y="-328"/>
-      <point x="-230" y="-328" type="qcurve"/>
+      <point x="-230" y="-328" type="qcurve" name="dv02"/>
       <point x="-214" y="-328"/>
       <point x="-190" y="-318"/>
       <point x="-171" y="-302" type="qcurve"/>
       <point x="-157" y="-412" type="line"/>
       <point x="-188" y="-429"/>
       <point x="-230" y="-440"/>
-      <point x="-251" y="-440" type="qcurve"/>
+      <point x="-251" y="-440" type="qcurve" name="dv01"/>
       <point x="-282" y="-440"/>
       <point x="-330" y="-414"/>
       <point x="-362" y="-369"/>
       <point x="-379" y="-307"/>
-      <point x="-379" y="-272" type="qcurve"/>
+      <point x="-379" y="-272" type="qcurve" name="dh01"/>
       <point x="-379" y="-193"/>
       <point x="-282" y="-39"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -440 112</string>
+              <string>hstem 20 -20</string>
+              <string>vstem -379 92</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 122"/&gt;
+    &lt;ttc code="mdeltah" point="dh02" delta="-2" ppm1="9" ppm2="21"/&gt;
+    &lt;ttc code="mdeltah" point="dh02" delta="-3" ppm1="22" ppm2="23"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 102"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

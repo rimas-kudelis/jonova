@@ -2,40 +2,72 @@
 <glyph name="daggerdbl" format="2">
   <advance width="768"/>
   <unicode hex="2021"/>
+  <guideline x="0" y="588" angle="0"/>
   <outline>
     <contour>
-      <point x="638" y="1464" type="line"/>
+      <point x="638" y="1464" type="line" name="at01"/>
       <point x="551" y="971" type="line"/>
-      <point x="839" y="991" type="line"/>
+      <point x="839" y="991" type="line" name="iv01"/>
       <point x="822" y="921" type="line"/>
       <point x="820" y="849" type="line"/>
       <point x="537" y="869" type="line"/>
       <point x="523" y="593" type="line"/>
-      <point x="464" y="317" type="line"/>
-      <point x="752" y="337" type="line"/>
+      <point x="464" y="317" type="line" name="iv02"/>
+      <point x="752" y="337" type="line" name="iv03"/>
       <point x="736" y="267" type="line"/>
       <point x="734" y="195" type="line"/>
       <point x="450" y="215" type="line"/>
-      <point x="407" y="-278" type="line"/>
+      <point x="407" y="-278" type="line" name="av01"/>
       <point x="348" y="-268" type="line"/>
-      <point x="286" y="-278" type="line"/>
+      <point x="286" y="-278" type="line" name="av02"/>
       <point x="374" y="215" type="line"/>
-      <point x="86" y="195" type="line"/>
+      <point x="86" y="195" type="line" name="iv04"/>
       <point x="102" y="265" type="line"/>
       <point x="104" y="337" type="line"/>
       <point x="387" y="317" type="line"/>
       <point x="401" y="593" type="line"/>
-      <point x="461" y="869" type="line"/>
-      <point x="172" y="849" type="line"/>
+      <point x="461" y="869" type="line" name="iv05"/>
+      <point x="172" y="849" type="line" name="iv06"/>
       <point x="188" y="919" type="line"/>
       <point x="191" y="991" type="line"/>
       <point x="474" y="971" type="line"/>
-      <point x="517" y="1464" type="line"/>
+      <point x="517" y="1464" type="line" name="at02"/>
       <point x="575" y="1454" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -257 -21</string>
+              <string>hstem 205 122</string>
+              <string>hstem 859 122</string>
+              <string>hstem 1464 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="at02" zone="t: 1"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="av01" point2="at01"/&gt;
+    &lt;ttc code="interpolatev" point="iv02" point1="av01" point2="at01"/&gt;
+    &lt;ttc code="interpolatev" point="iv03" point1="av01" point2="at01"/&gt;
+    &lt;ttc code="interpolatev" point="iv04" point1="av01" point2="at01"/&gt;
+    &lt;ttc code="interpolatev" point="iv05" point1="av01" point2="at01"/&gt;
+    &lt;ttc code="interpolatev" point="iv06" point1="av01" point2="at01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

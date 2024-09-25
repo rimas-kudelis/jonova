@@ -2,16 +2,18 @@
 <glyph name="longs" format="2">
   <advance width="432"/>
   <unicode hex="017F"/>
+  <guideline x="253" y="0" angle="80"/>
+  <guideline x="447" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="313" y="0" type="line"/>
-      <point x="101" y="0" type="line"/>
+      <point x="313" y="0" type="line" name="dh02"/>
+      <point x="101" y="0" type="line" name="dh01"/>
       <point x="101" y="1012" type="line"/>
       <point x="101" y="1114"/>
       <point x="130" y="1281"/>
       <point x="206" y="1399"/>
       <point x="341" y="1464"/>
-      <point x="447" y="1464" type="qcurve"/>
+      <point x="447" y="1464" type="qcurve" name="at01"/>
       <point x="432" y="1352" type="line"/>
       <point x="397" y="1352"/>
       <point x="351" y="1315"/>
@@ -22,6 +24,29 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 21 -21</string>
+              <string>hstem 1464 -20</string>
+              <string>vstem 101 212</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 212"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="dh02" zone="b: 0"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

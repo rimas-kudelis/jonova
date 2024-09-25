@@ -4,7 +4,7 @@
   <unicode hex="2122"/>
   <outline>
     <contour>
-      <point x="234" y="1464" type="line"/>
+      <point x="234" y="1464" type="line" name="hr00"/>
       <point x="617" y="1464" type="line"/>
       <point x="607" y="1392" type="line"/>
       <point x="455" y="1403" type="line"/>
@@ -16,7 +16,7 @@
     <contour>
       <point x="767" y="1277" type="line"/>
       <point x="763" y="1277" type="line"/>
-      <point x="619" y="732" type="line"/>
+      <point x="619" y="732" type="line" name="av01"/>
       <point x="575" y="747" type="line"/>
       <point x="765" y="1464" type="line"/>
       <point x="811" y="1464" type="line"/>
@@ -24,16 +24,41 @@
       <point x="906" y="904" type="line"/>
       <point x="1150" y="1464" type="line"/>
       <point x="1196" y="1464" type="line"/>
-      <point x="1196" y="732" type="line"/>
-      <point x="1122" y="732" type="line"/>
+      <point x="1196" y="732" type="line" name="dh02"/>
+      <point x="1122" y="732" type="line" name="dh01"/>
       <point x="1122" y="1277" type="line"/>
       <point x="1118" y="1277" type="line"/>
-      <point x="881" y="732" type="line"/>
+      <point x="881" y="732" type="line" name="av02"/>
       <point x="856" y="732" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 753 -21</string>
+              <string>hstem 1397 67</string>
+              <string>vstem 1122 74</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 122"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="rsb" round="true"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="dh02" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

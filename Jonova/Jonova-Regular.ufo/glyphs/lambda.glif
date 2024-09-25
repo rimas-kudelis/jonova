@@ -2,9 +2,11 @@
 <glyph name="lambda" format="2">
   <advance width="1024"/>
   <unicode hex="03BB"/>
+  <guideline x="780" y="0" angle="112"/>
+  <guideline x="52" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="792" y="-30" type="line"/>
+      <point x="792" y="-30" type="line" name="hr00"/>
       <point x="485" y="734" type="line"/>
       <point x="475" y="734" type="line"/>
       <point x="168" y="-30" type="line"/>
@@ -17,6 +19,21 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -9 -21</string>
+              <string>hstem 1464 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

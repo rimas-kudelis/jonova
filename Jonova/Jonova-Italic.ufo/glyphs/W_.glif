@@ -2,31 +2,69 @@
 <glyph name="W" format="2">
   <advance width="1888"/>
   <unicode hex="0057"/>
+  <guideline x="0" y="348" angle="0"/>
+  <guideline x="454" y="0" angle="106"/>
+  <guideline x="1522" y="0" angle="108"/>
+  <guideline x="1433" y="0" angle="74"/>
+  <guideline x="1310" y="0" angle="74"/>
+  <guideline x="662" y="0" angle="106"/>
+  <guideline x="576" y="0" angle="72"/>
+  <guideline x="449" y="0" angle="72"/>
+  <guideline x="1311" y="0" angle="108"/>
+  <guideline x="983" y="0" angle="90"/>
   <anchor x="984" y="0" name="AccentBelow"/>
   <anchor x="984" y="1600" name="AccentDefault"/>
   <anchor x="984" y="712" name="AccentMiddle"/>
   <outline>
     <contour>
-      <point x="1470" y="348" type="line"/>
+      <point x="1470" y="348" type="line" name="hr00"/>
       <point x="1480" y="348" type="line"/>
-      <point x="1984" y="1464" type="line"/>
-      <point x="2098" y="1434" type="line"/>
-      <point x="1434" y="0" type="line"/>
+      <point x="1984" y="1464" type="line" name="dh03"/>
+      <point x="2098" y="1434" type="line" name="dh04"/>
+      <point x="1434" y="0" type="line" name="ab01"/>
       <point x="1312" y="0" type="line"/>
       <point x="1153" y="1131" type="line"/>
       <point x="1143" y="1131" type="line"/>
-      <point x="576" y="0" type="line"/>
+      <point x="576" y="0" type="line" name="ab02"/>
       <point x="454" y="0" type="line"/>
-      <point x="294" y="1434" type="line"/>
-      <point x="500" y="1464" type="line"/>
+      <point x="294" y="1434" type="line" name="dh01"/>
+      <point x="500" y="1464" type="line" name="dh02"/>
       <point x="613" y="348" type="line"/>
       <point x="623" y="348" type="line"/>
-      <point x="1182" y="1464" type="line"/>
+      <point x="1182" y="1464" type="line" name="at01"/>
       <point x="1304" y="1464" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 21 -21</string>
+              <string>hstem 1464 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 192"/&gt;
+    &lt;ttc code="doubleh" point1="dh03" point2="dh04" stem="X: 122"/&gt;
+    &lt;ttc code="alignt" point="dh03" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="dh02" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="dh01" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="dh04" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="alignb" point="ab02" zone="b: 0"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

@@ -2,20 +2,49 @@
 <glyph name="nu" format="2">
   <advance width="1024"/>
   <unicode hex="03BD"/>
+  <guideline x="619" y="0" angle="62.02"/>
+  <guideline x="500" y="0" angle="62.02"/>
+  <guideline x="454" y="0" angle="103"/>
+  <guideline x="641" y="0" angle="103"/>
   <outline>
     <contour>
-      <point x="409" y="1004" type="line"/>
-      <point x="595" y="198" type="line"/>
+      <point x="409" y="1004" type="line" name="dh02"/>
+      <point x="595" y="198" type="line" name="iv01"/>
       <point x="605" y="198" type="line"/>
-      <point x="1033" y="1004" type="line"/>
-      <point x="1137" y="974" type="line"/>
-      <point x="618" y="0" type="line"/>
+      <point x="1033" y="1004" type="line" name="dh04"/>
+      <point x="1137" y="974" type="line" name="dh03"/>
+      <point x="618" y="0" type="line" name="ab01"/>
       <point x="454" y="0" type="line"/>
-      <point x="229" y="974" type="line"/>
+      <point x="229" y="974" type="line" name="dh01"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 21 -21</string>
+              <string>hstem 1004 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 192"/&gt;
+    &lt;ttc code="doubleh" point1="dh03" point2="dh04" stem="X: 122"/&gt;
+    &lt;ttc code="alignt" point="dh02" zone="t: 0"/&gt;
+    &lt;ttc code="alignt" point="dh04" zone="t: 0"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="dh04" point2="ab01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

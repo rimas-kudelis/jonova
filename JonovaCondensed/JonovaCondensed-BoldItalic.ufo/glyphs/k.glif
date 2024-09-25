@@ -2,28 +2,61 @@
 <glyph name="k" format="2">
   <advance width="768"/>
   <unicode hex="006B"/>
+  <guideline x="0" y="13" angle="45"/>
+  <guideline x="0" y="189" angle="45"/>
+  <guideline x="0" y="617" angle="0"/>
+  <guideline x="768" y="0" angle="122"/>
+  <guideline x="536" y="0" angle="122"/>
+  <guideline x="1268" y="0" angle="90"/>
   <anchor x="250" y="0" name="AccentBelow"/>
   <anchor x="300" y="1600" name="AccentDefault"/>
   <anchor x="150" y="1200" name="AccentMiddle"/>
   <outline>
     <contour>
-      <point x="768" y="0" type="line"/>
-      <point x="546" y="-30" type="line"/>
-      <point x="386" y="449" type="line"/>
+      <point x="768" y="0" type="line" name="ab02"/>
+      <point x="546" y="-30" type="line" name="ab01"/>
+      <point x="386" y="449" type="line" name="iv01"/>
       <point x="338" y="396" type="line"/>
-      <point x="287" y="0" type="line"/>
+      <point x="287" y="0" type="line" name="ab03"/>
       <point x="75" y="0" type="line"/>
       <point x="269" y="1464" type="line"/>
-      <point x="439" y="1494" type="line"/>
+      <point x="439" y="1494" type="line" name="av01"/>
       <point x="484" y="1494" type="line"/>
-      <point x="362" y="571" type="line"/>
+      <point x="362" y="571" type="line" name="iv02"/>
       <point x="744" y="1004" type="line"/>
-      <point x="849" y="973" type="line"/>
+      <point x="849" y="973" type="line" name="iv03"/>
       <point x="554" y="638" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>ab02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -9 -21</string>
+              <string>hstem 21 -21</string>
+              <string>hstem 1494 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="alignb" point="ab02" zone="b: 0"/&gt;
+    &lt;ttc code="alignb" point="ab03" zone="b: 0"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="ab01" point2="av01"/&gt;
+    &lt;ttc code="interpolatev" point="iv02" point1="ab01" point2="av01"/&gt;
+    &lt;ttc code="interpolatev" point="iv03" point1="ab01" point2="av01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

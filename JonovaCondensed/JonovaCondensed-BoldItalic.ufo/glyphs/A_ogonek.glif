@@ -2,49 +2,78 @@
 <glyph name="Aogonek" format="2">
   <advance width="1008"/>
   <unicode hex="0104"/>
+  <guideline x="996" y="0" angle="90"/>
   <anchor x="550" y="1600" name="AccentDefault"/>
   <outline>
     <contour>
-      <point x="960" y="-270" type="qcurve"/>
+      <point x="960" y="-270" type="qcurve" name="hr00"/>
       <point x="978" y="-407" type="line"/>
       <point x="943" y="-428"/>
       <point x="886" y="-450"/>
-      <point x="852" y="-450" type="qcurve"/>
+      <point x="852" y="-450" type="qcurve" name="dv01"/>
       <point x="812" y="-450"/>
       <point x="756" y="-423"/>
       <point x="720" y="-376"/>
       <point x="703" y="-315"/>
-      <point x="703" y="-280" type="qcurve"/>
+      <point x="703" y="-280" type="qcurve" name="dh01"/>
       <point x="703" y="-198"/>
       <point x="777" y="-71"/>
       <point x="836" y="-19" type="qcurve"/>
       <point x="748" y="-30" type="line"/>
-      <point x="684" y="345" type="line"/>
+      <point x="684" y="345" type="line" name="dv03"/>
       <point x="292" y="345" type="line"/>
       <point x="128" y="-30" type="line"/>
       <point x="11" y="0" type="line"/>
       <point x="635" y="1434" type="line"/>
-      <point x="747" y="1464" type="line"/>
+      <point x="747" y="1464" type="line" name="at01"/>
       <point x="996" y="0" type="line"/>
       <point x="969" y="-17"/>
       <point x="908" y="-61"/>
       <point x="858" y="-117"/>
       <point x="824" y="-186"/>
-      <point x="824" y="-227" type="qcurve"/>
+      <point x="824" y="-227" type="qcurve" name="dh02"/>
       <point x="824" y="-265"/>
       <point x="861" y="-308"/>
-      <point x="885" y="-308" type="qcurve"/>
+      <point x="885" y="-308" type="qcurve" name="dv02"/>
       <point x="908" y="-308"/>
       <point x="945" y="-285"/>
     </contour>
     <contour>
-      <point x="659" y="487" type="line"/>
+      <point x="659" y="487" type="line" name="dv04"/>
       <point x="573" y="992" type="line"/>
       <point x="353" y="487" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -450 142</string>
+              <string>hstem 345 142</string>
+              <string>hstem 1464 -20</string>
+              <string>vstem 703 121</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 142"/&gt;
+    &lt;ttc code="mdeltah" point="dh01" delta="3" ppm1="20" ppm2="21"/&gt;
+    &lt;ttc code="mdeltah" point="dh01" delta="2" ppm1="9" ppm2="19"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="rsb" round="true"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="T1 H: 142"/&gt;
+    &lt;ttc code="doublev" point1="dv03" point2="dv04" stem="T1 H: 142"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

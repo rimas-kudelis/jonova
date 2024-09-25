@@ -2,28 +2,54 @@
 <glyph name="Xi" format="2">
   <advance width="816"/>
   <unicode hex="039E"/>
+  <guideline x="69" y="0" angle="80"/>
   <outline>
     <contour>
-      <point x="88" y="142" type="line"/>
+      <point x="88" y="142" type="line" name="sv01"/>
       <point x="746" y="142" type="line"/>
-      <point x="728" y="0" type="line"/>
+      <point x="728" y="0" type="line" name="ab01"/>
       <point x="69" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="258" y="1434" type="line"/>
+      <point x="258" y="1434" type="line" name="at01"/>
       <point x="917" y="1434" type="line"/>
-      <point x="898" y="1292" type="line"/>
+      <point x="898" y="1292" type="line" name="sv02"/>
       <point x="239" y="1292" type="line"/>
     </contour>
     <contour>
       <point x="316" y="839" type="line"/>
-      <point x="701" y="839" type="line"/>
-      <point x="686" y="717" type="line"/>
+      <point x="701" y="839" type="line" name="dv02"/>
+      <point x="686" y="717" type="line" name="dv01"/>
       <point x="300" y="717" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 142</string>
+              <string>hstem 717 122</string>
+              <string>hstem 1292 142</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 122"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv01" stem="Y: 142"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sv02" stem="Y: 142"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

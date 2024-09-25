@@ -2,36 +2,67 @@
 <glyph name="asterisk" format="2">
   <advance width="1024"/>
   <unicode hex="002A"/>
+  <guideline x="0" y="923" angle="30"/>
+  <guideline x="0" y="1514" angle="330"/>
+  <guideline x="0" y="1219" angle="0"/>
+  <guideline x="512" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="430" y="1584" type="line"/>
+      <point x="430" y="1584" type="line" name="av01"/>
       <point x="594" y="1584" type="line"/>
       <point x="532" y="1263" type="line"/>
       <point x="540" y="1258" type="line"/>
       <point x="787" y="1472" type="line"/>
-      <point x="869" y="1330" type="line"/>
+      <point x="869" y="1330" type="line" name="sv01"/>
       <point x="560" y="1224" type="line"/>
-      <point x="560" y="1214" type="line"/>
-      <point x="868" y="1106" type="line"/>
+      <point x="560" y="1214" type="line" name="dh02"/>
+      <point x="868" y="1106" type="line" name="iv03"/>
       <point x="787" y="964" type="line"/>
       <point x="540" y="1180" type="line"/>
-      <point x="532" y="1175" type="line"/>
-      <point x="594" y="854" type="line"/>
-      <point x="430" y="854" type="line"/>
+      <point x="532" y="1175" type="line" name="dv01"/>
+      <point x="594" y="854" type="line" name="av02"/>
+      <point x="430" y="854" type="line" name="iv02"/>
       <point x="492" y="1175" type="line"/>
       <point x="484" y="1180" type="line"/>
       <point x="237" y="966" type="line"/>
-      <point x="155" y="1108" type="line"/>
+      <point x="155" y="1108" type="line" name="sv02"/>
       <point x="464" y="1214" type="line"/>
-      <point x="464" y="1223" type="line"/>
-      <point x="155" y="1330" type="line"/>
+      <point x="464" y="1223" type="line" name="dh01"/>
+      <point x="155" y="1330" type="line" name="iv01"/>
       <point x="237" y="1472" type="line"/>
       <point x="484" y="1258" type="line"/>
-      <point x="492" y="1263" type="line"/>
+      <point x="492" y="1263" type="line" name="dv02"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 875 -21</string>
+              <string>hstem 1584 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 122"/&gt;
+    &lt;ttc code="alignv" point="av01" align="right"/&gt;
+    &lt;ttc code="alignv" point="av02" align="left"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 102"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="av01" point2="iv02"/&gt;
+    &lt;ttc code="singlev" point1="iv01" point2="sv01"/&gt;
+    &lt;ttc code="interpolatev" point="iv03" point1="av01" point2="av02"/&gt;
+    &lt;ttc code="singlev" point1="iv03" point2="sv02"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

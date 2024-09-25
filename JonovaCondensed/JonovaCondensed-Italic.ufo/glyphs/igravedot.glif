@@ -2,6 +2,7 @@
 <glyph name="igravedot" format="2">
   <advance width="432"/>
   <unicode hex="E00C"/>
+  <guideline x="296" y="0" angle="80.3"/>
   <outline>
     <component base="i" identifier="component0"/>
     <component base="grave" xOffset="-27" yOffset="360" identifier="component1"/>

@@ -4,18 +4,68 @@
   <anchor x="-400" y="1500" name="_AccentDefault"/>
   <outline>
     <contour>
-      <point x="-127" y="1820" type="line"/>
-      <point x="-127" y="1531" type="line"/>
-      <point x="-209" y="1531" type="line"/>
-      <point x="-209" y="1718" type="line"/>
+      <point x="-127" y="1820" type="line" name="sv01"/>
+      <point x="-127" y="1531" type="line" name="ah02"/>
+      <point x="-209" y="1531" type="line" name="sh01"/>
+      <point x="-209" y="1718" type="line" name="av01"/>
       <point x="-618" y="1718" type="line"/>
-      <point x="-618" y="1531" type="line"/>
-      <point x="-700" y="1531" type="line"/>
+      <point x="-618" y="1531" type="line" name="sh02"/>
+      <point x="-700" y="1531" type="line" name="ah01"/>
       <point x="-700" y="1820" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1531 289</string>
+              <string>vstem -700 82</string>
+              <string>vstem -209 82</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1718 102</string>
+              <string>vstem -700 82</string>
+              <string>vstem -209 82</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>sh02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1531 289</string>
+              <string>vstem -700 82</string>
+              <string>vstem -209 82</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="lsb" align="round"/&gt;
+    &lt;ttc code="alignh" point="rsb" align="round"/&gt;
+    &lt;ttc code="alignh" point="ah01" align="round"/&gt;
+    &lt;ttc code="alignh" point="ah02" align="round"/&gt;
+    &lt;ttc code="singleh" point1="ah02" point2="sh01" round="true"/&gt;
+    &lt;ttc code="singleh" point1="ah01" point2="sh02" round="true"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="singlev" point1="av01" point2="sv01" stem="Y: 102"/&gt;
+    &lt;ttc code="singlev" point1="av01" point2="ah02" stem="Y: 142"/&gt;
+    &lt;ttc code="singlev" point1="ah02" point2="sh02"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

@@ -4,36 +4,36 @@
   <unicode hex="0251"/>
   <outline>
     <contour>
-      <point x="868" y="1004" type="line"/>
+      <point x="868" y="1004" type="line" name="at01"/>
       <point x="758" y="179" type="line"/>
       <point x="757" y="167"/>
       <point x="755" y="147"/>
       <point x="755" y="138" type="qcurve"/>
       <point x="755" y="105"/>
       <point x="778" y="72"/>
-      <point x="803" y="72" type="qcurve"/>
-      <point x="789" y="-30" type="line"/>
+      <point x="803" y="72" type="qcurve" name="sv01"/>
+      <point x="789" y="-30" type="line" name="ab01"/>
       <point x="732" y="-30"/>
       <point x="677" y="-10"/>
       <point x="646" y="21"/>
       <point x="632" y="57"/>
-      <point x="630" y="72" type="qcurve"/>
-      <point x="623" y="72" type="line"/>
+      <point x="630" y="72" type="qcurve" name="sv02"/>
+      <point x="623" y="72" type="line" name="sv03"/>
       <point x="582" y="27"/>
       <point x="484" y="-30"/>
-      <point x="416" y="-30" type="qcurve"/>
+      <point x="416" y="-30" type="qcurve" name="ab02"/>
       <point x="353" y="-30"/>
       <point x="242" y="24"/>
       <point x="159" y="128"/>
       <point x="111" y="279"/>
-      <point x="111" y="377" type="qcurve"/>
+      <point x="111" y="377" type="qcurve" name="dh01"/>
       <point x="111" y="458"/>
       <point x="143" y="614"/>
       <point x="200" y="753"/>
       <point x="280" y="871"/>
       <point x="378" y="956"/>
       <point x="491" y="1004"/>
-      <point x="553" y="1004" type="qcurve"/>
+      <point x="553" y="1004" type="qcurve" name="at02"/>
       <point x="585" y="1004"/>
       <point x="638" y="994"/>
       <point x="681" y="976"/>
@@ -45,19 +45,19 @@
       <point x="721" y="815" type="line"/>
       <point x="685" y="861"/>
       <point x="598" y="902"/>
-      <point x="539" y="902" type="qcurve"/>
+      <point x="539" y="902" type="qcurve" name="sv04"/>
       <point x="501" y="902"/>
       <point x="428" y="863"/>
       <point x="361" y="793"/>
       <point x="304" y="697"/>
       <point x="263" y="581"/>
       <point x="239" y="450"/>
-      <point x="239" y="381" type="qcurve"/>
+      <point x="239" y="381" type="qcurve" name="dh02"/>
       <point x="239" y="297"/>
       <point x="275" y="180"/>
       <point x="330" y="106"/>
       <point x="398" y="72"/>
-      <point x="429" y="72" type="qcurve"/>
+      <point x="429" y="72" type="qcurve" name="sv05"/>
       <point x="458" y="72"/>
       <point x="512" y="83"/>
       <point x="563" y="108"/>
@@ -67,6 +67,40 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -30 102</string>
+              <string>hstem 902 102</string>
+              <string>vstem 111 128</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 122"/&gt;
+    &lt;ttc code="mdeltah" point="dh02" delta="-2" ppm1="9" ppm2="21"/&gt;
+    &lt;ttc code="mdeltah" point="dh02" delta="-3" ppm1="22" ppm2="23"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 0"/&gt;
+    &lt;ttc code="alignt" point="at02" zone="t: 0"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="alignb" point="ab02" zone="b: 0"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv01" stem="Y: 102"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv02"/&gt;
+    &lt;ttc code="singlev" point1="sv02" point2="sv03"/&gt;
+    &lt;ttc code="singlev" point1="at02" point2="sv04" stem="Y: 102"/&gt;
+    &lt;ttc code="mdeltav" point="sv04" delta="2" ppm1="29" ppm2="30"/&gt;
+    &lt;ttc code="mdeltav" point="sv04" delta="1" ppm1="9" ppm2="28"/&gt;
+    &lt;ttc code="singlev" point1="sv03" point2="sv05"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

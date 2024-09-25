@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iotasubnosp" format="2">
   <unicode hex="0345"/>
+  <guideline x="0" y="-452" angle="320"/>
+  <guideline x="-176" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="-587" y="0" type="line"/>
-      <point x="-475" y="0" type="line"/>
+      <point x="-587" y="0" type="line" name="dh01"/>
+      <point x="-475" y="0" type="line" name="dh02"/>
       <point x="-475" y="-198" type="line"/>
       <point x="-475" y="-246"/>
       <point x="-424" y="-304"/>
-      <point x="-376" y="-304" type="qcurve"/>
+      <point x="-376" y="-304" type="qcurve" name="dv02"/>
       <point x="-347" y="-304"/>
       <point x="-306" y="-282"/>
       <point x="-293" y="-269" type="qcurve"/>
       <point x="-238" y="-348" type="line"/>
       <point x="-257" y="-367"/>
       <point x="-330" y="-406"/>
-      <point x="-381" y="-406" type="qcurve"/>
+      <point x="-381" y="-406" type="qcurve" name="dv01"/>
       <point x="-426" y="-406"/>
       <point x="-502" y="-381"/>
       <point x="-556" y="-333"/>
@@ -25,6 +27,29 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -406 102</string>
+              <string>hstem 0 -20</string>
+              <string>vstem -587 112</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 122"/&gt;
+    &lt;ttc code="alignb" point="dh01" zone="b: 0"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 102"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

@@ -2,9 +2,12 @@
 <glyph name="Ohm" format="2">
   <advance width="1440"/>
   <unicode hex="2126"/>
+  <guideline x="0" y="296" angle="0"/>
+  <guideline x="0" y="855" angle="0"/>
+  <guideline x="720" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="493" y="102" type="line"/>
+      <point x="493" y="102" type="line" name="hr00"/>
       <point x="528" y="297" type="line"/>
       <point x="449" y="336"/>
       <point x="343" y="442"/>
@@ -60,6 +63,23 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 102</string>
+              <string>hstem 1382 82</string>
+              <string>vstem 251 172</string>
+              <string>vstem 1317 172</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

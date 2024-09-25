@@ -2,20 +2,27 @@
 <glyph name="X" format="2">
   <advance width="1248"/>
   <unicode hex="0058"/>
+  <guideline x="0" y="725" angle="0"/>
+  <guideline x="265" y="0" angle="60"/>
+  <guideline x="77" y="0" angle="60"/>
+  <guideline x="1209" y="0" angle="120"/>
+  <guideline x="868" y="0" angle="120"/>
+  <guideline x="84" y="0" angle="90"/>
+  <guideline x="962" y="0" angle="90"/>
   <anchor x="624" y="0" name="AccentBelow"/>
   <anchor x="624" y="1600" name="AccentDefault"/>
   <anchor x="624" y="712" name="AccentMiddle"/>
   <outline>
     <contour>
-      <point x="622" y="1464" type="line"/>
-      <point x="815" y="980" type="line"/>
-      <point x="1182" y="1464" type="line"/>
+      <point x="622" y="1464" type="line" name="at01"/>
+      <point x="815" y="980" type="line" name="iv01"/>
+      <point x="1182" y="1464" type="line" name="at02"/>
       <point x="1345" y="1434" type="line"/>
       <point x="881" y="818" type="line"/>
       <point x="1208" y="0" type="line"/>
-      <point x="879" y="-30" type="line"/>
-      <point x="657" y="521" type="line"/>
-      <point x="241" y="-30" type="line"/>
+      <point x="879" y="-30" type="line" name="ab01"/>
+      <point x="657" y="521" type="line" name="iv02"/>
+      <point x="241" y="-30" type="line" name="ab02"/>
       <point x="77" y="0" type="line"/>
       <point x="593" y="685" type="line"/>
       <point x="292" y="1434" type="line"/>
@@ -23,6 +30,31 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -9 -21</string>
+              <string>hstem 1464 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="at02" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="alignb" point="ab02" zone="b: 0"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="ab01" point2="at01"/&gt;
+    &lt;ttc code="interpolatev" point="iv02" point1="ab01" point2="at01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

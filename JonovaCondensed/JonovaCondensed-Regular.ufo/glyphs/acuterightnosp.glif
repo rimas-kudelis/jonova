@@ -4,16 +4,39 @@
   <anchor x="-630" y="1600" name="_AccentDefault"/>
   <outline>
     <contour>
-      <point x="-624" y="1649" type="line"/>
-      <point x="-313" y="1994" type="line"/>
+      <point x="-624" y="1649" type="line" name="ah02"/>
+      <point x="-313" y="1994" type="line" name="av01"/>
       <point x="-283" y="1994" type="line"/>
       <point x="-201" y="1907" type="line"/>
-      <point x="-201" y="1877" type="line"/>
-      <point x="-567" y="1589" type="line"/>
+      <point x="-201" y="1877" type="line" name="ah01"/>
+      <point x="-567" y="1589" type="line" name="av02"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>ah02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1610 -21</string>
+              <string>hstem 1994 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="ah01" align="round"/&gt;
+    &lt;ttc code="alignh" point="ah02" align="round"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

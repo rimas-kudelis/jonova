@@ -2,46 +2,52 @@
 <glyph name="infinity" format="2">
   <advance width="1600"/>
   <unicode hex="221E"/>
+  <guideline x="1029" y="0" angle="120"/>
+  <guideline x="1133" y="0" angle="120"/>
+  <guideline x="800" y="0" angle="90"/>
+  <guideline x="571" y="0" angle="60"/>
+  <guideline x="467" y="0" angle="60"/>
+  <guideline x="684" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="1161" y="145" type="qcurve"/>
+      <point x="1161" y="145" type="qcurve" name="dv01"/>
       <point x="1101" y="145"/>
       <point x="1013" y="181"/>
       <point x="946" y="246"/>
       <point x="895" y="336"/>
-      <point x="873" y="389" type="qcurve"/>
+      <point x="873" y="389" type="qcurve" name="ih01"/>
       <point x="863" y="389" type="line"/>
       <point x="824" y="336"/>
       <point x="740" y="246"/>
       <point x="648" y="181"/>
       <point x="546" y="145"/>
-      <point x="489" y="145" type="qcurve"/>
+      <point x="489" y="145" type="qcurve" name="sv01"/>
       <point x="441" y="145"/>
       <point x="341" y="184"/>
       <point x="261" y="257"/>
       <point x="210" y="362"/>
-      <point x="210" y="428" type="qcurve"/>
+      <point x="210" y="428" type="qcurve" name="dh04"/>
       <point x="210" y="506"/>
       <point x="276" y="651"/>
       <point x="385" y="762"/>
       <point x="527" y="829"/>
-      <point x="603" y="829" type="qcurve"/>
+      <point x="603" y="829" type="qcurve" name="dv04"/>
       <point x="663" y="829"/>
       <point x="754" y="793"/>
       <point x="824" y="729"/>
       <point x="877" y="641"/>
-      <point x="898" y="589" type="qcurve"/>
+      <point x="898" y="589" type="qcurve" name="ih02"/>
       <point x="908" y="589" type="line"/>
       <point x="949" y="641"/>
       <point x="1032" y="729"/>
       <point x="1124" y="793"/>
       <point x="1228" y="829"/>
-      <point x="1289" y="829" type="qcurve"/>
+      <point x="1289" y="829" type="qcurve" name="sv02"/>
       <point x="1346" y="829"/>
       <point x="1445" y="787"/>
       <point x="1518" y="713"/>
       <point x="1559" y="610"/>
-      <point x="1559" y="549" type="qcurve"/>
+      <point x="1559" y="549" type="qcurve" name="dh05"/>
       <point x="1559" y="498"/>
       <point x="1528" y="398"/>
       <point x="1473" y="308"/>
@@ -50,44 +56,44 @@
       <point x="1211" y="145"/>
     </contour>
     <contour>
-      <point x="833" y="487" type="qcurve"/>
+      <point x="833" y="487" type="qcurve" name="dh01"/>
       <point x="817" y="529"/>
       <point x="777" y="615"/>
       <point x="721" y="684"/>
       <point x="646" y="727"/>
-      <point x="595" y="727" type="qcurve"/>
+      <point x="595" y="727" type="qcurve" name="dv03"/>
       <point x="538" y="727"/>
       <point x="442" y="675"/>
       <point x="371" y="593"/>
       <point x="332" y="491"/>
-      <point x="332" y="441" type="qcurve"/>
+      <point x="332" y="441" type="qcurve" name="dh03"/>
       <point x="332" y="395"/>
       <point x="364" y="323"/>
       <point x="417" y="273"/>
       <point x="482" y="247"/>
-      <point x="515" y="247" type="qcurve"/>
+      <point x="515" y="247" type="qcurve" name="sv03"/>
       <point x="561" y="247"/>
       <point x="649" y="290"/>
       <point x="730" y="359"/>
       <point x="802" y="445"/>
     </contour>
     <contour>
-      <point x="937" y="487" type="qcurve"/>
+      <point x="937" y="487" type="qcurve" name="dh02"/>
       <point x="954" y="445"/>
       <point x="997" y="359"/>
       <point x="1053" y="290"/>
       <point x="1124" y="247"/>
-      <point x="1171" y="247" type="qcurve"/>
+      <point x="1171" y="247" type="qcurve" name="dv02"/>
       <point x="1227" y="247"/>
       <point x="1324" y="300"/>
       <point x="1396" y="383"/>
       <point x="1437" y="486"/>
-      <point x="1437" y="536" type="qcurve"/>
+      <point x="1437" y="536" type="qcurve" name="dh06"/>
       <point x="1437" y="577"/>
       <point x="1412" y="647"/>
       <point x="1366" y="698"/>
       <point x="1301" y="727"/>
-      <point x="1261" y="727" type="qcurve"/>
+      <point x="1261" y="727" type="qcurve" name="sv04"/>
       <point x="1208" y="727"/>
       <point x="1118" y="684"/>
       <point x="1039" y="615"/>
@@ -96,6 +102,43 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 145 102</string>
+              <string>hstem 727 102</string>
+              <string>vstem 210 122</string>
+              <string>vstem 1437 122</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="lsb" align="round"/&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 122"/&gt;
+    &lt;ttc code="doubleh" point1="dh03" point2="dh04" stem="X: 122"/&gt;
+    &lt;ttc code="doubleh" point1="dh05" point2="dh06" stem="X: 122"/&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="dh01" point2="dh02"/&gt;
+    &lt;ttc code="interpolateh" point="ih02" point1="dh01" point2="dh02"/&gt;
+    &lt;ttc code="mdeltah" point="dh03" delta="-2" ppm1="9" ppm2="21"/&gt;
+    &lt;ttc code="mdeltah" point="dh03" delta="-3" ppm1="22" ppm2="23"/&gt;
+    &lt;ttc code="mdeltah" point="dh06" delta="3" ppm1="22" ppm2="23"/&gt;
+    &lt;ttc code="mdeltah" point="dh06" delta="2" ppm1="9" ppm2="21"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 102"/&gt;
+    &lt;ttc code="doublev" point1="dv03" point2="dv04" stem="Y: 102"/&gt;
+    &lt;ttc code="singlev" point1="dv01" point2="sv01"/&gt;
+    &lt;ttc code="singlev" point1="dv04" point2="sv02"/&gt;
+    &lt;ttc code="singlev" point1="dv02" point2="sv03"/&gt;
+    &lt;ttc code="singlev" point1="dv03" point2="sv04"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

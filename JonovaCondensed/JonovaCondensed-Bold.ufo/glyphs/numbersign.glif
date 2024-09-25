@@ -2,46 +2,92 @@
 <glyph name="numbersign" format="2">
   <advance width="840"/>
   <unicode hex="0023"/>
+  <guideline x="0" y="431" angle="0"/>
+  <guideline x="0" y="1136" angle="0"/>
+  <guideline x="228" y="0" angle="80"/>
+  <guideline x="116" y="0" angle="80"/>
+  <guideline x="418" y="0" angle="80"/>
+  <guideline x="533" y="0" angle="80"/>
+  <guideline x="-29" y="0" angle="80"/>
+  <guideline x="679" y="0" angle="80"/>
   <outline>
     <contour>
-      <point x="103" y="1004" type="line"/>
+      <point x="103" y="1004" type="line" name="at03"/>
       <point x="249" y="1004" type="line"/>
-      <point x="310" y="1464" type="line"/>
+      <point x="310" y="1464" type="line" name="at01"/>
       <point x="418" y="1434" type="line"/>
-      <point x="361" y="1004" type="line"/>
+      <point x="361" y="1004" type="line" name="at04"/>
       <point x="551" y="1004" type="line"/>
-      <point x="611" y="1464" type="line"/>
+      <point x="611" y="1464" type="line" name="at02"/>
       <point x="723" y="1434" type="line"/>
-      <point x="667" y="1004" type="line"/>
+      <point x="667" y="1004" type="line" name="at05"/>
       <point x="812" y="1004" type="line"/>
-      <point x="792" y="852" type="line"/>
+      <point x="792" y="852" type="line" name="sv01"/>
       <point x="646" y="852" type="line"/>
       <point x="611" y="583" type="line"/>
-      <point x="756" y="583" type="line"/>
-      <point x="737" y="431" type="line"/>
+      <point x="756" y="583" type="line" name="dv02"/>
+      <point x="737" y="431" type="line" name="dv01"/>
       <point x="590" y="431" type="line"/>
-      <point x="530" y="-30" type="line"/>
+      <point x="530" y="-30" type="line" name="ab01"/>
       <point x="418" y="0" type="line"/>
-      <point x="476" y="431" type="line"/>
+      <point x="476" y="431" type="line" name="sv02"/>
       <point x="285" y="431" type="line"/>
-      <point x="224" y="-30" type="line"/>
+      <point x="224" y="-30" type="line" name="ab02"/>
       <point x="116" y="0" type="line"/>
-      <point x="173" y="431" type="line"/>
+      <point x="173" y="431" type="line" name="sv03"/>
       <point x="28" y="431" type="line"/>
-      <point x="49" y="583" type="line"/>
+      <point x="49" y="583" type="line" name="sv04"/>
       <point x="192" y="583" type="line"/>
-      <point x="229" y="852" type="line"/>
-      <point x="83" y="852" type="line"/>
+      <point x="229" y="852" type="line" name="sv05"/>
+      <point x="83" y="852" type="line" name="sv06"/>
     </contour>
     <contour>
-      <point x="305" y="583" type="line"/>
+      <point x="305" y="583" type="line" name="sv07"/>
       <point x="495" y="583" type="line"/>
-      <point x="531" y="852" type="line"/>
-      <point x="341" y="852" type="line"/>
+      <point x="531" y="852" type="line" name="sv08"/>
+      <point x="341" y="852" type="line" name="sv09"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at03</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -9 -21</string>
+              <string>hstem 431 152</string>
+              <string>hstem 852 152</string>
+              <string>hstem 1464 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="at02" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="at03" zone="t: 0"/&gt;
+    &lt;ttc code="alignt" point="at04" zone="t: 0"/&gt;
+    &lt;ttc code="alignt" point="at05" zone="t: 0"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="alignb" point="ab02" zone="b: 0"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="T1 H: 142"/&gt;
+    &lt;ttc code="singlev" point1="at05" point2="sv01" stem="T1 H: 142"/&gt;
+    &lt;ttc code="singlev" point1="dv01" point2="sv02"/&gt;
+    &lt;ttc code="singlev" point1="dv01" point2="sv03"/&gt;
+    &lt;ttc code="singlev" point1="dv02" point2="sv04"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv05"/&gt;
+    &lt;ttc code="singlev" point1="sv05" point2="sv06"/&gt;
+    &lt;ttc code="singlev" point1="dv02" point2="sv07"/&gt;
+    &lt;ttc code="singlev" point1="sv06" point2="sv08"/&gt;
+    &lt;ttc code="singlev" point1="sv08" point2="sv09"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

@@ -2,9 +2,18 @@
 <glyph name="afii10078" format="2">
   <advance width="1344"/>
   <unicode hex="043C"/>
+  <guideline x="0" y="667" angle="0"/>
+  <guideline x="598" y="0" angle="65"/>
+  <guideline x="441" y="0" angle="65"/>
+  <guideline x="905" y="0" angle="115"/>
+  <guideline x="598" y="0" angle="115"/>
+  <guideline x="1037" y="0" angle="100"/>
+  <guideline x="159" y="0" angle="80"/>
+  <guideline x="12" y="0" angle="80"/>
+  <guideline x="1328" y="0" angle="100"/>
   <outline>
     <contour>
-      <point x="184" y="974" type="line"/>
+      <point x="184" y="974" type="line" name="hr00"/>
       <point x="436" y="1004" type="line"/>
       <point x="668" y="510" type="line"/>
       <point x="678" y="510" type="line"/>
@@ -24,6 +33,22 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -9 -21</string>
+              <string>hstem 21 -21</string>
+              <string>hstem 1004 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

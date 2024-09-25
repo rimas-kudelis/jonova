@@ -2,9 +2,10 @@
 <glyph name="uni0290" format="2">
   <advance width="960"/>
   <unicode hex="0290"/>
+  <guideline x="844" y="0" angle="83"/>
   <outline>
     <contour>
-      <point x="30" y="60" type="line"/>
+      <point x="30" y="60" type="line" name="hr00"/>
       <point x="591" y="862" type="line"/>
       <point x="83" y="835" type="line"/>
       <point x="107" y="974" type="line"/>
@@ -31,6 +32,23 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -469 -21</string>
+              <string>hstem 0 126</string>
+              <string>hstem 848 126</string>
+              <string>vstem 623 282</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

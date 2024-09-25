@@ -4,28 +4,28 @@
   <unicode hex="00AE"/>
   <outline>
     <contour>
-      <point x="52" y="716" type="qcurve"/>
+      <point x="52" y="716" type="qcurve" name="dh01"/>
       <point x="52" y="819"/>
       <point x="105" y="1010"/>
       <point x="202" y="1177"/>
       <point x="339" y="1313"/>
       <point x="505" y="1411"/>
       <point x="696" y="1464"/>
-      <point x="799" y="1464" type="qcurve"/>
+      <point x="799" y="1464" type="qcurve" name="at01"/>
       <point x="902" y="1464"/>
       <point x="1094" y="1411"/>
       <point x="1260" y="1313"/>
       <point x="1397" y="1177"/>
       <point x="1494" y="1010"/>
       <point x="1548" y="819"/>
-      <point x="1548" y="716" type="qcurve"/>
+      <point x="1548" y="716" type="qcurve" name="dh08"/>
       <point x="1548" y="613"/>
       <point x="1494" y="422"/>
       <point x="1397" y="256"/>
       <point x="1260" y="120"/>
       <point x="1094" y="23"/>
       <point x="902" y="-30"/>
-      <point x="799" y="-30" type="qcurve"/>
+      <point x="799" y="-30" type="qcurve" name="ab01"/>
       <point x="696" y="-30"/>
       <point x="505" y="23"/>
       <point x="339" y="120"/>
@@ -34,26 +34,26 @@
       <point x="52" y="613"/>
     </contour>
     <contour>
-      <point x="174" y="718" type="qcurve"/>
+      <point x="174" y="718" type="qcurve" name="dh02"/>
       <point x="174" y="634"/>
       <point x="220" y="475"/>
       <point x="303" y="336"/>
       <point x="418" y="221"/>
       <point x="557" y="138"/>
       <point x="715" y="92"/>
-      <point x="799" y="92" type="qcurve"/>
+      <point x="799" y="92" type="qcurve" name="sv01"/>
       <point x="883" y="92"/>
       <point x="1041" y="138"/>
       <point x="1181" y="221"/>
       <point x="1296" y="336"/>
       <point x="1380" y="475"/>
       <point x="1426" y="634"/>
-      <point x="1426" y="718" type="qcurve"/>
+      <point x="1426" y="718" type="qcurve" name="dh07"/>
       <point x="1426" y="844"/>
       <point x="1325" y="1070"/>
       <point x="1152" y="1241"/>
       <point x="925" y="1342"/>
-      <point x="799" y="1342" type="qcurve"/>
+      <point x="799" y="1342" type="qcurve" name="sv02"/>
       <point x="715" y="1342"/>
       <point x="557" y="1296"/>
       <point x="418" y="1213"/>
@@ -62,41 +62,90 @@
       <point x="174" y="802"/>
     </contour>
     <contour>
-      <point x="697" y="1073" type="line"/>
+      <point x="697" y="1073" type="line" name="dh04"/>
       <point x="697" y="727" type="line"/>
       <point x="767" y="727" type="line"/>
       <point x="799" y="727"/>
       <point x="856" y="755"/>
       <point x="900" y="804"/>
       <point x="925" y="869"/>
-      <point x="925" y="907" type="qcurve"/>
+      <point x="925" y="907" type="qcurve" name="dh05"/>
       <point x="925" y="943"/>
       <point x="898" y="1004"/>
       <point x="853" y="1048"/>
       <point x="797" y="1073"/>
-      <point x="768" y="1073" type="qcurve"/>
+      <point x="768" y="1073" type="qcurve" name="dv01"/>
     </contour>
     <contour>
-      <point x="505" y="1155" type="line"/>
-      <point x="782" y="1155" type="line"/>
+      <point x="505" y="1155" type="line" name="dh03"/>
+      <point x="782" y="1155" type="line" name="dv02"/>
       <point x="949" y="1155"/>
       <point x="1117" y="1025"/>
-      <point x="1117" y="907" type="qcurve"/>
+      <point x="1117" y="907" type="qcurve" name="dh06"/>
       <point x="1117" y="855"/>
       <point x="1068" y="775"/>
       <point x="996" y="718"/>
       <point x="913" y="681"/>
-      <point x="878" y="672" type="qcurve"/>
-      <point x="1178" y="296" type="line"/>
+      <point x="878" y="672" type="qcurve" name="ih01"/>
+      <point x="1178" y="296" type="line" name="ih02"/>
       <point x="973" y="277" type="line"/>
       <point x="717" y="645" type="line"/>
-      <point x="697" y="645" type="line"/>
+      <point x="697" y="645" type="line" name="sh01"/>
       <point x="697" y="295" type="line"/>
       <point x="505" y="295" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -30 122</string>
+              <string>hstem 1073 82</string>
+              <string>hstem 1342 122</string>
+              <string>vstem 52 122</string>
+              <string>vstem 505 192</string>
+              <string>vstem 925 192</string>
+              <string>vstem 1426 122</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 182"/&gt;
+    &lt;ttc code="doubleh" point1="dh03" point2="dh04" stem="T1 V: 182"/&gt;
+    &lt;ttc code="doubleh" point1="dh05" point2="dh06" stem="T1 V: 182"/&gt;
+    &lt;ttc code="doubleh" point1="dh07" point2="dh08" stem="T1 V: 182"/&gt;
+    &lt;ttc code="mdeltah" point="dh02" delta="-2" ppm1="9" ppm2="14"/&gt;
+    &lt;ttc code="mdeltah" point="dh02" delta="-3" ppm1="15" ppm2="16"/&gt;
+    &lt;ttc code="mdeltah" point="dh07" delta="3" ppm1="15" ppm2="16"/&gt;
+    &lt;ttc code="mdeltah" point="dh07" delta="2" ppm1="9" ppm2="14"/&gt;
+    &lt;ttc code="mdeltah" point="dh05" delta="3" ppm1="15" ppm2="16"/&gt;
+    &lt;ttc code="mdeltah" point="dh05" delta="2" ppm1="9" ppm2="14"/&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="dh01" point2="dh08"/&gt;
+    &lt;ttc code="interpolateh" point="ih02" point1="dh01" point2="dh08"/&gt;
+    &lt;ttc code="singleh" point1="dh04" point2="sh01"/&gt;
+    &lt;ttc code="singleh" point1="dh08" point2="rsb" round="true"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="T1 H: 112"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv01" stem="T1 H: 112"/&gt;
+    &lt;ttc code="mdeltav" point="sv01" delta="-1" ppm1="9" ppm2="25"/&gt;
+    &lt;ttc code="mdeltav" point="sv01" delta="-2" ppm1="26" ppm2="27"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sv02" stem="T1 H: 112"/&gt;
+    &lt;ttc code="mdeltav" point="sv02" delta="2" ppm1="26" ppm2="27"/&gt;
+    &lt;ttc code="mdeltav" point="sv02" delta="1" ppm1="9" ppm2="25"/&gt;
+    &lt;ttc code="interpolatev" point="ih01" point1="ab01" point2="at01"/&gt;
+    &lt;ttc code="interpolatev" point="ih02" point1="ab01" point2="at01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

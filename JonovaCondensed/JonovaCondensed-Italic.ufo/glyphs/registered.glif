@@ -4,18 +4,18 @@
   <unicode hex="00AE"/>
   <outline>
     <contour>
-      <point x="553" y="1152" type="line"/>
+      <point x="553" y="1152" type="line" name="dv02"/>
       <point x="737" y="1152" type="line"/>
       <point x="840" y="1152"/>
       <point x="943" y="1054"/>
-      <point x="943" y="963" type="qcurve"/>
+      <point x="943" y="963" type="qcurve" name="dh04"/>
       <point x="943" y="902"/>
       <point x="904" y="805"/>
       <point x="842" y="732"/>
       <point x="764" y="683"/>
       <point x="725" y="671" type="qcurve"/>
       <point x="724" y="667" type="line"/>
-      <point x="896" y="292" type="line"/>
+      <point x="896" y="292" type="line" name="ih01"/>
       <point x="794" y="274" type="line"/>
       <point x="648" y="649" type="line"/>
       <point x="578" y="649" type="line"/>
@@ -23,41 +23,41 @@
       <point x="439" y="292" type="line"/>
     </contour>
     <contour>
-      <point x="633" y="1070" type="line"/>
+      <point x="633" y="1070" type="line" name="dv01"/>
       <point x="587" y="722" type="line"/>
       <point x="668" y="722" type="line"/>
       <point x="704" y="722"/>
       <point x="770" y="758"/>
       <point x="821" y="820"/>
       <point x="851" y="902"/>
-      <point x="851" y="949" type="qcurve"/>
+      <point x="851" y="949" type="qcurve" name="dh03"/>
       <point x="851" y="1013"/>
       <point x="786" y="1070"/>
       <point x="734" y="1070" type="qcurve"/>
     </contour>
     <contour>
-      <point x="140" y="716" type="qcurve"/>
+      <point x="140" y="716" type="qcurve" name="dh01"/>
       <point x="140" y="819"/>
       <point x="179" y="1010"/>
       <point x="252" y="1177"/>
       <point x="355" y="1313"/>
       <point x="479" y="1411"/>
       <point x="623" y="1464"/>
-      <point x="700" y="1464" type="qcurve"/>
+      <point x="700" y="1464" type="qcurve" name="at01"/>
       <point x="777" y="1464"/>
       <point x="920" y="1411"/>
       <point x="1046" y="1313"/>
       <point x="1148" y="1177"/>
       <point x="1221" y="1010"/>
       <point x="1261" y="819"/>
-      <point x="1261" y="716" type="qcurve"/>
+      <point x="1261" y="716" type="qcurve" name="dh06"/>
       <point x="1261" y="613"/>
       <point x="1221" y="422"/>
       <point x="1148" y="256"/>
       <point x="1046" y="120"/>
       <point x="920" y="23"/>
       <point x="777" y="-30"/>
-      <point x="700" y="-30" type="qcurve"/>
+      <point x="700" y="-30" type="qcurve" name="ab01"/>
       <point x="623" y="-30"/>
       <point x="479" y="23"/>
       <point x="355" y="120"/>
@@ -66,28 +66,28 @@
       <point x="140" y="613"/>
     </contour>
     <contour>
-      <point x="201" y="717" type="qcurve"/>
+      <point x="201" y="717" type="qcurve" name="dh02"/>
       <point x="201" y="627"/>
       <point x="238" y="459"/>
       <point x="304" y="312"/>
       <point x="396" y="189"/>
       <point x="507" y="101"/>
       <point x="633" y="52"/>
-      <point x="700" y="52" type="qcurve"/>
+      <point x="700" y="52" type="qcurve" name="sv01"/>
       <point x="767" y="52"/>
       <point x="893" y="101"/>
       <point x="1004" y="189"/>
       <point x="1097" y="312"/>
       <point x="1163" y="459"/>
       <point x="1199" y="627"/>
-      <point x="1199" y="717" type="qcurve"/>
+      <point x="1199" y="717" type="qcurve" name="dh05"/>
       <point x="1199" y="806"/>
       <point x="1163" y="975"/>
       <point x="1097" y="1122"/>
       <point x="1004" y="1245"/>
       <point x="893" y="1333"/>
       <point x="767" y="1382"/>
-      <point x="700" y="1382" type="qcurve"/>
+      <point x="700" y="1382" type="qcurve" name="sv02"/>
       <point x="633" y="1382"/>
       <point x="507" y="1333"/>
       <point x="396" y="1245"/>
@@ -98,6 +98,50 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dv02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -30 82</string>
+              <string>hstem 1070 82</string>
+              <string>hstem 1382 82</string>
+              <string>vstem 140 61</string>
+              <string>vstem 851 92</string>
+              <string>vstem 1199 62</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 122"/&gt;
+    &lt;ttc code="doubleh" point1="dh03" point2="dh04" stem="X: 122"/&gt;
+    &lt;ttc code="doubleh" point1="dh05" point2="dh06" stem="X: 122"/&gt;
+    &lt;ttc code="mdeltah" point="dh03" delta="3" ppm1="22" ppm2="23"/&gt;
+    &lt;ttc code="mdeltah" point="dh03" delta="2" ppm1="9" ppm2="21"/&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="dh03" point2="dh04"/&gt;
+    &lt;ttc code="mdeltah" point="dh02" delta="-2" ppm1="9" ppm2="21"/&gt;
+    &lt;ttc code="mdeltah" point="dh02" delta="-3" ppm1="22" ppm2="23"/&gt;
+    &lt;ttc code="mdeltah" point="dh05" delta="3" ppm1="22" ppm2="23"/&gt;
+    &lt;ttc code="mdeltah" point="dh05" delta="2" ppm1="9" ppm2="21"/&gt;
+    &lt;ttc code="singleh" point1="dh06" point2="rsb" round="true"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 102"/&gt;
+    &lt;ttc code="interpolatev" point="ih01" point1="ab01" point2="at01"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv01" stem="Y: 102"/&gt;
+    &lt;ttc code="mdeltav" point="sv01" delta="-1" ppm1="9" ppm2="28"/&gt;
+    &lt;ttc code="mdeltav" point="sv01" delta="-2" ppm1="29" ppm2="30"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sv02" stem="Y: 102"/&gt;
+    &lt;ttc code="mdeltav" point="sv02" delta="2" ppm1="29" ppm2="30"/&gt;
+    &lt;ttc code="mdeltav" point="sv02" delta="1" ppm1="9" ppm2="28"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

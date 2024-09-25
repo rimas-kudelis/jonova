@@ -2,9 +2,15 @@
 <glyph name="dollar" format="2">
   <advance width="1120"/>
   <unicode hex="0024"/>
+  <guideline x="0" y="1336" angle="0"/>
+  <guideline x="0" y="1176" angle="333"/>
+  <guideline x="0" y="98" angle="0"/>
+  <guideline x="0" y="127" angle="45"/>
+  <guideline x="958" y="0" angle="90"/>
+  <guideline x="21" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="731" y="1464" type="qcurve"/>
+      <point x="731" y="1464" type="qcurve" name="hr00"/>
       <point x="750" y="1576" type="line"/>
       <point x="897" y="1600" type="line"/>
       <point x="873" y="1464" type="line"/>
@@ -76,6 +82,23 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -144 -21</string>
+              <string>hstem 1600 -20</string>
+              <string>vstem 283 252</string>
+              <string>vstem 845 252</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

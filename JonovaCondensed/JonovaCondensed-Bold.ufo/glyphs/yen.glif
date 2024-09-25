@@ -2,35 +2,79 @@
 <glyph name="yen" format="2">
   <advance width="768"/>
   <unicode hex="00A5"/>
+  <guideline x="350" y="0" angle="70"/>
+  <guideline x="418" y="0" angle="110"/>
+  <guideline x="-46" y="0" angle="80"/>
+  <guideline x="26" y="0" angle="90"/>
+  <guideline x="622" y="0" angle="110"/>
+  <guideline x="221" y="0" angle="70"/>
   <outline>
     <contour>
-      <point x="222" y="1464" type="line"/>
-      <point x="421" y="732" type="line"/>
-      <point x="621" y="1464" type="line"/>
+      <point x="222" y="1464" type="line" name="at01"/>
+      <point x="421" y="732" type="line" name="ih01"/>
+      <point x="621" y="1464" type="line" name="at02"/>
       <point x="742" y="1434" type="line"/>
-      <point x="617" y="974" type="line"/>
+      <point x="617" y="974" type="line" name="at03"/>
       <point x="742" y="974" type="line"/>
-      <point x="725" y="852" type="line"/>
+      <point x="725" y="852" type="line" name="sv01"/>
       <point x="584" y="852" type="line"/>
       <point x="532" y="665" type="line"/>
-      <point x="742" y="665" type="line"/>
-      <point x="726" y="543" type="line"/>
+      <point x="742" y="665" type="line" name="dv02"/>
+      <point x="726" y="543" type="line" name="dv01"/>
       <point x="501" y="543" type="line"/>
-      <point x="501" y="0" type="line"/>
-      <point x="267" y="0" type="line"/>
-      <point x="267" y="543" type="line"/>
+      <point x="501" y="0" type="line" name="dh02"/>
+      <point x="267" y="0" type="line" name="dh01"/>
+      <point x="267" y="543" type="line" name="sv02"/>
       <point x="26" y="543" type="line"/>
-      <point x="42" y="665" type="line"/>
-      <point x="236" y="665" type="line"/>
-      <point x="185" y="852" type="line"/>
-      <point x="26" y="852" type="line"/>
-      <point x="43" y="974" type="line"/>
-      <point x="152" y="974" type="line"/>
+      <point x="42" y="665" type="line" name="sv03"/>
+      <point x="236" y="665" type="line" name="iv01"/>
+      <point x="185" y="852" type="line" name="sv04"/>
+      <point x="26" y="852" type="line" name="sv05"/>
+      <point x="43" y="974" type="line" name="at04"/>
+      <point x="152" y="974" type="line" name="iv02"/>
       <point x="26" y="1434" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 21 -21</string>
+              <string>hstem 543 122</string>
+              <string>hstem 852 122</string>
+              <string>hstem 1464 -20</string>
+              <string>vstem 267 234</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 212"/&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="dh01" point2="dh02"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="at02" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="at03" zone="t: 0"/&gt;
+    &lt;ttc code="alignt" point="at04" zone="t: 0"/&gt;
+    &lt;ttc code="alignb" point="dh02" zone="b: 0"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="T1 H: 112"/&gt;
+    &lt;ttc code="interpolatev" point="ih01" point1="dh02" point2="at01"/&gt;
+    &lt;ttc code="singlev" point1="at03" point2="sv01" stem="T1 H: 112"/&gt;
+    &lt;ttc code="singlev" point1="dv01" point2="sv02"/&gt;
+    &lt;ttc code="singlev" point1="dv02" point2="sv03"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="dh02" point2="at01"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv04"/&gt;
+    &lt;ttc code="singlev" point1="sv04" point2="sv05"/&gt;
+    &lt;ttc code="interpolatev" point="iv02" point1="dh02" point2="at01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

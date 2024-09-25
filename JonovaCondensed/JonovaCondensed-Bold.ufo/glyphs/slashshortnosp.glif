@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="slashshortnosp" format="2">
   <unicode hex="0337"/>
+  <guideline x="-824" y="0" angle="45"/>
   <anchor x="-400" y="1100" name="_AccentDefault"/>
   <outline>
     <contour>
-      <point x="-831" y="0" type="line"/>
-      <point x="-79" y="1004" type="line"/>
-      <point x="62" y="974" type="line"/>
-      <point x="-692" y="-30" type="line"/>
+      <point x="-831" y="0" type="line" name="iv01"/>
+      <point x="-79" y="1004" type="line" name="at01"/>
+      <point x="62" y="974" type="line" name="iv02"/>
+      <point x="-692" y="-30" type="line" name="ab01"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>iv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -9 -21</string>
+              <string>hstem 1004 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 0"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="ab01" point2="at01"/&gt;
+    &lt;ttc code="interpolatev" point="iv02" point1="ab01" point2="at01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

@@ -3,20 +3,42 @@
   <unicode hex="0347"/>
   <outline>
     <contour>
-      <point x="-766" y="-388" type="line"/>
+      <point x="-766" y="-388" type="line" name="sv01"/>
       <point x="-96" y="-388" type="line"/>
-      <point x="-110" y="-490" type="line"/>
+      <point x="-110" y="-490" type="line" name="ab01"/>
       <point x="-779" y="-490" type="line"/>
     </contour>
     <contour>
       <point x="-724" y="-69" type="line"/>
-      <point x="-54" y="-69" type="line"/>
-      <point x="-68" y="-171" type="line"/>
+      <point x="-54" y="-69" type="line" name="dv02"/>
+      <point x="-68" y="-171" type="line" name="dv01"/>
       <point x="-737" y="-171" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -490 102</string>
+              <string>hstem -171 102</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 1"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 102"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv01" stem="Y: 102"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

@@ -2,14 +2,16 @@
 <glyph name="U" format="2">
   <advance width="1504"/>
   <unicode hex="0055"/>
+  <guideline x="0" y="562" angle="0"/>
+  <guideline x="780" y="0" angle="90"/>
   <anchor x="772" y="0" name="AccentBelow"/>
   <anchor x="772" y="1600" name="AccentDefault"/>
   <anchor x="800" y="712" name="AccentMiddle"/>
   <anchor x="600" y="0" name="AccentOgonek"/>
   <outline>
     <contour>
-      <point x="622" y="1464" type="line"/>
-      <point x="463" y="562" type="line"/>
+      <point x="622" y="1464" type="line" name="sh03"/>
+      <point x="463" y="562" type="line" name="sh04"/>
       <point x="458" y="535"/>
       <point x="452" y="495"/>
       <point x="448" y="462"/>
@@ -19,20 +21,20 @@
       <point x="504" y="199"/>
       <point x="599" y="124"/>
       <point x="722" y="92"/>
-      <point x="788" y="92" type="qcurve"/>
+      <point x="788" y="92" type="qcurve" name="sv01"/>
       <point x="870" y="92"/>
       <point x="1032" y="137"/>
       <point x="1170" y="242"/>
       <point x="1272" y="414"/>
-      <point x="1295" y="542" type="qcurve"/>
-      <point x="1458" y="1464" type="line"/>
-      <point x="1575" y="1434" type="line"/>
-      <point x="1421" y="562" type="line"/>
+      <point x="1295" y="542" type="qcurve" name="sh06"/>
+      <point x="1458" y="1464" type="line" name="sh07"/>
+      <point x="1575" y="1434" type="line" name="sh08"/>
+      <point x="1421" y="562" type="line" name="sh05"/>
       <point x="1394" y="410"/>
       <point x="1273" y="187"/>
       <point x="1098" y="41"/>
       <point x="875" y="-30"/>
-      <point x="746" y="-30" type="qcurve"/>
+      <point x="746" y="-30" type="qcurve" name="ab01"/>
       <point x="635" y="-30"/>
       <point x="457" y="22"/>
       <point x="333" y="129"/>
@@ -42,12 +44,57 @@
       <point x="267" y="454"/>
       <point x="270" y="490"/>
       <point x="276" y="533"/>
-      <point x="281" y="562" type="qcurve"/>
-      <point x="434" y="1434" type="line"/>
+      <point x="281" y="562" type="qcurve" name="sh01"/>
+      <point x="434" y="1434" type="line" name="sh02"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sh03</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -30 122</string>
+              <string>hstem 1464 -20</string>
+              <string>vstem 266 181</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="lsb" align="round"/&gt;
+    &lt;ttc code="alignh" point="rsb" align="round"/&gt;
+    &lt;ttc code="singleh" point1="lsb" point2="sh01" round="true"/&gt;
+    &lt;ttc code="mdeltah" point="sh01" delta="2" ppm1="10" ppm2="10"/&gt;
+    &lt;ttc code="singleh" point1="sh01" point2="sh02"/&gt;
+    &lt;ttc code="mdeltah" point="sh02" delta="2" ppm1="9" ppm2="9"/&gt;
+    &lt;ttc code="singleh" point1="sh02" point2="sh03" stem="X: 192"/&gt;
+    &lt;ttc code="singleh" point1="sh01" point2="sh04" stem="X: 192"/&gt;
+    &lt;ttc code="singleh" point1="rsb" point2="sh05" round="true"/&gt;
+    &lt;ttc code="mdeltah" point="sh05" delta="4" ppm1="10" ppm2="10"/&gt;
+    &lt;ttc code="mdeltah" point="sh05" delta="2" ppm1="11" ppm2="11"/&gt;
+    &lt;ttc code="singleh" point1="sh05" point2="sh06" stem="X: 122"/&gt;
+    &lt;ttc code="mdeltah" point="sh06" delta="2" ppm1="11" ppm2="11"/&gt;
+    &lt;ttc code="singleh" point1="sh06" point2="sh07"/&gt;
+    &lt;ttc code="mdeltah" point="sh07" delta="2" ppm1="9" ppm2="9"/&gt;
+    &lt;ttc code="singleh" point1="sh07" point2="sh08" stem="X: 122"/&gt;
+    &lt;ttc code="alignt" point="sh03" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="sh08" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="sh07" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="sh02" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="mdeltav" point="ab01" delta="2" ppm1="9" ppm2="9"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv01" stem="Y: 122"/&gt;
+    &lt;ttc code="mdeltav" point="sv01" delta="-2" ppm1="15" ppm2="15"/&gt;
+    &lt;ttc code="mdeltav" point="sv01" delta="-3" ppm1="9" ppm2="9"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

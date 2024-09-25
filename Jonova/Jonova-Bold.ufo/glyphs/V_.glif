@@ -2,22 +2,53 @@
 <glyph name="V" format="2">
   <advance width="1248"/>
   <unicode hex="0056"/>
+  <guideline x="538" y="0" angle="70"/>
+  <guideline x="710" y="0" angle="70"/>
+  <guideline x="538" y="0" angle="110"/>
+  <guideline x="872" y="0" angle="110"/>
   <anchor x="624" y="0" name="AccentBelow"/>
   <anchor x="624" y="1600" name="AccentDefault"/>
   <anchor x="624" y="712" name="AccentMiddle"/>
   <outline>
     <contour>
-      <point x="339" y="1464" type="line"/>
-      <point x="705" y="456" type="line"/>
-      <point x="1071" y="1464" type="line"/>
-      <point x="1232" y="1434" type="line"/>
-      <point x="710" y="0" type="line"/>
+      <point x="339" y="1464" type="line" name="dh01"/>
+      <point x="705" y="456" type="line" name="av01"/>
+      <point x="1071" y="1464" type="line" name="dh03"/>
+      <point x="1232" y="1434" type="line" name="dh04"/>
+      <point x="710" y="0" type="line" name="ab01"/>
       <point x="539" y="0" type="line"/>
-      <point x="16" y="1434" type="line"/>
+      <point x="16" y="1434" type="line" name="dh02"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 21 -21</string>
+              <string>hstem 1464 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 302"/&gt;
+    &lt;ttc code="doubleh" point1="dh03" point2="dh04" stem="T1 V: 142"/&gt;
+    &lt;ttc code="alignv" point="av01" align="left"/&gt;
+    &lt;ttc code="alignt" point="dh01" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="dh03" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="dh02" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="dh04" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

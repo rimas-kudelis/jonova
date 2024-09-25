@@ -2,14 +2,19 @@
 <glyph name="four" format="2">
   <advance width="840"/>
   <unicode hex="0034"/>
+  <guideline x="0" y="1542" angle="350"/>
+  <guideline x="0" y="451" angle="3"/>
+  <guideline x="704" y="0" angle="90"/>
+  <guideline x="825" y="0" angle="100"/>
+  <guideline x="667" y="0" angle="80"/>
   <outline>
     <contour>
-      <point x="644" y="1434" type="line"/>
+      <point x="644" y="1434" type="line" name="at01"/>
       <point x="851" y="1391" type="line"/>
       <point x="300" y="472" type="line"/>
-      <point x="520" y="488" type="line"/>
+      <point x="520" y="488" type="line" name="hr00"/>
       <point x="545" y="686" type="line"/>
-      <point x="719" y="740" type="line"/>
+      <point x="719" y="740" type="line" name="hr01"/>
       <point x="764" y="740" type="line"/>
       <point x="732" y="502" type="line"/>
       <point x="845" y="510" type="line"/>
@@ -24,6 +29,44 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 350 130</string>
+              <string>hstem 1434 -20</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 480</string>
+              <string>hstem 1434 -20</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 350 130</string>
+              <string>hstem 1434 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

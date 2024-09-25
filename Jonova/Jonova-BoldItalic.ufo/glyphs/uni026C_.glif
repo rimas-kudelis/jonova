@@ -2,9 +2,11 @@
 <glyph name="uni026C" format="2">
   <advance width="736"/>
   <unicode hex="026C"/>
+  <guideline x="0" y="1133" angle="0"/>
+  <guideline x="713" y="0" angle="80"/>
   <outline>
     <contour>
-      <point x="527" y="1464" type="line"/>
+      <point x="527" y="1464" type="line" name="hr00"/>
       <point x="754" y="1494" type="line"/>
       <point x="814" y="1494" type="line"/>
       <point x="681" y="738" type="line"/>
@@ -13,7 +15,7 @@
       <point x="658" y="608" type="line"/>
       <point x="578" y="154" type="line"/>
       <point x="575" y="142"/>
-      <point x="575" y="131" type="qcurve"/>
+      <point x="575" y="131" type="qcurve" name="hr01"/>
       <point x="575" y="111"/>
       <point x="600" y="82"/>
       <point x="637" y="82" type="qcurve"/>
@@ -58,6 +60,36 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -9 -21</string>
+              <string>hstem 603 135</string>
+              <string>hstem 912 92</string>
+              <string>hstem 1494 -20</string>
+              <string>vstem 141 94</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -9 -21</string>
+              <string>hstem 628 110</string>
+              <string>hstem 912 92</string>
+              <string>hstem 1494 -20</string>
+              <string>vstem 141 94</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

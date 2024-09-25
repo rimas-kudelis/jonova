@@ -2,12 +2,37 @@
 <glyph name="dkshade" format="2">
   <advance width="2048"/>
   <unicode hex="2593"/>
+  <guideline x="0" y="-232" angle="0"/>
+  <guideline x="0" y="1839" angle="0"/>
+  <guideline x="0" y="803" angle="0"/>
+  <guideline x="0" y="2011" angle="0"/>
+  <guideline x="0" y="1666" angle="0"/>
+  <guideline x="0" y="976" angle="0"/>
+  <guideline x="0" y="1493" angle="0"/>
+  <guideline x="0" y="1148" angle="0"/>
+  <guideline x="0" y="1322" angle="0"/>
+  <guideline x="0" y="631" angle="0"/>
+  <guideline x="0" y="458" angle="0"/>
+  <guideline x="0" y="286" angle="0"/>
+  <guideline x="0" y="113" angle="0"/>
+  <guideline x="0" y="-59" angle="0"/>
+  <guideline x="0" y="-405" angle="0"/>
+  <guideline x="226" y="0" angle="45"/>
+  <guideline x="81" y="0" angle="90"/>
+  <guideline x="1797" y="0" angle="90"/>
+  <guideline x="1884" y="0" angle="90"/>
+  <guideline x="167" y="0" angle="90"/>
+  <guideline x="253" y="0" angle="90"/>
+  <guideline x="339" y="0" angle="90"/>
+  <guideline x="426" y="0" angle="90"/>
+  <guideline x="598" y="0" angle="90"/>
+  <guideline x="1288" y="0" angle="90"/>
   <outline>
     <contour>
       <point x="80" y="2001" type="line"/>
       <point x="2128" y="2001" type="line"/>
       <point x="2128" y="-500" type="line"/>
-      <point x="80" y="-500" type="line"/>
+      <point x="80" y="-500" type="line" name="hr00"/>
     </contour>
     <contour>
       <point x="1786" y="1732" type="line"/>
@@ -516,6 +541,21 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -479 -21</string>
+              <string>hstem 2001 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

@@ -2,11 +2,12 @@
 <glyph name="sevensuperior" format="2">
   <advance width="552"/>
   <unicode hex="2077"/>
+  <guideline x="85" y="0" angle="80"/>
   <outline>
     <contour>
-      <point x="659" y="1464" type="line"/>
+      <point x="659" y="1464" type="line" name="hr00"/>
       <point x="656" y="1444" type="line"/>
-      <point x="290" y="586" type="line"/>
+      <point x="290" y="586" type="line" name="av01"/>
       <point x="193" y="604" type="line"/>
       <point x="551" y="1382" type="line"/>
       <point x="264" y="1359" type="line"/>
@@ -15,6 +16,26 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 607 -21</string>
+              <string>hstem 1370 94</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

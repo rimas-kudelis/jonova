@@ -4,22 +4,22 @@
   <unicode hex="2022"/>
   <outline>
     <contour>
-      <point x="340" y="733" type="qcurve"/>
+      <point x="340" y="733" type="qcurve" name="ah01"/>
       <point x="340" y="796"/>
       <point x="387" y="905"/>
       <point x="468" y="987"/>
       <point x="577" y="1034"/>
-      <point x="639" y="1034" type="qcurve"/>
+      <point x="639" y="1034" type="qcurve" name="av01"/>
       <point x="702" y="1034"/>
       <point x="811" y="987"/>
       <point x="893" y="905"/>
       <point x="940" y="796"/>
-      <point x="940" y="733" type="qcurve"/>
+      <point x="940" y="733" type="qcurve" name="ah02"/>
       <point x="940" y="671"/>
       <point x="893" y="562"/>
       <point x="811" y="481"/>
       <point x="702" y="434"/>
-      <point x="639" y="434" type="qcurve"/>
+      <point x="639" y="434" type="qcurve" name="av02"/>
       <point x="577" y="434"/>
       <point x="468" y="481"/>
       <point x="387" y="562"/>
@@ -28,6 +28,29 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>ah01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 455 -21</string>
+              <string>hstem 1034 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="ah01" align="round"/&gt;
+    &lt;ttc code="alignh" point="ah02" align="round"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

@@ -2,65 +2,124 @@
 <glyph name="G" format="2">
   <advance width="1600"/>
   <unicode hex="0047"/>
+  <guideline x="0" y="-85" angle="45"/>
+  <guideline x="865" y="0" angle="90"/>
+  <guideline x="789" y="0" angle="80"/>
   <anchor x="864" y="0" name="AccentBelow"/>
   <anchor x="864" y="1600" name="AccentDefault"/>
   <anchor x="800" y="670" name="AccentMiddle"/>
   <outline>
     <contour>
-      <point x="886" y="717" type="line"/>
+      <point x="886" y="717" type="line" name="dv01"/>
       <point x="1420" y="717" type="line"/>
-      <point x="1420" y="206" type="line"/>
+      <point x="1420" y="206" type="line" name="sh01"/>
       <point x="1367" y="146"/>
       <point x="1236" y="58"/>
       <point x="1092" y="-1"/>
       <point x="938" y="-30"/>
-      <point x="863" y="-30" type="qcurve"/>
+      <point x="863" y="-30" type="qcurve" name="ab01"/>
       <point x="765" y="-30"/>
       <point x="575" y="19"/>
       <point x="406" y="110"/>
       <point x="263" y="242"/>
       <point x="158" y="408"/>
       <point x="100" y="605"/>
-      <point x="100" y="717" type="qcurve"/>
+      <point x="100" y="717" type="qcurve" name="sh02"/>
       <point x="100" y="826"/>
       <point x="157" y="1021"/>
       <point x="259" y="1187"/>
       <point x="401" y="1321"/>
       <point x="570" y="1414"/>
       <point x="762" y="1464"/>
-      <point x="864" y="1464" type="qcurve"/>
+      <point x="864" y="1464" type="qcurve" name="at01"/>
       <point x="952" y="1464"/>
       <point x="1118" y="1427"/>
       <point x="1262" y="1364"/>
       <point x="1379" y="1279"/>
-      <point x="1420" y="1230" type="qcurve"/>
-      <point x="1304" y="1112" type="line"/>
+      <point x="1420" y="1230" type="qcurve" name="sh03"/>
+      <point x="1304" y="1112" type="line" name="mh01"/>
       <point x="1271" y="1159"/>
       <point x="1183" y="1243"/>
       <point x="1073" y="1306"/>
       <point x="941" y="1342"/>
-      <point x="865" y="1342" type="qcurve"/>
-      <point x="757" y="1342"/>
+      <point x="865" y="1342" type="qcurve" name="sv01"/>
+      <point x="757" y="1342" name="fh01"/>
       <point x="551" y="1251"/>
       <point x="390" y="1086"/>
       <point x="292" y="856"/>
-      <point x="292" y="717" type="qcurve"/>
+      <point x="292" y="717" type="qcurve" name="sh04"/>
       <point x="292" y="586"/>
       <point x="381" y="359"/>
       <point x="536" y="189"/>
       <point x="744" y="92"/>
-      <point x="863" y="92" type="qcurve"/>
+      <point x="863" y="92" type="qcurve" name="sv02"/>
       <point x="920" y="92"/>
       <point x="1031" y="113"/>
       <point x="1130" y="149"/>
       <point x="1211" y="198"/>
-      <point x="1238" y="227" type="qcurve"/>
+      <point x="1238" y="227" type="qcurve" name="sh05"/>
       <point x="1238" y="595" type="line"/>
-      <point x="865" y="595" type="line"/>
+      <point x="865" y="595" type="line" name="ah01"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -30 122</string>
+              <string>hstem 595 122</string>
+              <string>hstem 1342 122</string>
+              <string>vstem 100 192</string>
+              <string>vstem 1238 182</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="lsb" align="round"/&gt;
+    &lt;ttc code="alignh" point="rsb" align="round"/&gt;
+    &lt;ttc code="alignh" point="ah01" align="round"/&gt;
+    &lt;ttc code="mdeltah" point="rsb" delta="-8" ppm1="14" ppm2="15"/&gt;
+    &lt;ttc code="singleh" point1="rsb" point2="sh01" round="true"/&gt;
+    &lt;ttc code="singleh" point1="lsb" point2="sh02" round="true" align="round"/&gt;
+    &lt;ttc code="mdeltah" point="sh02" delta="1" ppm1="14" ppm2="14"/&gt;
+    &lt;ttc code="singleh" point1="sh01" point2="sh03"/&gt;
+    &lt;ttc code="mdeltah" point="mh01" delta="3" ppm1="18" ppm2="18"/&gt;
+    &lt;ttc code="mdeltah" point="mh01" delta="1" ppm1="13" ppm2="13"/&gt;
+    &lt;ttc code="singleh" point1="sh02" point2="sh04" stem="X: 192"/&gt;
+    &lt;ttc code="mdeltah" point="sh04" delta="-2" ppm1="9" ppm2="9"/&gt;
+    &lt;ttc code="mdeltah" point="sh04" delta="-3" ppm1="13" ppm2="13"/&gt;
+    &lt;ttc code="mdeltah" point="sh04" delta="-3" ppm1="15" ppm2="15"/&gt;
+    &lt;ttc code="singleh" point1="sh01" point2="sh05" stem="X: 192"/&gt;
+    &lt;ttc code="mdeltah" point="ah01" delta="-5" ppm1="9" ppm2="9"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="ah01" stem="Y: 122"/&gt;
+    &lt;ttc code="mdeltav" point="ab01" delta="1" ppm1="15" ppm2="15"/&gt;
+    &lt;ttc code="mdeltav" point="at01" delta="-1" ppm1="15" ppm2="15"/&gt;
+    &lt;ttc code="mdeltav" point="at01" delta="-1" ppm1="18" ppm2="18"/&gt;
+    &lt;ttc code="mdeltav" point="at01" delta="-2" ppm1="17" ppm2="17"/&gt;
+    &lt;ttc code="interpolatev" point="sh03" point1="at01" point2="dv01"/&gt;
+    &lt;ttc code="mdeltav" point="sh03" delta="-2" ppm1="13" ppm2="13"/&gt;
+    &lt;ttc code="mdeltav" point="mh01" delta="4" ppm1="17" ppm2="17"/&gt;
+    &lt;ttc code="mdeltav" point="mh01" delta="5" ppm1="14" ppm2="14"/&gt;
+    &lt;ttc code="mdeltav" point="mh01" delta="3" ppm1="10" ppm2="10"/&gt;
+    &lt;ttc code="mdeltav" point="mh01" delta="3" ppm1="15" ppm2="15"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sv01" stem="Y: 122"/&gt;
+    &lt;ttc code="mdeltav" point="sv01" delta="2" ppm1="17" ppm2="17"/&gt;
+    &lt;ttc code="mdeltav" point="sv01" delta="1" ppm1="13" ppm2="13"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv02" stem="Y: 122"/&gt;
+    &lt;ttc code="fdeltah" point="fh01" delta="-8" ppm1="18" ppm2="18"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

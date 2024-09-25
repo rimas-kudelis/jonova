@@ -4,18 +4,47 @@
   <unicode hex="02C6"/>
   <outline>
     <contour>
-      <point x="323" y="1517" type="line"/>
-      <point x="445" y="1517" type="line"/>
-      <point x="677" y="1179" type="line"/>
-      <point x="586" y="1149" type="line"/>
+      <point x="323" y="1517" type="line" name="dh01"/>
+      <point x="445" y="1517" type="line" name="dh02"/>
+      <point x="677" y="1179" type="line" name="sh01"/>
+      <point x="586" y="1149" type="line" name="dh04"/>
       <point x="389" y="1394" type="line"/>
       <point x="379" y="1394" type="line"/>
-      <point x="182" y="1149" type="line"/>
-      <point x="91" y="1179" type="line"/>
+      <point x="182" y="1149" type="line" name="dh03"/>
+      <point x="91" y="1179" type="line" name="sh02"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1170 -21</string>
+              <string>hstem 1517 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" round="true"/&gt;
+    &lt;ttc code="doubleh" point1="dh03" point2="dh04" round="true"/&gt;
+    &lt;ttc code="mdeltah" point="dh02" delta="-2" ppm1="16" ppm2="16"/&gt;
+    &lt;ttc code="singleh" point1="dh04" point2="sh01" round="true"/&gt;
+    &lt;ttc code="singleh" point1="dh03" point2="sh02" round="true"/&gt;
+    &lt;ttc code="alignv" point="dh01" align="right"/&gt;
+    &lt;ttc code="mdeltav" point="dh01" delta="8" ppm1="13" ppm2="13"/&gt;
+    &lt;ttc code="singlev" point1="dh01" point2="dh03" round="true"/&gt;
+    &lt;ttc code="mdeltav" point="dh03" delta="-5" ppm1="13" ppm2="13"/&gt;
+    &lt;ttc code="singlev" point1="dh03" point2="dh04"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

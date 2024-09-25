@@ -4,7 +4,7 @@
   <unicode hex="0127"/>
   <outline>
     <contour>
-      <point x="29" y="1292" type="line"/>
+      <point x="29" y="1292" type="line" name="hr00"/>
       <point x="114" y="1292" type="line"/>
       <point x="114" y="1464" type="line"/>
       <point x="213" y="1494" type="line"/>
@@ -52,6 +52,26 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -9 -21</string>
+              <string>hstem 21 -21</string>
+              <string>hstem 902 102</string>
+              <string>hstem 1166 126</string>
+              <string>hstem 1494 -20</string>
+              <string>vstem 114 122</string>
+              <string>vstem 606 122</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

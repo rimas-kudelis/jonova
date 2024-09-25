@@ -2,6 +2,7 @@
 <glyph name="Edotacute" format="2">
   <advance width="1088"/>
   <unicode hex="E008"/>
+  <guideline x="1013" y="0" angle="90"/>
   <outline>
     <component base="E" identifier="component0"/>
     <component base="dotaccent" xOffset="120" yOffset="460" identifier="component1"/>

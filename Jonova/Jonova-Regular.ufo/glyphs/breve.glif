@@ -4,32 +4,56 @@
   <unicode hex="02D8"/>
   <outline>
     <contour>
-      <point x="173" y="1464" type="line"/>
+      <point x="173" y="1464" type="line" name="dh01"/>
       <point x="173" y="1434"/>
       <point x="205" y="1375"/>
       <point x="261" y="1328"/>
       <point x="338" y="1298"/>
-      <point x="384" y="1298" type="qcurve"/>
+      <point x="384" y="1298" type="qcurve" name="dv02"/>
       <point x="430" y="1298"/>
       <point x="507" y="1328"/>
       <point x="563" y="1375"/>
       <point x="595" y="1434"/>
-      <point x="595" y="1464" type="qcurve"/>
-      <point x="677" y="1464" type="line"/>
+      <point x="595" y="1464" type="qcurve" name="dh03"/>
+      <point x="677" y="1464" type="line" name="dh04"/>
       <point x="677" y="1405"/>
       <point x="633" y="1300"/>
       <point x="555" y="1222"/>
       <point x="448" y="1176"/>
-      <point x="385" y="1176" type="qcurve"/>
+      <point x="385" y="1176" type="qcurve" name="dv01"/>
       <point x="321" y="1176"/>
       <point x="213" y="1222"/>
       <point x="135" y="1300"/>
       <point x="91" y="1405"/>
-      <point x="91" y="1464" type="qcurve"/>
+      <point x="91" y="1464" type="qcurve" name="dh02"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1176 122</string>
+              <string>hstem 1464 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 122"/&gt;
+    &lt;ttc code="doubleh" point1="dh03" point2="dh04" stem="X: 122"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 122"/&gt;
+    &lt;ttc code="singlev" point1="dv02" point2="dh03" round="true"/&gt;
+    &lt;ttc code="singlev" point1="dh03" point2="dh01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

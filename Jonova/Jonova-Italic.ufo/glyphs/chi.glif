@@ -4,26 +4,51 @@
   <unicode hex="03C7"/>
   <outline>
     <contour>
-      <point x="412" y="1004" type="line"/>
+      <point x="412" y="1004" type="line" name="dh03"/>
       <point x="581" y="417" type="line"/>
       <point x="591" y="417" type="line"/>
-      <point x="968" y="1004" type="line"/>
+      <point x="968" y="1004" type="line" name="at01"/>
       <point x="1073" y="974" type="line"/>
       <point x="628" y="281" type="line"/>
       <point x="626" y="267" type="line"/>
-      <point x="836" y="-460" type="line"/>
-      <point x="657" y="-490" type="line"/>
+      <point x="836" y="-460" type="line" name="dh02"/>
+      <point x="657" y="-490" type="line" name="dh01"/>
       <point x="496" y="61" type="line"/>
       <point x="486" y="61" type="line"/>
-      <point x="132" y="-490" type="line"/>
+      <point x="132" y="-490" type="line" name="ab01"/>
       <point x="27" y="-460" type="line"/>
       <point x="450" y="200" type="line"/>
       <point x="453" y="214" type="line"/>
-      <point x="233" y="974" type="line"/>
+      <point x="233" y="974" type="line" name="dh04"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh03</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -469 -21</string>
+              <string>hstem 1004 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 192"/&gt;
+    &lt;ttc code="doubleh" point1="dh03" point2="dh04" stem="X: 192"/&gt;
+    &lt;ttc code="alignt" point="dh03" zone="t: 0"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 0"/&gt;
+    &lt;ttc code="alignb" point="dh01" zone="b: 1"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 1"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

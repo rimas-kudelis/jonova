@@ -2,25 +2,26 @@
 <glyph name="uni2085" format="2">
   <advance width="552"/>
   <unicode hex="2085"/>
+  <guideline x="20" y="0" angle="70"/>
   <outline>
     <contour>
-      <point x="545" y="848" type="line"/>
-      <point x="531" y="743" type="line"/>
+      <point x="545" y="848" type="line" name="hr00"/>
+      <point x="531" y="743" type="line" name="sh01"/>
       <point x="310" y="766" type="line"/>
-      <point x="280" y="537" type="line"/>
+      <point x="280" y="537" type="line" name="iv01"/>
       <point x="291" y="542"/>
       <point x="321" y="559"/>
-      <point x="350" y="559" type="qcurve"/>
+      <point x="350" y="559" type="qcurve" name="sv01"/>
       <point x="386" y="559"/>
       <point x="449" y="518"/>
       <point x="495" y="449"/>
       <point x="521" y="357"/>
-      <point x="521" y="306" type="qcurve"/>
+      <point x="521" y="306" type="qcurve" name="dh02"/>
       <point x="521" y="228"/>
       <point x="477" y="103"/>
-      <point x="403" y="16"/>
+      <point x="403" y="16" name="hr01"/>
       <point x="305" y="-30"/>
-      <point x="251" y="-30" type="qcurve"/>
+      <point x="251" y="-30" type="qcurve" name="ab01"/>
       <point x="222" y="-30"/>
       <point x="168" y="-10"/>
       <point x="123" y="21"/>
@@ -31,26 +32,68 @@
       <point x="182" y="108"/>
       <point x="211" y="86"/>
       <point x="245" y="72"/>
-      <point x="263" y="72" type="qcurve"/>
+      <point x="263" y="72" type="qcurve" name="sv02"/>
       <point x="302" y="72"/>
       <point x="362" y="109"/>
       <point x="406" y="172"/>
       <point x="429" y="255"/>
-      <point x="429" y="302" type="qcurve"/>
+      <point x="429" y="302" type="qcurve" name="dh01"/>
       <point x="429" y="339"/>
       <point x="415" y="397"/>
       <point x="390" y="437"/>
       <point x="358" y="457"/>
-      <point x="341" y="457" type="qcurve"/>
+      <point x="341" y="457" type="qcurve" name="dv01"/>
       <point x="312" y="457"/>
       <point x="276" y="438"/>
       <point x="265" y="426" type="qcurve"/>
       <point x="188" y="426" type="line"/>
-      <point x="244" y="848" type="line"/>
+      <point x="244" y="848" type="line" name="dv02"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -30 102</string>
+              <string>hstem 457 102</string>
+              <string>vstem 429 92</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -30 102</string>
+              <string>hstem 457 391</string>
+              <string>vstem 429 92</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 122"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="sh01" align="round"/&gt;
+    &lt;ttc code="mdeltah" point="dh01" delta="3" ppm1="22" ppm2="23"/&gt;
+    &lt;ttc code="mdeltah" point="dh01" delta="2" ppm1="9" ppm2="21"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="rsb" round="true"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 246"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="dv01" point2="dv02"/&gt;
+    &lt;ttc code="singlev" point1="dv01" point2="sv01" stem="Y: 102"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv02" stem="Y: 102"/&gt;
+    &lt;ttc code="mdeltav" point="sv02" delta="-1" ppm1="9" ppm2="28"/&gt;
+    &lt;ttc code="mdeltav" point="sv02" delta="-2" ppm1="29" ppm2="30"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

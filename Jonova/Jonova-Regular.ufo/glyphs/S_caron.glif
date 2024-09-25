@@ -2,12 +2,23 @@
 <glyph name="Scaron" format="2">
   <advance width="1152"/>
   <unicode hex="0160"/>
+  <guideline x="547" y="0" angle="90"/>
   <outline>
     <component base="S" identifier="component0"/>
     <component base="caron" xOffset="180" yOffset="460" identifier="component1"/>
   </outline>
   <lib>
     <dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh03-1" point2="av01-1" round="true"/&gt;
+    &lt;ttc code="doubleh" point1="dh01-1" point2="dh02-1" round="true"/&gt;
+    &lt;ttc code="mdeltah" point="dh03-1" delta="7" ppm1="17" ppm2="17"/&gt;
+    &lt;ttc code="alignv" point="av01-1" align="round"/&gt;
+    &lt;ttc code="alignv" point="dh01-1" align="round"/&gt;
+    &lt;ttc code="singlev" point1="dh01-1" point2="dh02-1"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.objectLibs</key>
       <dict>
         <key>component0</key>

@@ -2,20 +2,45 @@
 <glyph name="uni2207" format="2">
   <advance width="1600"/>
   <unicode hex="2207"/>
+  <guideline x="188" y="0" angle="68"/>
+  <guideline x="1089" y="0" angle="115"/>
+  <guideline x="659" y="0" angle="65"/>
   <outline>
     <contour>
-      <point x="118" y="1434" type="line"/>
+      <point x="118" y="1434" type="line" name="at01"/>
       <point x="1482" y="1434" type="line"/>
-      <point x="800" y="-30" type="line"/>
+      <point x="800" y="-30" type="line" name="ab01"/>
     </contour>
     <contour>
-      <point x="519" y="1222" type="line"/>
+      <point x="519" y="1222" type="line" name="sv01"/>
       <point x="874" y="460" type="line"/>
       <point x="1230" y="1222" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -9 -21</string>
+              <string>hstem 1222 212</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sv01" stem="T1 H: 212"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

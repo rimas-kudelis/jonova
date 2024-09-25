@@ -3,16 +3,66 @@
   <unicode hex="031A"/>
   <outline>
     <contour>
-      <point x="-146" y="1920" type="line"/>
-      <point x="-146" y="1567" type="line"/>
-      <point x="-283" y="1567" type="line"/>
-      <point x="-283" y="1798" type="line"/>
-      <point x="-623" y="1798" type="line"/>
-      <point x="-623" y="1920" type="line"/>
+      <point x="-146" y="1920" type="line" name="dh02"/>
+      <point x="-146" y="1567" type="line" name="dv01"/>
+      <point x="-283" y="1567" type="line" name="sh01"/>
+      <point x="-283" y="1798" type="line" name="sv01"/>
+      <point x="-623" y="1798" type="line" name="hr00"/>
+      <point x="-623" y="1920" type="line" name="dh01"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1798 122</string>
+              <string>vstem -623 477</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>sh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1798 122</string>
+              <string>vstem -283 137</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>sv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1798 122</string>
+              <string>vstem -283 137</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1798 122</string>
+              <string>vstem -623 477</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 302"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="sh01" stem="T1 V: 142"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dh02" stem="T1 H: 282"/&gt;
+    &lt;ttc code="singlev" point1="dh02" point2="sv01" stem="T1 H: 112"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

@@ -2,9 +2,15 @@
 <glyph name="uniEFB5" format="2">
   <advance width="2048"/>
   <unicode hex="EFB5"/>
+  <guideline x="0" y="676" angle="0"/>
+  <guideline x="-440" y="0" angle="45"/>
+  <guideline x="2488" y="0" angle="135"/>
+  <guideline x="1024" y="0" angle="90"/>
+  <guideline x="2331" y="0" angle="135"/>
+  <guideline x="-259" y="0" angle="45"/>
   <outline>
     <contour>
-      <point x="1024" y="1464" type="line"/>
+      <point x="1024" y="1464" type="line" name="hr00"/>
       <point x="1744" y="744" type="line"/>
       <point x="1747" y="741"/>
       <point x="1754" y="726"/>
@@ -41,6 +47,24 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -30 82</string>
+              <string>hstem 676 82</string>
+              <string>hstem 1464 -20</string>
+              <string>vstem 728 82</string>
+              <string>vstem 1238 82</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

@@ -1,17 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="slashshortnosp" format="2">
   <unicode hex="0337"/>
+  <guideline x="-1099" y="0" angle="45"/>
   <anchor x="-512" y="500" name="_AccentMiddle"/>
   <outline>
     <contour>
-      <point x="-1108" y="0" type="line"/>
-      <point x="-105" y="1004" type="line"/>
-      <point x="83" y="974" type="line"/>
-      <point x="-922" y="-30" type="line"/>
+      <point x="-1108" y="0" type="line" name="ah01"/>
+      <point x="-105" y="1004" type="line" name="sh01"/>
+      <point x="83" y="974" type="line" name="ah02"/>
+      <point x="-922" y="-30" type="line" name="sh02"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>ah01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -9 -21</string>
+              <string>hstem 1004 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="ah01" align="round"/&gt;
+    &lt;ttc code="alignh" point="ah02" align="round"/&gt;
+    &lt;ttc code="singleh" point1="ah02" point2="sh01" round="true"/&gt;
+    &lt;ttc code="singleh" point1="ah01" point2="sh02" round="true"/&gt;
+    &lt;ttc code="alignt" point="sh01" zone="t: 0"/&gt;
+    &lt;ttc code="alignb" point="sh02" zone="b: 0"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

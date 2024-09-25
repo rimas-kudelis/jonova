@@ -2,43 +2,89 @@
 <glyph name="tbar" format="2">
   <advance width="736"/>
   <unicode hex="0167"/>
+  <guideline x="33" y="0" angle="90"/>
+  <guideline x="-53" y="0" angle="80"/>
+  <guideline x="650" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="413" y="1322" type="line"/>
-      <point x="413" y="1004" type="line"/>
-      <point x="650" y="1004" type="line"/>
+      <point x="413" y="1322" type="line" name="sh01"/>
+      <point x="413" y="1004" type="line" name="at01"/>
+      <point x="650" y="1004" type="line" name="sh02"/>
       <point x="627" y="872" type="line"/>
-      <point x="413" y="886" type="line"/>
+      <point x="413" y="886" type="line" name="sh03"/>
       <point x="413" y="588" type="line"/>
-      <point x="650" y="588" type="line"/>
-      <point x="632" y="486" type="line"/>
+      <point x="650" y="588" type="line" name="sh04"/>
+      <point x="632" y="486" type="line" name="sv01"/>
       <point x="413" y="486" type="line"/>
-      <point x="413" y="297" type="line"/>
+      <point x="413" y="297" type="line" name="dh02"/>
       <point x="413" y="240"/>
       <point x="431" y="155"/>
       <point x="479" y="99"/>
       <point x="563" y="72"/>
-      <point x="629" y="72" type="qcurve"/>
-      <point x="611" y="-30" type="line"/>
+      <point x="629" y="72" type="qcurve" name="sh05"/>
+      <point x="611" y="-30" type="line" name="ab01"/>
       <point x="504" y="-30"/>
       <point x="365" y="8"/>
       <point x="284" y="92"/>
       <point x="251" y="228"/>
-      <point x="251" y="326" type="qcurve"/>
-      <point x="251" y="486" type="line"/>
+      <point x="251" y="326" type="qcurve" name="dh01"/>
+      <point x="251" y="486" type="line" name="sv02"/>
       <point x="82" y="486" type="line"/>
-      <point x="100" y="588" type="line"/>
-      <point x="251" y="588" type="line"/>
-      <point x="251" y="893" type="line"/>
+      <point x="100" y="588" type="line" name="sh08"/>
+      <point x="251" y="588" type="line" name="sh09"/>
+      <point x="251" y="893" type="line" name="sv03"/>
       <point x="82" y="902" type="line"/>
-      <point x="100" y="1004" type="line"/>
-      <point x="251" y="1004" type="line"/>
+      <point x="100" y="1004" type="line" name="sh07"/>
+      <point x="251" y="1004" type="line" name="sh06"/>
       <point x="251" y="1292" type="line"/>
       <point x="383" y="1322" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -30 102</string>
+              <string>hstem 486 102</string>
+              <string>hstem 897 107</string>
+              <string>hstem 1322 -20</string>
+              <string>vstem 251 162</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 162"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="sh01"/&gt;
+    &lt;ttc code="singleh" point1="sh01" point2="sh02" round="true"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="sh03"/&gt;
+    &lt;ttc code="singleh" point1="sh02" point2="sh04"/&gt;
+    &lt;ttc code="singleh" point1="sh04" point2="sh05"/&gt;
+    &lt;ttc code="singleh" point1="dh01" point2="sh06"/&gt;
+    &lt;ttc code="singleh" point1="sh06" point2="sh07" round="true"/&gt;
+    &lt;ttc code="singleh" point1="sh07" point2="sh08"/&gt;
+    &lt;ttc code="singleh" point1="dh01" point2="sh09"/&gt;
+    &lt;ttc code="alignv" point="sh01" align="right"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 0"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sh03" stem="Y: 102"/&gt;
+    &lt;ttc code="singlev" point1="sh03" point2="sh04" stem="Y: 246"/&gt;
+    &lt;ttc code="singlev" point1="sh04" point2="sv01" stem="Y: 102"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sh05" stem="Y: 102"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv02"/&gt;
+    &lt;ttc code="singlev" point1="sh04" point2="sh08"/&gt;
+    &lt;ttc code="singlev" point1="sh03" point2="sv03"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sh06"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

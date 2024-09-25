@@ -2,33 +2,34 @@
 <glyph name="daggerdbl" format="2">
   <advance width="768"/>
   <unicode hex="2021"/>
+  <guideline x="0" y="953" angle="0"/>
   <outline>
     <contour>
-      <point x="474" y="1464" type="line"/>
+      <point x="474" y="1464" type="line" name="at01"/>
       <point x="575" y="1444" type="line"/>
-      <point x="681" y="1464" type="line"/>
-      <point x="603" y="1043" type="line"/>
-      <point x="848" y="1064" type="line"/>
+      <point x="681" y="1464" type="line" name="at02"/>
+      <point x="603" y="1043" type="line" name="iv01"/>
+      <point x="848" y="1064" type="line" name="iv02"/>
       <point x="819" y="953" type="line"/>
       <point x="819" y="842" type="line"/>
       <point x="579" y="861" type="line"/>
       <point x="566" y="593" type="line"/>
-      <point x="509" y="325" type="line"/>
-      <point x="753" y="344" type="line"/>
+      <point x="509" y="325" type="line" name="iv03"/>
+      <point x="753" y="344" type="line" name="iv04"/>
       <point x="724" y="233" type="line"/>
       <point x="724" y="122" type="line"/>
       <point x="485" y="143" type="line"/>
-      <point x="450" y="-278" type="line"/>
+      <point x="450" y="-278" type="line" name="av01"/>
       <point x="350" y="-258" type="line"/>
-      <point x="243" y="-278" type="line"/>
-      <point x="321" y="142" type="line"/>
-      <point x="76" y="122" type="line"/>
+      <point x="243" y="-278" type="line" name="av02"/>
+      <point x="321" y="142" type="line" name="iv05"/>
+      <point x="76" y="122" type="line" name="iv06"/>
       <point x="105" y="232" type="line"/>
       <point x="105" y="344" type="line"/>
       <point x="345" y="324" type="line"/>
       <point x="359" y="593" type="line"/>
-      <point x="416" y="862" type="line"/>
-      <point x="171" y="842" type="line"/>
+      <point x="416" y="862" type="line" name="iv07"/>
+      <point x="171" y="842" type="line" name="iv08"/>
       <point x="201" y="953" type="line"/>
       <point x="201" y="1064" type="line"/>
       <point x="440" y="1044" type="line"/>
@@ -36,6 +37,37 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -257 -21</string>
+              <string>hstem 1464 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="at02" zone="t: 1"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="av01" point2="at01"/&gt;
+    &lt;ttc code="interpolatev" point="iv02" point1="av01" point2="at01"/&gt;
+    &lt;ttc code="interpolatev" point="iv03" point1="av01" point2="at01"/&gt;
+    &lt;ttc code="interpolatev" point="iv04" point1="av01" point2="at01"/&gt;
+    &lt;ttc code="interpolatev" point="iv05" point1="av01" point2="at01"/&gt;
+    &lt;ttc code="interpolatev" point="iv06" point1="av01" point2="at01"/&gt;
+    &lt;ttc code="interpolatev" point="iv07" point1="av01" point2="at01"/&gt;
+    &lt;ttc code="interpolatev" point="iv08" point1="av01" point2="at01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

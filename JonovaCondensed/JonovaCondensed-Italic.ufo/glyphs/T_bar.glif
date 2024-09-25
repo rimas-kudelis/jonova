@@ -2,21 +2,23 @@
 <glyph name="Tbar" format="2">
   <advance width="864"/>
   <unicode hex="0166"/>
+  <guideline x="223" y="0" angle="90"/>
+  <guideline x="657" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="213" y="1434" type="line"/>
+      <point x="213" y="1434" type="line" name="hr00"/>
       <point x="1029" y="1434" type="line"/>
       <point x="1010" y="1292" type="line"/>
       <point x="674" y="1312" type="line"/>
       <point x="610" y="829" type="line"/>
-      <point x="796" y="829" type="line"/>
-      <point x="779" y="707" type="line"/>
+      <point x="796" y="829" type="line" name="dv02"/>
+      <point x="779" y="707" type="line" name="dv01"/>
       <point x="593" y="707" type="line"/>
-      <point x="500" y="0" type="line"/>
+      <point x="500" y="0" type="line" name="ab01"/>
       <point x="364" y="0" type="line"/>
-      <point x="457" y="707" type="line"/>
+      <point x="457" y="707" type="line" name="sv01"/>
       <point x="271" y="707" type="line"/>
-      <point x="287" y="829" type="line"/>
+      <point x="287" y="829" type="line" name="sv02"/>
       <point x="473" y="829" type="line"/>
       <point x="537" y="1312" type="line"/>
       <point x="194" y="1292" type="line"/>
@@ -24,6 +26,30 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 21 -21</string>
+              <string>hstem 707 122</string>
+              <string>hstem 1302 132</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 122"/&gt;
+    &lt;ttc code="singlev" point1="dv01" point2="sv01"/&gt;
+    &lt;ttc code="singlev" point1="dv02" point2="sv02"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

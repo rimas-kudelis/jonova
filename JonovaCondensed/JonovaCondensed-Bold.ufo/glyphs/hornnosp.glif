@@ -3,24 +3,66 @@
   <unicode hex="031B"/>
   <outline>
     <contour>
-      <point x="12" y="1122" type="line"/>
-      <point x="155" y="1122" type="line"/>
-      <point x="167" y="1098" type="line"/>
+      <point x="12" y="1122" type="line" name="dv02"/>
+      <point x="155" y="1122" type="line" name="hr00"/>
+      <point x="167" y="1098" type="line" name="dh02"/>
       <point x="167" y="1030"/>
-      <point x="137" y="901"/>
+      <point x="137" y="901" name="hr01"/>
       <point x="63" y="801"/>
       <point x="-64" y="740"/>
-      <point x="-161" y="740" type="qcurve"/>
-      <point x="-161" y="882" type="line"/>
+      <point x="-161" y="740" type="qcurve" name="dv01"/>
+      <point x="-161" y="882" type="line" name="dh01"/>
       <point x="-116" y="882"/>
       <point x="-55" y="903"/>
       <point x="-17" y="954"/>
       <point x="0" y="1036"/>
-      <point x="0" y="1098" type="qcurve"/>
+      <point x="0" y="1098" type="qcurve" name="sh01"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dv02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 740 142</string>
+              <string>vstem 0 167</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 740 142</string>
+              <string>vstem -161 328</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 740 382</string>
+              <string>vstem 0 167</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 302"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="sh01" stem="T1 V: 182"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="rsb" round="true"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="T1 H: 282"/&gt;
+    &lt;ttc code="singlev" point1="dv01" point2="dh01" stem="T1 H: 142"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

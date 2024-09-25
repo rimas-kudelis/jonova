@@ -4,16 +4,37 @@
   <anchor x="-400" y="1500" name="_AccentDefault"/>
   <outline>
     <contour>
-      <point x="-275" y="1516" type="line"/>
+      <point x="-275" y="1516" type="line" name="av01"/>
       <point x="-550" y="1804" type="line"/>
       <point x="-550" y="1848" type="line"/>
-      <point x="-461" y="1966" type="line"/>
+      <point x="-461" y="1966" type="line" name="av02"/>
       <point x="-428" y="1966" type="line"/>
       <point x="-218" y="1597" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1537 -21</string>
+              <string>hstem 1966 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

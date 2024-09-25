@@ -3,18 +3,44 @@
   <unicode hex="031D"/>
   <outline>
     <contour>
-      <point x="-492" y="-177" type="line"/>
-      <point x="-517" y="-321" type="line"/>
-      <point x="-353" y="-321" type="line"/>
-      <point x="-371" y="-423" type="line"/>
+      <point x="-492" y="-177" type="line" name="sv01"/>
+      <point x="-517" y="-321" type="line" name="dh02"/>
+      <point x="-353" y="-321" type="line" name="sh01"/>
+      <point x="-371" y="-423" type="line" name="av01"/>
       <point x="-801" y="-423" type="line"/>
-      <point x="-783" y="-321" type="line"/>
-      <point x="-619" y="-321" type="line"/>
+      <point x="-783" y="-321" type="line" name="sh02"/>
+      <point x="-619" y="-321" type="line" name="dh01"/>
       <point x="-594" y="-177" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -423 102</string>
+              <string>hstem -177 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" round="true"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="sh01" stem="X: 162"/&gt;
+    &lt;ttc code="singleh" point1="dh01" point2="sh02" stem="X: 162"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="singlev" point1="av01" point2="sh01" stem="Y: 102"/&gt;
+    &lt;ttc code="singlev" point1="sh01" point2="sv01" round="true"/&gt;
+    &lt;ttc code="singlev" point1="sh01" point2="sh02"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

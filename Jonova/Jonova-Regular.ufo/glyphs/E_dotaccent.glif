@@ -9,6 +9,17 @@
   </outline>
   <lib>
     <dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="sh01-1" align="round"/&gt;
+    &lt;ttc code="mdeltah" point="sh01-1" delta="8" ppm1="17" ppm2="17"/&gt;
+    &lt;ttc code="mdeltah" point="sh01-1" delta="5" ppm1="16" ppm2="16"/&gt;
+    &lt;ttc code="mdeltah" point="sh01-1" delta="-8" ppm1="11" ppm2="11"/&gt;
+    &lt;ttc code="singleh" point1="sh01-1" point2="sh02-1" stem="X: 192"/&gt;
+    &lt;ttc code="alignv" point="av01-1" align="right"/&gt;
+    &lt;ttc code="singlev" point1="av01-1" point2="sv01-1" round="true"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.objectLibs</key>
       <dict>
         <key>component0</key>

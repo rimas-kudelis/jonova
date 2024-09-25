@@ -4,16 +4,56 @@
   <unicode hex="2310"/>
   <outline>
     <contour>
-      <point x="114" y="870" type="line"/>
+      <point x="114" y="870" type="line" name="dh01"/>
       <point x="869" y="870" type="line"/>
-      <point x="869" y="658" type="line"/>
-      <point x="303" y="658" type="line"/>
-      <point x="303" y="379" type="line"/>
-      <point x="114" y="379" type="line"/>
+      <point x="869" y="658" type="line" name="sv01"/>
+      <point x="303" y="658" type="line" name="dh02"/>
+      <point x="303" y="379" type="line" name="hr00"/>
+      <point x="114" y="379" type="line" name="dv01"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 379 491</string>
+              <string>vstem 114 189</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>sv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 658 212</string>
+              <string>vstem 114 189</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 379 491</string>
+              <string>vstem 114 189</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 182"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dh01" stem="T1 H: 282"/&gt;
+    &lt;ttc code="singlev" point1="dh01" point2="sv01" stem="T1 H: 212"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

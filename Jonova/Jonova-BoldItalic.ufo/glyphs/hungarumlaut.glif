@@ -2,26 +2,57 @@
 <glyph name="hungarumlaut" format="2">
   <advance width="768"/>
   <unicode hex="02DD"/>
+  <guideline x="0" y="1252" angle="0"/>
+  <guideline x="491" y="0" angle="90"/>
+  <guideline x="384" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="292" y="1180" type="line"/>
+      <point x="292" y="1180" type="line" name="ah01"/>
       <point x="462" y="1517" type="line"/>
-      <point x="490" y="1524" type="line"/>
+      <point x="490" y="1524" type="line" name="av01"/>
       <point x="594" y="1460" type="line"/>
-      <point x="601" y="1434" type="line"/>
-      <point x="362" y="1137" type="line"/>
+      <point x="601" y="1434" type="line" name="sh01"/>
+      <point x="362" y="1137" type="line" name="av02"/>
     </contour>
     <contour>
-      <point x="646" y="1180" type="line"/>
+      <point x="646" y="1180" type="line" name="sh02"/>
       <point x="817" y="1517" type="line"/>
-      <point x="845" y="1524" type="line"/>
+      <point x="845" y="1524" type="line" name="sv01"/>
       <point x="949" y="1460" type="line"/>
-      <point x="956" y="1434" type="line"/>
-      <point x="716" y="1137" type="line"/>
+      <point x="956" y="1434" type="line" name="sh03"/>
+      <point x="716" y="1137" type="line" name="sv02"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>ah01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1188 -21</string>
+              <string>hstem 1554 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="ah01" align="round"/&gt;
+    &lt;ttc code="singleh" point1="ah01" point2="sh01" round="true"/&gt;
+    &lt;ttc code="singleh" point1="sh01" point2="sh02"/&gt;
+    &lt;ttc code="singleh" point1="sh02" point2="sh03" round="true"/&gt;
+    &lt;ttc code="alignv" point="av01" align="right"/&gt;
+    &lt;ttc code="alignv" point="av02" align="right"/&gt;
+    &lt;ttc code="mdeltav" point="av01" delta="6" ppm1="13" ppm2="13"/&gt;
+    &lt;ttc code="singlev" point1="av01" point2="sv01"/&gt;
+    &lt;ttc code="singlev" point1="av02" point2="sv02"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

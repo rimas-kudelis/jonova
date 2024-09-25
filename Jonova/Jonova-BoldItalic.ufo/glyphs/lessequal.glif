@@ -2,9 +2,13 @@
 <glyph name="lessequal" format="2">
   <advance width="1152"/>
   <unicode hex="2264"/>
+  <guideline x="0" y="553" angle="20"/>
+  <guideline x="0" y="845" angle="340"/>
+  <guideline x="75" y="0" angle="90"/>
+  <guideline x="1077" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="216" y="805" type="line"/>
+      <point x="216" y="805" type="line" name="hr00"/>
       <point x="1205" y="1144" type="line"/>
       <point x="1243" y="945" type="line"/>
       <point x="526" y="699" type="line"/>
@@ -21,6 +25,21 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -30 212</string>
+              <string>hstem 1144 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

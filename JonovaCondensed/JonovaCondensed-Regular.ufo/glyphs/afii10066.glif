@@ -4,7 +4,7 @@
   <unicode hex="0431"/>
   <outline>
     <contour>
-      <point x="563" y="1464" type="line"/>
+      <point x="563" y="1464" type="line" name="hr00"/>
       <point x="612" y="1464"/>
       <point x="656" y="1499"/>
       <point x="656" y="1542" type="qcurve"/>
@@ -17,7 +17,7 @@
       <point x="458" y="1322" type="line"/>
       <point x="408" y="1322"/>
       <point x="329" y="1282"/>
-      <point x="269" y="1214"/>
+      <point x="269" y="1214" name="hr01"/>
       <point x="224" y="1124"/>
       <point x="194" y="1026"/>
       <point x="179" y="926"/>
@@ -73,6 +73,38 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -30 102</string>
+              <string>hstem 902 102</string>
+              <string>hstem 1322 142</string>
+              <string>hstem 1542 -20</string>
+              <string>vstem 54 129</string>
+              <string>vstem 657 129</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -30 102</string>
+              <string>hstem 902 102</string>
+              <string>hstem 1322 142</string>
+              <string>hstem 1542 -20</string>
+              <string>vstem 54 129</string>
+              <string>vstem 657 76</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

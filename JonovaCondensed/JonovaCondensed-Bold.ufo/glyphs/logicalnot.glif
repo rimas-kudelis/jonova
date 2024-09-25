@@ -4,16 +4,40 @@
   <unicode hex="00AC"/>
   <outline>
     <contour>
-      <point x="809" y="805" type="line"/>
-      <point x="809" y="256" type="line"/>
-      <point x="620" y="256" type="line"/>
-      <point x="620" y="593" type="line"/>
+      <point x="809" y="805" type="line" name="dv02"/>
+      <point x="809" y="256" type="line" name="dh02"/>
+      <point x="620" y="256" type="line" name="dh01"/>
+      <point x="620" y="593" type="line" name="dv01"/>
       <point x="54" y="593" type="line"/>
       <point x="54" y="805" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dv02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 277 -21</string>
+              <string>hstem 593 212</string>
+              <string>vstem 620 189</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 182"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="rsb" round="true"/&gt;
+    &lt;ttc code="alignv" point="dh02" align="round"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="T1 H: 212"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

@@ -2,26 +2,60 @@
 <glyph name="Lslash" format="2">
   <advance width="816"/>
   <unicode hex="0141"/>
+  <guideline x="0" y="468" angle="30"/>
+  <guideline x="0" y="678" angle="30"/>
+  <guideline x="457" y="0" angle="90"/>
+  <guideline x="40" y="0" angle="90"/>
+  <guideline x="543" y="0" angle="100"/>
   <outline>
     <contour>
-      <point x="98" y="1434" type="line"/>
-      <point x="332" y="1464" type="line"/>
-      <point x="332" y="936" type="line"/>
-      <point x="419" y="1004" type="line"/>
+      <point x="98" y="1434" type="line" name="dh01"/>
+      <point x="332" y="1464" type="line" name="dh02"/>
+      <point x="332" y="936" type="line" name="iv01"/>
+      <point x="419" y="1004" type="line" name="iv02"/>
       <point x="445" y="813" type="line"/>
-      <point x="332" y="725" type="line"/>
+      <point x="332" y="725" type="line" name="sh01"/>
       <point x="332" y="122" type="line"/>
       <point x="760" y="162" type="line"/>
-      <point x="737" y="0" type="line"/>
-      <point x="98" y="0" type="line"/>
-      <point x="98" y="544" type="line"/>
-      <point x="24" y="487" type="line"/>
+      <point x="737" y="0" type="line" name="ab01"/>
+      <point x="98" y="0" type="line" name="sh02"/>
+      <point x="98" y="544" type="line" name="iv03"/>
+      <point x="24" y="487" type="line" name="iv04"/>
       <point x="0" y="678" type="line"/>
       <point x="98" y="754" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 21 -21</string>
+              <string>hstem 1464 -20</string>
+              <string>vstem 98 234</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 212"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="sh01"/&gt;
+    &lt;ttc code="singleh" point1="dh01" point2="sh02"/&gt;
+    &lt;ttc code="alignt" point="dh02" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="ab01" point2="dh02"/&gt;
+    &lt;ttc code="interpolatev" point="iv02" point1="ab01" point2="dh02"/&gt;
+    &lt;ttc code="interpolatev" point="iv03" point1="ab01" point2="dh02"/&gt;
+    &lt;ttc code="interpolatev" point="iv04" point1="ab01" point2="dh02"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

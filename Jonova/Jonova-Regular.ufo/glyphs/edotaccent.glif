@@ -2,6 +2,7 @@
 <glyph name="edotaccent" format="2">
   <advance width="1024"/>
   <unicode hex="0117"/>
+  <guideline x="0" y="594" angle="0"/>
   <anchor x="532" y="1450" name="AccentDefault"/>
   <outline>
     <component base="e" identifier="component0"/>
@@ -9,6 +10,18 @@
   </outline>
   <lib>
     <dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="sh01-1" point2="sh02-1" stem="X: 192"/&gt;
+    &lt;ttc code="mdeltah" point="sh01-1" delta="8" ppm1="9" ppm2="10"/&gt;
+    &lt;ttc code="mdeltah" point="sh01-1" delta="8" ppm1="16" ppm2="17"/&gt;
+    &lt;ttc code="mdeltah" point="sh02-1" delta="8" ppm1="9" ppm2="10"/&gt;
+    &lt;ttc code="mdeltah" point="sh02-1" delta="8" ppm1="16" ppm2="17"/&gt;
+    &lt;ttc code="mdeltav" point="av01-1" delta="8" ppm1="11" ppm2="11"/&gt;
+    &lt;ttc code="mdeltav" point="av01-1" delta="-3" ppm1="9" ppm2="9"/&gt;
+    &lt;ttc code="mdeltav" point="sv01-1" delta="5" ppm1="9" ppm2="9"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.objectLibs</key>
       <dict>
         <key>component0</key>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hooksubretronosp" format="2">
   <unicode hex="0322"/>
+  <guideline x="32" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="-85" y="136" type="line"/>
+      <point x="-85" y="136" type="line" name="dh02"/>
       <point x="-147" y="-221" type="line"/>
       <point x="-150" y="-240"/>
       <point x="-154" y="-276"/>
@@ -12,8 +13,8 @@
       <point x="-138" y="-354"/>
       <point x="-108" y="-372"/>
       <point x="-66" y="-378"/>
-      <point x="-40" y="-378" type="qcurve"/>
-      <point x="-60" y="-490" type="line"/>
+      <point x="-40" y="-378" type="qcurve" name="ah01"/>
+      <point x="-60" y="-490" type="line" name="ab01"/>
       <point x="-170" y="-490"/>
       <point x="-310" y="-455"/>
       <point x="-389" y="-388"/>
@@ -22,11 +23,35 @@
       <point x="-419" y="-191"/>
       <point x="-411" y="-116"/>
       <point x="-404" y="-78" type="qcurve"/>
-      <point x="-367" y="136" type="line"/>
+      <point x="-367" y="136" type="line" name="dh01"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -469 -21</string>
+              <string>hstem 136 -20</string>
+              <string>vstem -419 265</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="ah01" align="round"/&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 282"/&gt;
+    &lt;ttc code="alignv" point="dh02" align="round"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 1"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

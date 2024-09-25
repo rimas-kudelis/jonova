@@ -4,20 +4,42 @@
   <unicode hex="2550"/>
   <outline>
     <contour>
-      <point x="-20" y="808" type="line"/>
-      <point x="-20" y="990" type="line"/>
+      <point x="-20" y="808" type="line" name="sv01"/>
+      <point x="-20" y="990" type="line" name="at01"/>
       <point x="2068" y="990" type="line"/>
       <point x="2068" y="808" type="line"/>
     </contour>
     <contour>
-      <point x="-20" y="444" type="line"/>
-      <point x="-20" y="626" type="line"/>
+      <point x="-20" y="444" type="line" name="dv01"/>
+      <point x="-20" y="626" type="line" name="dv02"/>
       <point x="2068" y="626" type="line"/>
       <point x="2068" y="444" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 444 182</string>
+              <string>hstem 808 182</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 0"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="T1 H: 182"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sv01" stem="T1 H: 182"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

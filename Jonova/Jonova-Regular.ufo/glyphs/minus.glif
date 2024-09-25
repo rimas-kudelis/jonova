@@ -4,14 +4,40 @@
   <unicode hex="2212"/>
   <outline>
     <contour>
-      <point x="89" y="426" type="line"/>
-      <point x="89" y="548" type="line"/>
+      <point x="89" y="426" type="line" name="sh01"/>
+      <point x="89" y="548" type="line" name="sv01"/>
       <point x="1063" y="548" type="line"/>
-      <point x="1063" y="426" type="line"/>
+      <point x="1063" y="426" type="line" name="sh02"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 426 122</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="lsb" align="round"/&gt;
+    &lt;ttc code="alignh" point="rsb" align="round"/&gt;
+    &lt;ttc code="singleh" point1="lsb" point2="sh01" round="true"/&gt;
+    &lt;ttc code="singleh" point1="rsb" point2="sh02" round="true"/&gt;
+    &lt;ttc code="alignv" point="sh01" align="round"/&gt;
+    &lt;ttc code="mdeltav" point="sh01" delta="5" ppm1="11" ppm2="11"/&gt;
+    &lt;ttc code="mdeltav" point="sh01" delta="-5" ppm1="22" ppm2="22"/&gt;
+    &lt;ttc code="singlev" point1="sh01" point2="sv01" stem="Y: 122"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

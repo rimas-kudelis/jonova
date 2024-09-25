@@ -2,6 +2,7 @@
 <glyph name="zacute" format="2">
   <advance width="720"/>
   <unicode hex="017A"/>
+  <guideline x="71" y="0" angle="80"/>
   <outline>
     <component base="z" identifier="component0"/>
     <component base="acute" xOffset="60" identifier="component1"/>

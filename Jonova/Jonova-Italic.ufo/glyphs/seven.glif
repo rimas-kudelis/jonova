@@ -2,20 +2,47 @@
 <glyph name="seven" format="2">
   <advance width="1120"/>
   <unicode hex="0037"/>
+  <guideline x="0" y="806" angle="3"/>
+  <guideline x="213" y="0" angle="65"/>
+  <guideline x="145" y="0" angle="80"/>
+  <guideline x="420" y="0" angle="100"/>
   <outline>
     <contour>
-      <point x="399" y="1434" type="line"/>
+      <point x="399" y="1434" type="line" name="at01"/>
       <point x="1240" y="1434" type="line"/>
       <point x="1237" y="1414" type="line"/>
-      <point x="419" y="-30" type="line"/>
-      <point x="257" y="0" type="line"/>
+      <point x="419" y="-30" type="line" name="dh01"/>
+      <point x="257" y="0" type="line" name="dh02"/>
       <point x="1039" y="1302" type="line"/>
       <point x="1041" y="1312" type="line"/>
-      <point x="373" y="1292" type="line"/>
+      <point x="373" y="1292" type="line" name="sv01"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -9 -21</string>
+              <string>hstem 1302 132</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 162"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="dh01" zone="b: 0"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sv01" stem="Y: 142"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

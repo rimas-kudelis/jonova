@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildecomb" format="2">
   <unicode hex="0303"/>
+  <guideline x="-512" y="0" angle="90"/>
   <anchor x="-512" y="1500" name="_AccentDefault"/>
   <outline>
     <contour>
-      <point x="-661" y="1864" type="qcurve"/>
-      <point x="-626" y="1864"/>
+      <point x="-661" y="1864" type="qcurve" name="av01"/>
+      <point x="-626" y="1864" name="hr00"/>
       <point x="-569" y="1843"/>
-      <point x="-519" y="1812"/>
-      <point x="-475" y="1776"/>
-      <point x="-432" y="1745"/>
+      <point x="-519" y="1812" name="hr01"/>
+      <point x="-475" y="1776" name="hr02"/>
+      <point x="-432" y="1745" name="hr03"/>
       <point x="-388" y="1724"/>
-      <point x="-364" y="1724" type="qcurve"/>
-      <point x="-313" y="1724"/>
+      <point x="-364" y="1724" type="qcurve" name="sv01"/>
+      <point x="-313" y="1724" name="hr04"/>
       <point x="-262" y="1804"/>
-      <point x="-262" y="1864" type="qcurve"/>
-      <point x="-140" y="1864" type="line"/>
+      <point x="-262" y="1864" type="qcurve" name="dh02"/>
+      <point x="-140" y="1864" type="line" name="dh01"/>
       <point x="-140" y="1795"/>
       <point x="-172" y="1686"/>
       <point x="-231" y="1611"/>
       <point x="-314" y="1572"/>
-      <point x="-364" y="1572" type="qcurve"/>
+      <point x="-364" y="1572" type="qcurve" name="sv02"/>
       <point x="-399" y="1572"/>
       <point x="-455" y="1593"/>
       <point x="-504" y="1624"/>
       <point x="-547" y="1660"/>
       <point x="-590" y="1691"/>
       <point x="-635" y="1712"/>
-      <point x="-661" y="1712" type="qcurve"/>
+      <point x="-661" y="1712" type="qcurve" name="sv03"/>
       <point x="-712" y="1712"/>
       <point x="-762" y="1632"/>
-      <point x="-762" y="1572" type="qcurve"/>
-      <point x="-884" y="1572" type="line"/>
+      <point x="-762" y="1572" type="qcurve" name="dh03"/>
+      <point x="-884" y="1572" type="line" name="dh04"/>
       <point x="-884" y="1641"/>
       <point x="-852" y="1750"/>
       <point x="-793" y="1825"/>
@@ -40,6 +41,80 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1312 152</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1172 152</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1312 152</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1172 152</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr03</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1312 152</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>sv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1172 152</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr04</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1312 152</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" round="true"/&gt;
+    &lt;ttc code="doubleh" point1="dh03" point2="dh04" round="true"/&gt;
+    &lt;ttc code="alignv" point="dh02" align="round"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="singlev" point1="dh02" point2="sv01" stem="T1 H: 142"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv02" stem="T1 H: 142"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv03"/&gt;
+    &lt;ttc code="singlev" point1="sv02" point2="dh03"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

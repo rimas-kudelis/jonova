@@ -9,6 +9,13 @@
   </outline>
   <lib>
     <dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignt" point="sh02-0" zone="t: 1"/&gt;
+    &lt;ttc code="singlev" point1="sh02-0" point2="av01-1" round="true"/&gt;
+    &lt;ttc code="singlev" point1="av01-1" point2="sv01-1" stem="T1 H: 212"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.objectLibs</key>
       <dict>
         <key>component0</key>

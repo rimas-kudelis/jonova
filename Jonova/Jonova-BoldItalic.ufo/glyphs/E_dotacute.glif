@@ -2,6 +2,7 @@
 <glyph name="Edotacute" format="2">
   <advance width="1088"/>
   <unicode hex="E008"/>
+  <guideline x="1013" y="0" angle="90"/>
   <outline>
     <component base="E" identifier="component0"/>
     <component base="dotaccent" xOffset="101" yOffset="460" identifier="component1"/>
@@ -9,6 +10,12 @@
   </outline>
   <lib>
     <dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="dh02-1" align="round"/&gt;
+    &lt;ttc code="singleh" point1="dh02-1" point2="sh01-2" round="true"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.objectLibs</key>
       <dict>
         <key>component0</key>

@@ -8,6 +8,14 @@
   </outline>
   <lib>
     <dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignt" point="at02-0" zone="t: 1"/&gt;
+    &lt;ttc code="mdeltav" point="av01-1" delta="-3" ppm1="11" ppm2="11"/&gt;
+    &lt;ttc code="singlev" point1="at02-0" point2="dh01-1" round="true"/&gt;
+    &lt;ttc code="mdeltav" point="dh01-1" delta="2" ppm1="11" ppm2="11"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.objectLibs</key>
       <dict>
         <key>component0</key>

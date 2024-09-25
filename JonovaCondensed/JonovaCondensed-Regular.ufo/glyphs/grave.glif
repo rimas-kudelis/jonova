@@ -2,18 +2,50 @@
 <glyph name="grave" format="2">
   <advance width="568"/>
   <unicode hex="0060"/>
+  <guideline x="0" y="1683" angle="0"/>
+  <guideline x="0" y="1376" angle="45"/>
+  <guideline x="1736" y="0" angle="135"/>
+  <guideline x="91" y="0" angle="90"/>
+  <guideline x="-681" y="0" angle="45"/>
+  <guideline x="1518" y="0" angle="135"/>
   <outline>
     <contour>
-      <point x="439" y="1116" type="line"/>
-      <point x="73" y="1404" type="line"/>
+      <point x="439" y="1116" type="line" name="av02"/>
+      <point x="73" y="1404" type="line" name="ah01"/>
       <point x="73" y="1434" type="line"/>
-      <point x="155" y="1521" type="line"/>
+      <point x="155" y="1521" type="line" name="av01"/>
       <point x="185" y="1521" type="line"/>
-      <point x="496" y="1176" type="line"/>
+      <point x="496" y="1176" type="line" name="ah02"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1137 -21</string>
+              <string>hstem 1521 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="ah01" align="round"/&gt;
+    &lt;ttc code="alignh" point="ah02" align="round"/&gt;
+    &lt;ttc code="mdeltah" point="ah01" delta="-6" ppm1="14" ppm2="14"/&gt;
+    &lt;ttc code="mdeltah" point="ah02" delta="-5" ppm1="19" ppm2="19"/&gt;
+    &lt;ttc code="alignv" point="av01" align="right"/&gt;
+    &lt;ttc code="alignv" point="av02" align="right"/&gt;
+    &lt;ttc code="mdeltav" point="av01" delta="5" ppm1="12" ppm2="13"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

@@ -4,13 +4,13 @@
   <unicode hex="0429"/>
   <outline>
     <contour>
-      <point x="444" y="1464" type="line"/>
+      <point x="444" y="1464" type="line" name="hr00"/>
       <point x="444" y="132" type="line"/>
       <point x="755" y="132" type="line"/>
       <point x="755" y="1434" type="line"/>
       <point x="1067" y="1464" type="line"/>
       <point x="1067" y="132" type="line"/>
-      <point x="1379" y="132" type="line"/>
+      <point x="1379" y="132" type="line" name="hr01"/>
       <point x="1379" y="1434" type="line"/>
       <point x="1691" y="1464" type="line"/>
       <point x="1691" y="132" type="line"/>
@@ -24,6 +24,38 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -324 -21</string>
+              <string>hstem 0 132</string>
+              <string>hstem 1464 -20</string>
+              <string>vstem 132 312</string>
+              <string>vstem 755 312</string>
+              <string>vstem 1541 282</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -324 -21</string>
+              <string>hstem 0 132</string>
+              <string>hstem 1464 -20</string>
+              <string>vstem 132 312</string>
+              <string>vstem 755 312</string>
+              <string>vstem 1379 312</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

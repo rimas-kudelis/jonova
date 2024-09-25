@@ -2,19 +2,23 @@
 <glyph name="f" format="2">
   <advance width="552"/>
   <unicode hex="0066"/>
+  <guideline x="0" y="906" angle="357"/>
+  <guideline x="0" y="1382" angle="0"/>
+  <guideline x="535" y="0" angle="80"/>
+  <guideline x="353" y="0" angle="80"/>
   <anchor x="150" y="0" name="AccentBelow"/>
   <anchor x="350" y="1600" name="AccentDefault"/>
   <anchor x="200" y="500" name="AccentMiddle"/>
   <outline>
     <contour>
-      <point x="172" y="1004" type="line"/>
+      <point x="172" y="1004" type="line" name="hr00"/>
       <point x="274" y="1004" type="line"/>
       <point x="288" y="1139"/>
       <point x="370" y="1326"/>
       <point x="491" y="1442"/>
       <point x="646" y="1494"/>
-      <point x="733" y="1494" type="qcurve"/>
-      <point x="718" y="1382" type="line"/>
+      <point x="733" y="1494" type="qcurve" name="dv02"/>
+      <point x="718" y="1382" type="line" name="dv01"/>
       <point x="677" y="1382"/>
       <point x="605" y="1356"/>
       <point x="549" y="1293"/>
@@ -24,7 +28,7 @@
       <point x="617" y="1004" type="line"/>
       <point x="598" y="865" type="line"/>
       <point x="467" y="873" type="line"/>
-      <point x="353" y="0" type="line"/>
+      <point x="353" y="0" type="line" name="ab01"/>
       <point x="141" y="0" type="line"/>
       <point x="258" y="886" type="line"/>
       <point x="157" y="892" type="line"/>
@@ -32,6 +36,28 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 21 -21</string>
+              <string>hstem 869 135</string>
+              <string>hstem 1382 112</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="T1 H: 112"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

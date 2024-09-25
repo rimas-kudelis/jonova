@@ -2,6 +2,22 @@
 <glyph name="uniEFEA" format="2">
   <advance width="2048"/>
   <unicode hex="EFEA"/>
+  <guideline x="0" y="730" angle="0"/>
+  <guideline x="0" y="977" angle="342"/>
+  <guideline x="0" y="483" angle="18"/>
+  <guideline x="0" y="1355" angle="0"/>
+  <guideline x="0" y="1064" angle="36"/>
+  <guideline x="0" y="2169" angle="324"/>
+  <guideline x="0" y="1430" angle="0"/>
+  <guideline x="760" y="0" angle="90"/>
+  <guideline x="229" y="0" angle="54"/>
+  <guideline x="1292" y="0" angle="126"/>
+  <guideline x="338" y="0" angle="60"/>
+  <guideline x="102" y="0" angle="48"/>
+  <guideline x="1419" y="0" angle="132"/>
+  <guideline x="1182" y="0" angle="120"/>
+  <guideline x="400" y="0" angle="90"/>
+  <guideline x="1120" y="0" angle="90"/>
   <outline>
     <contour>
       <point x="2010" y="493" type="line"/>

@@ -2,27 +2,63 @@
 <glyph name="x" format="2">
   <advance width="768"/>
   <unicode hex="0078"/>
+  <guideline x="0" y="835" angle="0"/>
+  <guideline x="0" y="156" angle="0"/>
+  <guideline x="39" y="0" angle="55"/>
+  <guideline x="160" y="0" angle="55"/>
+  <guideline x="755" y="0" angle="125"/>
+  <guideline x="523" y="0" angle="125"/>
+  <guideline x="368" y="0" angle="90"/>
+  <guideline x="68" y="0" angle="90"/>
+  <guideline x="674" y="0" angle="90"/>
   <anchor x="300" y="0" name="AccentBelow"/>
   <anchor x="400" y="1100" name="AccentDefault"/>
   <anchor x="300" y="500" name="AccentMiddle"/>
   <outline>
     <contour>
-      <point x="398" y="1004" type="line"/>
-      <point x="525" y="683" type="line"/>
-      <point x="737" y="1004" type="line"/>
-      <point x="837" y="974" type="line"/>
+      <point x="398" y="1004" type="line" name="at01"/>
+      <point x="525" y="683" type="line" name="iv01"/>
+      <point x="737" y="1004" type="line" name="at02"/>
+      <point x="837" y="974" type="line" name="iv02"/>
       <point x="571" y="569" type="line"/>
       <point x="793" y="0" type="line"/>
-      <point x="572" y="-30" type="line"/>
-      <point x="425" y="346" type="line"/>
-      <point x="177" y="-30" type="line"/>
-      <point x="77" y="0" type="line"/>
+      <point x="572" y="-30" type="line" name="ab01"/>
+      <point x="425" y="346" type="line" name="iv03"/>
+      <point x="177" y="-30" type="line" name="ab02"/>
+      <point x="77" y="0" type="line" name="iv04"/>
       <point x="379" y="460" type="line"/>
       <point x="178" y="974" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -9 -21</string>
+              <string>hstem 1004 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 0"/&gt;
+    &lt;ttc code="alignt" point="at02" zone="t: 0"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="alignb" point="ab02" zone="b: 0"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="ab01" point2="at01"/&gt;
+    &lt;ttc code="interpolatev" point="iv02" point1="ab01" point2="at01"/&gt;
+    &lt;ttc code="interpolatev" point="iv03" point1="ab01" point2="at01"/&gt;
+    &lt;ttc code="interpolatev" point="iv04" point1="ab01" point2="at01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

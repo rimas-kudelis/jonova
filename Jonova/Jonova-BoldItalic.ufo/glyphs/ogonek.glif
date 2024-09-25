@@ -2,9 +2,14 @@
 <glyph name="ogonek" format="2">
   <advance width="768"/>
   <unicode hex="02DB"/>
+  <guideline x="0" y="-194" angle="0"/>
+  <guideline x="525" y="0" angle="90"/>
+  <guideline x="429" y="0" angle="100"/>
+  <guideline x="525" y="0" angle="80"/>
+  <guideline x="409" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="501" y="-407" type="line"/>
+      <point x="501" y="-407" type="line" name="hr00"/>
       <point x="454" y="-428"/>
       <point x="378" y="-450"/>
       <point x="333" y="-450" type="qcurve"/>
@@ -34,6 +39,22 @@
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -450 142</string>
+              <string>hstem 20 -20</string>
+              <string>vstem 134 162</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

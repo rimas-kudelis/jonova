@@ -4,15 +4,15 @@
   <unicode hex="02AB"/>
   <outline>
     <contour>
-      <point x="122" y="1464" type="line"/>
-      <point x="344" y="1494" type="line"/>
-      <point x="404" y="1494" type="line"/>
+      <point x="122" y="1464" type="line" name="dh01"/>
+      <point x="344" y="1494" type="line" name="av01"/>
+      <point x="404" y="1494" type="line" name="dh02"/>
       <point x="404" y="974" type="line"/>
-      <point x="1090" y="974" type="line"/>
+      <point x="1090" y="974" type="line" name="at01"/>
       <point x="1090" y="914" type="line"/>
       <point x="520" y="112" type="line"/>
-      <point x="1089" y="141" type="line"/>
-      <point x="1065" y="0" type="line"/>
+      <point x="1089" y="141" type="line" name="sv01"/>
+      <point x="1065" y="0" type="line" name="ab01"/>
       <point x="260" y="0" type="line"/>
       <point x="219" y="19"/>
       <point x="166" y="70"/>
@@ -22,12 +22,40 @@
     </contour>
     <contour>
       <point x="751" y="862" type="line"/>
-      <point x="404" y="843" type="line"/>
+      <point x="404" y="843" type="line" name="sh01"/>
       <point x="404" y="366" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 126</string>
+              <string>hstem 852 122</string>
+              <string>hstem 1494 -20</string>
+              <string>vstem 122 282</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 302"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="sh01"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 0"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv01" stem="T1 H: 142"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sh01" stem="T1 H: 142"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

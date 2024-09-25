@@ -3,24 +3,49 @@
   <unicode hex="0321"/>
   <outline>
     <contour>
-      <point x="-499" y="-388" type="line"/>
+      <point x="-499" y="-388" type="line" name="sh01"/>
       <point x="-462" y="-388"/>
       <point x="-398" y="-364"/>
       <point x="-351" y="-309"/>
       <point x="-324" y="-219"/>
-      <point x="-324" y="-153" type="qcurve"/>
-      <point x="-324" y="82" type="line"/>
+      <point x="-324" y="-153" type="qcurve" name="dh01"/>
+      <point x="-324" y="82" type="line" name="av01"/>
       <point x="-162" y="82" type="line"/>
-      <point x="-162" y="-78" type="line"/>
+      <point x="-162" y="-78" type="line" name="dh02"/>
       <point x="-162" y="-180"/>
       <point x="-201" y="-334"/>
       <point x="-286" y="-437"/>
       <point x="-421" y="-490"/>
-      <point x="-517" y="-490" type="qcurve"/>
+      <point x="-517" y="-490" type="qcurve" name="ab01"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -483 -21</string>
+              <string>hstem 82 -20</string>
+              <string>vstem -324 162</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 162"/&gt;
+    &lt;ttc code="singleh" point1="dh01" point2="sh01" round="true"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 1"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sh01" stem="Y: 102"/&gt;
+  &lt;/ttProgram&gt;
+</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>
