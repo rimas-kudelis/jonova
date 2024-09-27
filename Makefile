@@ -20,6 +20,10 @@ venv: venv/touchfile
 
 venv-test: venv-test/touchfile
 
+fontvalidator:
+	curl -L https://github.com/HinTak/Font-Validator/releases/download/FontVal-2.1.6/FontVal-2.1.6-ubuntu-18.04-x64.tgz -o- | tar -xzO FontVal-2.1.6-ubuntu-18.04-x64/FontValidator-ubuntu-18.04-x64 > fontvalidator
+	chmod +x fontvalidator
+
 customize: venv
 	. venv/bin/activate; python3 scripts/customize.py
 
@@ -39,6 +43,9 @@ venv-test/touchfile: requirements-test.txt
 
 test: venv-test build.stamp
 	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; . venv-test/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-report.html --ghmarkdown out/fontbakery/fontbakery-report.md $$TOCHECK  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
+
+test-fontval: fontvalidator build.stamp
+	TOCHECK=$$(find fonts/variable -type f -exec echo "-file {}" \; 2>/dev/null); if [ -z "$$TOCHECK" ]; then echo 'aaaa'; echo $$(find fonts/ttf -type f -exec echo "-file {}" \; 2>/dev/null); TOCHECK=$$(find fonts/ttf -type f -exec echo "-file {}" \; 2>/dev/null); fi; mkdir -p out/fontvalidator; ./fontvalidator -all-tables -report-dir out/fontvalidator $$TOCHECK || echo '::warning file=sources/config.yaml,title=FontValidator failures::The FontValidator QA check reported errors in your font. Please check the generated report.'; cd out/fontvalidator; echo "" > index.html; for FILE in $$(find . -type f); do echo "<p><a href='$$FILE'>$$(basename $$FILE)</a></p>" >> index.html; done
 
 proof: venv build.stamp
 	TOCHECK=$$(find fonts/variable -type f -name "Jonova-*" 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f -name "Jonova-*" 2>/dev/null); fi ; . venv/bin/activate; mkdir -p out/ out/proof/Jonova; diffenator2 proof $$TOCHECK -o out/proof/Jonova

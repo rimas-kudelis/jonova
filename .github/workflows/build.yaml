@@ -47,8 +47,11 @@ jobs:
 
     - name: Build font
       run: make build
-    - name: Check with fontbakery
+    - name: Check with FontBakery
       run: make test
+      continue-on-error: true
+    - name: Check with FontValidator
+      run: make test-fontval
       continue-on-error: true
     - name: proof
       run: make proof
