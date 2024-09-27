@@ -7,11 +7,9 @@
 # Import moduels from external python packages: https://pypi.org/
 from drawbot_skia.drawbot import *
 from fontTools.ttLib import TTFont
-from fontTools.misc.fixedTools import floatToFixedToStr
 
 # Import moduels from the Python Standard Library: https://docs.python.org/3/library/
 import subprocess
-import sys
 import argparse
 
 # Constants, these are the main "settings" for the image
@@ -51,7 +49,7 @@ ttFont = TTFont(FONT_PATH)
 MY_URL = subprocess.check_output("git remote get-url origin", shell=True).decode()
 MY_HASH = subprocess.check_output("git rev-parse --short HEAD", shell=True).decode()
 FONT_NAME = ttFont["name"].getDebugName(4)
-FONT_VERSION = "v%s" % floatToFixedToStr(ttFont["head"].fontRevision, 16)
+FONT_VERSION = "v%s" % ttFont["name"].getDebugName(5)
 
 
 # Draws a grid
