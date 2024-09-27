@@ -13,7 +13,7 @@
 
 Jonova is a contemporary sans-serif font especially suitable for Lithuanian text with stressed letters having acute, grave or tilde accent marks. Many other phonetic marks, special Lithuanian ideograms and heraldic symbols are also provided. Special care has been taken to enhance the quality of letterforms when displayed on the computer screen, ensuring that Jonova is highly legible at small sizes whether displayed on the screen or in print. The characters were hand-instructed by leading hinting expert Jonas Vaičiulis. This typeface is ideal for use in extended text settings such as books, dictionaries, periodicals and office documents.
 
-Jonova started out as a commercial product at [Fotonija]([https://www.fotonija.lt]) in around 2005, but has been open-sourced in 2024 with their permission.
+Jonova started out as a commercial product at [Fotonija](https://www.fotonija.lt) in around 2005, but has been open-sourced in 2024 with their permission.
 
 ## Samples
 
