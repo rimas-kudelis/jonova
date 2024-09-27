@@ -15,25 +15,21 @@ import sys
 import argparse
 
 # Constants, these are the main "settings" for the image
-WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 1220, 128, 1
+WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 850, 128, 1
 FONT_PATH = "fonts/ttf/Jonova-Regular.ttf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48
 
 LINES = [
-    "AĄBCČDEĘĖĖ̄FGHIĮYJKLMNOP",
-    "QRSŠTUŲŪVWXZŽ1234567890",
-    "aąbcčdeęėė̄fghiįyjklmnopqrsšt",
-    "uųūvwxzž,.;:!@#$€%^&*(){}[]",
+    "ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ",
+    "αβγδεζηθικλμνξοπρσςτυφχψω",
 ]
-PANGRAM1 = "Įlinkusi fechtuotojo špaga blykčiodama gręžė apvalų arbūzą."
-PANGRAM2 = "Cha, mona bluogė̄jė vākalē bazaunīdamė sogalvuojė tik kūlīnūs grōžto falšīvē pamačītė ciuocē."
-BIG_TEXT_FONT_SIZE = 130
+PANGRAM = "Ψυχοβγάλτη, να δείξω πεζό κάθισμα φόρας;"
+BIG_TEXT_FONT_SIZE = 116
 BIG_TEXT_SIDE_MARGIN = MARGIN
 BIG_TEXT_BOTTOM_MARGIN = HEIGHT - BIG_TEXT_FONT_SIZE - 200
-PANGRAM1_FONT_SIZE = 67
-PANGRAM2_FONT_SIZE = 42
+PANGRAM_FONT_SIZE = 80
 
 BACKGROUND_COLOR = [1, 0.984313725490196, 0.9411764705882353]
 FOREGROUND_COLOR = [0]
@@ -109,10 +105,8 @@ def draw_main_text():
     for i in range(len(LINES)):
         text(LINES[i], (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - BIG_TEXT_FONT_SIZE * LINE_HEIGHT * i))
 
-    fontSize(PANGRAM1_FONT_SIZE)
-    text(PANGRAM1, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - BIG_TEXT_FONT_SIZE * LINE_HEIGHT * (len(LINES) - 1) - PANGRAM1_FONT_SIZE * LINE_HEIGHT * 1.5))
-    fontSize(PANGRAM2_FONT_SIZE)
-    text(PANGRAM2, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - BIG_TEXT_FONT_SIZE * LINE_HEIGHT * (len(LINES) - 1) - PANGRAM1_FONT_SIZE * LINE_HEIGHT * 1.5 - PANGRAM2_FONT_SIZE * LINE_HEIGHT * 1.5))
+    fontSize(PANGRAM_FONT_SIZE)
+    text(PANGRAM, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - BIG_TEXT_FONT_SIZE * LINE_HEIGHT * (len(LINES) - 1) - PANGRAM_FONT_SIZE * LINE_HEIGHT * 1.5))
 
 # Divider lines
 def draw_divider_lines():

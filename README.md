@@ -15,8 +15,12 @@ Jonova is a contemporary sans-serif font especially suitable for Lithuanian text
 
 Jonova started out as a commercial product at [Fotonija]([https://www.fotonija.lt]) in around 2005, but has been open-sourced in 2024 with their permission.
 
+## Samples
+
 ![Sample Image](documentation/image1.png)
-![Sample Image](documentation/image2.png)
+![Latin alphabet sample image](documentation/image2.png)
+![Cyrillic alphabet sample image](documentation/image3.png)
+![Greek alphabet sample image](documentation/image4.png)
 
 ## Building
 

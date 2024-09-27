@@ -26,6 +26,9 @@ BIG_TEXT_FONT_SIZE = 730
 BIG_TEXT_SIDE_MARGIN = MARGIN * 1
 BIG_TEXT_BOTTOM_MARGIN = MARGIN * 2
 
+BACKGROUND_COLOR = [1, 0.984313725490196, 0.9411764705882353]
+FOREGROUND_COLOR = [0]
+
 GRID_VIEW = False # Toggle this for a grid overlay
 
 # Handel the "--output" flag
@@ -76,7 +79,7 @@ def remap(value, inputMin, inputMax, outputMin, outputMax):
 # Draw the page/frame and a grid if "GRID_VIEW" is set to "True"
 def draw_background():
     newPage(WIDTH, HEIGHT)
-    fill(0)
+    fill(*BACKGROUND_COLOR)
     rect(-2, -2, WIDTH + 2, HEIGHT + 2)
     if GRID_VIEW:
         grid()
@@ -86,7 +89,7 @@ def draw_background():
 
 # Draw main text
 def draw_main_text():
-    fill(1)
+    fill(*FOREGROUND_COLOR)
     stroke(None)
     font(FONT_PATH)
     fontSize(BIG_TEXT_FONT_SIZE)
@@ -99,7 +102,7 @@ def draw_main_text():
 
 # Divider lines
 def draw_divider_lines():
-    stroke(1)
+    stroke(*FOREGROUND_COLOR)
     strokeWidth(5)
     lineCap("round")
     line((MARGIN, HEIGHT - (MARGIN * 1.5)), (WIDTH - MARGIN, HEIGHT - (MARGIN * 1.5)))
