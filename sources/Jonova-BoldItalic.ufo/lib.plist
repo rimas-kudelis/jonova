@@ -295,6 +295,10 @@
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
   <false/>
+  <key>org.sil.pysilfontparams</key>
+  <array>
+    <updateTimestamps>False</updateTimestamps>
+  </array>
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>
