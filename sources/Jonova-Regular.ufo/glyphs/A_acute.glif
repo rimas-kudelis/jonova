@@ -5,8 +5,6 @@
   <outline>
     <component base="A" identifier="component0"/>
     <component base="acute" xOffset="290" yOffset="460" identifier="component1"/>
-    <component base="A"/>
-    <component base="acute" xOffset="290" yOffset="460"/>
   </outline>
   <lib>
     <dict>
