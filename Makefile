@@ -27,7 +27,7 @@ fontvalidator:
 customize: venv
 	. venv/bin/activate; python3 scripts/customize.py
 
-build.stamp: venv sources/config.yaml $(SOURCES)
+build.stamp: venv sources/config-Jonova.yaml sources/config-JonovaCondensed.yaml $(SOURCES)
 	rm -rf fonts
 	(for config in sources/config*.yaml; do . venv/bin/activate; gftools builder $$config; done)  && touch build.stamp
 
@@ -41,15 +41,31 @@ venv-test/touchfile: requirements-test.txt
 	. venv-test/bin/activate; pip install -Ur requirements-test.txt
 	touch venv-test/touchfile
 
-test: venv-test build.stamp
-	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; . venv-test/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-report.html --ghmarkdown out/fontbakery/fontbakery-report.md $$TOCHECK  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
+test: test-jonova test-jonova-condensed
 
-test-fontval: fontvalidator build.stamp
-	TOCHECK=$$(find fonts/variable -type f -exec echo "-file {}" \; 2>/dev/null); if [ -z "$$TOCHECK" ]; then echo 'aaaa'; echo $$(find fonts/ttf -type f -exec echo "-file {}" \; 2>/dev/null); TOCHECK=$$(find fonts/ttf -type f -exec echo "-file {}" \; 2>/dev/null); fi; mkdir -p out/fontvalidator; ./fontvalidator -all-tables -report-dir out/fontvalidator $$TOCHECK || echo '::warning file=sources/config.yaml,title=FontValidator failures::The FontValidator QA check reported errors in your font. Please check the generated report.'; cd out/fontvalidator; echo "" > index.html; for FILE in $$(find . -type f); do echo "<p><a href='$$FILE'>$$(basename $$FILE)</a></p>" >> index.html; done
+test-jonova: venv-test build.stamp
+	TOCHECK=$$(find fonts/variable -type f -name "Jonova-*" 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f -name "Jonova-*" 2>/dev/null); fi; . venv-test/bin/activate; mkdir -p out/badges/Jonova out/fontbakery/Jonova; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges/Jonova --html out/fontbakery/Jonova/fontbakery-report.html --ghmarkdown out/fontbakery/Jonova/fontbakery-report.md $$TOCHECK || echo '::warning file=sources/config-Jonova.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in Jonova. Please check the generated report.'
 
-proof: venv build.stamp
-	TOCHECK=$$(find fonts/variable -type f -name "Jonova-*" 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f -name "Jonova-*" 2>/dev/null); fi ; . venv/bin/activate; mkdir -p out/ out/proof/Jonova; diffenator2 proof $$TOCHECK -o out/proof/Jonova
-	TOCHECK=$$(find fonts/variable -type f -name "JonovaCondensed-*" 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f -name "JonovaCondensed-*" 2>/dev/null); fi ; . venv/bin/activate; mkdir -p out/ out/proof/JonovaCondensed; diffenator2 proof $$TOCHECK -o out/proof/JonovaCondensed
+test-jonova-condensed: venv-test build.stamp
+	TOCHECK=$$(find fonts/variable -type f -name "JonovaCondensed-*" 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f -name "JonovaCondensed-*" 2>/dev/null); fi; . venv-test/bin/activate; mkdir -p out/badges/JonovaCondensed out/fontbakery/JonovaCondensed; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges/JonovaCondensed --html out/fontbakery/JonovaCondensed/fontbakery-report.html --ghmarkdown out/fontbakery/JonovaCondensed/fontbakery-report.md $$TOCHECK || echo '::warning file=sources/config-JonovaCondensed.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in Jonova Condensed. Please check the generated report.'
+	sed -i 's^"label": "^"label": "Cond: ^g' out/badges/JonovaCondensed/*.json
+
+fv-test: fv-test-jonova fv-test-jonova-condensed
+	cd out/fontvalidator; echo "" > index.html; for FILE in $$(find . -type f); do echo "<p><a href='$$FILE'>$$(basename $$FILE)</a></p>" >> index.html; done
+
+fv-test-jonova: fontvalidator build.stamp
+	TOCHECK=$$(find fonts/variable -type f -name "Jonova-*" -exec echo "-file {}" \; 2>/dev/null); if [ -z "$$TOCHECK" ]; then echo $$(find fonts/ttf -type f -name "Jonova-*" -exec echo "-file {}" \; 2>/dev/null); TOCHECK=$$(find fonts/ttf -type f -exec echo "-file {}" \; 2>/dev/null); fi; mkdir -p out/fontvalidator; ./fontvalidator -all-tables -report-dir out/fontvalidator $$TOCHECK || echo '::warning file=sources/config-Jonova.yaml,title=FontValidator failures::The FontValidator QA check reported errors in Jonova. Please check the generated reports.'; cd out/fontvalidator; echo "" > index.html; for FILE in $$(find . -type f); do echo "<p><a href='$$FILE'>$$(basename $$FILE)</a></p>" >> index.html; done
+
+fv-test-jonova-condensed: fontvalidator build.stamp
+	TOCHECK=$$(find fonts/variable -type f -name "JonovaCondensed-*" -exec echo "-file {}" \; 2>/dev/null); if [ -z "$$TOCHECK" ]; then echo $$(find fonts/ttf -type f -name "JonovaCondensed-*" -exec echo "-file {}" \; 2>/dev/null); TOCHECK=$$(find fonts/ttf -type f -exec echo "-file {}" \; 2>/dev/null); fi; mkdir -p out/fontvalidator; ./fontvalidator -all-tables -report-dir out/fontvalidator $$TOCHECK || echo '::warning file=sources/config-JonovaCondensed.yaml,title=FontValidator failures::The FontValidator QA check reported errors in Jonova Condensed. Please check the generated reports.'; cd out/fontvalidator; echo "" > index.html; for FILE in $$(find . -type f); do echo "<p><a href='$$FILE'>$$(basename $$FILE)</a></p>" >> index.html; done
+
+proof: proof-jonova proof-jonova-condensed
+
+proof-jonova: venv build.stamp
+	TOCHECK=$$(find fonts/variable -type f -name "Jonova-*" 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f -name "Jonova-*" 2>/dev/null); fi ; . venv/bin/activate; mkdir -p out/proof/Jonova; diffenator2 proof $$TOCHECK -o out/proof/Jonova
+
+proof-jonova-condensed: venv build.stamp
+	TOCHECK=$$(find fonts/variable -type f -name "JonovaCondensed-*" 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f -name "JonovaCondensed-*" 2>/dev/null); fi ; . venv/bin/activate; mkdir -p out/proof/JonovaCondensed; diffenator2 proof $$TOCHECK -o out/proof/JonovaCondensed
 
 images: venv $(DRAWBOT_OUTPUT)
 

@@ -51,10 +51,11 @@ jobs:
       run: make test
       continue-on-error: true
     - name: Check with FontValidator
-      run: make test-fontval
+      run: make fv-test
       continue-on-error: true
     - name: proof
       run: make proof
+      continue-on-error: true
     - name: setup site
       run: cp scripts/index.html out/index.html
     - name: Deploy
