@@ -1159,7 +1159,7 @@
     <string>uni2210</string>
     <string>summation</string>
     <string>minus</string>
-    <string>uni2215</string>
+    <string>slashmath</string>
     <string>uni2216</string>
     <string>uni2219</string>
     <string>radical</string>
@@ -2777,6 +2777,8 @@
     <string>base</string>
     <key>slashlongnosp</key>
     <string>mark</string>
+    <key>slashmath</key>
+    <string>base</string>
     <key>slashshortnosp</key>
     <string>mark</string>
     <key>smileface</key>
@@ -3332,8 +3334,6 @@
     <key>uni220C</key>
     <string>base</string>
     <key>uni2210</key>
-    <string>base</string>
-    <key>uni2215</key>
     <string>base</string>
     <key>uni2216</key>
     <string>base</string>

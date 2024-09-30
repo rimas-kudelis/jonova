@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni2215" format="2">
-  <advance width="384"/>
+<glyph name="slashmath" format="2">
+  <advance width="512"/>
   <unicode hex="2215"/>
   <outline>
     <contour>
-      <point x="610" y="1707" type="line" name="hr00"/>
-      <point x="206" y="-305" type="line" name="av01"/>
-      <point x="89" y="-262" type="line"/>
-      <point x="494" y="1749" type="line" name="av02"/>
+      <point x="603" y="1707" type="line" name="hr00"/>
+      <point x="64" y="-305" type="line"/>
+      <point x="-92" y="-262" type="line"/>
+      <point x="448" y="1749" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -27,12 +27,6 @@
           </dict>
         </array>
       </dict>
-      <key>com.fontlab.ttprogram</key>
-      <string>  &lt;ttProgram&gt;
-    &lt;ttc code="alignv" point="av01" align="round"/&gt;
-    &lt;ttc code="alignv" point="av02" align="round"/&gt;
-  &lt;/ttProgram&gt;
-</string>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>
@@ -50,7 +44,7 @@ IUP[1]	/* InterpolateUntPts */
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>w384l610+1707l206-305l89-262l494+1749|</string>
+        <string>w512l603+1707l64-305l-92-262l448+1749|</string>
       </dict>
     </dict>
   </lib>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uniEFFD" format="2">
+<glyph name="uniEFEE" format="2">
   <advance width="2048"/>
-  <unicode hex="EFEE"/>
+  <unicode hex="EFFD"/>
   <guideline x="1024" y="0" angle="90"/>
   <guideline x="2500" y="0" angle="90"/>
   <outline>

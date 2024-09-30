@@ -1376,6 +1376,8 @@
   <string>slash.glif</string>
   <key>slashlongnosp</key>
   <string>slashlongnosp.glif</string>
+  <key>slashmath</key>
+  <string>slashmath.glif</string>
   <key>slashshortnosp</key>
   <string>slashshortnosp.glif</string>
   <key>smileface</key>
@@ -1934,8 +1936,6 @@
   <string>uni220C_.glif</string>
   <key>uni2210</key>
   <string>uni2210.glif</string>
-  <key>uni2215</key>
-  <string>uni2215.glif</string>
   <key>uni2216</key>
   <string>uni2216.glif</string>
   <key>uni2219</key>
@@ -2094,6 +2094,16 @@
   <string>uniE_F_B_4.glif</string>
   <key>uniEFB5</key>
   <string>uniE_F_B_5.glif</string>
+  <key>uniEFE5</key>
+  <string>uniE_F_E_5.glif</string>
+  <key>uniEFE6</key>
+  <string>uniE_F_E_6.glif</string>
+  <key>uniEFE7</key>
+  <string>uniE_F_E_7.glif</string>
+  <key>uniEFE8</key>
+  <string>uniE_F_E_8.glif</string>
+  <key>uniEFE9</key>
+  <string>uniE_F_E_9.glif</string>
   <key>uniEFEA</key>
   <string>uniE_F_E_A_.glif</string>
   <key>uniEFEC</key>

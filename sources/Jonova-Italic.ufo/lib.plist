@@ -395,7 +395,7 @@
     <string>twosuperior</string>
     <string>threesuperior</string>
     <string>acute</string>
-    <string>uni00B5</string>
+    <string>mu</string>
     <string>paragraph</string>
     <string>periodcentered</string>
     <string>cedilla</string>
@@ -437,7 +437,7 @@
     <string>Udieresis</string>
     <string>Yacute</string>
     <string>Thorn</string>
-    <string>uni00DF</string>
+    <string>germandbls</string>
     <string>agrave</string>
     <string>aacute</string>
     <string>acircumflex</string>
@@ -598,7 +598,7 @@
     <string>Zcaron</string>
     <string>zcaron</string>
     <string>longs</string>
-    <string>uni0192</string>
+    <string>florin</string>
     <string>uni019E</string>
     <string>Aringacute</string>
     <string>aringacute</string>
@@ -1355,6 +1355,11 @@
     <string>uniEFB3</string>
     <string>uniEFB4</string>
     <string>uniEFB5</string>
+    <string>uniEFE5</string>
+    <string>uniEFE6</string>
+    <string>uniEFE7</string>
+    <string>uniEFE8</string>
+    <string>uniEFE9</string>
     <string>uniEFEA</string>
     <string>uniEFEC</string>
     <string>uniEFED</string>
@@ -2854,15 +2859,9 @@
     <string>mark</string>
     <key>underscorenosp</key>
     <string>mark</string>
-    <key>uni00B5</key>
-    <string>base</string>
-    <key>uni00DF</key>
-    <string>base</string>
     <key>uni0150</key>
     <string>base</string>
     <key>uni0151</key>
-    <string>base</string>
-    <key>uni0192</key>
     <string>base</string>
     <key>uni019E</key>
     <string>base</string>
@@ -3473,6 +3472,16 @@
     <key>uniEFB4</key>
     <string>base</string>
     <key>uniEFB5</key>
+    <string>base</string>
+    <key>uniEFE5</key>
+    <string>base</string>
+    <key>uniEFE6</key>
+    <string>base</string>
+    <key>uniEFE7</key>
+    <string>base</string>
+    <key>uniEFE8</key>
+    <string>base</string>
+    <key>uniEFE9</key>
     <string>base</string>
     <key>uniEFEA</key>
     <string>base</string>

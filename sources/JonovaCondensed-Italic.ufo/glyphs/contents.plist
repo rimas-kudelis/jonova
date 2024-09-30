@@ -966,6 +966,8 @@
   <string>fivesuperior.glif</string>
   <key>fl</key>
   <string>fl.glif</string>
+  <key>florin</key>
+  <string>florin.glif</string>
   <key>four</key>
   <string>four.glif</string>
   <key>foursuperior</key>
@@ -1484,8 +1486,6 @@
   <string>uni0150.glif</string>
   <key>uni0151</key>
   <string>uni0151.glif</string>
-  <key>uni0192</key>
-  <string>uni0192.glif</string>
   <key>uni019E</key>
   <string>uni019E_.glif</string>
   <key>uni0250</key>

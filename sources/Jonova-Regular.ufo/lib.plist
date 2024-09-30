@@ -1333,10 +1333,15 @@
     <string>uniEFB3</string>
     <string>uniEFB4</string>
     <string>uniEFB5</string>
+    <string>uniEFE5</string>
+    <string>uniEFE6</string>
+    <string>uniEFE7</string>
+    <string>uniEFE8</string>
+    <string>uniEFE9</string>
     <string>uniEFEA</string>
     <string>uniEFEC</string>
-    <string>uniEFFE</string>
-    <string>uniEFFD</string>
+    <string>uniEFED</string>
+    <string>uniEFEE</string>
     <string>uniEFEF</string>
     <string>uniEFF0</string>
     <string>uniEFF1</string>
@@ -1349,7 +1354,7 @@
     <string>uniEFF8</string>
     <string>uniEFF9</string>
     <string>uniF004</string>
-    <string>uniF005</string>
+    <string>undercommaaccent</string>
     <string>uniF006</string>
     <string>uniF8FD</string>
     <string>Ftja</string>
@@ -2822,6 +2827,8 @@
     <string>ligature</string>
     <key>umacrontilde</key>
     <string>ligature</string>
+    <key>undercommaaccent</key>
+    <string>base</string>
     <key>underscore</key>
     <string>base</string>
     <key>underscoredbl</key>
@@ -3442,9 +3449,23 @@
     <string>base</string>
     <key>uniEFB5</key>
     <string>base</string>
+    <key>uniEFE5</key>
+    <string>base</string>
+    <key>uniEFE6</key>
+    <string>base</string>
+    <key>uniEFE7</key>
+    <string>base</string>
+    <key>uniEFE8</key>
+    <string>base</string>
+    <key>uniEFE9</key>
+    <string>base</string>
     <key>uniEFEA</key>
     <string>base</string>
     <key>uniEFEC</key>
+    <string>base</string>
+    <key>uniEFED</key>
+    <string>base</string>
+    <key>uniEFEE</key>
     <string>base</string>
     <key>uniEFEF</key>
     <string>base</string>
@@ -3468,13 +3489,7 @@
     <string>base</string>
     <key>uniEFF9</key>
     <string>base</string>
-    <key>uniEFFD</key>
-    <string>base</string>
-    <key>uniEFFE</key>
-    <string>base</string>
     <key>uniF004</key>
-    <string>base</string>
-    <key>uniF005</key>
     <string>base</string>
     <key>uniF006</key>
     <string>base</string>

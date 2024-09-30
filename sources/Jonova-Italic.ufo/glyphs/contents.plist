@@ -966,6 +966,8 @@
   <string>fivesuperior.glif</string>
   <key>fl</key>
   <string>fl.glif</string>
+  <key>florin</key>
+  <string>florin.glif</string>
   <key>four</key>
   <string>four.glif</string>
   <key>foursuperior</key>
@@ -984,6 +986,8 @@
   <string>gcommaaccent.glif</string>
   <key>gdotaccent</key>
   <string>gdotaccent.glif</string>
+  <key>germandbls</key>
+  <string>germandbls.glif</string>
   <key>grave</key>
   <string>grave.glif</string>
   <key>gravecomb</key>
@@ -1156,6 +1160,8 @@
   <string>minussubnosp.glif</string>
   <key>mtilde</key>
   <string>mtilde.glif</string>
+  <key>mu</key>
+  <string>mu.glif</string>
   <key>multiply</key>
   <string>multiply.glif</string>
   <key>musicalnote</key>
@@ -1476,16 +1482,10 @@
   <string>underscoredblnosp.glif</string>
   <key>underscorenosp</key>
   <string>underscorenosp.glif</string>
-  <key>uni00B5</key>
-  <string>uni00B_5.glif</string>
-  <key>uni00DF</key>
-  <string>uni00D_F_.glif</string>
   <key>uni0150</key>
   <string>uni0150.glif</string>
   <key>uni0151</key>
   <string>uni0151.glif</string>
-  <key>uni0192</key>
-  <string>uni0192.glif</string>
   <key>uni019E</key>
   <string>uni019E_.glif</string>
   <key>uni0250</key>
@@ -2094,6 +2094,16 @@
   <string>uniE_F_B_4.glif</string>
   <key>uniEFB5</key>
   <string>uniE_F_B_5.glif</string>
+  <key>uniEFE5</key>
+  <string>uniE_F_E_5.glif</string>
+  <key>uniEFE6</key>
+  <string>uniE_F_E_6.glif</string>
+  <key>uniEFE7</key>
+  <string>uniE_F_E_7.glif</string>
+  <key>uniEFE8</key>
+  <string>uniE_F_E_8.glif</string>
+  <key>uniEFE9</key>
+  <string>uniE_F_E_9.glif</string>
   <key>uniEFEA</key>
   <string>uniE_F_E_A_.glif</string>
   <key>uniEFEC</key>

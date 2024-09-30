@@ -1376,6 +1376,8 @@
   <string>slash.glif</string>
   <key>slashlongnosp</key>
   <string>slashlongnosp.glif</string>
+  <key>slashmath</key>
+  <string>slashmath.glif</string>
   <key>slashshortnosp</key>
   <string>slashshortnosp.glif</string>
   <key>smileface</key>
@@ -1934,8 +1936,6 @@
   <string>uni220C_.glif</string>
   <key>uni2210</key>
   <string>uni2210.glif</string>
-  <key>uni2215</key>
-  <string>uni2215.glif</string>
   <key>uni2216</key>
   <string>uni2216.glif</string>
   <key>uni2219</key>

@@ -598,7 +598,7 @@
     <string>Zcaron</string>
     <string>zcaron</string>
     <string>longs</string>
-    <string>uni0192</string>
+    <string>florin</string>
     <string>uni019E</string>
     <string>Aringacute</string>
     <string>aringacute</string>
@@ -2862,8 +2862,6 @@
     <key>uni0150</key>
     <string>base</string>
     <key>uni0151</key>
-    <string>base</string>
-    <key>uni0192</key>
     <string>base</string>
     <key>uni019E</key>
     <string>base</string>

@@ -1472,6 +1472,8 @@
   <string>umacronacute.glif</string>
   <key>umacrontilde</key>
   <string>umacrontilde.glif</string>
+  <key>undercommaaccent</key>
+  <string>undercommaaccent.glif</string>
   <key>underscore</key>
   <string>underscore.glif</string>
   <key>underscoredbl</key>
@@ -2092,10 +2094,24 @@
   <string>uniE_F_B_4.glif</string>
   <key>uniEFB5</key>
   <string>uniE_F_B_5.glif</string>
+  <key>uniEFE5</key>
+  <string>uniE_F_E_5.glif</string>
+  <key>uniEFE6</key>
+  <string>uniE_F_E_6.glif</string>
+  <key>uniEFE7</key>
+  <string>uniE_F_E_7.glif</string>
+  <key>uniEFE8</key>
+  <string>uniE_F_E_8.glif</string>
+  <key>uniEFE9</key>
+  <string>uniE_F_E_9.glif</string>
   <key>uniEFEA</key>
   <string>uniE_F_E_A_.glif</string>
   <key>uniEFEC</key>
   <string>uniE_F_E_C_.glif</string>
+  <key>uniEFED</key>
+  <string>uniE_F_E_D_.glif</string>
+  <key>uniEFEE</key>
+  <string>uniE_F_E_E_.glif</string>
   <key>uniEFEF</key>
   <string>uniE_F_E_F_.glif</string>
   <key>uniEFF0</key>
@@ -2118,14 +2134,8 @@
   <string>uniE_F_F_8.glif</string>
   <key>uniEFF9</key>
   <string>uniE_F_F_9.glif</string>
-  <key>uniEFFD</key>
-  <string>uniE_F_F_D_.glif</string>
-  <key>uniEFFE</key>
-  <string>uniE_F_F_E_.glif</string>
   <key>uniF004</key>
   <string>uniF_004.glif</string>
-  <key>uniF005</key>
-  <string>uniF_005.glif</string>
   <key>uniF006</key>
   <string>uniF_006.glif</string>
   <key>uniF8FD</key>

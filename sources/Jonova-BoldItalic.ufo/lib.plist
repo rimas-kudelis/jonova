@@ -1159,7 +1159,7 @@
     <string>uni2210</string>
     <string>summation</string>
     <string>minus</string>
-    <string>uni2215</string>
+    <string>slashmath</string>
     <string>uni2216</string>
     <string>uni2219</string>
     <string>radical</string>
@@ -1377,6 +1377,11 @@
     <string>uniEFB3</string>
     <string>uniEFB4</string>
     <string>uniEFB5</string>
+    <string>uniEFE5</string>
+    <string>uniEFE6</string>
+    <string>uniEFE7</string>
+    <string>uniEFE8</string>
+    <string>uniEFE9</string>
     <string>uniEFEA</string>
     <string>uniEFEC</string>
     <string>uniEFED</string>
@@ -3330,8 +3335,6 @@
     <string>base</string>
     <key>uni2210</key>
     <string>base</string>
-    <key>uni2215</key>
-    <string>base</string>
     <key>uni2216</key>
     <string>base</string>
     <key>uni2219</key>
@@ -3489,6 +3492,16 @@
     <key>uniEFB4</key>
     <string>base</string>
     <key>uniEFB5</key>
+    <string>base</string>
+    <key>uniEFE5</key>
+    <string>base</string>
+    <key>uniEFE6</key>
+    <string>base</string>
+    <key>uniEFE7</key>
+    <string>base</string>
+    <key>uniEFE8</key>
+    <string>base</string>
+    <key>uniEFE9</key>
     <string>base</string>
     <key>uniEFEA</key>
     <string>base</string>
