@@ -21,17 +21,17 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0034 and uni0039 is -248, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni002F is -317, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -248, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0038 and uni0037 is -242, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -242, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0038 is -258, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -41,86 +41,6 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -389, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -279, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0036 is -293, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0036 and uni0037 is -268, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0038 is -258, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0038 and uni0037 is -242, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0030 and uni002C is -264, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0031 and uni002C is -381, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0033 and uni002C is -281, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni002C is -293, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0036 and uni002C is -252, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni002C is -563, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0038 and uni002C is -256, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0039 and uni002C is -375, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -238, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -242, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
 * 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -279, should be 0</p>
  [code: has-tabular-kerning]
 
@@ -136,87 +56,12 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0032 is -287, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -238, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0033 is -260, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0035 is -242, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0037 is -256, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0039 is -287, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0030 and uni002E is -248, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0031 and uni002E is -481, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0033 and uni002E is -258, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni002E is -272, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni002E is -557, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0038 and uni002E is -238, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0039 and uni002E is -360, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0038 and uni0037 is -242, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0038 is -258, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0034 is -289, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0037 is -274, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni002F is -317, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -248, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -261,17 +106,87 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -238, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0034 is -289, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -248, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0037 is -274, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0033 and uni0037 is -256, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0030 and uni002C is -264, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0031 and uni002C is -381, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0033 and uni002C is -281, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni002C is -293, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0036 and uni002C is -252, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni002C is -563, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0038 and uni002C is -256, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0039 and uni002C is -375, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0030 and uni002E is -248, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0031 and uni002E is -481, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0033 and uni002E is -258, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni002E is -272, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni002E is -557, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0038 and uni002E is -238, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0039 and uni002E is -360, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -282,6 +197,11 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 * 🔥 **FAIL** <p>Kerning between uni0037 and uni0036 is -293, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -238, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -296,7 +216,37 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -238, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0033 is -260, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0035 is -242, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0037 is -256, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0039 is -287, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0034 and uni0039 is -248, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -248, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -242, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -306,7 +256,62 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -389, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -279, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0036 is -293, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0036 and uni0037 is -268, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0038 is -258, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0038 and uni0037 is -242, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -238, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0032 is -287, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -242, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
 * 🔥 **FAIL** <p>Kerning between uni0024 and uni0033 is -260, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0033 and uni0037 is -256, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0034 is -289, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -322,16 +327,6 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 * 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -389, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0034 is -289, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -248, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -346,32 +341,17 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -248, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
 * 🔥 **FAIL** <p>Kerning between uni0036 and uni0037 is -268, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
 * 🔥 **FAIL** <p>Kerning between uni0037 and uni0036 is -293, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -242, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -389, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -279, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0037 is -256, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -386,12 +366,22 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0037 is -274, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0033 and uni0037 is -256, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0033 and uni0037 is -256, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -389, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -279, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0037 is -274, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -402,6 +392,16 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 * 🔥 **FAIL** <p>Kerning between uni0036 and uni0037 is -268, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -242, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0037 is -256, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -421,12 +421,12 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0039 is -287, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -248, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -248, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0039 is -287, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -448,17 +448,17 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0034 and uni0039 is -148, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni002F is -217, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -148, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0038 and uni0037 is -142, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -142, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0038 is -158, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -468,86 +468,6 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -289, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -179, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0036 is -193, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0036 and uni0037 is -169, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0038 is -158, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0038 and uni0037 is -142, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0030 and uni002C is -164, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0031 and uni002C is -281, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0033 and uni002C is -181, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni002C is -193, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0036 and uni002C is -152, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni002C is -463, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0038 and uni002C is -156, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0039 and uni002C is -275, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -137, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -142, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
 * 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -179, should be 0</p>
  [code: has-tabular-kerning]
 
@@ -563,82 +483,12 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0032 is -187, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -137, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0033 is -160, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0035 is -142, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0037 is -156, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0039 is -187, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0030 and uni002E is -148, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0031 and uni002E is -381, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0033 and uni002E is -158, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni002E is -172, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni002E is -457, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0039 and uni002E is -260, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0038 and uni0037 is -142, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0038 is -158, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0034 is -189, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0037 is -174, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni002F is -217, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -148, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -683,17 +533,82 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -137, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0034 is -189, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -148, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0037 is -174, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0033 and uni0037 is -156, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0030 and uni002C is -164, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0031 and uni002C is -281, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0033 and uni002C is -181, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni002C is -193, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0036 and uni002C is -152, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni002C is -463, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0038 and uni002C is -156, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0039 and uni002C is -275, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0030 and uni002E is -148, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0031 and uni002E is -381, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0033 and uni002E is -158, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni002E is -172, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni002E is -457, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0039 and uni002E is -260, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -704,6 +619,11 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 * 🔥 **FAIL** <p>Kerning between uni0037 and uni0036 is -193, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -137, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -718,7 +638,37 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -137, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0033 is -160, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0035 is -142, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0037 is -156, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0039 is -187, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0034 and uni0039 is -148, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -148, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -142, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -728,7 +678,62 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -289, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -179, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0036 is -193, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0036 and uni0037 is -169, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0038 is -158, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0038 and uni0037 is -142, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -137, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0032 is -187, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -142, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
 * 🔥 **FAIL** <p>Kerning between uni0024 and uni0033 is -160, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0033 and uni0037 is -156, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0034 is -189, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -744,16 +749,6 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 * 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -289, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0034 is -189, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -148, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -768,32 +763,17 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -148, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
 * 🔥 **FAIL** <p>Kerning between uni0036 and uni0037 is -169, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
 * 🔥 **FAIL** <p>Kerning between uni0037 and uni0036 is -193, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -142, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -289, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -179, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0037 is -156, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -808,12 +788,22 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0037 is -174, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0033 and uni0037 is -156, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0033 and uni0037 is -156, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -289, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -179, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0037 is -174, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -824,6 +814,16 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 * 🔥 **FAIL** <p>Kerning between uni0036 and uni0037 is -169, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -142, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0037 is -156, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -843,12 +843,12 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0039 is -187, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -148, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -148, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0039 is -187, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -888,42 +888,12 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0034 and uni0039 is -247, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni002F is -317, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -247, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -241, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0033 and uni0037 is -255, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -389, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -279, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0036 is -293, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0036 and uni0037 is -269, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0038 and uni0037 is -241, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -933,7 +903,77 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0038 and uni0037 is -241, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0033 and uni0037 is -255, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -279, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -389, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0034 and uni0039 is -247, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -237, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -247, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni00B7 and uni0031 is -441, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0031 and uni00B7 is -447, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni00B7 and uni0032 is -255, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0032 and uni00B7 is -305, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni00B7 and uni0037 is -323, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni00B7 is -419, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni00B7 and uni0039 is -309, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0034 is -289, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0037 is -275, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -978,56 +1018,6 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -237, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -241, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -279, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -389, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0034 and uni0039 is -247, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0032 is -287, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0033 is -261, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0035 is -241, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0037 is -257, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0039 is -287, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
 * 🔥 **FAIL** <p>Kerning between uni0030 and uni002E is -247, should be 0</p>
  [code: has-tabular-kerning]
 
@@ -1063,87 +1053,17 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0038 and uni0037 is -241, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0038 is -259, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0034 is -289, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0037 is -275, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni002F is -317, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni00B7 and uni0031 is -441, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0031 and uni00B7 is -447, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni00B7 and uni0032 is -255, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0032 and uni00B7 is -305, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni00B7 and uni0037 is -323, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni00B7 is -419, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni00B7 and uni0039 is -309, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -237, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -247, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0033 and uni0037 is -255, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
 * 🔥 **FAIL** <p>Kerning between uni0036 and uni0037 is -269, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
 * 🔥 **FAIL** <p>Kerning between uni0037 and uni0036 is -293, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -237, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -1158,7 +1078,37 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -237, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0033 is -261, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0035 is -241, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0037 is -257, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0039 is -287, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0034 and uni0039 is -247, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -247, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -241, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -1168,7 +1118,62 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -389, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -279, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0036 is -293, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0036 and uni0037 is -269, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0038 is -259, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0038 and uni0037 is -241, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -237, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0032 is -287, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -241, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
 * 🔥 **FAIL** <p>Kerning between uni0024 and uni0033 is -261, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0033 and uni0037 is -255, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0034 is -289, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -1184,16 +1189,6 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 * 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -389, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0034 is -289, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -247, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -1208,32 +1203,17 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -247, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
 * 🔥 **FAIL** <p>Kerning between uni0036 and uni0037 is -269, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
 * 🔥 **FAIL** <p>Kerning between uni0037 and uni0036 is -293, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -241, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -389, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -279, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0037 is -257, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -1248,12 +1228,22 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0037 is -275, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0033 and uni0037 is -255, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0033 and uni0037 is -255, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -389, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -279, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0037 is -275, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -1264,6 +1254,16 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 * 🔥 **FAIL** <p>Kerning between uni0036 and uni0037 is -269, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -241, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0037 is -257, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -1283,12 +1283,12 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0039 is -287, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -247, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -247, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0039 is -287, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -1310,37 +1310,12 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0034 and uni0039 is -147, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni002F is -217, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -147, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -141, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0033 and uni0037 is -156, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -289, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -178, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0036 is -193, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0038 and uni0037 is -141, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -1350,7 +1325,77 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0038 and uni0037 is -141, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0033 and uni0037 is -156, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -178, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -289, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0034 and uni0039 is -147, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -137, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -147, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni00B7 and uni0031 is -340, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0031 and uni00B7 is -346, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni00B7 and uni0032 is -156, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0032 and uni00B7 is -205, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni00B7 and uni0037 is -223, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni00B7 is -319, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni00B7 and uni0039 is -209, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0034 is -188, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0037 is -174, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -1395,56 +1440,6 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -137, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -141, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -178, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -289, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0034 and uni0039 is -147, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0032 is -186, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0033 is -160, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0035 is -141, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0037 is -156, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0039 is -186, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
 * 🔥 **FAIL** <p>Kerning between uni0030 and uni002E is -147, should be 0</p>
  [code: has-tabular-kerning]
 
@@ -1475,82 +1470,12 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0038 and uni0037 is -141, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0038 is -158, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0034 is -188, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0037 is -174, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni002F is -217, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni00B7 and uni0031 is -340, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0031 and uni00B7 is -346, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni00B7 and uni0032 is -156, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0032 and uni00B7 is -205, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni00B7 and uni0037 is -223, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni00B7 is -319, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni00B7 and uni0039 is -209, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0036 is -193, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
 * 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -137, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -147, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0033 and uni0037 is -156, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0036 is -193, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -1565,7 +1490,37 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -137, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0033 is -160, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0035 is -141, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0037 is -156, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0039 is -186, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0034 and uni0039 is -147, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -147, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -141, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -1575,7 +1530,57 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -289, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -178, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0036 is -193, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0038 is -158, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0038 and uni0037 is -141, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0032 is -137, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0032 is -186, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -141, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
 * 🔥 **FAIL** <p>Kerning between uni0024 and uni0033 is -160, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0033 and uni0037 is -156, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0034 is -188, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -1591,16 +1596,6 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 * 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -289, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0034 is -188, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -147, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -1615,27 +1610,12 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -147, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
 * 🔥 **FAIL** <p>Kerning between uni0037 and uni0036 is -193, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -141, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -289, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -178, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0037 is -156, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -1650,17 +1630,37 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0037 is -174, should be 0</p>
- [code: has-tabular-kerning]
-
-
-
 * 🔥 **FAIL** <p>Kerning between uni0033 and uni0037 is -156, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0034 is -289, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0034 and uni0037 is -178, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni00A2 and uni0037 is -174, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
 * 🔥 **FAIL** <p>Kerning between uni0037 and uni0036 is -193, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0037 and uni0032 is -141, should be 0</p>
+ [code: has-tabular-kerning]
+
+
+
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0037 is -156, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -1680,12 +1680,12 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0024 and uni0039 is -186, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -147, should be 0</p>
  [code: has-tabular-kerning]
 
 
 
-* 🔥 **FAIL** <p>Kerning between uni0035 and uni0039 is -147, should be 0</p>
+* 🔥 **FAIL** <p>Kerning between uni0024 and uni0039 is -186, should be 0</p>
  [code: has-tabular-kerning]
 
 
@@ -2242,13 +2242,13 @@ GFTools is available at <a href="https://pypi.org/project/gftools/">https://pypi
 * ⚠️ **WARN** <p>The most common width is 1152 among a set of 13 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 1600:
-uni220B, uni2209, uni2208, uni220C, uni2238</p>
+uni2208, uni220C, uni2238, uni220B, uni2209</p>
 <p>Width = 1344:
 uni221D</p>
 <p>Width = 2048:
 uni221F</p>
 <p>Width = 1024:
-uni224B, uni223C, uni2248, uni223D</p>
+uni2248, uni223D, uni224B, uni223C</p>
  [code: width-outliers]
 
 
@@ -2312,20 +2312,20 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: elbasan, math, gothic, coptic, glagolitic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: glagolitic, math, elbasan, gothic, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, malayalam, duployan, math, tifinagh, old-permic, tai-le, syriac, hebrew, coptic, canadian-aboriginal</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, duployan, malayalam, math, syriac, todhri, tifinagh, canadian-aboriginal, hebrew, old-permic, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030E COMBINING DOUBLE VERTICAL LINE ABOVE: try adding ethiopic</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0314 COMBINING REVERSED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+0316 COMBINING GRAVE ACCENT BELOW: not included in any glyphset definition</li>
@@ -2341,7 +2341,7 @@ definitions.</p>
 <li>U+0320 COMBINING MINUS SIGN BELOW: try adding syriac</li>
 <li>U+0321 COMBINING PALATALIZED HOOK BELOW: not included in any glyphset definition</li>
 <li>U+0322 COMBINING RETROFLEX HOOK BELOW: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, duployan, cherokee</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -2349,11 +2349,11 @@ definitions.</p>
 <li>U+032A COMBINING BRIDGE BELOW: not included in any glyphset definition</li>
 <li>U+032B COMBINING INVERTED DOUBLE ARCH BELOW: not included in any glyphset definition</li>
 <li>U+032C COMBINING CARON BELOW: try adding math</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, thai, caucasian-albanian, tifinagh, gothic, syriac, cherokee</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, syriac, cherokee, gothic, tifinagh, sunuwar</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0333 COMBINING DOUBLE LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
@@ -2390,7 +2390,7 @@ definitions.</p>
 <li>U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
-<li>U+2010 HYPHEN: try adding one of: armenian, kharoshthi, kayah-li, lisu, sundanese, cham, yi, hebrew, syloti-nagri, kaithi, coptic, sora-sompeng, arabic</li>
+<li>U+2010 HYPHEN: try adding one of: arabic, armenian, syloti-nagri, sora-sompeng, kharoshthi, hebrew, sundanese, coptic, lisu, kaithi, kayah-li, cham, yi</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
@@ -2467,7 +2467,7 @@ definitions.</p>
 <li>U+2210 N-ARY COPRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
 <li>U+2216 SET MINUS: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, symbols, math, yi</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: symbols, tai-tham, yi, math</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221D PROPORTIONAL TO: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
@@ -2772,7 +2772,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: j̀ j́ j̄ j̈ j̑ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: j̅ j̆ j̇ j̉ j̊ j̋ ǰ j̍ j̎ j̏ j̐ j̒ j̓ j̔ j̽ j̾ j̿ j͂ j͆ j͊</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers), Ukrainian (Cyrl, 29,273,587 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Mango (Latn, 77,000 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Nzakara (Latn, 50,000 speakers), Kom (Latn, 360,685 speakers), Aghem (Latn, 38,843 speakers), Ebira (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Vute (Latn, 21,000 speakers), Cicipu (Latn, 44,000 speakers), Igbo (Latn, 27,823,640 speakers), Makaa (Latn, 221,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ma’di (Latn, 584,000 speakers), Mundani (Latn, 34,000 speakers), Southern Kisi (Latn, 360,000 speakers), Ekpeye (Latn, 226,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Mfumte (Latn, 79,000 speakers), Navajo (Latn, 166,319 speakers), Dii (Latn, 71,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Yala (Latn, 200,000 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Lugbara (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), South Central Banda (Latn, 244,000 speakers), Nateni (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ejagham (Latn, 120,000 speakers), Southern Kisi (Latn, 360,000 speakers), Basaa (Latn, 332,940 speakers), Avokaya (Latn, 100,000 speakers), Fur (Latn, 1,230,163 speakers), Cicipu (Latn, 44,000 speakers), Nzakara (Latn, 50,000 speakers), South Central Banda (Latn, 244,000 speakers), Dii (Latn, 71,000 speakers), Navajo (Latn, 166,319 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Mango (Latn, 77,000 speakers), Dan (Latn, 1,099,244 speakers), Kom (Latn, 360,685 speakers), Sar (Latn, 500,000 speakers), Yala (Latn, 200,000 speakers), Makaa (Latn, 221,000 speakers), Ebira (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Ekpeye (Latn, 226,000 speakers), Bafut (Latn, 158,146 speakers), Igbo (Latn, 27,823,640 speakers), Mundani (Latn, 34,000 speakers), Nateni (Latn, 100,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Vute (Latn, 21,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Gulay (Latn, 250,478 speakers), Ma’di (Latn, 584,000 speakers), Mfumte (Latn, 79,000 speakers), Aghem (Latn, 38,843 speakers).</p>
  [code: soft-dotted]
 
 
@@ -4134,13 +4134,13 @@ GFTools is available at <a href="https://pypi.org/project/gftools/">https://pypi
 * ⚠️ **WARN** <p>The most common width is 1152 among a set of 13 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 1600:
-uni220B, uni2209, uni2208, uni220C, uni2238</p>
+uni2208, uni220C, uni2238, uni220B, uni2209</p>
 <p>Width = 1344:
 uni221D</p>
 <p>Width = 2048:
 uni221F</p>
 <p>Width = 1024:
-uni224B, uni223C, uni2248, uni223D</p>
+uni2248, uni223D, uni224B, uni223C</p>
  [code: width-outliers]
 
 
@@ -4204,20 +4204,20 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: elbasan, math, gothic, coptic, glagolitic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: glagolitic, math, elbasan, gothic, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, malayalam, duployan, math, tifinagh, old-permic, tai-le, syriac, hebrew, coptic, canadian-aboriginal</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, duployan, malayalam, math, syriac, todhri, tifinagh, canadian-aboriginal, hebrew, old-permic, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030E COMBINING DOUBLE VERTICAL LINE ABOVE: try adding ethiopic</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0314 COMBINING REVERSED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+0316 COMBINING GRAVE ACCENT BELOW: not included in any glyphset definition</li>
@@ -4233,7 +4233,7 @@ definitions.</p>
 <li>U+0320 COMBINING MINUS SIGN BELOW: try adding syriac</li>
 <li>U+0321 COMBINING PALATALIZED HOOK BELOW: not included in any glyphset definition</li>
 <li>U+0322 COMBINING RETROFLEX HOOK BELOW: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, duployan, cherokee</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -4241,11 +4241,11 @@ definitions.</p>
 <li>U+032A COMBINING BRIDGE BELOW: not included in any glyphset definition</li>
 <li>U+032B COMBINING INVERTED DOUBLE ARCH BELOW: not included in any glyphset definition</li>
 <li>U+032C COMBINING CARON BELOW: try adding math</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, thai, caucasian-albanian, tifinagh, gothic, syriac, cherokee</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, syriac, cherokee, gothic, tifinagh, sunuwar</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0333 COMBINING DOUBLE LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
@@ -4282,7 +4282,7 @@ definitions.</p>
 <li>U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
-<li>U+2010 HYPHEN: try adding one of: armenian, kharoshthi, kayah-li, lisu, sundanese, cham, yi, hebrew, syloti-nagri, kaithi, coptic, sora-sompeng, arabic</li>
+<li>U+2010 HYPHEN: try adding one of: arabic, armenian, syloti-nagri, sora-sompeng, kharoshthi, hebrew, sundanese, coptic, lisu, kaithi, kayah-li, cham, yi</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
@@ -4359,7 +4359,7 @@ definitions.</p>
 <li>U+2210 N-ARY COPRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
 <li>U+2216 SET MINUS: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, symbols, math, yi</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: symbols, tai-tham, yi, math</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221D PROPORTIONAL TO: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
@@ -4664,7 +4664,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: j̀ j́ j̄ j̈ j̑ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: j̅ j̆ j̇ j̉ j̊ j̋ ǰ j̍ j̎ j̏ j̐ j̒ j̓ j̔ j̽ j̾ j̿ j͂ j͆ j͊</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers), Ukrainian (Cyrl, 29,273,587 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Mango (Latn, 77,000 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Nzakara (Latn, 50,000 speakers), Kom (Latn, 360,685 speakers), Aghem (Latn, 38,843 speakers), Ebira (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Vute (Latn, 21,000 speakers), Cicipu (Latn, 44,000 speakers), Igbo (Latn, 27,823,640 speakers), Makaa (Latn, 221,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ma’di (Latn, 584,000 speakers), Mundani (Latn, 34,000 speakers), Southern Kisi (Latn, 360,000 speakers), Ekpeye (Latn, 226,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Mfumte (Latn, 79,000 speakers), Navajo (Latn, 166,319 speakers), Dii (Latn, 71,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Yala (Latn, 200,000 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Lugbara (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), South Central Banda (Latn, 244,000 speakers), Nateni (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ejagham (Latn, 120,000 speakers), Southern Kisi (Latn, 360,000 speakers), Basaa (Latn, 332,940 speakers), Avokaya (Latn, 100,000 speakers), Fur (Latn, 1,230,163 speakers), Cicipu (Latn, 44,000 speakers), Nzakara (Latn, 50,000 speakers), South Central Banda (Latn, 244,000 speakers), Dii (Latn, 71,000 speakers), Navajo (Latn, 166,319 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Mango (Latn, 77,000 speakers), Dan (Latn, 1,099,244 speakers), Kom (Latn, 360,685 speakers), Sar (Latn, 500,000 speakers), Yala (Latn, 200,000 speakers), Makaa (Latn, 221,000 speakers), Ebira (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Ekpeye (Latn, 226,000 speakers), Bafut (Latn, 158,146 speakers), Igbo (Latn, 27,823,640 speakers), Mundani (Latn, 34,000 speakers), Nateni (Latn, 100,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Vute (Latn, 21,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Gulay (Latn, 250,478 speakers), Ma’di (Latn, 584,000 speakers), Mfumte (Latn, 79,000 speakers), Aghem (Latn, 38,843 speakers).</p>
  [code: soft-dotted]
 
 
@@ -6044,13 +6044,13 @@ GFTools is available at <a href="https://pypi.org/project/gftools/">https://pypi
 * ⚠️ **WARN** <p>The most common width is 1152 among a set of 13 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 1600:
-uni220B, uni2209, uni2208, uni220C, uni2238</p>
+uni2208, uni220C, uni2238, uni220B, uni2209</p>
 <p>Width = 1344:
 uni221D</p>
 <p>Width = 2048:
 uni221F</p>
 <p>Width = 1024:
-uni224B, uni223C, uni2248, uni223D</p>
+uni2248, uni223D, uni224B, uni223C</p>
  [code: width-outliers]
 
 
@@ -6114,20 +6114,20 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: elbasan, math, gothic, coptic, glagolitic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: glagolitic, math, elbasan, gothic, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, malayalam, duployan, math, tifinagh, old-permic, tai-le, syriac, hebrew, coptic, canadian-aboriginal</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, duployan, malayalam, math, syriac, todhri, tifinagh, canadian-aboriginal, hebrew, old-permic, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030E COMBINING DOUBLE VERTICAL LINE ABOVE: try adding ethiopic</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0314 COMBINING REVERSED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+0316 COMBINING GRAVE ACCENT BELOW: not included in any glyphset definition</li>
@@ -6143,7 +6143,7 @@ definitions.</p>
 <li>U+0320 COMBINING MINUS SIGN BELOW: try adding syriac</li>
 <li>U+0321 COMBINING PALATALIZED HOOK BELOW: not included in any glyphset definition</li>
 <li>U+0322 COMBINING RETROFLEX HOOK BELOW: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, duployan, cherokee</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -6151,11 +6151,11 @@ definitions.</p>
 <li>U+032A COMBINING BRIDGE BELOW: not included in any glyphset definition</li>
 <li>U+032B COMBINING INVERTED DOUBLE ARCH BELOW: not included in any glyphset definition</li>
 <li>U+032C COMBINING CARON BELOW: try adding math</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, thai, caucasian-albanian, tifinagh, gothic, syriac, cherokee</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, syriac, cherokee, gothic, tifinagh, sunuwar</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0333 COMBINING DOUBLE LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
@@ -6192,7 +6192,7 @@ definitions.</p>
 <li>U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
-<li>U+2010 HYPHEN: try adding one of: armenian, kharoshthi, kayah-li, lisu, sundanese, cham, yi, hebrew, syloti-nagri, kaithi, coptic, sora-sompeng, arabic</li>
+<li>U+2010 HYPHEN: try adding one of: arabic, armenian, syloti-nagri, sora-sompeng, kharoshthi, hebrew, sundanese, coptic, lisu, kaithi, kayah-li, cham, yi</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
@@ -6269,7 +6269,7 @@ definitions.</p>
 <li>U+2210 N-ARY COPRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
 <li>U+2216 SET MINUS: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, symbols, math, yi</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: symbols, tai-tham, yi, math</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221D PROPORTIONAL TO: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
@@ -6574,7 +6574,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: j̀ j́ j̄ j̈ j̑ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: j̅ j̆ j̇ j̉ j̊ j̋ ǰ j̍ j̎ j̏ j̐ j̒ j̓ j̔ j̽ j̾ j̿ j͂ j͆ j͊</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers), Ukrainian (Cyrl, 29,273,587 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Mango (Latn, 77,000 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Nzakara (Latn, 50,000 speakers), Kom (Latn, 360,685 speakers), Aghem (Latn, 38,843 speakers), Ebira (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Vute (Latn, 21,000 speakers), Cicipu (Latn, 44,000 speakers), Igbo (Latn, 27,823,640 speakers), Makaa (Latn, 221,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ma’di (Latn, 584,000 speakers), Mundani (Latn, 34,000 speakers), Southern Kisi (Latn, 360,000 speakers), Ekpeye (Latn, 226,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Mfumte (Latn, 79,000 speakers), Navajo (Latn, 166,319 speakers), Dii (Latn, 71,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Yala (Latn, 200,000 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Lugbara (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), South Central Banda (Latn, 244,000 speakers), Nateni (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ejagham (Latn, 120,000 speakers), Southern Kisi (Latn, 360,000 speakers), Basaa (Latn, 332,940 speakers), Avokaya (Latn, 100,000 speakers), Fur (Latn, 1,230,163 speakers), Cicipu (Latn, 44,000 speakers), Nzakara (Latn, 50,000 speakers), South Central Banda (Latn, 244,000 speakers), Dii (Latn, 71,000 speakers), Navajo (Latn, 166,319 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Mango (Latn, 77,000 speakers), Dan (Latn, 1,099,244 speakers), Kom (Latn, 360,685 speakers), Sar (Latn, 500,000 speakers), Yala (Latn, 200,000 speakers), Makaa (Latn, 221,000 speakers), Ebira (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Ekpeye (Latn, 226,000 speakers), Bafut (Latn, 158,146 speakers), Igbo (Latn, 27,823,640 speakers), Mundani (Latn, 34,000 speakers), Nateni (Latn, 100,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Vute (Latn, 21,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Gulay (Latn, 250,478 speakers), Ma’di (Latn, 584,000 speakers), Mfumte (Latn, 79,000 speakers), Aghem (Latn, 38,843 speakers).</p>
  [code: soft-dotted]
 
 
@@ -7942,13 +7942,13 @@ GFTools is available at <a href="https://pypi.org/project/gftools/">https://pypi
 * ⚠️ **WARN** <p>The most common width is 1152 among a set of 13 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 1600:
-uni220B, uni2209, uni2208, uni220C, uni2238</p>
+uni2208, uni220C, uni2238, uni220B, uni2209</p>
 <p>Width = 1344:
 uni221D</p>
 <p>Width = 2048:
 uni221F</p>
 <p>Width = 1024:
-uni224B, uni223C, uni2248, uni223D</p>
+uni2248, uni223D, uni224B, uni223C</p>
  [code: width-outliers]
 
 
@@ -8012,20 +8012,20 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: elbasan, math, gothic, coptic, glagolitic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: glagolitic, math, elbasan, gothic, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, malayalam, duployan, math, tifinagh, old-permic, tai-le, syriac, hebrew, coptic, canadian-aboriginal</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, duployan, malayalam, math, syriac, todhri, tifinagh, canadian-aboriginal, hebrew, old-permic, coptic</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
 <li>U+030E COMBINING DOUBLE VERTICAL LINE ABOVE: try adding ethiopic</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0310 COMBINING CANDRABINDU: try adding one of: sunuwar, math</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: old-permic, todhri</li>
 <li>U+0314 COMBINING REVERSED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0315 COMBINING COMMA ABOVE RIGHT: try adding math</li>
 <li>U+0316 COMBINING GRAVE ACCENT BELOW: not included in any glyphset definition</li>
@@ -8041,7 +8041,7 @@ definitions.</p>
 <li>U+0320 COMBINING MINUS SIGN BELOW: try adding syriac</li>
 <li>U+0321 COMBINING PALATALIZED HOOK BELOW: not included in any glyphset definition</li>
 <li>U+0322 COMBINING RETROFLEX HOOK BELOW: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, duployan, cherokee</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
@@ -8049,11 +8049,11 @@ definitions.</p>
 <li>U+032A COMBINING BRIDGE BELOW: not included in any glyphset definition</li>
 <li>U+032B COMBINING INVERTED DOUBLE ARCH BELOW: not included in any glyphset definition</li>
 <li>U+032C COMBINING CARON BELOW: try adding math</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, thai, caucasian-albanian, tifinagh, gothic, syriac, cherokee</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, thai, syriac, cherokee, gothic, tifinagh, sunuwar</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+0333 COMBINING DOUBLE LOW LINE: try adding math</li>
 <li>U+0334 COMBINING TILDE OVERLAY: not included in any glyphset definition</li>
@@ -8090,7 +8090,7 @@ definitions.</p>
 <li>U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese</li>
 <li>U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese</li>
 <li>U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese</li>
-<li>U+2010 HYPHEN: try adding one of: armenian, kharoshthi, kayah-li, lisu, sundanese, cham, yi, hebrew, syloti-nagri, kaithi, coptic, sora-sompeng, arabic</li>
+<li>U+2010 HYPHEN: try adding one of: arabic, armenian, syloti-nagri, sora-sompeng, kharoshthi, hebrew, sundanese, coptic, lisu, kaithi, kayah-li, cham, yi</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
@@ -8167,7 +8167,7 @@ definitions.</p>
 <li>U+2210 N-ARY COPRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
 <li>U+2216 SET MINUS: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, symbols, math, yi</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: symbols, tai-tham, yi, math</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221D PROPORTIONAL TO: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
@@ -8472,7 +8472,7 @@ definitions.</p>
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: j̀ j́ j̄ j̈ j̑ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: j̅ j̆ j̇ j̉ j̊ j̋ ǰ j̍ j̎ j̏ j̐ j̒ j̓ j̔ j̽ j̾ j̿ j͂ j͆ j͊</p>
 <p>Your font fully covers the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers), Ukrainian (Cyrl, 29,273,587 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Mango (Latn, 77,000 speakers), Basaa (Latn, 332,940 speakers), Dan (Latn, 1,099,244 speakers), Nzakara (Latn, 50,000 speakers), Kom (Latn, 360,685 speakers), Aghem (Latn, 38,843 speakers), Ebira (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Vute (Latn, 21,000 speakers), Cicipu (Latn, 44,000 speakers), Igbo (Latn, 27,823,640 speakers), Makaa (Latn, 221,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ma’di (Latn, 584,000 speakers), Mundani (Latn, 34,000 speakers), Southern Kisi (Latn, 360,000 speakers), Ekpeye (Latn, 226,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Mfumte (Latn, 79,000 speakers), Navajo (Latn, 166,319 speakers), Dii (Latn, 71,000 speakers), Gulay (Latn, 250,478 speakers), Fur (Latn, 1,230,163 speakers), Yala (Latn, 200,000 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Bafut (Latn, 158,146 speakers), Lugbara (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), South Central Banda (Latn, 244,000 speakers), Nateni (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ejagham (Latn, 120,000 speakers), Southern Kisi (Latn, 360,000 speakers), Basaa (Latn, 332,940 speakers), Avokaya (Latn, 100,000 speakers), Fur (Latn, 1,230,163 speakers), Cicipu (Latn, 44,000 speakers), Nzakara (Latn, 50,000 speakers), South Central Banda (Latn, 244,000 speakers), Dii (Latn, 71,000 speakers), Navajo (Latn, 166,319 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Mango (Latn, 77,000 speakers), Dan (Latn, 1,099,244 speakers), Kom (Latn, 360,685 speakers), Sar (Latn, 500,000 speakers), Yala (Latn, 200,000 speakers), Makaa (Latn, 221,000 speakers), Ebira (Latn, 2,200,000 speakers), Zapotec (Latn, 490,000 speakers), Lugbara (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Ekpeye (Latn, 226,000 speakers), Bafut (Latn, 158,146 speakers), Igbo (Latn, 27,823,640 speakers), Mundani (Latn, 34,000 speakers), Nateni (Latn, 100,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Vute (Latn, 21,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Gulay (Latn, 250,478 speakers), Ma’di (Latn, 584,000 speakers), Mfumte (Latn, 79,000 speakers), Aghem (Latn, 38,843 speakers).</p>
  [code: soft-dotted]
 
 

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="Monday, 30 September 2024 08:36" MachineName="fv-az2031-705">
+<FontValidatorReport RunDateTime="Monday, 30 September 2024 09:27" MachineName="fv-az1148-645">
 <FontFile FileName="Jonova-Regular.ttf" FileNameAndPath="fonts/ttf/Jonova-Regular.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
@@ -307,10 +307,10 @@
 <Report ErrorType="E" ErrorCode="E1120" Message="Duplicated contours" Details="Glyph index 1100" />
 <Report ErrorType="I" ErrorCode="I1111" Message="Unable to perform test due to previously detected errors" Details="Glyph index 1100 Test: ValidateSimpContMisor " />
 </TableEntry>
-<TableEntry Tag="head" Offset="0x0000010c" Length="0x00000036" Checksum="0x11e76a3c" CodeFriendlyTag="head">
+<TableEntry Tag="head" Offset="0x0000010c" Length="0x00000036" Checksum="0x11e77665" CodeFriendlyTag="head">
 <Report ErrorType="P" ErrorCode="P1323" Message="Table length is 54 bytes" TestName="head_TableLength" />
 <Report ErrorType="P" ErrorCode="P1324" Message="The table version number is 0x00010000" TestName="head_TableVersion" />
-<Report ErrorType="P" ErrorCode="P1307" Message="Font checksum is correct" Details="0xc0abfa89" TestName="head_ChecksumAdjustment" />
+<Report ErrorType="P" ErrorCode="P1307" Message="Font checksum is correct" Details="0xc0abe237" TestName="head_ChecksumAdjustment" />
 <Report ErrorType="P" ErrorCode="P1321" Message="The magic number is 0x5f0f3cf5" TestName="head_MagicNumber" />
 <Report ErrorType="W" ErrorCode="W1302" Message="Non-linear scaling flag (bit 4) is set, but hdmx table is not present" TestName="head_FlagTests" />
 <Report ErrorType="W" ErrorCode="W1303" Message="Non-linear scaling flag (bit 4) is set, but LTSH table is not present" TestName="head_FlagTests" />
@@ -318,7 +318,7 @@
 <Report ErrorType="P" ErrorCode="P1302" Message="Reserved bit 15 of the flags field is clear" TestName="head_FlagTests" />
 <Report ErrorType="P" ErrorCode="P1325" Message="The unitsPerEm value is a power of two in the range 64..16384" Details="2048" TestName="head_UnitsPerEmValues" />
 <Report ErrorType="P" ErrorCode="P1300" Message="The created time is not zero" Details="created = 3418092879 (Tuesday, 24 April 2012 06:14)" TestName="head_Dates" />
-<Report ErrorType="P" ErrorCode="P1322" Message="The modified time is not zero" Details="modified = 3810529149 (Monday, 30 September 2024 08:19)" TestName="head_Dates" />
+<Report ErrorType="P" ErrorCode="P1322" Message="The modified time is not zero" Details="modified = 3810532262 (Monday, 30 September 2024 09:11)" TestName="head_Dates" />
 <Report ErrorType="P" ErrorCode="P1327" Message="The xMin value matches the minimum glyph xMin" Details="xMin = -1081" TestName="head_MinMaxValues" />
 <Report ErrorType="P" ErrorCode="P1329" Message="The yMin value matches the minimum glyph yMin" Details="yMin = -566" TestName="head_MinMaxValues" />
 <Report ErrorType="P" ErrorCode="P1326" Message="The xMax value matches the maximum glyph xMax" Details="xMax = 2068" TestName="head_MinMaxValues" />
@@ -416,6 +416,6 @@
 <Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:58" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:54" />
 </FontFile>
 </FontValidatorReport>
