@@ -791,7 +791,7 @@
     <string>uni0349</string>
     <string>uni034A</string>
     <string>uni034B</string>
-    <string>uni034c</string>
+    <string>uni034C</string>
     <string>uni034D</string>
     <string>uni034E</string>
     <string>uni0360</string>
@@ -3085,11 +3085,11 @@
     <string>mark</string>
     <key>uni034B</key>
     <string>mark</string>
+    <key>uni034C</key>
+    <string>mark</string>
     <key>uni034D</key>
     <string>mark</string>
     <key>uni034E</key>
-    <string>mark</string>
-    <key>uni034c</key>
     <string>mark</string>
     <key>uni0360</key>
     <string>mark</string>
