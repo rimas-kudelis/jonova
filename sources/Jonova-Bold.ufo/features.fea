@@ -9,22 +9,24 @@ languagesystem grek dflt;
 @COMBINING_MARKS_ABOVE = [
     acutecomb
     acutedblnosp
+    acuterightnosp
     apostrophesupnosp
     brevecomb
     breveinvnosp
     candrabindunosp
     circumflexcomb
     commasuprevnosp
-    commasuprightnosp
     commaturnsupnosp
+    diaeresistonosnosp
     dieresiscomb
     dotaccentcomb
     gravecomb
     gravedblnosp
+    graveleftnosp
     haceknosp
     hookabovecomb
-    linevertnosp
     linevertdblnosp
+    linevertnosp
     macroncomb
     overscorecomb
     overscoredblnosp
@@ -32,6 +34,7 @@ languagesystem grek dflt;
     tildecomb
     tildevertsupnosp
     uni0342
+    uni0343
     uni0346
     uni034A
     uni034B
