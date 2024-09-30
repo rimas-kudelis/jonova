@@ -4,20 +4,6 @@
   <unicode hex="0396"/>
   <outline>
     <component base="Z" identifier="component0"/>
-    <contour>
-      <point x="145" y="1434" type="line" name="hr00"/>
-      <point x="895" y="1434" type="line"/>
-      <point x="895" y="1414" type="line"/>
-      <point x="246" y="132" type="line"/>
-      <point x="246" y="122" type="line"/>
-      <point x="895" y="143" type="line"/>
-      <point x="876" y="0" type="line"/>
-      <point x="32" y="0" type="line"/>
-      <point x="32" y="20" type="line"/>
-      <point x="680" y="1302" type="line"/>
-      <point x="680" y="1312" type="line"/>
-      <point x="126" y="1292" type="line"/>
-    </contour>
   </outline>
   <lib>
     <dict>
@@ -27,7 +13,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hr00</string>
+            <string>at01-0</string>
             <key>stems</key>
             <array>
               <string>hstem 0 132</string>
