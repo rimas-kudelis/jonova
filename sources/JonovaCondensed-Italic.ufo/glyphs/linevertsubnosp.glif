@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="linevertsubnosp" format="2">
   <unicode hex="0329"/>
-  <anchor x="-500" y="0" name="_AccentBelow"/>
+  <anchor x="-404" y="0" name="_AccentBelow"/>
   <outline>
     <contour>
       <point x="-487" y="-490" type="line" name="ab01"/>

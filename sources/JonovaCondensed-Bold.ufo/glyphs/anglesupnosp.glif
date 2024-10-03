@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="anglesupnosp" format="2">
   <unicode hex="031A"/>
+  <anchor x="-450" y="1500" name="_AccentAboveRight"/>
   <outline>
     <contour>
       <point x="-146" y="1920" type="line" name="dh02"/>

@@ -4,7 +4,8 @@
   <unicode hex="012F"/>
   <guideline x="375" y="0" angle="80"/>
   <guideline x="361" y="0" angle="90"/>
-  <anchor x="300" y="1450" name="AccentDefault"/>
+  <anchor x="430" y="1450" name="AccentAbove"/>
+  <anchor x="520" y="1200" name="AccentAboveRight"/>
   <outline>
     <contour>
       <point x="239" y="974" type="line" name="hr00"/>

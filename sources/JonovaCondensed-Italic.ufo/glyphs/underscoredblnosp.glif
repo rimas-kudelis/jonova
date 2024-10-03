@@ -2,7 +2,7 @@
 <glyph name="underscoredblnosp" format="2">
   <unicode hex="0333"/>
   <guideline x="-812" y="0" angle="80"/>
-  <anchor x="-500" y="0" name="_AccentBelow"/>
+  <anchor x="-404" y="0" name="_AccentBelow"/>
   <outline>
     <contour>
       <point x="-858" y="-368" type="line" name="sv01"/>

@@ -2,7 +2,7 @@
 <glyph name="commasubnosp" format="2">
   <unicode hex="0326"/>
   <guideline x="-469" y="0" angle="80"/>
-  <anchor x="-500" y="0" name="_AccentBelow"/>
+  <anchor x="-404" y="0" name="_AccentBelow"/>
   <outline>
     <contour>
       <point x="-476" y="-187" type="line" name="hr00"/>

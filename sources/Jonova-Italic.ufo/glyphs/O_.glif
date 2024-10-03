@@ -2,9 +2,10 @@
 <glyph name="O" format="2">
   <advance width="1600"/>
   <unicode hex="004F"/>
+  <anchor x="1080" y="1600" name="AccentAbove"/>
+  <anchor x="1350" y="1600" name="AccentAboveRight"/>
   <anchor x="800" y="0" name="AccentBelow"/>
-  <anchor x="800" y="1600" name="AccentDefault"/>
-  <anchor x="800" y="712" name="AccentMiddle"/>
+  <anchor x="800" y="712" name="AccentOverlay"/>
   <outline>
     <contour>
       <point x="1048" y="1464" type="qcurve" name="at01"/>

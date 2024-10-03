@@ -3,7 +3,7 @@
   <advance width="1120"/>
   <unicode hex="0173"/>
   <guideline x="1083" y="0" angle="80"/>
-  <anchor x="560" y="1100" name="AccentDefault"/>
+  <anchor x="843" y="1100" name="AccentAbove"/>
   <outline>
     <contour>
       <point x="1059" y="-407" type="line" name="ah01"/>

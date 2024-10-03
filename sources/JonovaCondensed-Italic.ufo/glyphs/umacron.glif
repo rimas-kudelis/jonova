@@ -2,7 +2,8 @@
 <glyph name="umacron" format="2">
   <advance width="840"/>
   <unicode hex="016B"/>
-  <anchor x="450" y="1450" name="AccentDefault"/>
+  <anchor x="650" y="1450" name="AccentAbove"/>
+  <anchor x="900" y="1200" name="AccentAboveRight"/>
   <outline>
     <component base="u" identifier="component0"/>
     <component base="uni02C9" xOffset="135" identifier="component1"/>

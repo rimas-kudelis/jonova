@@ -8,10 +8,11 @@
   <guideline x="1136" y="0" angle="135"/>
   <guideline x="986" y="0" angle="90"/>
   <guideline x="896" y="0" angle="90"/>
+  <anchor x="570" y="1600" name="AccentAbove"/>
+  <anchor x="900" y="1600" name="AccentAboveRight"/>
   <anchor x="500" y="0" name="AccentBelow"/>
   <anchor x="450" y="0" name="AccentCedilla"/>
-  <anchor x="550" y="1600" name="AccentDefault"/>
-  <anchor x="400" y="712" name="AccentMiddle"/>
+  <anchor x="470" y="712" name="AccentOverlay"/>
   <outline>
     <contour>
       <point x="986" y="1235" type="qcurve" name="hr00"/>

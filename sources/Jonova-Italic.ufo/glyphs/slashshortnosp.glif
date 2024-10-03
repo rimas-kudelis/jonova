@@ -2,7 +2,7 @@
 <glyph name="slashshortnosp" format="2">
   <unicode hex="0337"/>
   <guideline x="0" y="895" angle="40"/>
-  <anchor x="-512" y="500" name="_AccentMiddle"/>
+  <anchor x="-512" y="500" name="_AccentOverlay"/>
   <outline>
     <contour>
       <point x="-1067" y="0" type="line" name="hr00"/>

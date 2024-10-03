@@ -4,9 +4,10 @@
   <unicode hex="0067"/>
   <guideline x="392" y="0" angle="90"/>
   <guideline x="296" y="0" angle="45"/>
+  <anchor x="580" y="1100" name="AccentAbove"/>
+  <anchor x="800" y="1100" name="AccentAboveRight"/>
   <anchor x="200" y="-500" name="AccentBelow"/>
-  <anchor x="450" y="1100" name="AccentDefault"/>
-  <anchor x="500" y="500" name="AccentMiddle"/>
+  <anchor x="700" y="500" name="AccentOverlay"/>
   <outline>
     <contour>
       <point x="521" y="974" type="qcurve" name="at02"/>

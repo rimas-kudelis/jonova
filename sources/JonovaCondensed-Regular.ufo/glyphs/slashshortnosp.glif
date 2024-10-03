@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="slashshortnosp" format="2">
   <unicode hex="0337"/>
-  <anchor x="-400" y="1100" name="_AccentDefault"/>
+  <anchor x="-412" y="487" name="_AccentOverlay"/>
   <outline>
     <contour>
       <point x="-967" y="0" type="line" name="iv01"/>

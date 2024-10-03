@@ -2,9 +2,10 @@
 <glyph name="W" format="2">
   <advance width="1416"/>
   <unicode hex="0057"/>
+  <anchor x="750" y="1600" name="AccentAbove"/>
+  <anchor x="1400" y="1600" name="AccentAboveRight"/>
   <anchor x="600" y="0" name="AccentBelow"/>
-  <anchor x="750" y="1600" name="AccentDefault"/>
-  <anchor x="600" y="712" name="AccentMiddle"/>
+  <anchor x="600" y="712" name="AccentOverlay"/>
   <outline>
     <contour>
       <point x="1057" y="348" type="line" name="sv01"/>

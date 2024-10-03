@@ -2,9 +2,10 @@
 <glyph name="N" format="2">
   <advance width="1504"/>
   <unicode hex="004E"/>
+  <anchor x="1032" y="1600" name="AccentAbove"/>
+  <anchor x="1407" y="1600" name="AccentAboveRight"/>
   <anchor x="752" y="0" name="AccentBelow"/>
-  <anchor x="752" y="1600" name="AccentDefault"/>
-  <anchor x="752" y="712" name="AccentMiddle"/>
+  <anchor x="752" y="712" name="AccentOverlay"/>
   <outline>
     <contour>
       <point x="552" y="1464" type="line" name="at01"/>

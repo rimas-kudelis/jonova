@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breveinvsubnosp" format="2">
   <unicode hex="032F"/>
-  <anchor x="-500" y="0" name="_AccentBelow"/>
+  <anchor x="-404" y="0" name="_AccentBelow"/>
   <outline>
     <contour>
       <point x="-282" y="-460" type="line" name="sh01"/>

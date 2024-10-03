@@ -2,7 +2,7 @@
 <glyph name="acuterightnosp" format="2">
   <unicode hex="0341"/>
   <guideline x="-1025" y="0" angle="55"/>
-  <anchor x="-400" y="1600" name="_AccentDefault"/>
+  <anchor x="-380" y="1600" name="_AccentAbove"/>
   <outline>
     <contour>
       <point x="-523" y="1759" type="line" name="hr00"/>

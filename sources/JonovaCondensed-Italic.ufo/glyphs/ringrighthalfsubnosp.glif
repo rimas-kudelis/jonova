@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ringrighthalfsubnosp" format="2">
   <unicode hex="0339"/>
-  <anchor x="-500" y="0" name="_AccentBelow"/>
+  <anchor x="-404" y="0" name="_AccentBelow"/>
   <outline>
     <contour>
       <point x="-511" y="-407" type="line" name="hr00"/>

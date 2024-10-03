@@ -2,10 +2,11 @@
 <glyph name="dotlessi" format="2">
   <advance width="432"/>
   <unicode hex="0131"/>
-  <anchor x="120" y="0" name="AccentBelow"/>
-  <anchor x="140" y="1100" name="AccentDefault"/>
-  <anchor x="100" y="486" name="AccentMiddle"/>
-  <anchor x="-100" y="0" name="AccentOgonek"/>
+  <anchor x="340" y="1100" name="AccentAbove"/>
+  <anchor x="340" y="1200" name="AccentAboveRight"/>
+  <anchor x="227" y="0" name="AccentAttachedBelow"/>
+  <anchor x="216" y="0" name="AccentBelow"/>
+  <anchor x="260" y="486" name="AccentOverlay"/>
   <outline>
     <contour>
       <point x="155" y="0" type="line" name="ab01"/>

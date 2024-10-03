@@ -2,7 +2,8 @@
 <glyph name="Uogonek" format="2">
   <advance width="1128"/>
   <unicode hex="0172"/>
-  <anchor x="550" y="1600" name="AccentDefault"/>
+  <anchor x="550" y="1600" name="AccentAbove"/>
+  <anchor x="800" y="1600" name="AccentAboveRight"/>
   <outline>
     <contour>
       <point x="748" y="-419" type="line" name="hr00"/>

@@ -2,10 +2,11 @@
 <glyph name="H" format="2">
   <advance width="1128"/>
   <unicode hex="0048"/>
-  <anchor x="450" y="0" name="AccentBelow"/>
+  <anchor x="750" y="1600" name="AccentAbove"/>
+  <anchor x="900" y="1600" name="AccentAboveRight"/>
+  <anchor x="546" y="0" name="AccentBelow"/>
   <anchor x="50" y="0" name="AccentCedilla"/>
-  <anchor x="550" y="1600" name="AccentDefault"/>
-  <anchor x="450" y="712" name="AccentMiddle"/>
+  <anchor x="610" y="712" name="AccentOverlay"/>
   <outline>
     <contour>
       <point x="467" y="1464" type="line" name="at01"/>

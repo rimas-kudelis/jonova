@@ -3,7 +3,8 @@
   <advance width="1008"/>
   <unicode hex="0104"/>
   <guideline x="996" y="0" angle="90"/>
-  <anchor x="550" y="1600" name="AccentDefault"/>
+  <anchor x="680" y="1600" name="AccentAbove"/>
+  <anchor x="900" y="1600" name="AccentAboveRight"/>
   <outline>
     <contour>
       <point x="960" y="-270" type="qcurve" name="hr00"/>

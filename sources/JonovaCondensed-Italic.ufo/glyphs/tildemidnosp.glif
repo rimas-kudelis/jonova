@@ -2,7 +2,7 @@
 <glyph name="tildemidnosp" format="2">
   <unicode hex="0334"/>
   <guideline x="-401" y="0" angle="135"/>
-  <anchor x="-500" y="500" name="_AccentMiddle"/>
+  <anchor x="-319" y="488" name="_AccentOverlay"/>
   <outline>
     <contour>
       <point x="-687" y="407" type="line" name="hr00"/>

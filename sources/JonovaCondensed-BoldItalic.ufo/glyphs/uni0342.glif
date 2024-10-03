@@ -5,7 +5,7 @@
   <guideline x="0" y="1529" angle="325"/>
   <guideline x="-662" y="0" angle="90"/>
   <guideline x="-105" y="0" angle="90"/>
-  <anchor x="-300" y="1500" name="_AccentDefault"/>
+  <anchor x="-170" y="1500" name="_AccentAbove"/>
   <outline>
     <contour>
       <point x="-232" y="1994" type="qcurve" name="sv02"/>

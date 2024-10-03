@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="barmidlongnosp" format="2">
   <unicode hex="0336"/>
-  <anchor x="-512" y="600" name="_AccentMiddle"/>
+  <anchor x="-512" y="600" name="_AccentOverlay"/>
   <outline>
     <contour>
       <point x="-924" y="548" type="line" name="hr00"/>

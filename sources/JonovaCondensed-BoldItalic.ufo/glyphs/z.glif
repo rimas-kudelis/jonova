@@ -7,9 +7,10 @@
   <guideline x="226" y="0" angle="55"/>
   <guideline x="706" y="0" angle="90"/>
   <guideline x="698" y="0" angle="80"/>
+  <anchor x="530" y="1100" name="AccentAbove"/>
+  <anchor x="750" y="1100" name="AccentAboveRight"/>
   <anchor x="250" y="0" name="AccentBelow"/>
-  <anchor x="400" y="1100" name="AccentDefault"/>
-  <anchor x="250" y="500" name="AccentMiddle"/>
+  <anchor x="450" y="500" name="AccentOverlay"/>
   <outline>
     <contour>
       <point x="30" y="60" type="line" name="hr00"/>

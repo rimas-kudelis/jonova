@@ -3,7 +3,8 @@
   <advance width="768"/>
   <unicode hex="0117"/>
   <guideline x="0" y="594" angle="0"/>
-  <anchor x="400" y="1450" name="AccentDefault"/>
+  <anchor x="600" y="1450" name="AccentAbove"/>
+  <anchor x="750" y="1200" name="AccentAboveRight"/>
   <outline>
     <component base="e" identifier="component0"/>
     <component base="dotaccent" xOffset="105" identifier="component1"/>

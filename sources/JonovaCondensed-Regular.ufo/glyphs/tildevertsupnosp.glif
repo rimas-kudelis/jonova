@@ -2,7 +2,7 @@
 <glyph name="tildevertsupnosp" format="2">
   <unicode hex="033E"/>
   <guideline x="-732" y="0" angle="80"/>
-  <anchor x="-400" y="1340" name="_AccentDefault"/>
+  <anchor x="-400" y="1340" name="_AccentAbove"/>
   <outline>
     <contour>
       <point x="-514" y="1463" type="line" name="sh01"/>

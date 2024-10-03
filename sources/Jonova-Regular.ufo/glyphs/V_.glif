@@ -6,9 +6,10 @@
   <guideline x="687" y="0" angle="70"/>
   <guideline x="564" y="0" angle="110"/>
   <guideline x="770" y="0" angle="110"/>
+  <anchor x="624" y="1600" name="AccentAbove"/>
+  <anchor x="974" y="1600" name="AccentAboveRight"/>
   <anchor x="624" y="0" name="AccentBelow"/>
-  <anchor x="624" y="1600" name="AccentDefault"/>
-  <anchor x="624" y="712" name="AccentMiddle"/>
+  <anchor x="624" y="712" name="AccentOverlay"/>
   <outline>
     <contour>
       <point x="657" y="283" type="line" name="av01"/>

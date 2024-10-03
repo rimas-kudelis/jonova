@@ -4,9 +4,10 @@
   <unicode hex="0042"/>
   <guideline x="459" y="0" angle="90"/>
   <guideline x="662" y="0" angle="90"/>
+  <anchor x="624" y="1600" name="AccentAbove"/>
+  <anchor x="974" y="1600" name="AccentAboveRight"/>
   <anchor x="624" y="0" name="AccentBelow"/>
-  <anchor x="624" y="1600" name="AccentDefault"/>
-  <anchor x="624" y="780" name="AccentMiddle"/>
+  <anchor x="624" y="780" name="AccentOverlay"/>
   <outline>
     <contour>
       <point x="444" y="859" type="line" name="sv01"/>

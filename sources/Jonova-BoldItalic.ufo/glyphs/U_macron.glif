@@ -4,7 +4,8 @@
   <unicode hex="016A"/>
   <guideline x="0" y="454" angle="0"/>
   <guideline x="729" y="0" angle="90"/>
-  <anchor x="772" y="1800" name="AccentDefault"/>
+  <anchor x="1055" y="1800" name="AccentAbove"/>
+  <anchor x="1522" y="1600" name="AccentAboveRight"/>
   <outline>
     <component base="U" identifier="component0"/>
     <component base="uni02C9" xOffset="510" yOffset="460" identifier="component1"/>

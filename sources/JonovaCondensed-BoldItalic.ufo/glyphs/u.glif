@@ -3,10 +3,11 @@
   <advance width="840"/>
   <unicode hex="0075"/>
   <guideline x="761" y="0" angle="82.6"/>
+  <anchor x="530" y="1100" name="AccentAbove"/>
+  <anchor x="750" y="1100" name="AccentAboveRight"/>
+  <anchor x="668" y="0" name="AccentAttachedBelow"/>
   <anchor x="300" y="0" name="AccentBelow"/>
-  <anchor x="400" y="1100" name="AccentDefault"/>
-  <anchor x="300" y="500" name="AccentMiddle"/>
-  <anchor x="400" y="0" name="AccentOgonek"/>
+  <anchor x="500" y="500" name="AccentOverlay"/>
   <outline>
     <contour>
       <point x="419" y="1004" type="line" name="at01"/>

@@ -2,7 +2,7 @@
 <glyph name="overscoredblnosp" format="2">
   <unicode hex="033F"/>
   <guideline x="-965" y="0" angle="80"/>
-  <anchor x="-400" y="1500" name="_AccentDefault"/>
+  <anchor x="-380" y="1500" name="_AccentAbove"/>
   <outline>
     <contour>
       <point x="-743" y="1717" type="line" name="hr00"/>

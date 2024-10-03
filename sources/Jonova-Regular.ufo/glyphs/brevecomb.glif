@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="brevecomb" format="2">
   <unicode hex="0306"/>
-  <anchor x="-512" y="1500" name="_AccentDefault"/>
+  <anchor x="-512" y="1500" name="_AccentAbove"/>
   <outline>
     <contour>
       <point x="-717" y="1859" type="line" name="ah01"/>
