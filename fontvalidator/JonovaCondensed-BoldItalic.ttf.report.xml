@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="Tuesday, 01 October 2024 19:53" MachineName="fv-az1766-61">
+<FontValidatorReport RunDateTime="Thursday, 03 October 2024 12:01" MachineName="fv-az837-750">
 <FontFile FileName="JonovaCondensed-BoldItalic.ttf" FileNameAndPath="fonts/ttf/JonovaCondensed-BoldItalic.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
-<FontInfo FontName="Jonova Condensed Bold Italic" FontVersion="2.103 beta" FontDate="10/01/2024" />
+<FontInfo FontName="Jonova Condensed Bold Italic" FontVersion="2.103 beta" FontDate="10/03/2024" />
 <Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="16" TestName="_OFFSET_numTables" />
 <Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
 <Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
@@ -24,7 +24,7 @@
 <Report ErrorType="I" ErrorCode="I4000" Message="The MarkSetCount of the GDEF table" Details="MarkGlyphSetsDef: MarkSetCount=1" />
 <Report ErrorType="P" ErrorCode="P4007" Message="The MarkGlyphSetsDefTable of the GDEF table is okay" Details="MarkGlyphSetsDef" />
 </TableEntry>
-<TableEntry Tag="GPOS" Offset="0x00049640" Length="0x00000ef6" Checksum="0x5b8e3648" CodeFriendlyTag="GPOS">
+<TableEntry Tag="GPOS" Offset="0x00049640" Length="0x00001096" Checksum="0xba0543ec" CodeFriendlyTag="GPOS">
 <Report ErrorType="P" ErrorCode="P4132" Message="The version number is 0x00010000" TestName="GPOS_Version" />
 <Report ErrorType="P" ErrorCode="P4115" Message="All header offsets point within the table" TestName="GPOS_HeaderOffsets" />
 <Report ErrorType="P" ErrorCode="P5500" Message="The LangSysTable is valid" Details="ScriptList, ScriptRecord[0](DFLT), ScriptTable, DefaultLangSysTable" />
@@ -125,9 +125,11 @@
 <Report ErrorType="P" ErrorCode="P4121" Message="The MarkBasePos subtable is valid" Details="LookupList, Lookup[5], SubTable[0](MarkBasePos)" />
 <Report ErrorType="P" ErrorCode="P4101" Message="The BaseArray table is valid" Details="LookupList, Lookup[6], SubTable[0](MarkBasePos), BaseArray" />
 <Report ErrorType="P" ErrorCode="P4121" Message="The MarkBasePos subtable is valid" Details="LookupList, Lookup[6], SubTable[0](MarkBasePos)" />
+<Report ErrorType="P" ErrorCode="P4101" Message="The BaseArray table is valid" Details="LookupList, Lookup[7], SubTable[0](MarkBasePos), BaseArray" />
+<Report ErrorType="P" ErrorCode="P4121" Message="The MarkBasePos subtable is valid" Details="LookupList, Lookup[7], SubTable[0](MarkBasePos)" />
 <Report ErrorType="P" ErrorCode="P5600" Message="The LookupList table is valid" Details="LookupList" />
 </TableEntry>
-<TableEntry Tag="GSUB" Offset="0x0004a538" Length="0x00000c32" Checksum="0x28f1890f" CodeFriendlyTag="GSUB">
+<TableEntry Tag="GSUB" Offset="0x0004a6d8" Length="0x00000c32" Checksum="0x28f1890f" CodeFriendlyTag="GSUB">
 <Report ErrorType="P" ErrorCode="P4208" Message="The version number is 0x00010000" TestName="GSUB_Version" />
 <Report ErrorType="P" ErrorCode="P4204" Message="All header offsets point within the table" TestName="GSUB_HeaderOffsets" />
 <Report ErrorType="P" ErrorCode="P5500" Message="The LangSysTable is valid" Details="ScriptList, ScriptRecord[0](DFLT), ScriptTable, DefaultLangSysTable" />
@@ -239,10 +241,10 @@
 <Report ErrorType="W" ErrorCode="W1111" Message="Duplicated knots" Details="Glyph index 1098" />
 <Report ErrorType="W" ErrorCode="W1111" Message="Duplicated knots" Details="Glyph index 1102" />
 </TableEntry>
-<TableEntry Tag="head" Offset="0x0000010c" Length="0x00000036" Checksum="0x1564b68a" CodeFriendlyTag="head">
+<TableEntry Tag="head" Offset="0x0000010c" Length="0x00000036" Checksum="0x1566eae1" CodeFriendlyTag="head">
 <Report ErrorType="P" ErrorCode="P1323" Message="Table length is 54 bytes" TestName="head_TableLength" />
 <Report ErrorType="P" ErrorCode="P1324" Message="The table version number is 0x00010000" TestName="head_TableVersion" />
-<Report ErrorType="P" ErrorCode="P1307" Message="Font checksum is correct" Details="0xf22f07b8" TestName="head_ChecksumAdjustment" />
+<Report ErrorType="P" ErrorCode="P1307" Message="Font checksum is correct" Details="0x353c8082" TestName="head_ChecksumAdjustment" />
 <Report ErrorType="P" ErrorCode="P1321" Message="The magic number is 0x5f0f3cf5" TestName="head_MagicNumber" />
 <Report ErrorType="W" ErrorCode="W1302" Message="Non-linear scaling flag (bit 4) is set, but hdmx table is not present" TestName="head_FlagTests" />
 <Report ErrorType="W" ErrorCode="W1303" Message="Non-linear scaling flag (bit 4) is set, but LTSH table is not present" TestName="head_FlagTests" />
@@ -250,7 +252,7 @@
 <Report ErrorType="P" ErrorCode="P1302" Message="Reserved bit 15 of the flags field is clear" TestName="head_FlagTests" />
 <Report ErrorType="P" ErrorCode="P1325" Message="The unitsPerEm value is a power of two in the range 64..16384" Details="2048" TestName="head_UnitsPerEmValues" />
 <Report ErrorType="P" ErrorCode="P1300" Message="The created time is not zero" Details="created = 3467005871 (Monday, 11 November 2013 09:11)" TestName="head_Dates" />
-<Report ErrorType="P" ErrorCode="P1322" Message="The modified time is not zero" Details="modified = 3810656478 (Tuesday, 01 October 2024 19:41)" TestName="head_Dates" />
+<Report ErrorType="P" ErrorCode="P1322" Message="The modified time is not zero" Details="modified = 3810800949 (Thursday, 03 October 2024 11:49)" TestName="head_Dates" />
 <Report ErrorType="P" ErrorCode="P1327" Message="The xMin value matches the minimum glyph xMin" Details="xMin = -881" TestName="head_MinMaxValues" />
 <Report ErrorType="P" ErrorCode="P1329" Message="The yMin value matches the minimum glyph yMin" Details="yMin = -566" TestName="head_MinMaxValues" />
 <Report ErrorType="P" ErrorCode="P1326" Message="The xMax value matches the maximum glyph xMax" Details="xMax = 2010" TestName="head_MinMaxValues" />
