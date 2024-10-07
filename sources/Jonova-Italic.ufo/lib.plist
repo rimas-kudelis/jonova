@@ -1412,11 +1412,11 @@
     <key>Amacron</key>
     <string>base</string>
     <key>Aogonacute</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>Aogonek</key>
     <string>base</string>
     <key>Aogontilde</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>Aring</key>
     <string>base</string>
     <key>Aringacute</key>
@@ -1462,9 +1462,9 @@
     <key>Edotaccent</key>
     <string>base</string>
     <key>Edotacute</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>Edottilde</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>Egrave</key>
     <string>base</string>
     <key>Emacron</key>
@@ -1472,11 +1472,11 @@
     <key>Eng</key>
     <string>base</string>
     <key>Eogonacute</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>Eogonek</key>
     <string>base</string>
     <key>Eogontilde</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>Epsilon</key>
     <string>base</string>
     <key>Epsilontonos</key>
@@ -1532,11 +1532,11 @@
     <key>Imacron</key>
     <string>base</string>
     <key>Iogonacute</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>Iogonek</key>
     <string>base</string>
     <key>Iogontilde</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>Iota</key>
     <string>base</string>
     <key>Iotadieresis</key>
@@ -1550,7 +1550,7 @@
     <key>Jcircumflex</key>
     <string>base</string>
     <key>Jtilde</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>K</key>
     <string>base</string>
     <key>Kappa</key>
@@ -1572,11 +1572,11 @@
     <key>Lslash</key>
     <string>base</string>
     <key>Ltilde</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>M</key>
     <string>base</string>
     <key>Mtilde</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>Mu</key>
     <string>base</string>
     <key>N</key>
@@ -1642,7 +1642,7 @@
     <key>Rho</key>
     <string>base</string>
     <key>Rtilde</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>S</key>
     <string>base</string>
     <key>SF010000</key>
@@ -1766,15 +1766,15 @@
     <key>Umacron</key>
     <string>base</string>
     <key>Umacronacute</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>Umacrontilde</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>Uogonacute</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>Uogonek</key>
     <string>base</string>
     <key>Uogontilde</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>Upsilon</key>
     <string>base</string>
     <key>Upsilondieresis</key>
@@ -1852,45 +1852,45 @@
     <key>aeacute</key>
     <string>base</string>
     <key>afiEC00</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>afiEC01</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>afiEC02</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>afiEC03</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>afiEC04</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>afiEC05</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>afiEC06</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>afiEC07</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>afiEC0A</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>afiEC0B</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>afiEC0C</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>afiEC0D</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>afiEC0E</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>afiEC0F</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>afiEC10</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>afiEC11</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>afiEC12</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>afiEC13</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>afiEC14</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>afiEC15</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>afii10017</key>
     <string>base</string>
     <key>afii10018</key>
@@ -2096,11 +2096,11 @@
     <key>anglesupnosp</key>
     <string>mark</string>
     <key>aogonacute</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>aogonek</key>
     <string>base</string>
     <key>aogontilde</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>apostrophesupnosp</key>
     <string>mark</string>
     <key>approxequal</key>
@@ -2282,9 +2282,9 @@
     <key>edotaccent</key>
     <string>base</string>
     <key>edotacute</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>edottilde</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>egrave</key>
     <string>base</string>
     <key>eight</key>
@@ -2304,11 +2304,11 @@
     <key>eng</key>
     <string>base</string>
     <key>eogonacute</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>eogonek</key>
     <string>base</string>
     <key>eogontilde</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>epsilon</key>
     <string>base</string>
     <key>epsilontonos</key>
@@ -2418,7 +2418,7 @@
     <key>iacute</key>
     <string>base</string>
     <key>iacutedot</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>ibreve</key>
     <string>base</string>
     <key>icircumflex</key>
@@ -2428,7 +2428,7 @@
     <key>igrave</key>
     <string>base</string>
     <key>igravedot</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>ij</key>
     <string>base</string>
     <key>imacron</key>
@@ -2450,11 +2450,11 @@
     <key>invsmileface</key>
     <string>base</string>
     <key>iogonacute</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>iogonek</key>
     <string>base</string>
     <key>iogontilde</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>iota</key>
     <string>base</string>
     <key>iotadieresis</key>
@@ -2468,13 +2468,13 @@
     <key>itilde</key>
     <string>base</string>
     <key>itildedot</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>j</key>
     <string>base</string>
     <key>jcircumflex</key>
     <string>base</string>
     <key>jtilde</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>k</key>
     <string>base</string>
     <key>kappa</key>
@@ -2522,7 +2522,7 @@
     <key>lslash</key>
     <string>base</string>
     <key>ltilde</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>ltshade</key>
     <string>base</string>
     <key>m</key>
@@ -2540,7 +2540,7 @@
     <key>minussubnosp</key>
     <string>mark</string>
     <key>mtilde</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>mu</key>
     <string>base</string>
     <key>multiply</key>
@@ -2718,7 +2718,7 @@
     <key>rtblock</key>
     <string>base</string>
     <key>rtilde</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>s</key>
     <string>base</string>
     <key>sacute</key>
@@ -2846,9 +2846,9 @@
     <key>umacron</key>
     <string>base</string>
     <key>umacronacute</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>umacrontilde</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>undercommaaccent</key>
     <string>base</string>
     <key>underscore</key>
@@ -3313,8 +3313,6 @@
     <string>base</string>
     <key>uni2210</key>
     <string>base</string>
-    <key>uni2215</key>
-    <string>base</string>
     <key>uni2216</key>
     <string>base</string>
     <key>uni2219</key>
@@ -3388,79 +3386,79 @@
     <key>uni2666</key>
     <string>base</string>
     <key>uniE023</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEC08</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEC09</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE00</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE01</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE02</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE03</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE04</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE05</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE06</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE07</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE08</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE09</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE0A</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE0B</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE0C</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE0D</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE0E</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE0F</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE10</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE11</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE12</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE13</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE14</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE15</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE16</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE17</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE18</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE19</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE1A</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE1B</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE1C</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEE1D</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEF00</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEF01</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEF02</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEF03</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uniEFB0</key>
     <string>base</string>
     <key>uniEFB1</key>
@@ -3484,8 +3482,6 @@
     <key>uniEFE9</key>
     <string>base</string>
     <key>uniEFEA</key>
-    <string>base</string>
-    <key>uniEFEB</key>
     <string>base</string>
     <key>uniEFEC</key>
     <string>base</string>
@@ -3515,13 +3511,7 @@
     <string>base</string>
     <key>uniEFF9</key>
     <string>base</string>
-    <key>uniEFFD</key>
-    <string>base</string>
-    <key>uniEFFE</key>
-    <string>base</string>
     <key>uniF004</key>
-    <string>base</string>
-    <key>uniF005</key>
     <string>base</string>
     <key>uniF006</key>
     <string>base</string>
@@ -3530,11 +3520,11 @@
     <key>union</key>
     <string>base</string>
     <key>uogonacute</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>uogonek</key>
     <string>base</string>
     <key>uogontilde</key>
-    <string>ligature</string>
+    <string>base</string>
     <key>upblock</key>
     <string>base</string>
     <key>upsilon</key>
