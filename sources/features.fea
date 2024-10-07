@@ -68,6 +68,7 @@ feature ccmp {
         sub I ogoneknosp tildecomb by Iogontilde;
         sub K commasubnosp by Kcommaaccent;
         sub L commasubnosp by Lcommaaccent;
+        sub L commasuprightnosp by Lcaron;
         sub L slashshortnosp by Lslash;
         sub L slashlongnosp by Lslash;
         sub M dotbelowcomb by uni1E42;
@@ -97,12 +98,14 @@ feature ccmp {
         sub a ogoneknosp tildecomb by aogontilde;
         sub c cedillanosp by ccedilla;
         sub d cedillanosp by uni1E11;
+        sub d commasuprightnosp by dcaron;
         sub d dotbelowcomb by uni1E0D;
         sub d macronsubnosp by uni1E0F;
         sub d barmidshortnosp by dcroat;
         sub e ogoneknosp by eogonek;
         sub e ogoneknosp acutecomb by eogonacute;
         sub e ogoneknosp tildecomb by eogontilde;
+        sub g commasubnosp by gcommaaccent;
         sub h barmidlongnosp by hbar;
         sub h dotbelowcomb by uni1E25;
         sub h cedillanosp by uni1E29;
@@ -110,6 +113,7 @@ feature ccmp {
         sub i ogoneknosp dotaccentcomb acutecomb by iogonacute;
         sub i ogoneknosp dotaccentcomb tildecomb by iogontilde;
         sub l commasubnosp by lcommaaccent;
+        sub l commasuprightnosp by lcaron;
         sub l dotaccentcomb by ldot;
         sub l slashshortnosp by lslash;
         sub l slashlongnosp by lslash;
@@ -126,6 +130,7 @@ feature ccmp {
         sub s cedillanosp by scedilla;
         sub s dotbelowcomb by uni1E63;
         sub t cedillanosp by tcommaaccent;
+        sub t commasuprightnosp by tcaron;
         sub t dotbelowcomb by uni1E6D;
         sub t macronsubnosp by uni1E6F;
         sub t barmidshortnosp by tbar;
@@ -184,7 +189,7 @@ feature ccmp {
         sub J tildecomb by Jtilde;
         sub L tildecomb by Ltilde;
         sub L acutecomb by Lacute;
-        sub L commasuprightnosp by Lcaron;
+        sub L haceknosp by Lcaron;
         sub L dotaccentcomb by Ldot;
         sub M tildecomb by Mtilde;
         sub M dotaccentcomb by uni1E40;
@@ -216,7 +221,6 @@ feature ccmp {
         sub U dieresiscomb by Udieresis;
         sub U ringnosp by Uring;
         sub U macroncomb by Umacron;
-        sub U overscorecomb by Umacron;
         sub U acutedblnosp by Uhungarumlaut;
         sub U brevecomb by Ubreve;
         sub U macroncomb acutecomb by Umacronacute;
@@ -247,7 +251,7 @@ feature ccmp {
         sub c haceknosp by ccaron;
         sub c circumflexcomb by ccircumflex;
         sub c dotaccentcomb by cdotaccent;
-        sub d commasuprightnosp by dcaron;
+        sub d haceknosp by dcaron;
         sub e gravecomb by egrave;
         sub e acutecomb by eacute;
         sub e circumflexcomb by ecircumflex;
@@ -260,7 +264,6 @@ feature ccmp {
         sub g circumflexcomb by gcircumflex;
         sub g dotaccentcomb by gdotaccent;
         sub g brevecomb by gbreve;
-        sub g commasubnosp by gcommaaccent;
         sub g commaturnsupnosp by gcommaaccent;
         sub h circumflexcomb by hcircumflex;
         sub h dotaccentcomb by uni1E23;
@@ -279,14 +282,13 @@ feature ccmp {
         sub j circumflexcomb by jcircumflex;
         sub j dotaccentcomb tildecomb by jtilde;
         sub l acutecomb by lacute;
-        sub l commasuprightnosp by lcaron;
+        sub l haceknosp by lcaron;
         sub l tildecomb by ltilde;
         sub m dotaccentcomb by uni1E41;
         sub m tildecomb by mtilde;
         sub n acutecomb by nacute;
         sub n tildecomb by ntilde;
         sub n haceknosp by ncaron;
-        sub n commasuprightnosp by napostrophe;
         sub o gravecomb by ograve;
         sub o acutecomb by oacute;
         sub o circumflexcomb by ocircumflex;
@@ -303,7 +305,7 @@ feature ccmp {
         sub s haceknosp by scaron;
         sub s circumflexcomb by scircumflex;
         sub s dotaccentcomb by uni1E61;
-        sub t commasuprightnosp by tcaron;
+        sub t haceknosp by tcaron;
         sub u gravecomb by ugrave;
         sub u acutecomb by uacute;
         sub u circumflexcomb by ucircumflex;
@@ -311,7 +313,6 @@ feature ccmp {
         sub u dieresiscomb by udieresis;
         sub u ringnosp by uring;
         sub u macroncomb by umacron;
-        sub u overscorecomb by umacron;
         sub u acutedblnosp by uhungarumlaut;
         sub u brevecomb by ubreve;
         sub u macroncomb acutecomb by umacronacute;
@@ -381,5 +382,6 @@ feature liga {
     lookup SubstituteLigatures {
         sub f i by fi;
         sub f l by fl;
+        sub uni02BC n by napostrophe;
     } SubstituteLigatures;
 } liga;
