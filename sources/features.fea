@@ -382,6 +382,8 @@ feature ccmp {
 
 feature liga {
     lookup SubstituteLigatures {
+        sub I J by IJ;
+        sub i j by ij;
         sub f i by fi;
         sub f l by fl;
         sub uni02BC n by napostrophe;
