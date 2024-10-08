@@ -3562,11 +3562,6 @@
     <key>zeta</key>
     <string>base</string>
   </dict>
-  <key>public.postscriptNames</key>
-  <dict>
-    <key>space</key>
-    <string>space</string>
-  </dict>
   <key>public.truetype.instructions</key>
   <dict>
     <key>controlValue</key>
