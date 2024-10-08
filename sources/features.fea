@@ -371,10 +371,12 @@ feature ccmp {
         # A list of characters currently tagged as soft-dotted is available at
         # https://www.unicodecharacter.org/property/Soft_Dotted/Y
         lookupflag UseMarkFilteringSet @COMBINING_MARKS_ABOVE;
-        sub [i afii10103 dotlessi]' dotaccentcomb' by i;
+        sub [i dotlessi]' dotaccentcomb' by i;
+        sub afii10103' dotaccentcomb' by afii10103;
         sub iogonek' dotaccentcomb' by iogonek;
-        sub [i afii10103]' @COMBINING_MARKS_ABOVE by dotlessi;
-        sub iogonek' @COMBINING_MARKS_ABOVE by dotlessi ogoneknosp;
+        sub uni0268' dotaccentcomb' by uni0268;
+        sub [j jdotless]' dotaccentcomb' by j;
+        sub [i afii10103 iogonek uni0268 j]' @COMBINING_MARKS_ABOVE by [dotlessi dotlessi iogonek.dotless uni0268.dotless jdotless];
     } SubstituteSoftDottedCharacters;
 } ccmp;
 

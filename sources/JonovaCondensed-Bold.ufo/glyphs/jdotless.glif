@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="j" format="2">
+<glyph name="jdotless" format="2">
   <advance width="432"/>
-  <unicode hex="006A"/>
+  <unicode hex="0237"/>
   <guideline x="76" y="0" angle="80"/>
-  <anchor x="240" y="1600" name="AccentAbove"/>
+  <anchor x="240" y="1100" name="AccentAbove"/>
   <anchor x="370" y="1200" name="AccentAboveRight"/>
   <anchor x="100" y="-420" name="AccentBelow"/>
   <anchor x="190" y="486" name="AccentOverlay"/>
@@ -24,28 +24,6 @@
       <point x="106" y="-323"/>
       <point x="114" y="-250"/>
       <point x="114" y="-191" type="qcurve"/>
-    </contour>
-    <contour>
-      <point x="110" y="1288" type="qcurve" name="sh01"/>
-      <point x="110" y="1318"/>
-      <point x="128" y="1372"/>
-      <point x="157" y="1411"/>
-      <point x="197" y="1434"/>
-      <point x="220" y="1434" type="qcurve" name="at02"/>
-      <point x="242" y="1434"/>
-      <point x="283" y="1411"/>
-      <point x="312" y="1372"/>
-      <point x="329" y="1318"/>
-      <point x="329" y="1288" type="qcurve" name="sh02"/>
-      <point x="329" y="1258"/>
-      <point x="312" y="1204"/>
-      <point x="283" y="1165"/>
-      <point x="242" y="1142"/>
-      <point x="220" y="1142" type="qcurve" name="sv01"/>
-      <point x="197" y="1142"/>
-      <point x="157" y="1165"/>
-      <point x="128" y="1204"/>
-      <point x="110" y="1258"/>
     </contour>
   </outline>
   <lib>

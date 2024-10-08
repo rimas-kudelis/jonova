@@ -1,51 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0268" format="2">
+<glyph name="jdotless" format="2">
   <advance width="432"/>
-  <unicode hex="0268"/>
-  <guideline x="53" y="0" angle="90"/>
-  <guideline x="378" y="0" angle="90"/>
-  <anchor x="380" y="1600" name="AccentAbove"/>
+  <unicode hex="0237"/>
+  <guideline x="239" y="0" angle="80"/>
+  <anchor x="380" y="1100" name="AccentAbove"/>
   <anchor x="520" y="1200" name="AccentAboveRight"/>
-  <anchor x="218" y="0" name="AccentAttachedBelow"/>
-  <anchor x="100" y="0" name="AccentBelow"/>
+  <anchor x="0" y="-500" name="AccentBelow"/>
   <anchor x="300" y="500" name="AccentOverlay"/>
   <outline>
     <contour>
-      <point x="239" y="974" type="line" name="hr00"/>
-      <point x="410" y="1004" type="line" name="at01"/>
-      <point x="455" y="1004" type="line"/>
-      <point x="401" y="599" type="line"/>
-      <point x="503" y="599" type="line" name="sh01"/>
-      <point x="484" y="460" type="line"/>
-      <point x="383" y="466" type="line"/>
-      <point x="322" y="0" type="line" name="ab01"/>
-      <point x="110" y="0" type="line"/>
-      <point x="173" y="480" type="line"/>
-      <point x="87" y="487" type="line"/>
-      <point x="102" y="599" type="line"/>
-      <point x="189" y="599" type="line"/>
-    </contour>
-    <contour>
-      <point x="281" y="1318" type="qcurve" name="dh01"/>
-      <point x="281" y="1348"/>
-      <point x="298" y="1402"/>
-      <point x="327" y="1441"/>
-      <point x="368" y="1464"/>
-      <point x="390" y="1464" type="qcurve" name="at02"/>
-      <point x="413" y="1464"/>
-      <point x="453" y="1441"/>
-      <point x="482" y="1402"/>
-      <point x="500" y="1348"/>
-      <point x="500" y="1318" type="qcurve" name="dh02"/>
-      <point x="500" y="1288"/>
-      <point x="482" y="1234"/>
-      <point x="453" y="1195"/>
-      <point x="413" y="1172"/>
-      <point x="390" y="1172" type="qcurve" name="sv01"/>
-      <point x="368" y="1172"/>
-      <point x="327" y="1195"/>
-      <point x="298" y="1234"/>
-      <point x="281" y="1288"/>
+      <point x="242" y="974" type="line" name="hr00"/>
+      <point x="413" y="1004" type="line" name="at01"/>
+      <point x="458" y="1004" type="line"/>
+      <point x="315" y="-76" type="line"/>
+      <point x="300" y="-191"/>
+      <point x="246" y="-349"/>
+      <point x="161" y="-447"/>
+      <point x="43" y="-490"/>
+      <point x="-37" y="-490" type="qcurve" name="ab01"/>
+      <point x="-22" y="-378" type="line"/>
+      <point x="3" y="-378"/>
+      <point x="38" y="-363"/>
+      <point x="63" y="-323"/>
+      <point x="81" y="-250"/>
+      <point x="89" y="-191" type="qcurve"/>
     </contour>
   </outline>
   <lib>
@@ -59,10 +37,10 @@
             <string>hr00</string>
             <key>stems</key>
             <array>
-              <string>hstem 21 -21</string>
+              <string>hstem -469 -21</string>
               <string>hstem 1004 -20</string>
-              <string>hstem 1172 292</string>
-              <string>vstem 281 219</string>
+              <string>hstem 1142 292</string>
+              <string>vstem 280 219</string>
             </array>
           </dict>
         </array>
@@ -70,13 +48,12 @@
       <key>com.fontlab.ttprogram</key>
       <string>  &lt;ttProgram&gt;
     &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 212"/&gt;
-    &lt;ttc code="singleh" point1="dh02" point2="sh01" align="round"/&gt;
     &lt;ttc code="mdeltah" point="dh01" delta="3" ppm1="13" ppm2="14"/&gt;
     &lt;ttc code="mdeltah" point="dh01" delta="2" ppm1="9" ppm2="12"/&gt;
     &lt;ttc code="singleh" point1="dh02" point2="rsb" round="true"/&gt;
     &lt;ttc code="alignt" point="at01" zone="t: 0"/&gt;
     &lt;ttc code="alignt" point="at02" zone="t: 1"/&gt;
-    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 1"/&gt;
     &lt;ttc code="singlev" point1="at02" point2="sv01" stem="T1 H: 282"/&gt;
     &lt;ttc code="mdeltav" point="sv01" delta="1" ppm1="9" ppm2="10"/&gt;
   &lt;/ttProgram&gt;
@@ -86,28 +63,19 @@
         <key>assembly</key>
         <string>
 PUSHW[ ]	/* 4 values pushed */
-23 8 13 4
+25 8 15 4
 CALL[ ]	/* CallFunction */
-PUSHW[ ]	/* 1 value pushed */
-23
-SRP0[ ]	/* SetRefPoint0 */
-PUSHW[ ]	/* 1 value pushed */
-4
-MDRP[10000]	/* MoveDirectRelPt */
-PUSHW[ ]	/* 1 value pushed */
-4
-MDAP[1]	/* MoveDirectAbsPt */
 NPUSHW[ ]	/* 5 values pushed */
-74 13 90 13 2
+74 15 90 15 2
 DELTAP1[ ]	/* DeltaExceptionP1 */
 NPUSHW[ ]	/* 9 values pushed */
-9 13 25 13 41 13 57 13 4
+9 15 25 15 41 15 57 15 4
 DELTAP1[ ]	/* DeltaExceptionP1 */
 PUSHW[ ]	/* 1 value pushed */
-23
+25
 SRP0[ ]	/* SetRefPoint0 */
 PUSHW[ ]	/* 1 value pushed */
-34
+36
 MDRP[11100]	/* MoveDirectRelPt */
 SVTCA[0]	/* SetFPVectorToAxis */
 PUSHW[ ]	/* 1 value pushed */
@@ -127,11 +95,11 @@ PUSHW[ ]	/* 1 value pushed */
 RCVT[ ]	/* ReadCVT */
 IF[ ]	/* If */
   PUSHW[ ]	/* 1 value pushed */
-  18
+  20
   MDAP[1]	/* MoveDirectAbsPt */
 ELSE[ ]	/* Else */
   PUSHW[ ]	/* 2 values pushed */
-  18 19
+  20 19
   MIAP[0]	/* MoveIndirectAbsPt */
 EIF[ ]	/* EndIf */
 PUSHW[ ]	/* 1 value pushed */
@@ -139,21 +107,21 @@ PUSHW[ ]	/* 1 value pushed */
 RCVT[ ]	/* ReadCVT */
 IF[ ]	/* If */
   PUSHW[ ]	/* 1 value pushed */
-  7
+  8
   MDAP[1]	/* MoveDirectAbsPt */
 ELSE[ ]	/* Else */
   PUSHW[ ]	/* 2 values pushed */
-  7 11
+  8 13
   MIAP[0]	/* MoveIndirectAbsPt */
 EIF[ ]	/* EndIf */
 PUSHW[ ]	/* 1 value pushed */
-18
+20
 SRP0[ ]	/* SetRefPoint0 */
 PUSHW[ ]	/* 2 values pushed */
-28 5
+30 5
 MIRP[10100]	/* MoveIndirectRelPt */
 NPUSHW[ ]	/* 5 values pushed */
-8 28 24 28 2
+8 30 24 30 2
 DELTAP1[ ]	/* DeltaExceptionP1 */
 IUP[0]	/* InterpolateUntPts */
 IUP[1]	/* InterpolateUntPts */
@@ -161,7 +129,7 @@ IUP[1]	/* InterpolateUntPts */
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>2e8641f773edb669c4e6ae55b18d502ae269b195df760411e083586b6b50d875f048dfbe89f60bdefd7a7853e91e8747042bc9875c29b271f67e708052c6fc12</string>
+        <string>e370d4dc6445080a2089b80a6cd4b629284aa366572bc89afd37661f563298277ff1de06c4900b57cfc78e649617312a010cbea15c6e4a78d7dab3551fcc68ba</string>
       </dict>
     </dict>
   </lib>

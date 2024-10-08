@@ -485,6 +485,7 @@
     <string>ibreve</string>
     <string>Iogonek</string>
     <string>iogonek</string>
+    <string>iogonek.dotless</string>
     <string>Idotaccent</string>
     <string>dotlessi</string>
     <string>IJ</string>
@@ -575,6 +576,7 @@
     <string>oslashacute</string>
     <string>Adotabove</string>
     <string>adotabove</string>
+    <string>jdotless</string>
     <string>uni0250</string>
     <string>uni0251</string>
     <string>uni0252</string>
@@ -600,6 +602,7 @@
     <string>uni0266</string>
     <string>uni0267</string>
     <string>uni0268</string>
+    <string>uni0268.dotless</string>
     <string>uni0269</string>
     <string>uni026A</string>
     <string>uni026B</string>
@@ -2420,6 +2423,8 @@
     <string>base</string>
     <key>iogonek</key>
     <string>base</string>
+    <key>iogonek.dotless</key>
+    <string>base</string>
     <key>iogontilde</key>
     <string>base</string>
     <key>iota</key>
@@ -2439,6 +2444,8 @@
     <key>j</key>
     <string>base</string>
     <key>jcircumflex</key>
+    <string>base</string>
+    <key>jdotless</key>
     <string>base</string>
     <key>jtilde</key>
     <string>base</string>
@@ -2881,6 +2888,8 @@
     <key>uni0267</key>
     <string>base</string>
     <key>uni0268</key>
+    <string>base</string>
+    <key>uni0268.dotless</key>
     <string>base</string>
     <key>uni0269</key>
     <string>base</string>

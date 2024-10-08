@@ -1,44 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0268" format="2">
+<glyph name="uni0268.dotless" format="2">
   <advance width="576"/>
-  <unicode hex="0268"/>
   <guideline x="0" y="487" angle="356.7"/>
   <guideline x="62" y="0" angle="90"/>
   <guideline x="513" y="0" angle="90"/>
-  <anchor x="288" y="1600" name="AccentAbove"/>
-  <anchor x="438" y="1200" name="AccentAboveRight"/>
-  <anchor x="288" y="0" name="AccentAttachedBelow"/>
+  <anchor x="568" y="1100" name="AccentAbove"/>
+  <anchor x="538" y="1200" name="AccentAboveRight"/>
+  <anchor x="318" y="0" name="AccentAttachedBelow"/>
   <anchor x="288" y="0" name="AccentBelow"/>
   <anchor x="288" y="486" name="AccentOverlay"/>
   <outline>
     <contour>
-      <point x="41" y="589" type="line" name="hr00"/>
-      <point x="207" y="589" type="line" name="dh01"/>
-      <point x="207" y="974" type="line"/>
-      <point x="338" y="1004" type="line" name="at02"/>
-      <point x="369" y="1004" type="line"/>
-      <point x="369" y="589" type="line" name="dh02"/>
-      <point x="551" y="589" type="line"/>
-      <point x="528" y="457" type="line" name="sv02"/>
-      <point x="369" y="466" type="line" name="sh01"/>
-      <point x="369" y="0" type="line" name="ab01"/>
-      <point x="207" y="0" type="line" name="sh02"/>
-      <point x="207" y="476" type="line" name="sv01"/>
-      <point x="23" y="487" type="line"/>
-    </contour>
-    <contour>
-      <point x="192" y="1338" type="qcurve" name="sh03"/>
-      <point x="192" y="1378"/>
-      <point x="248" y="1434"/>
-      <point x="288" y="1434" type="qcurve" name="at01"/>
-      <point x="328" y="1434"/>
-      <point x="384" y="1378"/>
-      <point x="384" y="1338" type="qcurve" name="sh04"/>
-      <point x="384" y="1298"/>
-      <point x="328" y="1242"/>
-      <point x="288" y="1242" type="qcurve" name="sv03"/>
-      <point x="248" y="1242"/>
-      <point x="192" y="1298"/>
+      <point x="144" y="589" type="line" name="sh02"/>
+      <point x="310" y="589" type="line" name="sh01"/>
+      <point x="378" y="974" type="line"/>
+      <point x="516" y="1004" type="line" name="at01"/>
+      <point x="546" y="1004" type="line"/>
+      <point x="473" y="589" type="line" name="sh03"/>
+      <point x="631" y="589" type="line" name="sh04"/>
+      <point x="608" y="457" type="line" name="sv02"/>
+      <point x="451" y="466" type="line"/>
+      <point x="369" y="0" type="line" name="dh02"/>
+      <point x="207" y="0" type="line" name="dh01"/>
+      <point x="290" y="476" type="line" name="sv01"/>
+      <point x="125" y="487" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -49,14 +34,14 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hr00</string>
+            <string>sh02</string>
             <key>stems</key>
             <array>
               <string>hstem 21 -21</string>
-              <string>hstem 485 104</string>
+              <string>hstem 481 108</string>
               <string>hstem 1004 -20</string>
-              <string>hstem 1434 -20</string>
-              <string>vstem 207 162</string>
+              <string>hstem 1242 192</string>
+              <string>vstem 427 192</string>
             </array>
           </dict>
         </array>
@@ -64,18 +49,22 @@
       <key>com.fontlab.ttprogram</key>
       <string>  &lt;ttProgram&gt;
     &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 162"/&gt;
-    &lt;ttc code="singleh" point1="dh02" point2="sh01"/&gt;
-    &lt;ttc code="singleh" point1="dh01" point2="sh02"/&gt;
-    &lt;ttc code="singleh" point1="dh01" point2="sh03"/&gt;
-    &lt;ttc code="singleh" point1="sh03" point2="sh04" stem="X: 192"/&gt;
-    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
-    &lt;ttc code="alignt" point="at02" zone="t: 0"/&gt;
-    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
-    &lt;ttc code="interpolatev" point="dh01" point1="at02" point2="ab01"/&gt;
-    &lt;ttc code="singlev" point1="dh01" point2="dh02"/&gt;
-    &lt;ttc code="singlev" point1="dh01" point2="sv01" stem="Y: 122"/&gt;
+    &lt;ttc code="singleh" point1="dh01" point2="sh01"/&gt;
+    &lt;ttc code="singleh" point1="sh01" point2="sh02" stem="X: 162"/&gt;
+    &lt;ttc code="singleh" point1="sh01" point2="sh03" stem="X: 162"/&gt;
+    &lt;ttc code="singleh" point1="sh03" point2="sh04" stem="X: 162"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="sh05"/&gt;
+    &lt;ttc code="singleh" point1="sh05" point2="sh06" stem="X: 192"/&gt;
+    &lt;ttc code="singleh" point1="sh06" point2="rsb"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 0"/&gt;
+    &lt;ttc code="alignt" point="at02" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="dh02" zone="b: 0"/&gt;
+    &lt;ttc code="interpolatev" point="sh01" point1="at01" point2="dh02"/&gt;
+    &lt;ttc code="singlev" point1="sh01" point2="sh03"/&gt;
+    &lt;ttc code="singlev" point1="sh01" point2="sv01" stem="Y: 122"/&gt;
     &lt;ttc code="singlev" point1="sv01" point2="sv02"/&gt;
-    &lt;ttc code="singlev" point1="at01" point2="sv03" stem="Y: 246"/&gt;
+    &lt;ttc code="mdeltav" point="sv02" delta="2" ppm1="13" ppm2="13"/&gt;
+    &lt;ttc code="singlev" point1="at02" point2="sv03" stem="Y: 142"/&gt;
   &lt;/ttProgram&gt;
 </string>
       <key>public.truetype.instructions</key>
@@ -83,42 +72,39 @@
         <key>assembly</key>
         <string>
 PUSHW[ ]	/* 4 values pushed */
-5 6 1 4
+9 7 10 4
 CALL[ ]	/* CallFunction */
 PUSHW[ ]	/* 1 value pushed */
-5
-SRP0[ ]	/* SetRefPoint0 */
-PUSHW[ ]	/* 1 value pushed */
-8
-MDRP[10000]	/* MoveDirectRelPt */
-PUSHW[ ]	/* 1 value pushed */
-1
-SRP0[ ]	/* SetRefPoint0 */
-PUSHW[ ]	/* 1 value pushed */
 10
-MDRP[10000]	/* MoveDirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
 PUSHW[ ]	/* 1 value pushed */
 1
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 2 values pushed */
+0 7
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+1
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+5 7
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 2 values pushed */
+6 7
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+9
 SRP0[ ]	/* SetRefPoint0 */
 PUSHW[ ]	/* 1 value pushed */
 13
 MDRP[10000]	/* MoveDirectRelPt */
 PUSHW[ ]	/* 2 values pushed */
-19 7
+19 8
 MIRP[10100]	/* MoveIndirectRelPt */
-SVTCA[0]	/* SetFPVectorToAxis */
 PUSHW[ ]	/* 1 value pushed */
-0
-RCVT[ ]	/* ReadCVT */
-IF[ ]	/* If */
-  PUSHW[ ]	/* 1 value pushed */
-  16
-  MDAP[1]	/* MoveDirectAbsPt */
-ELSE[ ]	/* Else */
-  PUSHW[ ]	/* 2 values pushed */
-  16 17
-  MIAP[0]	/* MoveIndirectAbsPt */
-EIF[ ]	/* EndIf */
+26
+MDRP[10000]	/* MoveDirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
 PUSHW[ ]	/* 1 value pushed */
 0
 RCVT[ ]	/* ReadCVT */
@@ -128,7 +114,19 @@ IF[ ]	/* If */
   MDAP[1]	/* MoveDirectAbsPt */
 ELSE[ ]	/* Else */
   PUSHW[ ]	/* 2 values pushed */
-  3 15
+  3 16
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  16
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  16 18
   MIAP[0]	/* MoveIndirectAbsPt */
 EIF[ ]	/* EndIf */
 PUSHW[ ]	/* 1 value pushed */
@@ -140,7 +138,7 @@ IF[ ]	/* If */
   MDAP[1]	/* MoveDirectAbsPt */
 ELSE[ ]	/* Else */
   PUSHW[ ]	/* 2 values pushed */
-  9 9
+  9 10
   MIAP[0]	/* MoveIndirectAbsPt */
 EIF[ ]	/* EndIf */
 PUSHW[ ]	/* 3 values pushed */
@@ -163,11 +161,14 @@ MIRP[10100]	/* MoveIndirectRelPt */
 PUSHW[ ]	/* 1 value pushed */
 7
 MDRP[10000]	/* MoveDirectRelPt */
+NPUSHW[ ]	/* 3 values pushed */
+73 7 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
 PUSHW[ ]	/* 1 value pushed */
 16
 SRP0[ ]	/* SetRefPoint0 */
 PUSHW[ ]	/* 2 values pushed */
-22 3
+22 4
 MIRP[10100]	/* MoveIndirectRelPt */
 IUP[0]	/* InterpolateUntPts */
 IUP[1]	/* InterpolateUntPts */
@@ -175,7 +176,7 @@ IUP[1]	/* InterpolateUntPts */
         <key>formatVersion</key>
         <string>1</string>
         <key>id</key>
-        <string>59b07527f9d168074474176cf5ce8554d623519462cf168370b082dbf8ce8b8298bb865e4783844aeee07619db31c640fb22173154954b6631b2c4ed779bb8c8</string>
+        <string>823f711353845ecca19b367900674da3417980bcd28d29a51110a00cb26f3abf01ac3c5da20e63a43b27aef8bfef7a8cba0fd63b379b075ad888202d7a22a9eb</string>
       </dict>
     </dict>
   </lib>

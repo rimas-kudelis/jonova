@@ -1072,6 +1072,8 @@
   <string>iogonacute.glif</string>
   <key>iogonek</key>
   <string>iogonek.glif</string>
+  <key>iogonek.dotless</key>
+  <string>iogonek.dotless.glif</string>
   <key>iogontilde</key>
   <string>iogontilde.glif</string>
   <key>iota</key>
@@ -1092,6 +1094,8 @@
   <string>j.glif</string>
   <key>jcircumflex</key>
   <string>jcircumflex.glif</string>
+  <key>jdotless</key>
+  <string>jdotless.glif</string>
   <key>jtilde</key>
   <string>jtilde.glif</string>
   <key>k</key>
@@ -1538,6 +1542,8 @@
   <string>uni0267.glif</string>
   <key>uni0268</key>
   <string>uni0268.glif</string>
+  <key>uni0268.dotless</key>
+  <string>uni0268.dotless.glif</string>
   <key>uni0269</key>
   <string>uni0269.glif</string>
   <key>uni026A</key>
