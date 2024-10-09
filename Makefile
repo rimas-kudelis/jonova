@@ -67,6 +67,29 @@ proof-jonova: venv build.stamp
 proof-jonova-condensed: venv build.stamp
 	TOCHECK=$$(find fonts/variable -type f -name "JonovaCondensed-*" 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f -name "JonovaCondensed-*" 2>/dev/null); fi ; . venv/bin/activate; mkdir -p out/proof/JonovaCondensed; diffenator2 proof $$TOCHECK -o out/proof/JonovaCondensed
 
+# The following four targets are likely temporary. They're meant to diffenate the font
+# produced from current status of the main branch against Fotonija's last release.
+# In future, this could probably be reworked to diff a PR against current parent branch.
+diff: diff-jonova diff-jonova-condensed
+
+diff-jonova: venv build.stamp jonova-2.032
+	TOCHECK=$$(find fonts/variable -type f -name "Jonova-*" 2>/dev/null); \
+	if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f -name "Jonova-*" 2>/dev/null); fi; \
+	. venv/bin/activate; \
+	mkdir -p out/proof/Jonova; \
+	diffenator2 diff --imgs --debug-gifs --fonts-before jonova-2.032/Jonova/*.ttf --fonts-after $$TOCHECK --out out/proof/Jonova
+
+diff-jonova-condensed: venv build.stamp
+	TOCHECK=$$(find fonts/variable -type f -name "JonovaCondensed-*" 2>/dev/null); \
+	if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f -name "JonovaCondensed-*" 2>/dev/null); fi; \
+	. venv/bin/activate; \
+	mkdir -p out/proof/JonovaCondensed; \
+	diffenator2 diff --imgs --debug-gifs --fonts-before jonova-2.032/JonovaCondensed/*.ttf --fonts-after $$TOCHECK --out out/proof/JonovaCondensed
+
+jonova-2.032:
+	curl -L https://github.com/rimas-kudelis/jonova/archive/refs/tags/v2.032.tar.gz -o- | tar -xz
+	mv "jonova-2.032/Jonova Condensed" jonova-2.032/JonovaCondensed
+
 images: venv $(DRAWBOT_OUTPUT)
 
 %.png: %.py build.stamp
