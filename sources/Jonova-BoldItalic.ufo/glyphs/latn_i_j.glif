@@ -2,6 +2,7 @@
 <glyph name="latn:i_j" format="2">
   <advance width="1024"/>
   <unicode hex="0133"/>
+  <anchor x="510" y="0" name="caret_1"/>
   <outline>
     <component base="latn:j" xOffset="450" identifier="component0"/>
     <component base="latn:i" identifier="component1"/>
