@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="latn:tdotbelow" format="2">
+  <advance width="576"/>
+  <unicode hex="1E6D"/>
+  <outline>
+    <component base="latn:t" identifier="component0"/>
+    <component base="sign:dotaccent" xOffset="20" yOffset="-1599" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="mdeltav" point="sv01-1" delta="-8" ppm1="11" ppm2="12"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+NPUSHW[ ]	/* 5 values pushed */
+32 28 48 28 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>c72df4cf08154391db09fc84fcc4d0aaa04bf6ace07a14818c041469e15f9b4c2366ea0002608838d5b6721e4eb2a69fb4e4f5dea83fc2100d4fc4d2825821fa</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cyrl:Tshe" format="2">
+  <advance width="1440"/>
+  <unicode hex="040B"/>
+  <outline>
+    <contour>
+      <point x="284" y="1434" type="line" name="hr00"/>
+      <point x="1372" y="1434" type="line"/>
+      <point x="1347" y="1292" type="line"/>
+      <point x="898" y="1312" type="line"/>
+      <point x="834" y="948" type="line"/>
+      <point x="1049" y="948" type="line"/>
+      <point x="1162" y="948"/>
+      <point x="1316" y="888"/>
+      <point x="1411" y="787"/>
+      <point x="1453" y="656"/>
+      <point x="1453" y="586" type="qcurve"/>
+      <point x="1453" y="537"/>
+      <point x="1444" y="489" type="qcurve"/>
+      <point x="1358" y="0" type="line"/>
+      <point x="1176" y="0" type="line"/>
+      <point x="1262" y="489" type="line"/>
+      <point x="1271" y="540"/>
+      <point x="1271" y="585" type="qcurve"/>
+      <point x="1271" y="700"/>
+      <point x="1141" y="826"/>
+      <point x="1003" y="826" type="qcurve"/>
+      <point x="812" y="826" type="line"/>
+      <point x="667" y="0" type="line"/>
+      <point x="485" y="0" type="line"/>
+      <point x="716" y="1312" type="line"/>
+      <point x="259" y="1292" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 21 -21</string>
+              <string>hstem 826 122</string>
+              <string>hstem 1302 132</string>
+              <string>vstem 1271 182</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+10 8 17 4
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 5 values pushed */
+138 17 154 17 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 17 values pushed */
+9 17 25 17 41 17 57 17 73 17 89 17 105 17 121 17 8
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 1 value pushed */
+10
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+27
+MDRP[11100]	/* MoveDirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  13
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  13 10
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  22
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  22 10
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 4 values pushed */
+5 2 20 4
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>6390a7df8b421de912342afbaf50f7372c1973f440107eb877833e14a31194e9f8a7bb75debeff7a645cd4f8ccdcb4fbe314636db6b6a52d9f0c647f0c02f6f5</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

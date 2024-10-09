@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="latn:Umacron" format="2">
+  <advance width="1128"/>
+  <unicode hex="016A"/>
+  <guideline x="0" y="454" angle="0"/>
+  <guideline x="547" y="0" angle="90"/>
+  <anchor x="880" y="1800" name="AccentAbove"/>
+  <anchor x="1150" y="1600" name="AccentAboveRight"/>
+  <outline>
+    <component base="latn:U" identifier="component0"/>
+    <component base="sign:macronmod" xOffset="383" yOffset="460" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <false/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <false/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

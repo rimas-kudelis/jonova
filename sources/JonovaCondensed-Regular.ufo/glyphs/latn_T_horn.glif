@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="latn:Thorn" format="2">
+  <advance width="864"/>
+  <unicode hex="00DE"/>
+  <outline>
+    <contour>
+      <point x="137" y="1434" type="line" name="hr00"/>
+      <point x="273" y="1434" type="line"/>
+      <point x="273" y="1126" type="line"/>
+      <point x="420" y="1126" type="line"/>
+      <point x="527" y="1126"/>
+      <point x="679" y="1062"/>
+      <point x="774" y="951"/>
+      <point x="818" y="802"/>
+      <point x="818" y="717" type="qcurve"/>
+      <point x="818" y="632"/>
+      <point x="774" y="483"/>
+      <point x="679" y="372"/>
+      <point x="527" y="308"/>
+      <point x="420" y="308" type="qcurve"/>
+      <point x="273" y="308" type="line"/>
+      <point x="273" y="0" type="line"/>
+      <point x="137" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="273" y="1024" type="line"/>
+      <point x="273" y="410" type="line"/>
+      <point x="401" y="410" type="line"/>
+      <point x="470" y="410"/>
+      <point x="573" y="455"/>
+      <point x="641" y="536"/>
+      <point x="674" y="649"/>
+      <point x="674" y="717" type="qcurve"/>
+      <point x="674" y="785"/>
+      <point x="641" y="898"/>
+      <point x="573" y="979"/>
+      <point x="470" y="1024"/>
+      <point x="401" y="1024" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 21 -21</string>
+              <string>hstem 308 102</string>
+              <string>hstem 1024 102</string>
+              <string>hstem 1434 -20</string>
+              <string>vstem 137 136</string>
+              <string>vstem 674 144</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 1 value pushed */
+30
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+31
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+30
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+16
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 2 values pushed */
+15 5
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+2
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+31
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+8
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+15
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+18
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+8
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+24 5
+MIRP[10100]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  0
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  0 17
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  15
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  15 9
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 4 values pushed */
+19 1 13 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+2 1 17 4
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>39eb540bc203bb61779be7a0a4f5450dda0149fd38ef91c575c08c07a22666e24f8b522005acdcdc0b4ed85b9de9a07616e0d929c775cf96caf558dee9602282</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

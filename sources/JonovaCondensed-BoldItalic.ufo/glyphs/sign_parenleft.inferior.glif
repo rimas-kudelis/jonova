@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sign:parenleft.inferior" format="2">
+  <advance width="552"/>
+  <unicode hex="208D"/>
+  <outline>
+    <contour>
+      <point x="521" y="1004" type="qcurve" name="at01"/>
+      <point x="512" y="940" type="line"/>
+      <point x="453" y="877"/>
+      <point x="371" y="709"/>
+      <point x="319" y="520"/>
+      <point x="296" y="322"/>
+      <point x="296" y="230" type="qcurve" name="dh02"/>
+      <point x="296" y="128"/>
+      <point x="329" y="-43"/>
+      <point x="374" y="-105" type="qcurve"/>
+      <point x="366" y="-168" type="line" name="av01"/>
+      <point x="327" y="-131"/>
+      <point x="260" y="-39"/>
+      <point x="210" y="69"/>
+      <point x="182" y="194"/>
+      <point x="182" y="265" type="qcurve" name="dh01"/>
+      <point x="182" y="382"/>
+      <point x="233" y="603"/>
+      <point x="324" y="795"/>
+      <point x="448" y="951"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -147 -21</string>
+              <string>hstem 1004 -20</string>
+              <string>vstem 182 114</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 142"/&gt;
+    &lt;ttc code="mdeltah" point="dh02" delta="-2" ppm1="9" ppm2="19"/&gt;
+    &lt;ttc code="mdeltah" point="dh02" delta="-3" ppm1="20" ppm2="21"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 0"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+6 9 15 4
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 23 values pushed */
+6 6 22 6 38 6 54 6 70 6 86 6 102 6 118 6 134 6 150 6 166 6 11
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 5 values pushed */
+181 6 197 6 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+10
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  0
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  0 17
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>4a94dae41860fa114379d4049da2856fe577bd7551812f6701f162e6b64d04d464d1d4e6160828d509cdf027ad1e8384619e08372ea7f3685f63c7bdcd59aff7</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

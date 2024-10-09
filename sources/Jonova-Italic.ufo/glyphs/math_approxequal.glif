@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="math:approxequal" format="2">
+  <advance width="1024"/>
+  <unicode hex="2248"/>
+  <outline>
+    <contour>
+      <point x="118" y="671" type="line" name="hr00"/>
+      <point x="163" y="698"/>
+      <point x="235" y="730"/>
+      <point x="299" y="747"/>
+      <point x="358" y="753"/>
+      <point x="388" y="753" type="qcurve" name="dv02"/>
+      <point x="440" y="753"/>
+      <point x="524" y="728"/>
+      <point x="598" y="692"/>
+      <point x="666" y="648"/>
+      <point x="738" y="612" name="hr01"/>
+      <point x="820" y="587"/>
+      <point x="871" y="587" type="qcurve" name="dv04"/>
+      <point x="913" y="587"/>
+      <point x="988" y="602"/>
+      <point x="1055" y="626"/>
+      <point x="1115" y="656"/>
+      <point x="1142" y="671" type="qcurve" name="iv01"/>
+      <point x="1120" y="547" type="line"/>
+      <point x="1047" y="504"/>
+      <point x="919" y="465"/>
+      <point x="849" y="465" type="qcurve" name="dv03"/>
+      <point x="797" y="465"/>
+      <point x="713" y="490"/>
+      <point x="639" y="526"/>
+      <point x="571" y="570"/>
+      <point x="497" y="606"/>
+      <point x="417" y="631"/>
+      <point x="367" y="631" type="qcurve" name="dv01"/>
+      <point x="288" y="631"/>
+      <point x="161" y="587"/>
+      <point x="96" y="547" type="qcurve" name="iv02"/>
+    </contour>
+    <contour>
+      <point x="75" y="427" type="line"/>
+      <point x="120" y="454"/>
+      <point x="192" y="486"/>
+      <point x="256" y="503"/>
+      <point x="315" y="509"/>
+      <point x="345" y="509" type="qcurve" name="sv01"/>
+      <point x="397" y="509"/>
+      <point x="481" y="484"/>
+      <point x="554" y="448"/>
+      <point x="623" y="404"/>
+      <point x="695" y="368"/>
+      <point x="777" y="343"/>
+      <point x="828" y="343" type="qcurve" name="sv02"/>
+      <point x="870" y="343"/>
+      <point x="945" y="358"/>
+      <point x="1012" y="382"/>
+      <point x="1072" y="412"/>
+      <point x="1099" y="427" type="qcurve" name="iv03"/>
+      <point x="1077" y="303" type="line"/>
+      <point x="1004" y="260"/>
+      <point x="876" y="221"/>
+      <point x="806" y="221" type="qcurve" name="sv04"/>
+      <point x="754" y="221"/>
+      <point x="670" y="246"/>
+      <point x="596" y="282"/>
+      <point x="528" y="326"/>
+      <point x="454" y="362"/>
+      <point x="374" y="387"/>
+      <point x="324" y="387" type="qcurve" name="sv03"/>
+      <point x="245" y="387"/>
+      <point x="118" y="343"/>
+      <point x="53" y="303" type="qcurve" name="iv04"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 221 122</string>
+              <string>hstem 387 122</string>
+              <string>hstem 631 122</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 221 122</string>
+              <string>hstem 465 122</string>
+              <string>hstem 631 122</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 122"/&gt;
+    &lt;ttc code="doublev" point1="dv03" point2="dv04" stem="Y: 122"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="dv01" point2="dv02"/&gt;
+    &lt;ttc code="interpolatev" point="iv02" point1="dv03" point2="dv04"/&gt;
+    &lt;ttc code="singlev" point1="dv01" point2="sv01" round="true"/&gt;
+    &lt;ttc code="singlev" point1="dv03" point2="sv02" round="true"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv03" stem="Y: 122"/&gt;
+    &lt;ttc code="interpolatev" point="iv03" point1="sv03" point2="sv01"/&gt;
+    &lt;ttc code="singlev" point1="sv02" point2="sv04" stem="Y: 122"/&gt;
+    &lt;ttc code="interpolatev" point="iv04" point1="sv04" point2="sv02"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 4 values pushed */
+5 2 28 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+12 2 21 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+17 28 5
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 3 values pushed */
+31 21 12
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 1 value pushed */
+28
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+37
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+21
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+44
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+37
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+60 2
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 3 values pushed */
+49 60 37
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 1 value pushed */
+44
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+53 2
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 3 values pushed */
+63 53 44
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>b708f093d5bbe4e5e4ba2eba48cce1c78d81fb89b28711a4a9eed73cc36dfa8aa5845a40a0de252069e22431689ad2bb3982cce3ffee0925fdbfb7cba601c5bd</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="latn:k" format="2">
+  <advance width="768"/>
+  <unicode hex="006B"/>
+  <guideline x="0" y="13" angle="45"/>
+  <guideline x="0" y="202" angle="45"/>
+  <guideline x="0" y="617" angle="0"/>
+  <guideline x="768" y="0" angle="120"/>
+  <guideline x="536" y="0" angle="120"/>
+  <guideline x="1268" y="0" angle="90"/>
+  <anchor x="420" y="1600" name="AccentAbove"/>
+  <anchor x="550" y="1400" name="AccentAboveRight"/>
+  <anchor x="300" y="0" name="AccentBelow"/>
+  <anchor x="514" y="486" name="AccentOverlay"/>
+  <outline>
+    <contour>
+      <point x="768" y="0" type="line" name="ab02"/>
+      <point x="551" y="-30" type="line" name="ab01"/>
+      <point x="337" y="463" type="line" name="iv01"/>
+      <point x="287" y="396" type="line"/>
+      <point x="287" y="0" type="line" name="dh02"/>
+      <point x="75" y="0" type="line" name="dh01"/>
+      <point x="75" y="1464" type="line"/>
+      <point x="242" y="1494" type="line" name="av01"/>
+      <point x="287" y="1494" type="line" name="sh01"/>
+      <point x="287" y="582" type="line" name="iv02"/>
+      <point x="602" y="1004" type="line"/>
+      <point x="721" y="973" type="line" name="iv03"/>
+      <point x="484" y="658" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>ab02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -9 -21</string>
+              <string>hstem 21 -21</string>
+              <string>hstem 1494 -20</string>
+              <string>vstem 75 212</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 212"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="sh01"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="alignb" point="ab02" zone="b: 0"/&gt;
+    &lt;ttc code="alignb" point="dh02" zone="b: 0"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="ab01" point2="av01"/&gt;
+    &lt;ttc code="interpolatev" point="iv02" point1="ab01" point2="av01"/&gt;
+    &lt;ttc code="interpolatev" point="iv03" point1="ab01" point2="av01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+4 8 5 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+4
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+8
+MDRP[10000]	/* MoveDirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+7
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  1
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  1 11
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  0
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  0 11
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  4
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  4 11
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 3 values pushed */
+2 1 7
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 3 values pushed */
+9 1 7
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 3 values pushed */
+11 1 7
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w768l768+0l551-30l337+463l287+396l287+0l75+0l75+1464l242+1494l287+1494l287+582l602+1004l721+973l484+658|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

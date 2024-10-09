@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sign:daggerdbl" format="2">
+  <advance width="1024"/>
+  <unicode hex="2021"/>
+  <guideline x="0" y="953" angle="0"/>
+  <outline>
+    <contour>
+      <point x="632" y="1464" type="line" name="at01"/>
+      <point x="766" y="1444" type="line"/>
+      <point x="908" y="1464" type="line" name="at02"/>
+      <point x="804" y="1043" type="line" name="sh01"/>
+      <point x="1131" y="1064" type="line" name="sv02"/>
+      <point x="1092" y="953" type="line"/>
+      <point x="1092" y="842" type="line" name="sv03"/>
+      <point x="772" y="861" type="line" name="dh02"/>
+      <point x="754" y="593" type="line"/>
+      <point x="678" y="325" type="line" name="sh02"/>
+      <point x="1004" y="344" type="line" name="sv05"/>
+      <point x="965" y="233" type="line"/>
+      <point x="965" y="122" type="line" name="sv06"/>
+      <point x="646" y="143" type="line" name="dh04"/>
+      <point x="600" y="-278" type="line" name="av01"/>
+      <point x="466" y="-258" type="line"/>
+      <point x="324" y="-278" type="line" name="av02"/>
+      <point x="428" y="142" type="line" name="dh03"/>
+      <point x="101" y="122" type="line" name="iv02"/>
+      <point x="140" y="232" type="line"/>
+      <point x="140" y="344" type="line" name="sv04"/>
+      <point x="460" y="324" type="line" name="sh03"/>
+      <point x="478" y="593" type="line"/>
+      <point x="554" y="862" type="line" name="dh01"/>
+      <point x="228" y="842" type="line" name="iv01"/>
+      <point x="268" y="953" type="line"/>
+      <point x="268" y="1064" type="line" name="sv01"/>
+      <point x="587" y="1044" type="line" name="sh04"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -257 -21</string>
+              <string>hstem 132 202</string>
+              <string>hstem 852 201</string>
+              <string>hstem 1464 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 212"/&gt;
+    &lt;ttc code="doubleh" point1="dh03" point2="dh04" stem="T1 V: 212"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="sh01"/&gt;
+    &lt;ttc code="singleh" point1="dh04" point2="sh02"/&gt;
+    &lt;ttc code="singleh" point1="dh03" point2="sh03"/&gt;
+    &lt;ttc code="singleh" point1="dh01" point2="sh04"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="at02" zone="t: 1"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="av01" point2="at01"/&gt;
+    &lt;ttc code="singlev" point1="iv01" point2="sv01" stem="T1 H: 282"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv02"/&gt;
+    &lt;ttc code="singlev" point1="iv01" point2="sv03"/&gt;
+    &lt;ttc code="interpolatev" point="iv02" point1="av01" point2="at01"/&gt;
+    &lt;ttc code="singlev" point1="iv02" point2="sv04" stem="T1 H: 282"/&gt;
+    &lt;ttc code="singlev" point1="sv04" point2="sv05"/&gt;
+    &lt;ttc code="singlev" point1="iv02" point2="sv06"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+7 8 23 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+13 8 17 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+7
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+3
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+13
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+9
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+17
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+21
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+23
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+27
+MDRP[10000]	/* MoveDirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+14
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+16
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  0
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  0 19
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  2
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  2 19
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 3 values pushed */
+24 14 0
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 1 value pushed */
+24
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+26 5
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+4
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+24
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+6
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 3 values pushed */
+18 14 0
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 1 value pushed */
+18
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+20 5
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+10
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+18
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+12
+MDRP[10000]	/* MoveDirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>98e5b88be1c70e844fdf2be3ee7009198f5fd9548e19f467dbf75e0175c515a06610e3cefe65699fd960c477be7ff4242ee421e68c4827daabc60c80067d0f64</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="comb:invertedbreve" format="2">
+  <unicode hex="0311"/>
+  <anchor x="-229" y="1500" name="_AccentAbove"/>
+  <outline>
+    <contour>
+      <point x="-568" y="1591" type="line" name="sh01"/>
+      <point x="-568" y="1659"/>
+      <point x="-515" y="1779"/>
+      <point x="-423" y="1868"/>
+      <point x="-298" y="1920"/>
+      <point x="-226" y="1920" type="qcurve" name="sv01"/>
+      <point x="-155" y="1920"/>
+      <point x="-31" y="1868"/>
+      <point x="61" y="1779"/>
+      <point x="114" y="1659"/>
+      <point x="114" y="1591" type="qcurve" name="sh03"/>
+      <point x="-98" y="1591" type="line" name="sh02"/>
+      <point x="-98" y="1623"/>
+      <point x="-119" y="1679"/>
+      <point x="-154" y="1721"/>
+      <point x="-201" y="1745"/>
+      <point x="-227" y="1745" type="qcurve" name="av01"/>
+      <point x="-253" y="1745"/>
+      <point x="-300" y="1721"/>
+      <point x="-335" y="1679"/>
+      <point x="-356" y="1623"/>
+      <point x="-356" y="1591" type="qcurve" name="ah01"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1165 329</string>
+              <string>vstem -178 212</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>sv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1319 175</string>
+              <string>vstem -178 212</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>sh03</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1165 329</string>
+              <string>vstem -178 212</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="lsb" align="round"/&gt;
+    &lt;ttc code="alignh" point="ah01" align="round"/&gt;
+    &lt;ttc code="singleh" point1="ah01" point2="sh01" round="true"/&gt;
+    &lt;ttc code="singleh" point1="ah01" point2="sh02" stem="T1 V: 282"/&gt;
+    &lt;ttc code="singleh" point1="sh02" point2="sh03" round="true"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="singlev" point1="av01" point2="sh02" round="true"/&gt;
+    &lt;ttc code="singlev" point1="sh02" point2="sh01"/&gt;
+    &lt;ttc code="singlev" point1="av01" point2="sv01" stem="T1 H: 182"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 1 value pushed */
+22
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+21
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+21
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+11 10
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+10
+MDRP[11100]	/* MoveDirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+16
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+11
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+16
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+5 3
+MIRP[10100]	/* MoveIndirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>53ae08a32152ffa3d5a6300ee80c3ea658ffed4229fa9238cfa92e59f173ebb4421cd48ae5ffc9c72e353710e8d7aec27640648cd24bb401cdbc95a9bc686679</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sign:cedilla.commaturnedabove" format="2">
+  <advance width="768"/>
+  <unicode hex="F005"/>
+  <outline>
+    <contour>
+      <point x="494" y="1246" type="line" name="av01"/>
+      <point x="407" y="1159" type="line"/>
+      <point x="385" y="1159" type="line"/>
+      <point x="376" y="1164"/>
+      <point x="346" y="1190"/>
+      <point x="317" y="1234"/>
+      <point x="295" y="1294"/>
+      <point x="295" y="1333" type="qcurve" name="sh01"/>
+      <point x="295" y="1385"/>
+      <point x="335" y="1468"/>
+      <point x="389" y="1528"/>
+      <point x="441" y="1563"/>
+      <point x="453" y="1567" type="qcurve"/>
+      <point x="475" y="1567" type="line" name="sv01"/>
+      <point x="494" y="1459" type="line" name="sh03"/>
+      <point x="473" y="1442"/>
+      <point x="447" y="1392"/>
+      <point x="447" y="1363" type="qcurve" name="sh02"/>
+      <point x="447" y="1335"/>
+      <point x="468" y="1284"/>
+      <point x="494" y="1267" type="qcurve" name="sh04"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1181 -21</string>
+              <string>hstem 1567 -20</string>
+              <string>vstem 295 152</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="lsb" align="right"/&gt;
+    &lt;ttc code="singleh" point1="lsb" point2="sh01" round="true"/&gt;
+    &lt;ttc code="singleh" point1="sh01" point2="sh02" round="true"/&gt;
+    &lt;ttc code="singleh" point1="sh02" point2="sh03" round="true"/&gt;
+    &lt;ttc code="singleh" point1="sh03" point2="sh04"/&gt;
+    &lt;ttc code="alignv" point="av01" align="right"/&gt;
+    &lt;ttc code="singlev" point1="av01" point2="sh03" round="true"/&gt;
+    &lt;ttc code="singlev" point1="sh03" point2="sv01" round="true"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+RUTG[ ]	/* RoundUpToGrid */
+PUSHW[ ]	/* 1 value pushed */
+21
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+PUSHW[ ]	/* 1 value pushed */
+7
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+17
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+14
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+20
+MDRP[10000]	/* MoveDirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+RUTG[ ]	/* RoundUpToGrid */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+PUSHW[ ]	/* 1 value pushed */
+14
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+13
+MDRP[11100]	/* MoveDirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>745d5b215b8521d9958264f6e58f7d24726c2485bfabe317ebee04d0f03379938036b0bd6a00fd657bf4f32c5d6c1e0bf5f017c22fde23a76b2891b30393811a</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

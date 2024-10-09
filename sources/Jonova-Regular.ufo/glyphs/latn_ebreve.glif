@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="latn:ebreve" format="2">
+  <advance width="1024"/>
+  <unicode hex="0115"/>
+  <outline>
+    <component base="latn:e" identifier="component0"/>
+    <component base="sign:breve" xOffset="150" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignt" point="at01-0" zone="t: 0"/&gt;
+    &lt;ttc code="mdeltav" point="dv02-1" delta="-1" ppm1="17" ppm2="17"/&gt;
+    &lt;ttc code="singlev" point1="at01-0" point2="dv01-1" round="true"/&gt;
+    &lt;ttc code="fdeltav" point="dh04-1" delta="7" ppm1="12" ppm2="12"/&gt;
+    &lt;ttc code="fdeltav" point="dh02-1" delta="7" ppm1="12" ppm2="12"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  26
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  26 15
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+NPUSHW[ ]	/* 3 values pushed */
+135 48 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 1 value pushed */
+59
+MDRP[11100]	/* MoveDirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+NPUSHW[ ]	/* 3 values pushed */
+62 54 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 3 values pushed */
+62 64 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>6e093e8922bd075c97337968193049a19626437df167c0bcd019909a86515ee4bfa617d8a54280aa838fe386802bea98fed1fea0796efb1cffb217732f9aa143</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

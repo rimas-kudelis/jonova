@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="math:intersection" format="2">
+  <advance width="1504"/>
+  <unicode hex="2229"/>
+  <guideline x="1212" y="0" angle="90"/>
+  <guideline x="752" y="0" angle="90"/>
+  <outline>
+    <contour>
+      <point x="1010" y="1464" type="qcurve" name="at01"/>
+      <point x="1127" y="1464"/>
+      <point x="1324" y="1382"/>
+      <point x="1467" y="1238"/>
+      <point x="1548" y="1044"/>
+      <point x="1548" y="933" type="qcurve"/>
+      <point x="1548" y="906"/>
+      <point x="1543" y="851"/>
+      <point x="1538" y="822" type="qcurve"/>
+      <point x="1394" y="0" type="line" name="dh04"/>
+      <point x="1142" y="0" type="line" name="dh03"/>
+      <point x="1299" y="892" type="line"/>
+      <point x="1305" y="925"/>
+      <point x="1305" y="956" type="qcurve"/>
+      <point x="1305" y="1023"/>
+      <point x="1256" y="1142"/>
+      <point x="1169" y="1231"/>
+      <point x="1049" y="1282"/>
+      <point x="978" y="1282" type="qcurve" name="sv01"/>
+      <point x="898" y="1282"/>
+      <point x="745" y="1220"/>
+      <point x="620" y="1114"/>
+      <point x="533" y="972"/>
+      <point x="519" y="892" type="qcurve"/>
+      <point x="362" y="0" type="line" name="dh02"/>
+      <point x="110" y="0" type="line" name="dh01"/>
+      <point x="254" y="822" type="line"/>
+      <point x="277" y="953"/>
+      <point x="411" y="1186"/>
+      <point x="611" y="1362"/>
+      <point x="866" y="1464"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 21 -21</string>
+              <string>hstem 1282 182</string>
+              <string>vstem 1305 243</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 282"/&gt;
+    &lt;ttc code="doubleh" point1="dh03" point2="dh04" stem="T1 V: 282"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="dh04" zone="b: 0"/&gt;
+    &lt;ttc code="alignb" point="dh02" zone="b: 0"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sv01" stem="T1 H: 182"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+24 10 25 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+9 10 10 4
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  0
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  0 19
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  9
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  9 11
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  24
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  24 11
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+18 3
+MIRP[10100]	/* MoveIndirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>93acf974703b14a3404fa5d7f8b8c05dbba78e23e261f5058334368b2f1b89f8d4a1e79c84f114fc006e032dc2e3b2e34dcca5835049a0394e6816a448087a31</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

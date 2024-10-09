@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sign:parenright.superior" format="2">
+  <advance width="736"/>
+  <unicode hex="207E"/>
+  <outline>
+    <contour>
+      <point x="254" y="1589" type="line" name="av01"/>
+      <point x="390" y="1480"/>
+      <point x="524" y="1197"/>
+      <point x="524" y="1025" type="qcurve" name="dh02"/>
+      <point x="524" y="676"/>
+      <point x="254" y="460" type="qcurve" name="av02"/>
+      <point x="212" y="502" type="line"/>
+      <point x="300" y="599"/>
+      <point x="402" y="864"/>
+      <point x="402" y="1025" type="qcurve" name="dh01"/>
+      <point x="402" y="1095"/>
+      <point x="375" y="1239"/>
+      <point x="325" y="1376"/>
+      <point x="255" y="1499"/>
+      <point x="212" y="1547" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 481 -21</string>
+              <string>hstem 1589 -20</string>
+              <string>vstem 402 122</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 122"/&gt;
+    &lt;ttc code="mdeltah" point="dh01" delta="3" ppm1="24" ppm2="25"/&gt;
+    &lt;ttc code="mdeltah" point="dh01" delta="2" ppm1="9" ppm2="23"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+3 5 9 4
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 3 values pushed */
+250 9 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 3 values pushed */
+10 9 1
+DELTAP2[ ]	/* DeltaExceptionP2 */
+NPUSHW[ ]	/* 31 values pushed */
+9 9 25 9 41 9 57 9 73 9 89 9 105 9 121 9 137 9 153 9 169 9 185 9 201 9 217 9 233 9 15
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>c2cbe3b6acdef6054242aa8058729647bd894f294f33ebf5df844351f1c26129dd17fa2a8fc917eced2767428144c49287921d45e389127ce8ee2795d1be9880</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

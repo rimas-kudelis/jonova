@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="box:dblhorz" format="2">
+  <advance width="2048"/>
+  <unicode hex="2550"/>
+  <outline>
+    <contour>
+      <point x="-20" y="778" type="line" name="dv03"/>
+      <point x="-20" y="900" type="line" name="dv04"/>
+      <point x="2068" y="900" type="line"/>
+      <point x="2068" y="778" type="line"/>
+    </contour>
+    <contour>
+      <point x="-20" y="534" type="line" name="dv01"/>
+      <point x="-20" y="656" type="line" name="dv02"/>
+      <point x="2068" y="656" type="line"/>
+      <point x="2068" y="534" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dv03</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 534 122</string>
+              <string>hstem 778 122</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 122"/&gt;
+    &lt;ttc code="doublev" point1="dv03" point2="dv04" stem="Y: 122"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 4 values pushed */
+5 2 4 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+1 2 0 4
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w2048l-20+778l-20+900l2068+900l2068+778|l-20+534l-20+656l2068+656l2068+534|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

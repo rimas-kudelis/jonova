@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="latn:scaron" format="2">
+  <advance width="864"/>
+  <unicode hex="0161"/>
+  <outline>
+    <component base="latn:s" identifier="component0"/>
+    <component base="sign:caron" xOffset="50" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh03-1" point2="av01-1" round="true"/&gt;
+    &lt;ttc code="doubleh" point1="dh01-1" point2="dh02-1" round="true"/&gt;
+    &lt;ttc code="mdeltah" point="rsb" delta="8" ppm1="9" ppm2="10"/&gt;
+    &lt;ttc code="mdeltav" point="av01-1" delta="8" ppm1="9" ppm2="9"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <false/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <false/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 3 values pushed */
+65 66 3
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+63 60 3
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 5 values pushed */
+15 68 31 68 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[0]	/* SetFPVectorToAxis */
+NPUSHW[ ]	/* 3 values pushed */
+15 65 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>06dbb62bf430dfab624216d7233212f4104924b7243ff8e9f64a098aa2f4569dd881e632a37ae169f366b39c238f75add5556a6de87ce0239aa8ff389a8390a3</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

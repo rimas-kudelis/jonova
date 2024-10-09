@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="comb:downtackbelow" format="2">
+  <unicode hex="031E"/>
+  <outline>
+    <contour>
+      <point x="-478" y="-423" type="line" name="av01"/>
+      <point x="-459" y="-279" type="line"/>
+      <point x="-582" y="-279" type="line" name="dv01"/>
+      <point x="-569" y="-177" type="line" name="dv02"/>
+      <point x="-246" y="-177" type="line"/>
+      <point x="-260" y="-279" type="line" name="sv01"/>
+      <point x="-383" y="-279" type="line"/>
+      <point x="-401" y="-423" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -402 -21</string>
+              <string>hstem -279 102</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 102"/&gt;
+    &lt;ttc code="singlev" point1="dv01" point2="sv01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 4 values pushed */
+3 1 2 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+2
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDRP[10000]	/* MoveDirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-478-423l-459-279l-582-279l-569-177l-246-177l-260-279l-383-279l-401-423|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

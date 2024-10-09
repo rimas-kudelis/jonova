@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="comb:tildebelow" format="2">
+  <unicode hex="0330"/>
+  <anchor x="-404" y="0" name="_AccentBelow"/>
+  <outline>
+    <contour>
+      <point x="-534" y="-206" type="qcurve" name="dv02"/>
+      <point x="-499" y="-206"/>
+      <point x="-443" y="-250"/>
+      <point x="-393" y="-304"/>
+      <point x="-347" y="-348"/>
+      <point x="-321" y="-348" type="qcurve" name="sv01"/>
+      <point x="-289" y="-348"/>
+      <point x="-256" y="-269"/>
+      <point x="-256" y="-206" type="qcurve" name="sv02"/>
+      <point x="-179" y="-206" type="line" name="dh02"/>
+      <point x="-179" y="-265"/>
+      <point x="-200" y="-359"/>
+      <point x="-237" y="-425"/>
+      <point x="-290" y="-460"/>
+      <point x="-321" y="-460" type="qcurve" name="ab01"/>
+      <point x="-356" y="-460"/>
+      <point x="-412" y="-416"/>
+      <point x="-461" y="-362"/>
+      <point x="-507" y="-318"/>
+      <point x="-534" y="-318" type="qcurve" name="dv01"/>
+      <point x="-566" y="-318"/>
+      <point x="-599" y="-397"/>
+      <point x="-599" y="-460" type="qcurve" name="ab02"/>
+      <point x="-676" y="-460" type="line" name="dh01"/>
+      <point x="-676" y="-402"/>
+      <point x="-656" y="-308"/>
+      <point x="-618" y="-242"/>
+      <point x="-566" y="-206"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dv02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -460 112</string>
+              <string>hstem -318 112</string>
+              <string>vstem -676 497</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" round="true"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 2"/&gt;
+    &lt;ttc code="alignb" point="ab02" zone="b: 2"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 102"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv01" stem="Y: 102"/&gt;
+    &lt;ttc code="mdeltav" point="sv01" delta="-1" ppm1="9" ppm2="28"/&gt;
+    &lt;ttc code="mdeltav" point="sv01" delta="-2" ppm1="29" ppm2="30"/&gt;
+    &lt;ttc code="singlev" point1="dv02" point2="sv02"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 3 values pushed */
+9 23 3
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  14
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  14 14
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  22
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  22 14
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 4 values pushed */
+0 1 19 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+14
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+5 1
+MIRP[10100]	/* MoveIndirectRelPt */
+NPUSHW[ ]	/* 33 values pushed */
+7 5 23 5 39 5 55 5 71 5 87 5 103 5 119 5 135 5 151 5 167 5 183 5 199 5 215 5 231 5 247 5 16
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 9 values pushed */
+7 5 23 5 39 5 55 5 4
+DELTAP2[ ]	/* DeltaExceptionP2 */
+NPUSHW[ ]	/* 5 values pushed */
+70 5 86 5 2
+DELTAP2[ ]	/* DeltaExceptionP2 */
+PUSHW[ ]	/* 1 value pushed */
+0
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+8
+MDRP[10000]	/* MoveDirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>2afcdddb18429da4bf9f7780d4beee5932928f63311ffb89f70b122171b5f79813d72b488b836c160ab113d9ac35fe593e93810c7a39e4468d5a0d0382572fdd</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

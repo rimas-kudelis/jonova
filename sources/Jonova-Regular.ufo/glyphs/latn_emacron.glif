@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="latn:emacron" format="2">
+  <advance width="1024"/>
+  <unicode hex="0113"/>
+  <outline>
+    <component base="sign:macron" xOffset="150" identifier="component0"/>
+    <component base="latn:e" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="mdeltah" point="av01-0" delta="6" ppm1="9" ppm2="10"/&gt;
+    &lt;ttc code="mdeltah" point="av01-0" delta="4" ppm1="11" ppm2="11"/&gt;
+    &lt;ttc code="mdeltah" point="ah01-0" delta="-1" ppm1="10" ppm2="11"/&gt;
+    &lt;ttc code="mdeltah" point="ah01-0" delta="-2" ppm1="9" ppm2="9"/&gt;
+    &lt;ttc code="mdeltah" point="rsb" delta="8" ppm1="9" ppm2="10"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHW[ ]	/* 5 values pushed */
+13 2 29 2 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 3 values pushed */
+43 2 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 5 values pushed */
+23 3 39 3 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 3 values pushed */
+6 3 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 5 values pushed */
+15 48 31 48 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>d3c8cf7449de30686860c826466b55dd9dc6b4a9c389f55d2190eef8a270a1235e2f24543299aed762873439abe59e25145ea77208c3178c43b01956d0959815</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

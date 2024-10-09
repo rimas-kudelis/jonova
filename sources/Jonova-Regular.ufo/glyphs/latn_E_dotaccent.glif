@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="latn:Edotaccent" format="2">
+  <advance width="1088"/>
+  <unicode hex="0116"/>
+  <anchor x="554" y="1850" name="AccentAbove"/>
+  <anchor x="974" y="1600" name="AccentAboveRight"/>
+  <outline>
+    <component base="latn:E" identifier="component0"/>
+    <component base="sign:dotaccent" xOffset="170" yOffset="460" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="sh01-1" align="round"/&gt;
+    &lt;ttc code="mdeltah" point="sh01-1" delta="8" ppm1="17" ppm2="17"/&gt;
+    &lt;ttc code="mdeltah" point="sh01-1" delta="5" ppm1="16" ppm2="16"/&gt;
+    &lt;ttc code="mdeltah" point="sh01-1" delta="-8" ppm1="11" ppm2="11"/&gt;
+    &lt;ttc code="singleh" point1="sh01-1" point2="sh02-1" stem="X: 192"/&gt;
+    &lt;ttc code="alignv" point="av01-1" align="right"/&gt;
+    &lt;ttc code="singlev" point1="av01-1" point2="sv01-1" round="true"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <false/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <false/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 1 value pushed */
+12
+MDAP[1]	/* MoveDirectAbsPt */
+NPUSHW[ ]	/* 3 values pushed */
+143 12 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 3 values pushed */
+124 12 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 3 values pushed */
+32 12 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 2 values pushed */
+18 7
+MIRP[10100]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+RUTG[ ]	/* RoundUpToGrid */
+PUSHW[ ]	/* 1 value pushed */
+15
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+PUSHW[ ]	/* 1 value pushed */
+21
+MDRP[11100]	/* MoveDirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>dee241074fd6be54121b7ec75d4e2d70fa7cbac94d0eb643677648a1e704ffd592d4a4354424c74034493fb6840dc1daca0985a7d6ba170ee161f2264644477c</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

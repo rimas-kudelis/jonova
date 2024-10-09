@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="math:approxequal" format="2">
+  <advance width="768"/>
+  <unicode hex="2248"/>
+  <outline>
+    <contour>
+      <point x="89" y="671" type="line" name="hr00"/>
+      <point x="122" y="698"/>
+      <point x="176" y="730"/>
+      <point x="224" y="747"/>
+      <point x="269" y="753"/>
+      <point x="291" y="753" type="qcurve" name="dv04"/>
+      <point x="330" y="753"/>
+      <point x="393" y="728"/>
+      <point x="449" y="692"/>
+      <point x="500" y="648"/>
+      <point x="554" y="612" name="hr01"/>
+      <point x="615" y="587"/>
+      <point x="653" y="587" type="qcurve" name="dv08"/>
+      <point x="685" y="587"/>
+      <point x="741" y="602"/>
+      <point x="791" y="626"/>
+      <point x="836" y="656"/>
+      <point x="857" y="671" type="qcurve" name="iv01"/>
+      <point x="840" y="547" type="line"/>
+      <point x="785" y="504"/>
+      <point x="689" y="465"/>
+      <point x="637" y="465" type="qcurve" name="dv07"/>
+      <point x="598" y="465"/>
+      <point x="535" y="490"/>
+      <point x="479" y="526"/>
+      <point x="428" y="570"/>
+      <point x="373" y="606"/>
+      <point x="313" y="631"/>
+      <point x="275" y="631" type="qcurve" name="dv03"/>
+      <point x="216" y="631"/>
+      <point x="121" y="587"/>
+      <point x="72" y="547" type="qcurve" name="iv02"/>
+    </contour>
+    <contour>
+      <point x="56" y="427" type="line"/>
+      <point x="90" y="454"/>
+      <point x="144" y="486"/>
+      <point x="192" y="503"/>
+      <point x="236" y="509"/>
+      <point x="259" y="509" type="qcurve" name="dv06"/>
+      <point x="298" y="509"/>
+      <point x="361" y="484"/>
+      <point x="416" y="448"/>
+      <point x="467" y="404"/>
+      <point x="521" y="368"/>
+      <point x="583" y="343"/>
+      <point x="621" y="343" type="qcurve" name="dv02"/>
+      <point x="653" y="343"/>
+      <point x="709" y="358"/>
+      <point x="759" y="382"/>
+      <point x="804" y="412"/>
+      <point x="824" y="427" type="qcurve" name="iv03"/>
+      <point x="808" y="303" type="line"/>
+      <point x="753" y="260"/>
+      <point x="657" y="221"/>
+      <point x="605" y="221" type="qcurve" name="dv01"/>
+      <point x="566" y="221"/>
+      <point x="503" y="246"/>
+      <point x="447" y="282"/>
+      <point x="396" y="326"/>
+      <point x="341" y="362"/>
+      <point x="281" y="387"/>
+      <point x="243" y="387" type="qcurve" name="dv05"/>
+      <point x="184" y="387"/>
+      <point x="89" y="343"/>
+      <point x="40" y="303" type="qcurve" name="iv04"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 221 122</string>
+              <string>hstem 387 122</string>
+              <string>hstem 631 122</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 221 122</string>
+              <string>hstem 465 122</string>
+              <string>hstem 631 122</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 122"/&gt;
+    &lt;ttc code="doublev" point1="dv03" point2="dv04" stem="Y: 122"/&gt;
+    &lt;ttc code="doublev" point1="dv05" point2="dv06" stem="Y: 122"/&gt;
+    &lt;ttc code="doublev" point1="dv07" point2="dv08" stem="Y: 122"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="dv03" point2="dv04"/&gt;
+    &lt;ttc code="interpolatev" point="iv02" point1="dv07" point2="dv08"/&gt;
+    &lt;ttc code="interpolatev" point="iv03" point1="dv05" point2="dv06"/&gt;
+    &lt;ttc code="interpolatev" point="iv04" point1="dv01" point2="dv02"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 4 values pushed */
+44 2 53 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+5 2 28 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+37 2 60 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+12 2 21 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+17 28 5
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 3 values pushed */
+31 21 12
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 3 values pushed */
+49 60 37
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 3 values pushed */
+63 53 44
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>2ab04b8034b2b8147cc86c13b9e42310c139928df60cfb71f9eae59e626d769c7c85f19b6d5b4bd81c67a2e279a3419b61d8a2bb0cef81eeef1356c7551ee2af</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

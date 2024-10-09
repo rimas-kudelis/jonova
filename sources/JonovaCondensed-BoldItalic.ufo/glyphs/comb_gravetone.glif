@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="comb:gravetone" format="2">
+  <unicode hex="0340"/>
+  <guideline x="-362" y="0" angle="90"/>
+  <anchor x="-170" y="1500" name="_AccentAbove"/>
+  <outline>
+    <contour>
+      <point x="-62" y="1678" type="line" name="av01"/>
+      <point x="-277" y="1886" type="line"/>
+      <point x="-277" y="1930" type="line"/>
+      <point x="-188" y="2048" type="line" name="av02"/>
+      <point x="-155" y="2048" type="line"/>
+      <point x="-4" y="1759" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1699 -21</string>
+              <string>hstem 2048 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+3
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-62+1678l-277+1886l-277+1930l-188+2048l-155+2048l-4+1759|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

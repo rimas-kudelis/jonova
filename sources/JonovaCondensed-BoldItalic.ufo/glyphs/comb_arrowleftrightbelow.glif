@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="comb:arrowleftrightbelow" format="2">
+  <unicode hex="034D"/>
+  <guideline x="0" y="-294" angle="0"/>
+  <guideline x="0" y="-186" angle="0"/>
+  <guideline x="-163" y="0" angle="45"/>
+  <guideline x="110" y="0" angle="45"/>
+  <guideline x="-605" y="0" angle="135"/>
+  <guideline x="-875" y="0" angle="135"/>
+  <outline>
+    <contour>
+      <point x="-535" y="-102" type="line" name="av01"/>
+      <point x="-496" y="-166" type="line"/>
+      <point x="-557" y="-235" type="line"/>
+      <point x="-273" y="-235" type="line" name="dv02"/>
+      <point x="-316" y="-166" type="line"/>
+      <point x="-258" y="-102" type="line" name="av02"/>
+      <point x="-140" y="-296" type="line"/>
+      <point x="-310" y="-490" type="line" name="ab01"/>
+      <point x="-350" y="-426" type="line"/>
+      <point x="-289" y="-357" type="line" name="dv01"/>
+      <point x="-572" y="-357" type="line"/>
+      <point x="-530" y="-426" type="line"/>
+      <point x="-587" y="-490" type="line" name="ab02"/>
+      <point x="-707" y="-296" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -469 -21</string>
+              <string>hstem -357 122</string>
+              <string>hstem -102 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 1"/&gt;
+    &lt;ttc code="alignb" point="ab02" zone="b: 1"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="T1 H: 112"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  7
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  7 13
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  12
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  12 13
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 4 values pushed */
+3 2 9 4
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>a0bf376cac4f6f41c37abec5d28d40893069bfb027a010fe5728bdf43a4b1ab3a3a226ebb407e8b6ad75dc1eea31fdc2fd3e5d6ea6ad9786baff6d07442aa1dd</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

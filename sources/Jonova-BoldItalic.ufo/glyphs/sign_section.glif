@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sign:section" format="2">
+  <advance width="1024"/>
+  <unicode hex="00A7"/>
+  <guideline x="526" y="0" angle="90"/>
+  <outline>
+    <contour>
+      <point x="496" y="510" type="qcurve" name="dh02"/>
+      <point x="496" y="468"/>
+      <point x="526" y="395"/>
+      <point x="574" y="332" name="hr00"/>
+      <point x="633" y="277"/>
+      <point x="662" y="253" type="qcurve"/>
+      <point x="710" y="296"/>
+      <point x="763" y="411"/>
+      <point x="763" y="468" type="qcurve" name="ih01"/>
+      <point x="763" y="511"/>
+      <point x="733" y="584"/>
+      <point x="685" y="646" name="hr01"/>
+      <point x="626" y="698"/>
+      <point x="597" y="721" type="qcurve"/>
+      <point x="552" y="680"/>
+      <point x="496" y="568"/>
+    </contour>
+    <contour>
+      <point x="440" y="-490" type="qcurve" name="ab01"/>
+      <point x="379" y="-490"/>
+      <point x="277" y="-464"/>
+      <point x="192" y="-422" name="hr02"/>
+      <point x="121" y="-367"/>
+      <point x="92" y="-338" type="qcurve"/>
+      <point x="204" y="-226" type="line" name="av02"/>
+      <point x="219" y="-259"/>
+      <point x="265" y="-314"/>
+      <point x="319" y="-355"/>
+      <point x="378" y="-378"/>
+      <point x="407" y="-378" type="qcurve" name="sv01"/>
+      <point x="451" y="-378"/>
+      <point x="522" y="-341"/>
+      <point x="571" y="-281"/>
+      <point x="598" y="-207"/>
+      <point x="598" y="-169" type="qcurve" name="dh03"/>
+      <point x="598" y="-101"/>
+      <point x="540" y="0"/>
+      <point x="452" y="86"/>
+      <point x="350" y="165"/>
+      <point x="262" y="257"/>
+      <point x="204" y="372"/>
+      <point x="204" y="449" type="qcurve" name="dh01"/>
+      <point x="204" y="518"/>
+      <point x="249" y="634"/>
+      <point x="325" y="731"/>
+      <point x="423" y="810"/>
+      <point x="477" y="843" type="qcurve"/>
+      <point x="440" y="891"/>
+      <point x="399" y="1000"/>
+      <point x="399" y="1065" type="qcurve" name="ih02"/>
+      <point x="399" y="1150"/>
+      <point x="470" y="1296"/>
+      <point x="587" y="1403"/>
+      <point x="739" y="1464"/>
+      <point x="819" y="1464" type="qcurve" name="at01"/>
+      <point x="888" y="1464"/>
+      <point x="988" y="1440"/>
+      <point x="1067" y="1398"/>
+      <point x="1133" y="1343"/>
+      <point x="1168" y="1312" type="qcurve"/>
+      <point x="1056" y="1200" type="line" name="av01"/>
+      <point x="1045" y="1225"/>
+      <point x="1004" y="1279"/>
+      <point x="949" y="1323"/>
+      <point x="884" y="1352"/>
+      <point x="848" y="1352" type="qcurve" name="sv02"/>
+      <point x="803" y="1352"/>
+      <point x="734" y="1314"/>
+      <point x="686" y="1252"/>
+      <point x="661" y="1176"/>
+      <point x="661" y="1139" type="qcurve" name="sh01"/>
+      <point x="661" y="1071"/>
+      <point x="719" y="971"/>
+      <point x="807" y="886"/>
+      <point x="909" y="807"/>
+      <point x="997" y="716"/>
+      <point x="1055" y="602"/>
+      <point x="1055" y="525" type="qcurve" name="sh02"/>
+      <point x="1055" y="456"/>
+      <point x="1010" y="340"/>
+      <point x="934" y="242"/>
+      <point x="835" y="162"/>
+      <point x="781" y="129" type="qcurve"/>
+      <point x="819" y="82"/>
+      <point x="860" y="-28"/>
+      <point x="860" y="-94" type="qcurve" name="dh04"/>
+      <point x="860" y="-180"/>
+      <point x="789" y="-325"/>
+      <point x="672" y="-431"/>
+      <point x="521" y="-490"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -490 112</string>
+              <string>hstem 1352 112</string>
+              <string>vstem 204 292</string>
+              <string>vstem 598 262</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -490 112</string>
+              <string>hstem 1352 112</string>
+              <string>vstem 399 262</string>
+              <string>vstem 763 292</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -490 112</string>
+              <string>hstem 1352 112</string>
+              <string>vstem 204 292</string>
+              <string>vstem 598 262</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -490 112</string>
+              <string>hstem 1352 112</string>
+              <string>vstem 204 292</string>
+              <string>vstem 763 292</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 282"/&gt;
+    &lt;ttc code="doubleh" point1="dh03" point2="dh04" stem="T1 V: 282"/&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="dh03" point2="dh04" align="round"/&gt;
+    &lt;ttc code="interpolateh" point="ih02" point1="dh01" point2="dh02" align="round"/&gt;
+    &lt;ttc code="singleh" point1="ih02" point2="sh01" stem="T1 V: 282"/&gt;
+    &lt;ttc code="singleh" point1="ih01" point2="sh02" stem="T1 V: 282"/&gt;
+    &lt;ttc code="singleh" point1="sh02" point2="rsb"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 1"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv01" stem="T1 H: 112"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sv02" stem="T1 H: 112"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+0 10 39 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+83 10 32 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+8 32 83
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 1 value pushed */
+8
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 3 values pushed */
+47 39 0
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 1 value pushed */
+47
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 2 values pushed */
+68 10
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+8
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+75 10
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+89
+MDRP[10000]	/* MoveDirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+58
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+22
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  52
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  52 19
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  16
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  16 13
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 2 values pushed */
+27 2
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+52
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+63 2
+MIRP[10100]	/* MoveIndirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>051b9dbd6992451ee3ec2b5dba320efe14bbbfc6804e4fde83669e6513caa629dd706a397dbcf31f9610035f4c9bba3afb7ec869dcba5869ae85930306367342</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

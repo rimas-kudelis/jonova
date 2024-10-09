@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="latn:Ccaron" format="2">
+  <advance width="1344"/>
+  <unicode hex="010C"/>
+  <outline>
+    <component base="latn:C" identifier="component0"/>
+    <component base="sign:caron" xOffset="360" yOffset="460" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01-1" point2="dh02-1" round="true"/&gt;
+    &lt;ttc code="doubleh" point1="dh03-1" point2="av01-1" round="true"/&gt;
+    &lt;ttc code="alignt" point="at01-0" zone="t: 1"/&gt;
+    &lt;ttc code="singlev" point1="at01-0" point2="dh03-1" round="true"/&gt;
+    &lt;ttc code="mdeltav" point="dh03-1" delta="-4" ppm1="13" ppm2="13"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <false/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <false/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 3 values pushed */
+50 47 3
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+52 53 3
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  40
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  40 17
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+53
+MDRP[11100]	/* MoveDirectRelPt */
+NPUSHW[ ]	/* 3 values pushed */
+68 53 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>e0d017eb9da64fd49045fd5177f63436abbde6d8fe2bf0cecff691c41c7d987c1d3dbdb314e321d0a7a83baa39a8ec465861fc9a675b212dfbf8f6d38ab9a87b</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

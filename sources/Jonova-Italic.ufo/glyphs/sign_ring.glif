@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sign:ring" format="2">
+  <advance width="768"/>
+  <unicode hex="02DA"/>
+  <guideline x="384" y="0" angle="90"/>
+  <outline>
+    <contour>
+      <point x="509" y="1325" type="qcurve" name="hr00"/>
+      <point x="509" y="1302"/>
+      <point x="526" y="1263"/>
+      <point x="555" y="1234"/>
+      <point x="594" y="1217"/>
+      <point x="617" y="1217" type="qcurve"/>
+      <point x="639" y="1217"/>
+      <point x="679" y="1234"/>
+      <point x="708" y="1263"/>
+      <point x="725" y="1302"/>
+      <point x="725" y="1325" type="qcurve"/>
+      <point x="725" y="1347"/>
+      <point x="708" y="1387"/>
+      <point x="679" y="1417"/>
+      <point x="639" y="1434"/>
+      <point x="617" y="1434" type="qcurve"/>
+      <point x="594" y="1434"/>
+      <point x="555" y="1417"/>
+      <point x="526" y="1387"/>
+      <point x="509" y="1347"/>
+    </contour>
+    <contour>
+      <point x="427" y="1325" type="qcurve"/>
+      <point x="427" y="1364"/>
+      <point x="457" y="1433"/>
+      <point x="508" y="1486"/>
+      <point x="578" y="1516"/>
+      <point x="617" y="1516" type="qcurve"/>
+      <point x="656" y="1516"/>
+      <point x="726" y="1486"/>
+      <point x="777" y="1433"/>
+      <point x="807" y="1364"/>
+      <point x="807" y="1325" type="qcurve"/>
+      <point x="807" y="1286"/>
+      <point x="777" y="1217"/>
+      <point x="726" y="1165"/>
+      <point x="656" y="1135"/>
+      <point x="617" y="1135" type="qcurve"/>
+      <point x="578" y="1135"/>
+      <point x="508" y="1165"/>
+      <point x="457" y="1217"/>
+      <point x="427" y="1286"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1135 82</string>
+              <string>hstem 1434 82</string>
+              <string>vstem 427 82</string>
+              <string>vstem 725 82</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 1 value pushed */
+40
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+10
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+40
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+20
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+20
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 2 values pushed */
+0 6
+MIRP[10100]	/* MoveIndirectRelPt */
+NPUSHW[ ]	/* 27 values pushed */
+6 0 22 0 38 0 54 0 70 0 86 0 102 0 118 0 134 0 150 0 166 0 182 0 198 0 13
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 5 values pushed */
+213 0 229 0 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 5 values pushed */
+218 10 234 10 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 27 values pushed */
+9 10 25 10 41 10 57 10 73 10 89 10 105 10 121 10 137 10 153 10 169 10 185 10 201 10 13
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 1 value pushed */
+10
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+30 6
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+41
+MDRP[11100]	/* MoveDirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 4 values pushed */
+5 1 35 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+25 1 15 4
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>4fae25b9ad90919183a5383a74948a3f655b6fe37636e65c9a99c7e84830af5c83ad9cfba4bd5a909aff38136a4a258c1c8b5fa3167044353c06f097089998d7</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

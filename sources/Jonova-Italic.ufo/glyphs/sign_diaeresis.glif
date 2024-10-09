@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sign:diaeresis" format="2">
+  <advance width="768"/>
+  <unicode hex="00A8"/>
+  <outline>
+    <contour>
+      <point x="301" y="1280" type="qcurve" name="sh01"/>
+      <point x="301" y="1299"/>
+      <point x="317" y="1335"/>
+      <point x="344" y="1362"/>
+      <point x="380" y="1378"/>
+      <point x="401" y="1378" type="qcurve" name="av01"/>
+      <point x="421" y="1378"/>
+      <point x="458" y="1362"/>
+      <point x="486" y="1335"/>
+      <point x="503" y="1299"/>
+      <point x="503" y="1280" type="qcurve" name="dh02"/>
+      <point x="503" y="1259"/>
+      <point x="486" y="1221"/>
+      <point x="458" y="1192"/>
+      <point x="421" y="1176"/>
+      <point x="401" y="1176" type="qcurve" name="sv01"/>
+      <point x="380" y="1176"/>
+      <point x="344" y="1192"/>
+      <point x="317" y="1221"/>
+      <point x="301" y="1259"/>
+    </contour>
+    <contour>
+      <point x="714" y="1280" type="qcurve" name="dh01"/>
+      <point x="714" y="1299"/>
+      <point x="730" y="1335"/>
+      <point x="757" y="1362"/>
+      <point x="793" y="1378"/>
+      <point x="814" y="1378" type="qcurve" name="sv02"/>
+      <point x="834" y="1378"/>
+      <point x="871" y="1362"/>
+      <point x="899" y="1335"/>
+      <point x="916" y="1299"/>
+      <point x="916" y="1280" type="qcurve" name="sh02"/>
+      <point x="916" y="1259"/>
+      <point x="899" y="1221"/>
+      <point x="871" y="1192"/>
+      <point x="834" y="1176"/>
+      <point x="814" y="1176" type="qcurve" name="sv03"/>
+      <point x="793" y="1176"/>
+      <point x="757" y="1192"/>
+      <point x="730" y="1221"/>
+      <point x="714" y="1259"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1232 202</string>
+              <string>vstem 310 202</string>
+              <string>vstem 724 202</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" round="true"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="sh01" stem="X: 192"/&gt;
+    &lt;ttc code="singleh" point1="dh01" point2="sh02" stem="X: 192"/&gt;
+    &lt;ttc code="alignv" point="av01" align="right"/&gt;
+    &lt;ttc code="singlev" point1="av01" point2="sv01" stem="Y: 202"/&gt;
+    &lt;ttc code="singlev" point1="av01" point2="sv02"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv03"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 3 values pushed */
+10 20 3
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+10
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+0 8
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+20
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+30 8
+MIRP[10100]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+RUTG[ ]	/* RoundUpToGrid */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+PUSHW[ ]	/* 2 values pushed */
+15 5
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+5
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+25
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+15
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+35
+MDRP[10000]	/* MoveDirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>2d2ce8344d0d856c5c770a637cecbbc86a09743c8f9a5e7b2d158e52c4e33d039aa879819128839b60b4d8b6489b4c2e0c9592e3c121d6019cc69d6f6c6f9835</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

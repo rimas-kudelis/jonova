@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="comb:halfleftringbelow" format="2">
+  <unicode hex="031C"/>
+  <anchor x="-404" y="0" name="_AccentBelow"/>
+  <outline>
+    <contour>
+      <point x="-373" y="-490" type="line" name="ab01"/>
+      <point x="-398" y="-484"/>
+      <point x="-440" y="-450"/>
+      <point x="-472" y="-400"/>
+      <point x="-490" y="-338"/>
+      <point x="-490" y="-303" type="qcurve" name="dh01"/>
+      <point x="-490" y="-264"/>
+      <point x="-467" y="-195"/>
+      <point x="-429" y="-142"/>
+      <point x="-377" y="-112"/>
+      <point x="-347" y="-112" type="qcurve" name="av01"/>
+      <point x="-335" y="-112"/>
+      <point x="-322" y="-115" type="qcurve" name="av02"/>
+      <point x="-334" y="-195" type="line"/>
+      <point x="-338" y="-194"/>
+      <point x="-344" y="-194"/>
+      <point x="-347" y="-194" type="qcurve"/>
+      <point x="-365" y="-194"/>
+      <point x="-394" y="-211"/>
+      <point x="-416" y="-241"/>
+      <point x="-428" y="-281"/>
+      <point x="-428" y="-303" type="qcurve" name="dh02"/>
+      <point x="-428" y="-344"/>
+      <point x="-390" y="-404"/>
+      <point x="-361" y="-410" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>ab01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -469 -21</string>
+              <string>hstem -112 -20</string>
+              <string>vstem -490 62</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 122"/&gt;
+    &lt;ttc code="mdeltah" point="dh02" delta="-2" ppm1="9" ppm2="21"/&gt;
+    &lt;ttc code="mdeltah" point="dh02" delta="-3" ppm1="22" ppm2="23"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 1"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+21 6 5 4
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 27 values pushed */
+6 21 22 21 38 21 54 21 70 21 86 21 102 21 118 21 134 21 150 21 166 21 182 21 198 21 13
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 5 values pushed */
+213 21 229 21 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+10
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+12
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  0
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  0 12
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>788c83cf8f2a71992c906124eec43448e46ce8813de0f8c4b93b4da8e4fdce2590c3fa143a9ba85ddbdff589d7dc5766b1abfe15d38c916459f5e0a637b9bf97</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

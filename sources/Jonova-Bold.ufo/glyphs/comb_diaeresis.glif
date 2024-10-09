@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="comb:diaeresis" format="2">
+  <unicode hex="0308"/>
+  <anchor x="-512" y="1500" name="_AccentAbove"/>
+  <outline>
+    <contour>
+      <point x="-874" y="1718" type="qcurve" name="sh01"/>
+      <point x="-874" y="1746"/>
+      <point x="-854" y="1794"/>
+      <point x="-819" y="1830"/>
+      <point x="-771" y="1850"/>
+      <point x="-744" y="1850" type="qcurve" name="sv01"/>
+      <point x="-716" y="1850"/>
+      <point x="-668" y="1830"/>
+      <point x="-632" y="1794"/>
+      <point x="-612" y="1746"/>
+      <point x="-612" y="1718" type="qcurve" name="dh01"/>
+      <point x="-612" y="1691"/>
+      <point x="-632" y="1643"/>
+      <point x="-668" y="1608"/>
+      <point x="-716" y="1588"/>
+      <point x="-744" y="1588" type="qcurve" name="av01"/>
+      <point x="-771" y="1588"/>
+      <point x="-819" y="1608"/>
+      <point x="-854" y="1643"/>
+      <point x="-874" y="1691"/>
+    </contour>
+    <contour>
+      <point x="-412" y="1718" type="qcurve" name="dh02"/>
+      <point x="-412" y="1746"/>
+      <point x="-392" y="1794"/>
+      <point x="-357" y="1830"/>
+      <point x="-309" y="1850"/>
+      <point x="-282" y="1850" type="qcurve" name="sv02"/>
+      <point x="-254" y="1850"/>
+      <point x="-206" y="1830"/>
+      <point x="-170" y="1794"/>
+      <point x="-150" y="1746"/>
+      <point x="-150" y="1718" type="qcurve" name="sh02"/>
+      <point x="-150" y="1691"/>
+      <point x="-170" y="1643"/>
+      <point x="-206" y="1608"/>
+      <point x="-254" y="1588"/>
+      <point x="-282" y="1588" type="qcurve" name="sv03"/>
+      <point x="-309" y="1588"/>
+      <point x="-357" y="1608"/>
+      <point x="-392" y="1643"/>
+      <point x="-412" y="1691"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1172 262</string>
+              <string>vstem -867 262</string>
+              <string>vstem -405 262</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" round="true"/&gt;
+    &lt;ttc code="singleh" point1="dh01" point2="sh01" stem="T1 V: 282"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="sh02" stem="T1 V: 282"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="mdeltav" point="av01" delta="8" ppm1="11" ppm2="11"/&gt;
+    &lt;ttc code="singlev" point1="av01" point2="sv01" stem="T1 H: 282"/&gt;
+    &lt;ttc code="singlev" point1="sv01" point2="sv02"/&gt;
+    &lt;ttc code="singlev" point1="av01" point2="sv03"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 3 values pushed */
+20 10 3
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+10
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+0 10
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+20
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+30 10
+MIRP[10100]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+15
+MDAP[1]	/* MoveDirectAbsPt */
+NPUSHW[ ]	/* 3 values pushed */
+47 15 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 2 values pushed */
+5 5
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+25
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+15
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+35
+MDRP[10000]	/* MoveDirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>b0b5530be7e284553661c30539aee3674d9348b79ee68f76126c224791194a28b31ab0e232e3e6ef23d0e5e5bb8a15be8bab90d8e23bc56c8a1e0db4692e7949</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

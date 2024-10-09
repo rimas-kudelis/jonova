@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="latn:y" format="2">
+  <advance width="720"/>
+  <unicode hex="0079"/>
+  <guideline x="449" y="0" angle="64"/>
+  <guideline x="347" y="0" angle="102"/>
+  <guideline x="98" y="0" angle="80"/>
+  <guideline x="485" y="0" angle="102"/>
+  <guideline x="99" y="0" angle="90"/>
+  <anchor x="500" y="1100" name="AccentAbove"/>
+  <anchor x="650" y="1100" name="AccentAboveRight"/>
+  <anchor x="396" y="-400" name="AccentBelow"/>
+  <anchor x="410" y="486" name="AccentOverlay"/>
+  <outline>
+    <contour>
+      <point x="326" y="1004" type="line" name="at01"/>
+      <point x="431" y="204" type="line"/>
+      <point x="439" y="204" type="line"/>
+      <point x="730" y="1004" type="line" name="at02"/>
+      <point x="807" y="974" type="line"/>
+      <point x="440" y="-30" type="line"/>
+      <point x="396" y="-149"/>
+      <point x="320" y="-322"/>
+      <point x="230" y="-435"/>
+      <point x="116" y="-490"/>
+      <point x="34" y="-490" type="qcurve" name="ab01"/>
+      <point x="47" y="-388" type="line" name="sv01"/>
+      <point x="104" y="-388"/>
+      <point x="189" y="-342"/>
+      <point x="259" y="-251"/>
+      <point x="319" y="-117"/>
+      <point x="351" y="-30" type="qcurve"/>
+      <point x="191" y="974" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -490 102</string>
+              <string>hstem 1004 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 0"/&gt;
+    &lt;ttc code="alignt" point="at02" zone="t: 0"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 1"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv01" stem="Y: 102"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  0
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  0 16
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  3
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  3 16
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  10
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  10 12
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 2 values pushed */
+11 1
+MIRP[10100]	/* MoveIndirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>4e662c893fc8193bdcce3d3b12e5b86cabc977a351e6630ade445fbf7eaceaa3785a4f279be2aaf9964e1bb8d082833c89fe01d51b01652a6079f86ebf0dcf61</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

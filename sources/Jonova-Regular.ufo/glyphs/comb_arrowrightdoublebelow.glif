@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="comb:arrowrightdoublebelow" format="2">
+  <unicode hex="0362"/>
+  <outline>
+    <contour>
+      <point x="334" y="-490" type="line" name="sv01"/>
+      <point x="334" y="-341" type="line" name="dv01"/>
+      <point x="-704" y="-341" type="line"/>
+      <point x="-704" y="-259" type="line"/>
+      <point x="334" y="-259" type="line" name="dv02"/>
+      <point x="334" y="-110" type="line" name="sv02"/>
+      <point x="704" y="-300" type="line" name="ah01"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -469 -21</string>
+              <string>hstem -341 82</string>
+              <string>hstem -110 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="ah01" align="round"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" round="true"/&gt;
+    &lt;ttc code="singlev" point1="dv01" point2="sv01" round="true"/&gt;
+    &lt;ttc code="singlev" point1="dv02" point2="sv02" round="true"/&gt;
+    &lt;ttc code="interpolatev" point="ah01" point1="dv01" point2="dv02"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 1 value pushed */
+6
+MDAP[1]	/* MoveDirectAbsPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+4 1 3
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+1
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+4
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 3 values pushed */
+6 1 4
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l334-490l334-341l-704-341l-704-259l334-259l334-110l704-300|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

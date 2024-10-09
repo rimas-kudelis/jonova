@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="comb:grave" format="2">
+  <unicode hex="0300"/>
+  <anchor x="-120" y="1500" name="_AccentAbove"/>
+  <outline>
+    <contour>
+      <point x="-84" y="1515" type="line" name="av02"/>
+      <point x="-450" y="1803" type="line"/>
+      <point x="-450" y="1833" type="line"/>
+      <point x="-368" y="1920" type="line"/>
+      <point x="-338" y="1920" type="line" name="av01"/>
+      <point x="-27" y="1575" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1137 -21</string>
+              <string>hstem 1521 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="right"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+RUTG[ ]	/* RoundUpToGrid */
+PUSHW[ ]	/* 1 value pushed */
+4
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-84+1515l-450+1803l-450+1833l-368+1920l-338+1920l-27+1575|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

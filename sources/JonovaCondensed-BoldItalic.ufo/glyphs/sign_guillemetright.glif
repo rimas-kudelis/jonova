@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sign:guillemetright" format="2">
+  <advance width="768"/>
+  <unicode hex="00BB"/>
+  <guideline x="0" y="894" angle="0"/>
+  <outline>
+    <contour>
+      <point x="608" y="906" type="line" name="av01"/>
+      <point x="800" y="487" type="line"/>
+      <point x="499" y="68" type="line" name="av03"/>
+      <point x="341" y="106" type="line" name="iv01"/>
+      <point x="587" y="487" type="line"/>
+      <point x="443" y="868" type="line"/>
+    </contour>
+    <contour>
+      <point x="312" y="906" type="line" name="av02"/>
+      <point x="504" y="487" type="line"/>
+      <point x="203" y="68" type="line" name="av04"/>
+      <point x="45" y="106" type="line" name="iv02"/>
+      <point x="291" y="487" type="line"/>
+      <point x="146" y="868" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 89 -21</string>
+              <string>hstem 906 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+    &lt;ttc code="alignv" point="av03" align="round"/&gt;
+    &lt;ttc code="alignv" point="av04" align="round"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="av03" point2="av01"/&gt;
+    &lt;ttc code="interpolatev" point="iv02" point1="av03" point2="av01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+6
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+2
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+8
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 3 values pushed */
+3 2 0
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 3 values pushed */
+9 2 0
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w768l608+906l800+487l499+68l341+106l587+487l443+868|l312+906l504+487l203+68l45+106l291+487l146+868|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

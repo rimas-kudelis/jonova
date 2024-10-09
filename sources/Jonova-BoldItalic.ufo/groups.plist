@@ -4,589 +4,589 @@
 <dict>
   <key>public.kern1.A</key>
   <array>
-    <string>A</string>
-    <string>Aogonek</string>
-    <string>afii10017</string>
-    <string>uni1EA0</string>
+    <string>cyrl:A</string>
+    <string>latn:A</string>
+    <string>latn:Adotbelow</string>
+    <string>latn:Aogonek</string>
   </array>
   <key>public.kern1.A.markAbove</key>
   <array>
-    <string>Aacute</string>
-    <string>Abreve</string>
-    <string>Acircumflex</string>
-    <string>Adieresis</string>
-    <string>Adotabove</string>
-    <string>Agrave</string>
-    <string>Amacron</string>
-    <string>Aogonacute</string>
-    <string>Aogontilde</string>
-    <string>Aring</string>
-    <string>Aringacute</string>
-    <string>Atilde</string>
-    <string>afiEC00</string>
-    <string>uniEE06</string>
-    <string>uniEE1A</string>
+    <string>cyrl:Aacute</string>
+    <string>latn:Aacute</string>
+    <string>latn:Abreve</string>
+    <string>latn:Acircumflex</string>
+    <string>latn:Adiaeresis</string>
+    <string>latn:Adotaccent</string>
+    <string>latn:Agrave</string>
+    <string>latn:Ahalfleftringabove</string>
+    <string>latn:Amacron</string>
+    <string>latn:Amacronbreve</string>
+    <string>latn:Aogonekacute</string>
+    <string>latn:Aogonektilde</string>
+    <string>latn:Aring</string>
+    <string>latn:Aringacute</string>
+    <string>latn:Atilde</string>
   </array>
   <key>public.kern1.B</key>
   <array>
-    <string>B</string>
-    <string>afii10019</string>
+    <string>cyrl:Ve</string>
+    <string>latn:B</string>
   </array>
   <key>public.kern1.C</key>
   <array>
-    <string>C</string>
-    <string>Cacute</string>
-    <string>Ccaron</string>
-    <string>Ccedilla</string>
-    <string>Ccircumflex</string>
-    <string>Cdotaccent</string>
-    <string>afii10035</string>
-    <string>afii10053</string>
+    <string>cyrl:Es</string>
+    <string>cyrl:Ieukr</string>
+    <string>latn:C</string>
+    <string>latn:Cacute</string>
+    <string>latn:Ccaron</string>
+    <string>latn:Ccedilla</string>
+    <string>latn:Ccircumflex</string>
+    <string>latn:Cdotaccent</string>
   </array>
   <key>public.kern1.D</key>
   <array>
-    <string>D</string>
-    <string>Dcaron</string>
-    <string>Dcroat</string>
-    <string>uni1E0C</string>
-    <string>uni1E0E</string>
-    <string>uni1E10</string>
+    <string>latn:D</string>
+    <string>latn:Dcaron</string>
+    <string>latn:Dcommaaccent</string>
+    <string>latn:Ddotbelow</string>
+    <string>latn:Dlinebelow</string>
+    <string>latn:Dstroke</string>
   </array>
   <key>public.kern1.F</key>
   <array>
-    <string>F</string>
-    <string>uniEE08</string>
+    <string>latn:F</string>
+    <string>latn:Fmacronbelow</string>
   </array>
   <key>public.kern1.G</key>
   <array>
-    <string>G</string>
-    <string>Gbreve</string>
-    <string>Gcircumflex</string>
-    <string>Gcommaaccent</string>
-    <string>Gdotaccent</string>
+    <string>latn:G</string>
+    <string>latn:Gbreve</string>
+    <string>latn:Gcedilla</string>
+    <string>latn:Gcircumflex</string>
+    <string>latn:Gdotaccent</string>
   </array>
   <key>public.kern1.J</key>
   <array>
-    <string>J</string>
-    <string>Jcircumflex</string>
-    <string>Jtilde</string>
-    <string>afii10057</string>
+    <string>cyrl:Je</string>
+    <string>latn:J</string>
+    <string>latn:Jcircumflex</string>
+    <string>latn:Jtilde</string>
   </array>
   <key>public.kern1.L</key>
   <array>
-    <string>L</string>
-    <string>Lacute</string>
-    <string>Lcommaaccent</string>
-    <string>Lslash</string>
-    <string>Ltilde</string>
+    <string>latn:L</string>
+    <string>latn:Lacute</string>
+    <string>latn:Lcedilla</string>
+    <string>latn:Lstroke</string>
+    <string>latn:Ltilde</string>
   </array>
   <key>public.kern1.O</key>
   <array>
-    <string>O</string>
-    <string>Oacute</string>
-    <string>Obreve</string>
-    <string>Ocircumflex</string>
-    <string>Odieresis</string>
-    <string>Ograve</string>
-    <string>Omacron</string>
-    <string>Oslash</string>
-    <string>Oslashacute</string>
-    <string>Otilde</string>
-    <string>Q</string>
-    <string>afiEC0A</string>
-    <string>afii10032</string>
-    <string>afii10038</string>
-    <string>uni0150</string>
-    <string>uniEE0F</string>
-    <string>uniEE11</string>
+    <string>cyrl:Ef</string>
+    <string>cyrl:O</string>
+    <string>cyrl:Oacute</string>
+    <string>latn:O</string>
+    <string>latn:Oacute</string>
+    <string>latn:Obreve</string>
+    <string>latn:Ocircumflex</string>
+    <string>latn:Odiaeresis</string>
+    <string>latn:Odoubleacute</string>
+    <string>latn:Ograve</string>
+    <string>latn:Omacron</string>
+    <string>latn:Omacronbelow</string>
+    <string>latn:Omacronbelowacute</string>
+    <string>latn:Ostroke</string>
+    <string>latn:Ostrokeacute</string>
+    <string>latn:Otilde</string>
+    <string>latn:Q</string>
   </array>
   <key>public.kern1.P</key>
   <array>
-    <string>P</string>
-    <string>afii10034</string>
+    <string>cyrl:Er</string>
+    <string>latn:P</string>
   </array>
   <key>public.kern1.S</key>
   <array>
-    <string>S</string>
-    <string>Sacute</string>
-    <string>Scaron</string>
-    <string>Scedilla</string>
-    <string>Scircumflex</string>
-    <string>afii10054</string>
-    <string>uni1E60</string>
-    <string>uni1E62</string>
-    <string>uniEE14</string>
+    <string>cyrl:Dze</string>
+    <string>latn:S</string>
+    <string>latn:Sacute</string>
+    <string>latn:Scaron</string>
+    <string>latn:Scedilla</string>
+    <string>latn:Scircumflex</string>
+    <string>latn:Sdot</string>
+    <string>latn:Sdotbelow</string>
+    <string>latn:Smacronbelow</string>
   </array>
   <key>public.kern1.T</key>
   <array>
-    <string>T</string>
-    <string>Tbar</string>
-    <string>Tcaron</string>
-    <string>Tcommaaccent</string>
-    <string>afii10036</string>
-    <string>uni1E6C</string>
-    <string>uni1E6E</string>
-    <string>uniEE1C</string>
+    <string>cyrl:Te</string>
+    <string>latn:T</string>
+    <string>latn:Tcaron</string>
+    <string>latn:Tcedilla</string>
+    <string>latn:Tdiaeresisbelow</string>
+    <string>latn:Tdotbelow</string>
+    <string>latn:Tlinebelow</string>
+    <string>latn:Tstroke</string>
   </array>
   <key>public.kern1.U</key>
   <array>
-    <string>U</string>
-    <string>Uacute</string>
-    <string>Ubreve</string>
-    <string>Ucircumflex</string>
-    <string>Udieresis</string>
-    <string>Ugrave</string>
-    <string>Uhungarumlaut</string>
-    <string>Umacron</string>
-    <string>Umacronacute</string>
-    <string>Umacrontilde</string>
-    <string>Uogonacute</string>
-    <string>Uogonek</string>
-    <string>Uogontilde</string>
-    <string>Uring</string>
-    <string>Utilde</string>
+    <string>latn:U</string>
+    <string>latn:Uacute</string>
+    <string>latn:Ubreve</string>
+    <string>latn:Ucircumflex</string>
+    <string>latn:Udiaeresis</string>
+    <string>latn:Udoubleacute</string>
+    <string>latn:Ugrave</string>
+    <string>latn:Umacron</string>
+    <string>latn:Umacronacute</string>
+    <string>latn:Umacrontilde</string>
+    <string>latn:Uogonek</string>
+    <string>latn:Uogonekacute</string>
+    <string>latn:Uogonektilde</string>
+    <string>latn:Uring</string>
+    <string>latn:Utilde</string>
   </array>
   <key>public.kern1.V</key>
   <array>
-    <string>V</string>
-    <string>uniEE16</string>
+    <string>latn:V</string>
+    <string>latn:Vmacronbelow</string>
   </array>
   <key>public.kern1.W</key>
   <array>
-    <string>W</string>
-    <string>Wacute</string>
-    <string>Wcircumflex</string>
-    <string>Wdieresis</string>
-    <string>Wgrave</string>
+    <string>latn:W</string>
+    <string>latn:Wacute</string>
+    <string>latn:Wcircumflex</string>
+    <string>latn:Wdiaeresis</string>
+    <string>latn:Wgrave</string>
   </array>
   <key>public.kern1.Y</key>
   <array>
-    <string>Y</string>
-    <string>Yacute</string>
-    <string>Ycircumflex</string>
-    <string>Ydieresis</string>
-    <string>Ygrave</string>
-    <string>Ytilde</string>
+    <string>latn:Y</string>
+    <string>latn:Yacute</string>
+    <string>latn:Ycircumflex</string>
+    <string>latn:Ydiaeresis</string>
+    <string>latn:Ygrave</string>
+    <string>latn:Ytilde</string>
   </array>
   <key>public.kern1.Z</key>
   <array>
-    <string>Z</string>
-    <string>Zacute</string>
-    <string>Zcaron</string>
-    <string>Zdot</string>
-    <string>uni1E92</string>
-    <string>uni1E94</string>
-    <string>uniEE18</string>
+    <string>latn:Z</string>
+    <string>latn:Zacute</string>
+    <string>latn:Zcaron</string>
+    <string>latn:Zcedilla</string>
+    <string>latn:Zdotaccent</string>
+    <string>latn:Zdotbelow</string>
+    <string>latn:Zlinebelow</string>
   </array>
   <key>public.kern1.a</key>
   <array>
-    <string>a</string>
-    <string>uni1EA1</string>
+    <string>latn:a</string>
+    <string>latn:adotbelow</string>
   </array>
   <key>public.kern1.c</key>
   <array>
-    <string>afii10083</string>
-    <string>c</string>
+    <string>cyrl:es</string>
+    <string>latn:c</string>
   </array>
   <key>public.kern1.c.markAbove</key>
   <array>
-    <string>cacute</string>
-    <string>ccaron</string>
-    <string>ccedilla</string>
-    <string>ccircumflex</string>
-    <string>cdotaccent</string>
+    <string>latn:cacute</string>
+    <string>latn:ccaron</string>
+    <string>latn:ccedilla</string>
+    <string>latn:ccircumflex</string>
+    <string>latn:cdotaccent</string>
   </array>
   <key>public.kern1.e</key>
   <array>
-    <string>afii10070</string>
-    <string>e</string>
-    <string>eogonek</string>
+    <string>cyrl:ie</string>
+    <string>latn:e</string>
+    <string>latn:eogonek</string>
   </array>
   <key>public.kern1.h</key>
   <array>
-    <string>h</string>
-    <string>hcircumflex</string>
-    <string>uni1E25</string>
-    <string>uni1E29</string>
-    <string>uni1E96</string>
+    <string>latn:h</string>
+    <string>latn:hcedilla</string>
+    <string>latn:hcircumflex</string>
+    <string>latn:hdotbelow</string>
+    <string>latn:hlinebelow</string>
   </array>
   <key>public.kern1.i</key>
   <array>
-    <string>afii10103</string>
-    <string>dotlessi</string>
-    <string>i</string>
-    <string>iogonek</string>
-    <string>iogonek.dotless</string>
-    <string>uni0268</string>
-    <string>uni0268.dotless</string>
-    <string>uniE023</string>
-    <string>uniEE01</string>
-    <string>uniEE0C</string>
+    <string>cyrl:iukr</string>
+    <string>latn:i</string>
+    <string>latn:i.alt</string>
+    <string>latn:icircumflexbelow</string>
+    <string>latn:idotless</string>
+    <string>latn:imacronbelow</string>
+    <string>latn:iogonek</string>
+    <string>latn:iogonek.dotless</string>
+    <string>latn:istroke</string>
+    <string>latn:istroke.dotless</string>
   </array>
   <key>public.kern1.i.markAbove</key>
   <array>
-    <string>iacute</string>
-    <string>iacutedot</string>
-    <string>ibreve</string>
-    <string>icircumflex</string>
-    <string>idieresis</string>
-    <string>igrave</string>
-    <string>igravedot</string>
-    <string>imacron</string>
-    <string>iogonacute</string>
-    <string>iogontilde</string>
-    <string>itilde</string>
-    <string>itildedot</string>
-    <string>uniEE0E</string>
+    <string>latn:iacute</string>
+    <string>latn:ibreve</string>
+    <string>latn:icircumflex</string>
+    <string>latn:idiaeresis</string>
+    <string>latn:idotaccentacute</string>
+    <string>latn:idotaccentgrave</string>
+    <string>latn:idotaccenttilde</string>
+    <string>latn:igrave</string>
+    <string>latn:imacron</string>
+    <string>latn:imacronbelowacute</string>
+    <string>latn:iogonekdotaccentacute</string>
+    <string>latn:iogonekdotaccenttilde</string>
+    <string>latn:itilde</string>
   </array>
   <key>public.kern1.m</key>
   <array>
-    <string>m</string>
-    <string>mtilde</string>
-    <string>uni1E41</string>
-    <string>uni1E43</string>
+    <string>latn:m</string>
+    <string>latn:mdot</string>
+    <string>latn:mdotbelow</string>
+    <string>latn:mtilde</string>
   </array>
   <key>public.kern1.n</key>
   <array>
-    <string>n</string>
-    <string>ncommaaccent</string>
-    <string>uni1E47</string>
-    <string>uni1E49</string>
+    <string>latn:n</string>
+    <string>latn:ncedilla</string>
+    <string>latn:ndotbelow</string>
+    <string>latn:nlinebelow</string>
   </array>
   <key>public.kern1.o</key>
   <array>
-    <string>afii10080</string>
-    <string>o</string>
-    <string>uni0275</string>
-    <string>uniEE10</string>
+    <string>cyrl:o</string>
+    <string>latn:o</string>
+    <string>latn:obarred</string>
+    <string>latn:omacronbelow</string>
   </array>
   <key>public.kern1.o.markAbove</key>
   <array>
-    <string>afiEC0B</string>
-    <string>oacute</string>
-    <string>obreve</string>
-    <string>ocircumflex</string>
-    <string>odieresis</string>
-    <string>ograve</string>
-    <string>omacron</string>
-    <string>oslashacute</string>
-    <string>otilde</string>
-    <string>uni0151</string>
-    <string>uniEE12</string>
-    <string>uniEE13</string>
+    <string>cyrl:oacute</string>
+    <string>latn:oacute</string>
+    <string>latn:obreve</string>
+    <string>latn:ocircumflex</string>
+    <string>latn:odiaeresis</string>
+    <string>latn:odoubleacute</string>
+    <string>latn:ograve</string>
+    <string>latn:omacron</string>
+    <string>latn:omacronacute</string>
+    <string>latn:omacronbelowacute</string>
+    <string>latn:ostrokeacute</string>
+    <string>latn:otilde</string>
   </array>
   <key>public.kern1.quote.double</key>
   <array>
-    <string>quotedblleft</string>
-    <string>quotedblright</string>
+    <string>sign:quotedblleft</string>
+    <string>sign:quotedblright</string>
   </array>
   <key>public.kern1.quote.single</key>
   <array>
-    <string>quoteleft</string>
-    <string>quoteright</string>
+    <string>sign:quoteleft</string>
+    <string>sign:quoteright</string>
   </array>
   <key>public.kern1.r</key>
   <array>
-    <string>r</string>
-    <string>racute</string>
-    <string>rcaron</string>
-    <string>rtilde</string>
-    <string>uni1E59</string>
+    <string>latn:r</string>
+    <string>latn:racute</string>
+    <string>latn:rcaron</string>
+    <string>latn:rdot</string>
+    <string>latn:rtilde</string>
   </array>
   <key>public.kern1.s</key>
   <array>
-    <string>afii10102</string>
-    <string>s</string>
-    <string>scedilla</string>
-    <string>uni0282</string>
-    <string>uni1E63</string>
-    <string>uniEE15</string>
+    <string>cyrl:dze</string>
+    <string>latn:s</string>
+    <string>latn:scedilla</string>
+    <string>latn:sdotbelow</string>
+    <string>latn:shook</string>
+    <string>latn:smacronbelow</string>
   </array>
   <key>public.kern1.v</key>
   <array>
-    <string>uniEE17</string>
-    <string>v</string>
+    <string>latn:v</string>
+    <string>latn:vmacronbelow</string>
   </array>
   <key>public.kern1.w</key>
   <array>
-    <string>w</string>
-    <string>wacute</string>
-    <string>wcircumflex</string>
-    <string>wdieresis</string>
-    <string>wgrave</string>
+    <string>latn:w</string>
+    <string>latn:wacute</string>
+    <string>latn:wcirfumflex</string>
+    <string>latn:wdiaeresis</string>
+    <string>latn:wgrave</string>
   </array>
   <key>public.kern1.y</key>
   <array>
-    <string>afiEC0D</string>
-    <string>afii10085</string>
-    <string>afii10110</string>
-    <string>y</string>
-    <string>yacute</string>
-    <string>ycircumflex</string>
-    <string>ydieresis</string>
-    <string>ygrave</string>
-    <string>ytilde</string>
+    <string>cyrl:u</string>
+    <string>cyrl:uacute</string>
+    <string>cyrl:ushort</string>
+    <string>latn:y</string>
+    <string>latn:yacute</string>
+    <string>latn:ycircumflex</string>
+    <string>latn:ydieresis</string>
+    <string>latn:ygrave</string>
+    <string>latn:ytilde</string>
   </array>
   <key>public.kern2.A</key>
   <array>
-    <string>A</string>
-    <string>Aogonek</string>
-    <string>afii10017</string>
-    <string>uni1EA0</string>
+    <string>cyrl:A</string>
+    <string>latn:A</string>
+    <string>latn:Adotbelow</string>
+    <string>latn:Aogonek</string>
   </array>
   <key>public.kern2.A.markAbove</key>
   <array>
-    <string>Aacute</string>
-    <string>Abreve</string>
-    <string>Acircumflex</string>
-    <string>Adieresis</string>
-    <string>Adotabove</string>
-    <string>Agrave</string>
-    <string>Amacron</string>
-    <string>Aogonacute</string>
-    <string>Aogontilde</string>
-    <string>Aring</string>
-    <string>Aringacute</string>
-    <string>Atilde</string>
-    <string>afiEC00</string>
-    <string>uniEE06</string>
-    <string>uniEE1A</string>
+    <string>cyrl:Aacute</string>
+    <string>latn:Aacute</string>
+    <string>latn:Abreve</string>
+    <string>latn:Acircumflex</string>
+    <string>latn:Adiaeresis</string>
+    <string>latn:Adotaccent</string>
+    <string>latn:Agrave</string>
+    <string>latn:Ahalfleftringabove</string>
+    <string>latn:Amacron</string>
+    <string>latn:Amacronbreve</string>
+    <string>latn:Aogonekacute</string>
+    <string>latn:Aogonektilde</string>
+    <string>latn:Aring</string>
+    <string>latn:Aringacute</string>
+    <string>latn:Atilde</string>
   </array>
   <key>public.kern2.G</key>
   <array>
-    <string>G</string>
-    <string>Gbreve</string>
-    <string>Gcircumflex</string>
-    <string>Gcommaaccent</string>
-    <string>Gdotaccent</string>
+    <string>latn:G</string>
+    <string>latn:Gbreve</string>
+    <string>latn:Gcedilla</string>
+    <string>latn:Gcircumflex</string>
+    <string>latn:Gdotaccent</string>
   </array>
   <key>public.kern2.O</key>
   <array>
-    <string>O</string>
-    <string>Oacute</string>
-    <string>Obreve</string>
-    <string>Ocircumflex</string>
-    <string>Odieresis</string>
-    <string>Ograve</string>
-    <string>Omacron</string>
-    <string>Oslash</string>
-    <string>Oslashacute</string>
-    <string>Otilde</string>
-    <string>Q</string>
-    <string>afiEC0A</string>
-    <string>afii10032</string>
-    <string>afii10038</string>
-    <string>uni0150</string>
-    <string>uniEE0F</string>
-    <string>uniEE11</string>
+    <string>cyrl:Ef</string>
+    <string>cyrl:O</string>
+    <string>cyrl:Oacute</string>
+    <string>latn:O</string>
+    <string>latn:Oacute</string>
+    <string>latn:Obreve</string>
+    <string>latn:Ocircumflex</string>
+    <string>latn:Odiaeresis</string>
+    <string>latn:Odoubleacute</string>
+    <string>latn:Ograve</string>
+    <string>latn:Omacron</string>
+    <string>latn:Omacronbelow</string>
+    <string>latn:Omacronbelowacute</string>
+    <string>latn:Ostroke</string>
+    <string>latn:Ostrokeacute</string>
+    <string>latn:Otilde</string>
+    <string>latn:Q</string>
   </array>
   <key>public.kern2.T</key>
   <array>
-    <string>T</string>
-    <string>Tbar</string>
-    <string>Tcaron</string>
-    <string>Tcommaaccent</string>
-    <string>afii10036</string>
-    <string>uni1E6C</string>
-    <string>uni1E6E</string>
-    <string>uniEE1C</string>
+    <string>cyrl:Te</string>
+    <string>latn:T</string>
+    <string>latn:Tcaron</string>
+    <string>latn:Tcedilla</string>
+    <string>latn:Tdiaeresisbelow</string>
+    <string>latn:Tdotbelow</string>
+    <string>latn:Tlinebelow</string>
+    <string>latn:Tstroke</string>
   </array>
   <key>public.kern2.U</key>
   <array>
-    <string>U</string>
-    <string>Uacute</string>
-    <string>Ubreve</string>
-    <string>Ucircumflex</string>
-    <string>Udieresis</string>
-    <string>Ugrave</string>
-    <string>Uhungarumlaut</string>
-    <string>Umacron</string>
-    <string>Umacronacute</string>
-    <string>Umacrontilde</string>
-    <string>Uogonacute</string>
-    <string>Uogonek</string>
-    <string>Uogontilde</string>
-    <string>Uring</string>
-    <string>Utilde</string>
+    <string>latn:U</string>
+    <string>latn:Uacute</string>
+    <string>latn:Ubreve</string>
+    <string>latn:Ucircumflex</string>
+    <string>latn:Udiaeresis</string>
+    <string>latn:Udoubleacute</string>
+    <string>latn:Ugrave</string>
+    <string>latn:Umacron</string>
+    <string>latn:Umacronacute</string>
+    <string>latn:Umacrontilde</string>
+    <string>latn:Uogonek</string>
+    <string>latn:Uogonekacute</string>
+    <string>latn:Uogonektilde</string>
+    <string>latn:Uring</string>
+    <string>latn:Utilde</string>
   </array>
   <key>public.kern2.V</key>
   <array>
-    <string>V</string>
-    <string>uniEE16</string>
+    <string>latn:V</string>
+    <string>latn:Vmacronbelow</string>
   </array>
   <key>public.kern2.W</key>
   <array>
-    <string>W</string>
-    <string>Wacute</string>
-    <string>Wcircumflex</string>
-    <string>Wdieresis</string>
-    <string>Wgrave</string>
+    <string>latn:W</string>
+    <string>latn:Wacute</string>
+    <string>latn:Wcircumflex</string>
+    <string>latn:Wdiaeresis</string>
+    <string>latn:Wgrave</string>
   </array>
   <key>public.kern2.Y</key>
   <array>
-    <string>Y</string>
-    <string>Yacute</string>
-    <string>Ycircumflex</string>
-    <string>Ydieresis</string>
-    <string>Ygrave</string>
-    <string>Ytilde</string>
+    <string>latn:Y</string>
+    <string>latn:Yacute</string>
+    <string>latn:Ycircumflex</string>
+    <string>latn:Ydiaeresis</string>
+    <string>latn:Ygrave</string>
+    <string>latn:Ytilde</string>
   </array>
   <key>public.kern2.a</key>
   <array>
-    <string>a</string>
-    <string>aogonek</string>
-    <string>uni1EA1</string>
+    <string>latn:a</string>
+    <string>latn:adotbelow</string>
+    <string>latn:aogonek</string>
   </array>
   <key>public.kern2.a.markAbove</key>
   <array>
-    <string>uniEE07</string>
-    <string>uniEE1B</string>
+    <string>latn:ahalfleftringabove</string>
+    <string>latn:amacronbreve</string>
   </array>
   <key>public.kern2.c</key>
   <array>
-    <string>afii10083</string>
-    <string>c</string>
-    <string>ccedilla</string>
+    <string>cyrl:es</string>
+    <string>latn:c</string>
+    <string>latn:ccedilla</string>
   </array>
   <key>public.kern2.c.markAbove</key>
   <array>
-    <string>cacute</string>
-    <string>ccaron</string>
-    <string>ccircumflex</string>
-    <string>cdotaccent</string>
+    <string>latn:cacute</string>
+    <string>latn:ccaron</string>
+    <string>latn:ccircumflex</string>
+    <string>latn:cdotaccent</string>
   </array>
   <key>public.kern2.d</key>
   <array>
-    <string>d</string>
-    <string>dcaron</string>
-    <string>dcroat</string>
-    <string>uni1E0D</string>
-    <string>uni1E0F</string>
-    <string>uni1E11</string>
+    <string>latn:d</string>
+    <string>latn:dcaron</string>
+    <string>latn:dcommaaccent</string>
+    <string>latn:ddotbelow</string>
+    <string>latn:dlinebelow</string>
+    <string>latn:dstroke</string>
   </array>
   <key>public.kern2.e</key>
   <array>
-    <string>afii10070</string>
-    <string>e</string>
-    <string>eogonek</string>
+    <string>cyrl:ie</string>
+    <string>latn:e</string>
+    <string>latn:eogonek</string>
   </array>
   <key>public.kern2.e.markAbove</key>
   <array>
-    <string>afiEC03</string>
-    <string>afiEC05</string>
-    <string>afii10071</string>
-    <string>eacute</string>
-    <string>ebreve</string>
-    <string>ecaron</string>
-    <string>ecircumflex</string>
-    <string>edieresis</string>
-    <string>edotaccent</string>
-    <string>edotacute</string>
-    <string>edottilde</string>
-    <string>egrave</string>
-    <string>emacron</string>
-    <string>etilde</string>
+    <string>cyrl:ieacute</string>
+    <string>cyrl:io</string>
+    <string>cyrl:ioacute</string>
+    <string>latn:eacute</string>
+    <string>latn:ebreve</string>
+    <string>latn:ecaron</string>
+    <string>latn:ecircumflex</string>
+    <string>latn:ediaeresis</string>
+    <string>latn:edotaccent</string>
+    <string>latn:edotaccentacute</string>
+    <string>latn:edotaccenttilde</string>
+    <string>latn:egrave</string>
+    <string>latn:emacron</string>
+    <string>latn:etilde</string>
   </array>
   <key>public.kern2.m</key>
   <array>
-    <string>m</string>
-    <string>mtilde</string>
-    <string>uni1E41</string>
-    <string>uni1E43</string>
+    <string>latn:m</string>
+    <string>latn:mdot</string>
+    <string>latn:mdotbelow</string>
+    <string>latn:mtilde</string>
   </array>
   <key>public.kern2.n</key>
   <array>
-    <string>n</string>
-    <string>ncommaaccent</string>
-    <string>uni1E47</string>
-    <string>uni1E49</string>
+    <string>latn:n</string>
+    <string>latn:ncedilla</string>
+    <string>latn:ndotbelow</string>
+    <string>latn:nlinebelow</string>
   </array>
   <key>public.kern2.o</key>
   <array>
-    <string>afii10080</string>
-    <string>o</string>
-    <string>uni0275</string>
-    <string>uniEE10</string>
+    <string>cyrl:o</string>
+    <string>latn:o</string>
+    <string>latn:obarred</string>
+    <string>latn:omacronbelow</string>
   </array>
   <key>public.kern2.o.markAbove</key>
   <array>
-    <string>afiEC0B</string>
-    <string>oacute</string>
-    <string>obreve</string>
-    <string>ocircumflex</string>
-    <string>odieresis</string>
-    <string>ograve</string>
-    <string>omacron</string>
-    <string>oslashacute</string>
-    <string>otilde</string>
-    <string>uni0151</string>
-    <string>uniEE12</string>
-    <string>uniEE13</string>
+    <string>cyrl:oacute</string>
+    <string>latn:oacute</string>
+    <string>latn:obreve</string>
+    <string>latn:ocircumflex</string>
+    <string>latn:odiaeresis</string>
+    <string>latn:odoubleacute</string>
+    <string>latn:ograve</string>
+    <string>latn:omacron</string>
+    <string>latn:omacronacute</string>
+    <string>latn:omacronbelowacute</string>
+    <string>latn:ostrokeacute</string>
+    <string>latn:otilde</string>
   </array>
   <key>public.kern2.quote.double</key>
   <array>
-    <string>quotedblleft</string>
-    <string>quotedblright</string>
+    <string>sign:quotedblleft</string>
+    <string>sign:quotedblright</string>
   </array>
   <key>public.kern2.quote.single</key>
   <array>
-    <string>quoteleft</string>
-    <string>quoteright</string>
+    <string>sign:quoteleft</string>
+    <string>sign:quoteright</string>
   </array>
   <key>public.kern2.r</key>
   <array>
-    <string>r</string>
-    <string>rcommaaccent</string>
-    <string>uni1E5B</string>
-    <string>uniEE05</string>
+    <string>latn:r</string>
+    <string>latn:rcedilla</string>
+    <string>latn:rdotbelow</string>
+    <string>latn:rringbelow</string>
   </array>
   <key>public.kern2.s</key>
   <array>
-    <string>afii10102</string>
-    <string>s</string>
-    <string>scedilla</string>
-    <string>uni0282</string>
-    <string>uni1E63</string>
-    <string>uniEE15</string>
+    <string>cyrl:dze</string>
+    <string>latn:s</string>
+    <string>latn:scedilla</string>
+    <string>latn:sdotbelow</string>
+    <string>latn:shook</string>
+    <string>latn:smacronbelow</string>
   </array>
   <key>public.kern2.s.markAbove</key>
   <array>
-    <string>sacute</string>
-    <string>scaron</string>
-    <string>scircumflex</string>
-    <string>uni1E61</string>
+    <string>latn:sacute</string>
+    <string>latn:scaron</string>
+    <string>latn:scircumflex</string>
+    <string>latn:sdot</string>
   </array>
   <key>public.kern2.u</key>
   <array>
-    <string>u</string>
-    <string>uogonek</string>
+    <string>latn:u</string>
+    <string>latn:uogonek</string>
   </array>
   <key>public.kern2.u.markAbove</key>
   <array>
-    <string>uacute</string>
-    <string>ubreve</string>
-    <string>ucircumflex</string>
-    <string>udieresis</string>
-    <string>ugrave</string>
-    <string>umacron</string>
-    <string>umacronacute</string>
-    <string>umacrontilde</string>
-    <string>uogonacute</string>
-    <string>uogontilde</string>
-    <string>uring</string>
-    <string>utilde</string>
+    <string>latn:uacute</string>
+    <string>latn:ubreve</string>
+    <string>latn:ucircumflex</string>
+    <string>latn:udiaeresis</string>
+    <string>latn:ugrave</string>
+    <string>latn:umacron</string>
+    <string>latn:umacronacute</string>
+    <string>latn:umacrontilde</string>
+    <string>latn:uogonekacute</string>
+    <string>latn:uogonektilde</string>
+    <string>latn:uring</string>
+    <string>latn:utilde</string>
   </array>
   <key>public.kern2.v</key>
   <array>
-    <string>uniEE17</string>
-    <string>v</string>
+    <string>latn:v</string>
+    <string>latn:vmacronbelow</string>
   </array>
   <key>public.kern2.z</key>
   <array>
-    <string>uni1E93</string>
-    <string>uni1E95</string>
-    <string>uniEE19</string>
-    <string>z</string>
+    <string>latn:z</string>
+    <string>latn:zcedilla</string>
+    <string>latn:zdotbelow</string>
+    <string>latn:zlinebelow</string>
   </array>
 </dict>
 </plist>

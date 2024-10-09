@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="latn:Egrave" format="2">
+  <advance width="1088"/>
+  <unicode hex="00C8"/>
+  <outline>
+    <component base="latn:E" identifier="component0"/>
+    <component base="sign:grave" xOffset="243" yOffset="460" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="mdeltav" point="av02-1" delta="8" ppm1="10" ppm2="10"/&gt;
+    &lt;ttc code="mdeltav" point="av02-1" delta="7" ppm1="11" ppm2="11"/&gt;
+    &lt;ttc code="mdeltav" point="av02-1" delta="7" ppm1="15" ppm2="15"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+NPUSHW[ ]	/* 3 values pushed */
+31 12 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 3 values pushed */
+46 12 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 3 values pushed */
+110 12 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>fa44daa0141f26bb6ea7bab0a4a53970b3fd259db54dbc68eaa325ee2ecda06e3ec0407cc02c3f541ae9f8d97a6fb488c5adf5b9a2afead4b59b10cc4ad38142</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

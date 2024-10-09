@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="math:equivalence" format="2">
+  <advance width="864"/>
+  <unicode hex="2261"/>
+  <outline>
+    <contour>
+      <point x="885" y="870" type="line" name="dv04"/>
+      <point x="869" y="748" type="line" name="dv03"/>
+      <point x="192" y="748" type="line"/>
+      <point x="209" y="870" type="line"/>
+    </contour>
+    <contour>
+      <point x="842" y="549" type="line" name="dv06"/>
+      <point x="827" y="427" type="line" name="dv05"/>
+      <point x="150" y="427" type="line"/>
+      <point x="166" y="549" type="line"/>
+    </contour>
+    <contour>
+      <point x="800" y="228" type="line" name="dv02"/>
+      <point x="784" y="106" type="line" name="dv01"/>
+      <point x="107" y="106" type="line"/>
+      <point x="124" y="228" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dv04</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 106 122</string>
+              <string>hstem 427 122</string>
+              <string>hstem 748 122</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 122"/&gt;
+    &lt;ttc code="doublev" point1="dv03" point2="dv04" stem="Y: 122"/&gt;
+    &lt;ttc code="doublev" point1="dv05" point2="dv06" stem="Y: 122"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 4 values pushed */
+8 2 9 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+0 2 1 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+4 2 5 4
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w864l885+870l869+748l192+748l209+870|l842+549l827+427l150+427l166+549|l800+228l784+106l107+106l124+228|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

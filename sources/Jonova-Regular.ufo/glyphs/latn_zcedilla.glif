@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="latn:zcedilla" format="2">
+  <advance width="960"/>
+  <unicode hex="EE19"/>
+  <outline>
+    <contour>
+      <point x="72" y="25" type="line" name="hr00"/>
+      <point x="668" y="866" type="line" name="sh01"/>
+      <point x="668" y="876" type="line"/>
+      <point x="155" y="849" type="line" name="hr01"/>
+      <point x="176" y="974" type="line"/>
+      <point x="884" y="974" type="line"/>
+      <point x="884" y="949" type="line"/>
+      <point x="287" y="105" type="line"/>
+      <point x="287" y="95" type="line"/>
+      <point x="884" y="125" type="line"/>
+      <point x="862" y="0" type="line"/>
+      <point x="549" y="0" type="line" name="hr02"/>
+      <point x="510" y="-110" type="line"/>
+      <point x="543" y="-110"/>
+      <point x="600" y="-135"/>
+      <point x="642" y="-182"/>
+      <point x="667" y="-250"/>
+      <point x="667" y="-293" type="qcurve" name="dh02"/>
+      <point x="667" y="-344"/>
+      <point x="629" y="-418"/>
+      <point x="567" y="-466"/>
+      <point x="491" y="-490"/>
+      <point x="454" y="-490" type="qcurve" name="ab01"/>
+      <point x="419" y="-490"/>
+      <point x="360" y="-476"/>
+      <point x="314" y="-456"/>
+      <point x="282" y="-433"/>
+      <point x="273" y="-423" type="qcurve"/>
+      <point x="327" y="-347" type="line"/>
+      <point x="330" y="-352"/>
+      <point x="348" y="-372"/>
+      <point x="376" y="-393"/>
+      <point x="413" y="-408"/>
+      <point x="435" y="-408" type="qcurve" name="sv01"/>
+      <point x="458" y="-408"/>
+      <point x="498" y="-391"/>
+      <point x="528" y="-361"/>
+      <point x="545" y="-321"/>
+      <point x="545" y="-298" type="qcurve" name="dh01"/>
+      <point x="545" y="-276"/>
+      <point x="528" y="-236"/>
+      <point x="498" y="-207"/>
+      <point x="458" y="-190"/>
+      <point x="435" y="-190" type="qcurve"/>
+      <point x="414" y="-190"/>
+      <point x="388" y="-194"/>
+      <point x="370" y="-199"/>
+      <point x="358" y="-204"/>
+      <point x="352" y="-206" type="qcurve"/>
+      <point x="427" y="0" type="line"/>
+      <point x="72" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -490 82</string>
+              <string>hstem 0 110</string>
+              <string>hstem 862 112</string>
+              <string>vstem 545 122</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -490 82</string>
+              <string>hstem -190 300</string>
+              <string>hstem 862 112</string>
+              <string>vstem 545 122</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -490 82</string>
+              <string>hstem 0 110</string>
+              <string>hstem 862 112</string>
+              <string>vstem 545 122</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 122"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="sh01" align="round"/&gt;
+    &lt;ttc code="mdeltah" point="dh01" delta="3" ppm1="24" ppm2="25"/&gt;
+    &lt;ttc code="mdeltah" point="dh01" delta="2" ppm1="9" ppm2="23"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 1"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv01" stem="Y: 102"/&gt;
+    &lt;ttc code="mdeltav" point="sv01" delta="-1" ppm1="9" ppm2="28"/&gt;
+    &lt;ttc code="mdeltav" point="sv01" delta="-2" ppm1="29" ppm2="30"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+17 5 38 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+17
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+NPUSHW[ ]	/* 3 values pushed */
+250 38 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 3 values pushed */
+10 38 1
+DELTAP2[ ]	/* DeltaExceptionP2 */
+NPUSHW[ ]	/* 31 values pushed */
+9 38 25 38 41 38 57 38 73 38 89 38 105 38 121 38 137 38 153 38 169 38 185 38 201 38 217 38 233 38 15
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  22
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  22 11
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 2 values pushed */
+33 1
+MIRP[10100]	/* MoveIndirectRelPt */
+NPUSHW[ ]	/* 33 values pushed */
+7 33 23 33 39 33 55 33 71 33 87 33 103 33 119 33 135 33 151 33 167 33 183 33 199 33 215 33 231 33 247 33 16
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 9 values pushed */
+7 33 23 33 39 33 55 33 4
+DELTAP2[ ]	/* DeltaExceptionP2 */
+NPUSHW[ ]	/* 5 values pushed */
+70 33 86 33 2
+DELTAP2[ ]	/* DeltaExceptionP2 */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>37100347af6350881a65b1ea429adc9af431baa2543019743ae3da813dc003bdaad17153ab69c3d12e59624adbb2eb5623137d11630177b723e76517c9e5e6e2</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

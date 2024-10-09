@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="latn:F" format="2">
+  <advance width="816"/>
+  <unicode hex="0046"/>
+  <guideline x="700" y="0" angle="90"/>
+  <guideline x="686" y="0" angle="80"/>
+  <anchor x="580" y="1600" name="AccentAbove"/>
+  <anchor x="800" y="1600" name="AccentAboveRight"/>
+  <anchor x="300" y="0" name="AccentBelow"/>
+  <anchor x="650" y="712" name="AccentOverlay"/>
+  <outline>
+    <contour>
+      <point x="287" y="1434" type="line" name="at01"/>
+      <point x="947" y="1434" type="line"/>
+      <point x="926" y="1273" type="line"/>
+      <point x="505" y="1312" type="line"/>
+      <point x="445" y="859" type="line"/>
+      <point x="800" y="859" type="line" name="dv02"/>
+      <point x="781" y="717" type="line" name="dv01"/>
+      <point x="426" y="717" type="line"/>
+      <point x="332" y="0" type="line" name="ab01"/>
+      <point x="98" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 21 -21</string>
+              <string>hstem 717 142</string>
+              <string>hstem 1434 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="doublev" point1="dv01" point2="dv02" stem="T1 H: 142"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  0
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  0 19
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  8
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  8 11
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 4 values pushed */
+5 1 6 4
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w816l287+1434l947+1434l926+1273l505+1312l445+859l800+859l781+717l426+717l332+0l98+0|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

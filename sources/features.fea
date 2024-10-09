@@ -7,385 +7,391 @@ languagesystem grek dflt;
 
 # Glyph classes
 @COMBINING_MARKS_ABOVE = [
-    acutecomb
-    acutedblnosp
-    acuterightnosp
-    apostrophesupnosp
-    brevecomb
-    breveinvnosp
-    candrabindunosp
-    circumflexcomb
-    commasuprevnosp
-    commaturnsupnosp
-    diaeresistonosnosp
-    dieresiscomb
-    dotaccentcomb
-    gravecomb
-    gravedblnosp
-    graveleftnosp
-    haceknosp
-    hookabovecomb
-    linevertdblnosp
-    linevertnosp
-    macroncomb
-    overscorecomb
-    overscoredblnosp
-    ringnosp
-    tildecomb
-    tildevertsupnosp
-    uni0342
-    uni0343
-    uni0346
-    uni034A
-    uni034B
-    uni034C
-    xsupnosp
+    comb:acute
+    comb:acutetone
+    comb:almostequalabove
+    comb:breve
+    comb:bridgeabove
+    comb:candrabindu
+    comb:caron
+    comb:circumflex
+    comb:commaabove
+    comb:commaturnedabove
+    comb:dblverticallineabove
+    comb:diaeresis
+    comb:dialytikatonos
+    comb:dotaccent
+    comb:doubleacute
+    comb:doubleoverline
+    comb:grave
+    comb:gravedouble
+    comb:gravetone
+    comb:homotheticabove
+    comb:hookabove
+    comb:invertedbreve
+    comb:koronis
+    comb:macron
+    comb:nottildeabove
+    comb:overline
+    comb:perispomeni
+    comb:reversedcommaabove
+    comb:ringabove
+    comb:tilde
+    comb:tildevertical
+    comb:verticallineabove
+    comb:xabove
 ];
 
 # Features
 feature ccmp {
     lookup SubstitutePrecomposedCharactersWithNonTopAccents {
-        sub A dotbelowcomb by uni1EA0;
-        sub A ogoneknosp by Aogonek;
-        sub A ogoneknosp acutecomb by Aogonacute;
-        sub A ogoneknosp tildecomb by Aogontilde;
-        sub C cedillanosp by Ccedilla;
-        sub D dotbelowcomb by uni1E0C;
-        sub D cedillanosp by uni1E10;
-        sub D macronsubnosp by uni1E0E;
-        sub D barmidshortnosp by Dcroat;
-        sub D barmidlongnosp by Dcroat;
-        sub E ogoneknosp by Eogonek;
-        sub E ogoneknosp acutecomb by Eogonacute;
-        sub E ogoneknosp tildecomb by Eogontilde;
-        sub G commasubnosp by Gcommaaccent;
-        sub H barmidlongnosp by Hbar;
-        sub H barmidshortnosp by Hbar;
-        sub H dotbelowcomb by uni1E24;
-        sub H cedillanosp by uni1E28;
-        sub I ogoneknosp by Iogonek;
-        sub I ogoneknosp acutecomb by Iogonacute;
-        sub I ogoneknosp tildecomb by Iogontilde;
-        sub K commasubnosp by Kcommaaccent;
-        sub L commasubnosp by Lcommaaccent;
-        sub L commasuprightnosp by Lcaron;
-        sub L slashshortnosp by Lslash;
-        sub L slashlongnosp by Lslash;
-        sub M dotbelowcomb by uni1E42;
-        sub N commasubnosp by Ncommaaccent;
-        sub N dotbelowcomb by uni1E46;
-        sub N hooksubpalatnosp by Eng;
-        sub N macronsubnosp by uni1E48;
-        sub O slashlongnosp by Oslash;
-        sub O slashshortnosp by Oslash;
-        sub R commasubnosp by Rcommaaccent;
-        sub R dotbelowcomb by uni1E5A;
-        sub S cedillanosp by Scedilla;
-        sub S dotbelowcomb by uni1E62;
-        sub T cedillanosp by Tcommaaccent;
-        sub T dotbelowcomb by uni1E6C;
-        sub T macronsubnosp by uni1E6E;
-        sub T barmidshortnosp by Tbar;
-        sub T barmidlongnosp by Tbar;
-        sub U ogoneknosp by Uogonek;
-        sub U ogoneknosp acutecomb by Uogonacute;
-        sub U ogoneknosp tildecomb by Uogontilde;
-        sub Z dotbelowcomb by uni1E92;
-        sub Z macronsubnosp by uni1E94;
-        sub a dotbelowcomb by uni1EA1;
-        sub a ogoneknosp by aogonek;
-        sub a ogoneknosp acutecomb by aogonacute;
-        sub a ogoneknosp tildecomb by aogontilde;
-        sub c cedillanosp by ccedilla;
-        sub d cedillanosp by uni1E11;
-        sub d commasuprightnosp by dcaron;
-        sub d dotbelowcomb by uni1E0D;
-        sub d macronsubnosp by uni1E0F;
-        sub d barmidshortnosp by dcroat;
-        sub e ogoneknosp by eogonek;
-        sub e ogoneknosp acutecomb by eogonacute;
-        sub e ogoneknosp tildecomb by eogontilde;
-        sub g commasubnosp by gcommaaccent;
-        sub h barmidlongnosp by hbar;
-        sub h dotbelowcomb by uni1E25;
-        sub h cedillanosp by uni1E29;
-        sub i ogoneknosp by iogonek;
-        sub i ogoneknosp dotaccentcomb acutecomb by iogonacute;
-        sub i ogoneknosp dotaccentcomb tildecomb by iogontilde;
-        sub l commasubnosp by lcommaaccent;
-        sub l commasuprightnosp by lcaron;
-        sub l dotaccentcomb by ldot;
-        sub l slashshortnosp by lslash;
-        sub l slashlongnosp by lslash;
-        sub m dotbelowcomb by uni1E43;
-        sub n dotaccentcomb by uni1E45;
-        sub n commasubnosp by ncommaaccent;
-        sub n dotbelowcomb by uni1E47;
-        sub n macronsubnosp by uni1E49;
-        sub n hooksubpalatnosp by eng;
-        sub o slashshortnosp by oslash;
-        sub o slashlongnosp by oslash;
-        sub r commasubnosp by rcommaaccent;
-        sub r dotbelowcomb by uni1E5B;
-        sub s cedillanosp by scedilla;
-        sub s dotbelowcomb by uni1E63;
-        sub t cedillanosp by tcommaaccent;
-        sub t commasuprightnosp by tcaron;
-        sub t dotbelowcomb by uni1E6D;
-        sub t macronsubnosp by uni1E6F;
-        sub t barmidshortnosp by tbar;
-        sub u ogoneknosp by uogonek;
-        sub u ogoneknosp acutecomb by uogonacute;
-        sub u ogoneknosp tildecomb by uogontilde;
-        sub z dotbelowcomb by uni1E93;
-        sub z macronsubnosp by uni1E95;
-        sub dotlessi ogoneknosp dotaccentcomb acutecomb by iogonacute;
-        sub dotlessi ogoneknosp dotaccentcomb tildecomb by iogontilde;
+        sub latn:A comb:dotbelow by latn:Adotbelow;
+        sub latn:A comb:ogonek by latn:Aogonek;
+        sub latn:A comb:ogonek comb:acute by latn:Aogonekacute;
+        sub latn:A comb:ogonek comb:tilde by latn:Aogonektilde;
+        sub latn:C comb:cedilla by latn:Ccedilla;
+        sub latn:D comb:cedilla by latn:Dcommaaccent;
+        sub latn:D comb:dotbelow by latn:Ddotbelow;
+        sub latn:D comb:macronbelow by latn:Dlinebelow;
+        sub latn:D comb:overlaystrokelong by latn:Dstroke;
+        sub latn:D comb:overlaystrokeshort by latn:Dstroke;
+        sub latn:E comb:ogonek by latn:Eogonek;
+        sub latn:E comb:ogonek comb:acute by latn:Eogonekacute;
+        sub latn:E comb:ogonek comb:tilde by latn:Eogontilde;
+        sub latn:G comb:commabelow by latn:Gcedilla;
+        sub latn:H comb:cedilla by latn:Hcedilla;
+        sub latn:H comb:dotbelow by latn:Hdotbelow;
+        sub latn:H comb:overlaystrokelong by latn:Hstroke;
+        sub latn:H comb:overlaystrokeshort by latn:Hstroke;
+        sub latn:I comb:ogonek by latn:Iogonek;
+        sub latn:I comb:ogonek comb:acute by latn:Iogonekacute;
+        sub latn:I comb:ogonek comb:tilde by latn:Iogonektilde;
+        sub latn:K comb:commabelow by latn:Kcedilla;
+        sub latn:L comb:commaaboveright by latn:Lcaron;
+        sub latn:L comb:commabelow by latn:Lcedilla;
+        sub latn:L comb:soliduslongoverlay by latn:Lstroke;
+        sub latn:L comb:solidusshortoverlay by latn:Lstroke;
+        sub latn:M comb:dotbelow by latn:Mdotbelow;
+        sub latn:N comb:commabelow by latn:Ncedilla;
+        sub latn:N comb:dotbelow by latn:Ndotbelow;
+        sub latn:N comb:macronbelow by latn:Nlinebelow;
+        sub latn:N comb:palatalizedhookbelow by latn:Eng;
+        sub latn:O comb:soliduslongoverlay by latn:Ostroke;
+        sub latn:O comb:solidusshortoverlay by latn:Ostroke;
+        sub latn:R comb:commabelow by latn:Rcedilla;
+        sub latn:R comb:dotbelow by latn:Rdotbelow;
+        sub latn:S comb:cedilla by latn:Scedilla;
+        sub latn:S comb:dotbelow by latn:Sdotbelow;
+        sub latn:T comb:cedilla by latn:Tcedilla;
+        sub latn:T comb:dotbelow by latn:Tdotbelow;
+        sub latn:T comb:macronbelow by latn:Tlinebelow;
+        sub latn:T comb:overlaystrokelong by latn:Tstroke;
+        sub latn:T comb:overlaystrokeshort by latn:Tstroke;
+        sub latn:U comb:ogonek by latn:Uogonek;
+        sub latn:U comb:ogonek comb:acute by latn:Uogonekacute;
+        sub latn:U comb:ogonek comb:tilde by latn:Uogonektilde;
+        sub latn:Z comb:dotbelow by latn:Zdotbelow;
+        sub latn:Z comb:macronbelow by latn:Zlinebelow;
+        sub latn:a comb:dotbelow by latn:adotbelow;
+        sub latn:a comb:ogonek by latn:aogonek;
+        sub latn:a comb:ogonek comb:acute by latn:aogonekacute;
+        sub latn:a comb:ogonek comb:tilde by latn:aogonektilde;
+        sub latn:c comb:cedilla by latn:ccedilla;
+        sub latn:d comb:cedilla by latn:dcommaaccent;
+        sub latn:d comb:commaaboveright by latn:dcaron;
+        sub latn:d comb:dotbelow by latn:ddotbelow;
+        sub latn:d comb:macronbelow by latn:dlinebelow;
+        sub latn:d comb:overlaystrokeshort by latn:dstroke;
+        sub latn:e comb:ogonek by latn:eogonek;
+        sub latn:e comb:ogonek comb:acute by latn:eogonekacute;
+        sub latn:e comb:ogonek comb:tilde by latn:eogonektilde;
+        sub latn:g comb:commabelow by latn:gcedilla;
+        sub latn:h comb:cedilla by latn:hcedilla;
+        sub latn:h comb:dotbelow by latn:hdotbelow;
+        sub latn:h comb:overlaystrokelong by latn:hstroke;
+        sub latn:i comb:ogonek by latn:iogonek;
+        sub latn:i comb:ogonek comb:dotaccent comb:acute by latn:iogonekdotaccentacute;
+        sub latn:i comb:ogonek comb:dotaccent comb:tilde by latn:iogonekdotaccenttilde;
+        sub latn:idotless comb:ogonek comb:dotaccent comb:acute by latn:iogonekdotaccentacute;
+        sub latn:idotless comb:ogonek comb:dotaccent comb:tilde by latn:iogonekdotaccenttilde;
+        sub latn:l comb:commaaboveright by latn:lcaron;
+        sub latn:l comb:commabelow by latn:lcedilla;
+        sub latn:l comb:dotaccent by latn:lmiddledot;
+        sub latn:l comb:soliduslongoverlay by latn:lstroke;
+        sub latn:l comb:solidusshortoverlay by latn:lstroke;
+        sub latn:m comb:dotbelow by latn:mdotbelow;
+        sub latn:n comb:commabelow by latn:ncedilla;
+        sub latn:n comb:dotaccent by latn:ndot;
+        sub latn:n comb:dotbelow by latn:ndotbelow;
+        sub latn:n comb:macronbelow by latn:nlinebelow;
+        sub latn:n comb:palatalizedhookbelow by latn:eng;
+        sub latn:o comb:soliduslongoverlay by latn:ostroke;
+        sub latn:o comb:solidusshortoverlay by latn:ostroke;
+        sub latn:r comb:commabelow by latn:rcedilla;
+        sub latn:r comb:dotbelow by latn:rdotbelow;
+        sub latn:s comb:cedilla by latn:scedilla;
+        sub latn:s comb:dotbelow by latn:sdotbelow;
+        sub latn:t comb:cedilla by latn:tcedilla;
+        sub latn:t comb:commaaboveright by latn:tcaron;
+        sub latn:t comb:dotbelow by latn:tdotbelow;
+        sub latn:t comb:macronbelow by latn:tlinebelow;
+        sub latn:t comb:overlaystrokeshort by latn:tstroke;
+        sub latn:u comb:ogonek by latn:uogonek;
+        sub latn:u comb:ogonek comb:acute by latn:uogonekacute;
+        sub latn:u comb:ogonek comb:tilde by latn:uogonektilde;
+        sub latn:z comb:dotbelow by latn:zdotbelow;
+        sub latn:z comb:macronbelow by latn:zlinebelow;
     } SubstitutePrecomposedCharactersWithNonTopAccents;
 
     lookup SubstitutePrecomposedCharactersWithTopAccents {
         lookupflag UseMarkFilteringSet @COMBINING_MARKS_ABOVE;
-        sub A gravecomb by Agrave;
-        sub A acutecomb by Aacute;
-        sub A circumflexcomb by Acircumflex;
-        sub A tildecomb by Atilde;
-        sub A dieresiscomb by Adieresis;
-        sub A ringnosp by Aring;
-        sub A ringnosp acutecomb by Aringacute;
-        sub A macroncomb by Amacron;
-        sub A dotaccentcomb by Adotabove;
-        sub A brevecomb by Abreve;
-        sub C haceknosp by Ccaron;
-        sub C circumflexcomb by Ccircumflex;
-        sub C dotaccentcomb by Cdotaccent;
-        sub C acutecomb by Cacute;
-        sub D haceknosp by Dcaron;
-        sub E gravecomb by Egrave;
-        sub E acutecomb by Eacute;
-        sub E circumflexcomb by Ecircumflex;
-        sub E tildecomb by Etilde;
-        sub E dieresiscomb by Edieresis;
-        sub E macroncomb by Emacron;
-        sub E haceknosp by Ecaron;
-        sub E dotaccentcomb by Edotaccent;
-        sub E brevecomb by Ebreve;
-        sub E dotaccentcomb acutecomb by Edotacute;
-        sub E dotaccentcomb tildecomb by Edottilde;
-        sub G circumflexcomb by Gcircumflex;
-        sub G dotaccentcomb by Gdotaccent;
-        sub G brevecomb by Gbreve;
-        sub H circumflexcomb by Hcircumflex;
-        sub H dotaccentcomb by uni1E22;
-        sub I gravecomb by Igrave;
-        sub I acutecomb by Iacute;
-        sub I circumflexcomb by Icircumflex;
-        sub I tildecomb by Itilde;
-        sub I macroncomb by Imacron;
-        sub I dieresiscomb by Idieresis;
-        sub I dieresiscomb acutecomb by uni1E2E;
-        sub I brevecomb by Ibreve;
-        sub I dotaccentcomb by Idotaccent;
-        sub J circumflexcomb by Jcircumflex;
-        sub J tildecomb by Jtilde;
-        sub L tildecomb by Ltilde;
-        sub L acutecomb by Lacute;
-        sub L haceknosp by Lcaron;
-        sub L dotaccentcomb by Ldot;
-        sub M tildecomb by Mtilde;
-        sub M dotaccentcomb by uni1E40;
-        sub N acutecomb by Nacute;
-        sub N tildecomb by Ntilde;
-        sub N haceknosp by Ncaron;
-        sub N dotaccentcomb by uni1E44;
-        sub O gravecomb by Ograve;
-        sub O acutecomb by Oacute;
-        sub O circumflexcomb by Ocircumflex;
-        sub O tildecomb by Otilde;
-        sub O dieresiscomb by Odieresis;
-        sub O macroncomb by Omacron;
-        sub O acutedblnosp by uni0150;
-        sub O brevecomb by Obreve;
-        sub R acutecomb by Racute;
-        sub R haceknosp by Rcaron;
-        sub R dotaccentcomb by uni1E58;
-        sub R tildecomb by Rtilde;
-        sub S acutecomb by Sacute;
-        sub S haceknosp by Scaron;
-        sub S circumflexcomb by Scircumflex;
-        sub S dotaccentcomb by uni1E60;
-        sub T haceknosp by Tcaron;
-        sub U gravecomb by Ugrave;
-        sub U acutecomb by Uacute;
-        sub U circumflexcomb by Ucircumflex;
-        sub U tildecomb by Utilde;
-        sub U dieresiscomb by Udieresis;
-        sub U ringnosp by Uring;
-        sub U macroncomb by Umacron;
-        sub U acutedblnosp by Uhungarumlaut;
-        sub U brevecomb by Ubreve;
-        sub U macroncomb acutecomb by Umacronacute;
-        sub U macroncomb tildecomb by Umacrontilde;
-        sub W gravecomb by Wgrave;
-        sub W acutecomb by Wacute;
-        sub W circumflexcomb by Wcircumflex;
-        sub W dieresiscomb by Wdieresis;
-        sub Y gravecomb by Ygrave;
-        sub Y acutecomb by Yacute;
-        sub Y circumflexcomb by Ycircumflex;
-        sub Y tildecomb by Ytilde;
-        sub Y dieresiscomb by Ydieresis;
-        sub Z acutecomb by Zacute;
-        sub Z haceknosp by Zcaron;
-        sub Z dotaccentcomb by Zdot;
-        sub a gravecomb by agrave;
-        sub a acutecomb by aacute;
-        sub a circumflexcomb by acircumflex;
-        sub a tildecomb by atilde;
-        sub a dieresiscomb by adieresis;
-        sub a ringnosp by aring;
-        sub a ringnosp acutecomb by aringacute;
-        sub a macroncomb by amacron;
-        sub a dotaccentcomb by adotabove;
-        sub a brevecomb by abreve;
-        sub c acutecomb by cacute;
-        sub c haceknosp by ccaron;
-        sub c circumflexcomb by ccircumflex;
-        sub c dotaccentcomb by cdotaccent;
-        sub d haceknosp by dcaron;
-        sub e gravecomb by egrave;
-        sub e acutecomb by eacute;
-        sub e circumflexcomb by ecircumflex;
-        sub e tildecomb by etilde;
-        sub e dieresiscomb by edieresis;
-        sub e macroncomb by emacron;
-        sub e haceknosp by ecaron;
-        sub e dotaccentcomb by edotaccent;
-        sub e brevecomb by ebreve;
-        sub g circumflexcomb by gcircumflex;
-        sub g dotaccentcomb by gdotaccent;
-        sub g brevecomb by gbreve;
-        sub g commaturnsupnosp by gcommaaccent;
-        sub h circumflexcomb by hcircumflex;
-        sub h dotaccentcomb by uni1E23;
-        sub h macronsubnosp by uni1E96;
-        sub i gravecomb by igrave;
-        sub i dotaccentcomb gravecomb by igravedot;
-        sub i acutecomb by iacute;
-        sub i dotaccentcomb acutecomb by iacutedot;
-        sub i circumflexcomb by icircumflex;
-        sub i tildecomb by itilde;
-        sub i dotaccentcomb tildecomb by itildedot;
-        sub i macroncomb by imacron;
-        sub i dieresiscomb by idieresis;
-        sub i dieresiscomb acutecomb by uni1E2F;
-        sub i brevecomb by ibreve;
-        sub j circumflexcomb by jcircumflex;
-        sub j dotaccentcomb tildecomb by jtilde;
-        sub l acutecomb by lacute;
-        sub l haceknosp by lcaron;
-        sub l tildecomb by ltilde;
-        sub m dotaccentcomb by uni1E41;
-        sub m tildecomb by mtilde;
-        sub n acutecomb by nacute;
-        sub n tildecomb by ntilde;
-        sub n haceknosp by ncaron;
-        sub o gravecomb by ograve;
-        sub o acutecomb by oacute;
-        sub o circumflexcomb by ocircumflex;
-        sub o tildecomb by otilde;
-        sub o dieresiscomb by odieresis;
-        sub o macroncomb by omacron;
-        sub o acutedblnosp by uni0151;
-        sub o brevecomb by obreve;
-        sub r acutecomb by racute;
-        sub r haceknosp by rcaron;
-        sub r dotaccentcomb by uni1E59;
-        sub r tildecomb by rtilde;
-        sub s acutecomb by sacute;
-        sub s haceknosp by scaron;
-        sub s circumflexcomb by scircumflex;
-        sub s dotaccentcomb by uni1E61;
-        sub t haceknosp by tcaron;
-        sub u gravecomb by ugrave;
-        sub u acutecomb by uacute;
-        sub u circumflexcomb by ucircumflex;
-        sub u tildecomb by utilde;
-        sub u dieresiscomb by udieresis;
-        sub u ringnosp by uring;
-        sub u macroncomb by umacron;
-        sub u acutedblnosp by uhungarumlaut;
-        sub u brevecomb by ubreve;
-        sub u macroncomb acutecomb by umacronacute;
-        sub u macroncomb tildecomb by umacrontilde;
-        sub w gravecomb by wgrave;
-        sub w acutecomb by wacute;
-        sub w circumflexcomb by wcircumflex;
-        sub w dieresiscomb by wdieresis;
-        sub y gravecomb by ygrave;
-        sub y acutecomb by yacute;
-        sub y circumflexcomb by ycircumflex;
-        sub y tildecomb by ytilde;
-        sub y dieresiscomb by ydieresis;
-        sub z acutecomb by zacute;
-        sub z haceknosp by zcaron;
-        sub z dotaccentcomb by zdot;
-        sub AE acutecomb by AEacute;
-        sub Oslash acutecomb by Oslashacute;
-        sub ae acutecomb by aeacute;
-        sub oslash acutecomb by oslashacute;
-        sub Aogonek acutecomb by Aogonacute;
-        sub Aogonek tildecomb by Aogontilde;
-        sub aogonek acutecomb by aogonacute;
-        sub aogonek tildecomb by aogontilde;
-        sub Edotaccent acutecomb by Edotacute;
-        sub Edotaccent tildecomb by Edottilde;
-        sub edotaccent acutecomb by edotacute;
-        sub edotaccent tildecomb by edottilde;
-        sub Eogonek acutecomb by Eogonacute;
-        sub Eogonek tildecomb by Eogontilde;
-        sub eogonek acutecomb by eogonacute;
-        sub eogonek tildecomb by eogontilde;
-        sub Iogonek acutecomb by Iogonacute;
-        sub Iogonek tildecomb by Iogontilde;
-        sub iogonek dotaccentcomb acutecomb by iogonacute;
-        sub iogonek dotaccentcomb tildecomb by iogontilde;
-        sub dotlessi dotaccentcomb gravecomb by igravedot;
-        sub dotlessi dotaccentcomb acutecomb by iacutedot;
-        sub dotlessi dotaccentcomb tildecomb by itildedot;
-        sub dotlessi gravecomb by igrave;
-        sub dotlessi acutecomb by iacute;
-        sub dotlessi tildecomb by itilde;
-        sub dotlessi macroncomb by imacron;
-        sub dotlessi dieresiscomb by idieresis;
-        sub Umacron acutecomb by Umacronacute;
-        sub Umacron tildecomb by Umacrontilde;
-        sub umacron acutecomb by umacronacute;
-        sub umacron tildecomb by umacrontilde;
-        sub Uogonek acutecomb by Uogonacute;
-        sub Uogonek tildecomb by Uogontilde;
-        sub uogonek acutecomb by uogonacute;
-        sub uogonek tildecomb by uogontilde;
+        sub latn:A comb:acute by latn:Aacute;
+        sub latn:A comb:breve by latn:Abreve;
+        sub latn:A comb:circumflex by latn:Acircumflex;
+        sub latn:A comb:diaeresis by latn:Adiaeresis;
+        sub latn:A comb:dotaccent by latn:Adotaccent;
+        sub latn:A comb:grave by latn:Agrave;
+        sub latn:A comb:macron by latn:Amacron;
+        sub latn:A comb:ringabove by latn:Aring;
+        sub latn:A comb:ringabove comb:acute by latn:Aringacute;
+        sub latn:A comb:tilde by latn:Atilde;
+        sub latn:AE comb:acute by latn:AEacute;
+        sub latn:Aogonek comb:acute by latn:Aogonekacute;
+        sub latn:Aogonek comb:tilde by latn:Aogonektilde;
+        sub latn:C comb:acute by latn:Cacute;
+        sub latn:C comb:caron by latn:Ccaron;
+        sub latn:C comb:circumflex by latn:Ccircumflex;
+        sub latn:C comb:dotaccent by latn:Cdotaccent;
+        sub latn:D comb:caron by latn:Dcaron;
+        sub latn:E comb:acute by latn:Eacute;
+        sub latn:E comb:breve by latn:Ebreve;
+        sub latn:E comb:caron by latn:Ecaron;
+        sub latn:E comb:circumflex by latn:Ecircumflex;
+        sub latn:E comb:diaeresis by latn:Ediaeresis;
+        sub latn:E comb:dotaccent by latn:Edotaccent;
+        sub latn:E comb:dotaccent comb:acute by latn:Edotaccentacute;
+        sub latn:E comb:dotaccent comb:tilde by latn:Edotaccenttilde;
+        sub latn:E comb:grave by latn:Egrave;
+        sub latn:E comb:macron by latn:Emacron;
+        sub latn:E comb:tilde by latn:Etilde;
+        sub latn:Edotaccent comb:acute by latn:Edotaccentacute;
+        sub latn:Edotaccent comb:tilde by latn:Edotaccenttilde;
+        sub latn:Eogonek comb:acute by latn:Eogonekacute;
+        sub latn:Eogonek comb:tilde by latn:Eogontilde;
+        sub latn:G comb:breve by latn:Gbreve;
+        sub latn:G comb:circumflex by latn:Gcircumflex;
+        sub latn:G comb:dotaccent by latn:Gdotaccent;
+        sub latn:H comb:circumflex by latn:Hcircumflex;
+        sub latn:H comb:dotaccent by latn:Hdot;
+        sub latn:I comb:acute by latn:Iacute;
+        sub latn:I comb:breve by latn:Ibreve;
+        sub latn:I comb:circumflex by latn:Icircumflex;
+        sub latn:I comb:diaeresis by latn:Idiaeresis;
+        sub latn:I comb:diaeresis comb:acute by latn:Idiaeresisacute;
+        sub latn:I comb:dotaccent by latn:Idotaccent;
+        sub latn:I comb:grave by latn:Igrave;
+        sub latn:I comb:macron by latn:Imacron;
+        sub latn:I comb:tilde by latn:Itilde;
+        sub latn:Iogonek comb:acute by latn:Iogonekacute;
+        sub latn:Iogonek comb:tilde by latn:Iogonektilde;
+        sub latn:Y comb:acute by latn:Yacute;
+        sub latn:Y comb:circumflex by latn:Ycircumflex;
+        sub latn:Y comb:diaeresis by latn:Ydiaeresis;
+        sub latn:Y comb:grave by latn:Ygrave;
+        sub latn:Y comb:tilde by latn:Ytilde;
+        sub latn:J comb:circumflex by latn:Jcircumflex;
+        sub latn:J comb:tilde by latn:Jtilde;
+        sub latn:L comb:acute by latn:Lacute;
+        sub latn:L comb:caron by latn:Lcaron;
+        sub latn:L comb:dotaccent by latn:Lmiddledot;
+        sub latn:L comb:tilde by latn:Ltilde;
+        sub latn:M comb:dotaccent by latn:Mdot;
+        sub latn:M comb:tilde by latn:Mtilde;
+        sub latn:N comb:acute by latn:Nacute;
+        sub latn:N comb:caron by latn:Ncaron;
+        sub latn:N comb:dotaccent by latn:Ndot;
+        sub latn:N comb:tilde by latn:Ntilde;
+        sub latn:O comb:acute by latn:Oacute;
+        sub latn:O comb:breve by latn:Obreve;
+        sub latn:O comb:circumflex by latn:Ocircumflex;
+        sub latn:O comb:diaeresis by latn:Odiaeresis;
+        sub latn:O comb:doubleacute by latn:Odoubleacute;
+        sub latn:O comb:grave by latn:Ograve;
+        sub latn:O comb:macron by latn:Omacron;
+        sub latn:O comb:tilde by latn:Otilde;
+        sub latn:Ostroke comb:acute by latn:Ostrokeacute;
+        sub latn:R comb:acute by latn:Racute;
+        sub latn:R comb:caron by latn:Rcaron;
+        sub latn:R comb:dotaccent by latn:Rdot;
+        sub latn:R comb:tilde by latn:Rtilde;
+        sub latn:S comb:acute by latn:Sacute;
+        sub latn:S comb:caron by latn:Scaron;
+        sub latn:S comb:circumflex by latn:Scircumflex;
+        sub latn:S comb:dotaccent by latn:Sdot;
+        sub latn:T comb:caron by latn:Tcaron;
+        sub latn:U comb:acute by latn:Uacute;
+        sub latn:U comb:breve by latn:Ubreve;
+        sub latn:U comb:circumflex by latn:Ucircumflex;
+        sub latn:U comb:diaeresis by latn:Udiaeresis;
+        sub latn:U comb:doubleacute by latn:Udoubleacute;
+        sub latn:U comb:grave by latn:Ugrave;
+        sub latn:U comb:macron by latn:Umacron;
+        sub latn:U comb:macron comb:acute by latn:Umacronacute;
+        sub latn:U comb:macron comb:tilde by latn:Umacrontilde;
+        sub latn:U comb:ringabove by latn:Uring;
+        sub latn:U comb:tilde by latn:Utilde;
+        sub latn:Umacron comb:acute by latn:Umacronacute;
+        sub latn:Umacron comb:tilde by latn:Umacrontilde;
+        sub latn:Uogonek comb:acute by latn:Uogonekacute;
+        sub latn:Uogonek comb:tilde by latn:Uogonektilde;
+        sub latn:W comb:acute by latn:Wacute;
+        sub latn:W comb:circumflex by latn:Wcircumflex;
+        sub latn:W comb:diaeresis by latn:Wdiaeresis;
+        sub latn:W comb:grave by latn:Wgrave;
+        sub latn:Z comb:acute by latn:Zacute;
+        sub latn:Z comb:caron by latn:Zcaron;
+        sub latn:Z comb:dotaccent by latn:Zdotaccent;
+        sub latn:a comb:acute by latn:aacute;
+        sub latn:a comb:breve by latn:abreve;
+        sub latn:a comb:circumflex by latn:acircumflex;
+        sub latn:a comb:diaeresis by latn:adiaeresis;
+        sub latn:a comb:dotaccent by latn:adotaccent;
+        sub latn:a comb:grave by latn:agrave;
+        sub latn:a comb:macron by latn:amacron;
+        sub latn:a comb:ringabove by latn:aring;
+        sub latn:a comb:ringabove comb:acute by latn:aringacute;
+        sub latn:a comb:tilde by latn:atilde;
+        sub latn:ae comb:acute by latn:aeacute;
+        sub latn:aogonek comb:acute by latn:aogonekacute;
+        sub latn:aogonek comb:tilde by latn:aogonektilde;
+        sub latn:c comb:acute by latn:cacute;
+        sub latn:c comb:caron by latn:ccaron;
+        sub latn:c comb:circumflex by latn:ccircumflex;
+        sub latn:c comb:dotaccent by latn:cdotaccent;
+        sub latn:d comb:caron by latn:dcaron;
+        sub latn:e comb:acute by latn:eacute;
+        sub latn:e comb:breve by latn:ebreve;
+        sub latn:e comb:caron by latn:ecaron;
+        sub latn:e comb:circumflex by latn:ecircumflex;
+        sub latn:e comb:diaeresis by latn:ediaeresis;
+        sub latn:e comb:dotaccent by latn:edotaccent;
+        sub latn:e comb:grave by latn:egrave;
+        sub latn:e comb:macron by latn:emacron;
+        sub latn:e comb:tilde by latn:etilde;
+        sub latn:edotaccent comb:acute by latn:edotaccentacute;
+        sub latn:edotaccent comb:tilde by latn:edotaccenttilde;
+        sub latn:eogonek comb:acute by latn:eogonekacute;
+        sub latn:eogonek comb:tilde by latn:eogonektilde;
+        sub latn:g comb:breve by latn:gbreve;
+        sub latn:g comb:circumflex by latn:gcircumflex;
+        sub latn:g comb:commaturnedabove by latn:gcedilla;
+        sub latn:g comb:dotaccent by latn:gdotaccent;
+        sub latn:h comb:circumflex by latn:hcircumflex;
+        sub latn:h comb:dotaccent by latn:hdot;
+        sub latn:h comb:macronbelow by latn:hlinebelow;
+        sub latn:i comb:acute by latn:iacute;
+        sub latn:i comb:breve by latn:ibreve;
+        sub latn:i comb:circumflex by latn:icircumflex;
+        sub latn:i comb:diaeresis by latn:idiaeresis;
+        sub latn:i comb:diaeresis comb:acute by latn:idiaeresisacute;
+        sub latn:i comb:dotaccent comb:acute by latn:idotaccentacute;
+        sub latn:i comb:dotaccent comb:grave by latn:idotaccentgrave;
+        sub latn:i comb:dotaccent comb:tilde by latn:idotaccenttilde;
+        sub latn:i comb:grave by latn:igrave;
+        sub latn:i comb:macron by latn:imacron;
+        sub latn:i comb:tilde by latn:itilde;
+        sub latn:idotless comb:acute by latn:iacute;
+        sub latn:idotless comb:diaeresis by latn:idiaeresis;
+        sub latn:idotless comb:dotaccent comb:acute by latn:idotaccentacute;
+        sub latn:idotless comb:dotaccent comb:grave by latn:idotaccentgrave;
+        sub latn:idotless comb:dotaccent comb:tilde by latn:idotaccenttilde;
+        sub latn:idotless comb:grave by latn:igrave;
+        sub latn:idotless comb:macron by latn:imacron;
+        sub latn:idotless comb:tilde by latn:itilde;
+        sub latn:iogonek comb:dotaccent comb:acute by latn:iogonekdotaccentacute;
+        sub latn:iogonek comb:dotaccent comb:tilde by latn:iogonekdotaccenttilde;
+        sub latn:y comb:acute by latn:yacute;
+        sub latn:y comb:circumflex by latn:ycircumflex;
+        sub latn:y comb:diaeresis by latn:ydieresis;
+        sub latn:y comb:grave by latn:ygrave;
+        sub latn:y comb:tilde by latn:ytilde;
+        sub latn:j comb:circumflex by latn:jcircumflex;
+        sub latn:j comb:dotaccent comb:tilde by latn:jdotaccenttilde;
+        sub latn:l comb:acute by latn:lacute;
+        sub latn:l comb:caron by latn:lcaron;
+        sub latn:l comb:tilde by latn:ltilde;
+        sub latn:m comb:dotaccent by latn:mdot;
+        sub latn:m comb:tilde by latn:mtilde;
+        sub latn:n comb:acute by latn:nacute;
+        sub latn:n comb:caron by latn:ncaron;
+        sub latn:n comb:tilde by latn:ntilde;
+        sub latn:o comb:acute by latn:oacute;
+        sub latn:o comb:breve by latn:obreve;
+        sub latn:o comb:circumflex by latn:ocircumflex;
+        sub latn:o comb:diaeresis by latn:odiaeresis;
+        sub latn:o comb:doubleacute by latn:odoubleacute;
+        sub latn:o comb:grave by latn:ograve;
+        sub latn:o comb:macron by latn:omacron;
+        sub latn:o comb:tilde by latn:otilde;
+        sub latn:ostroke comb:acute by latn:ostrokeacute;
+        sub latn:r comb:acute by latn:racute;
+        sub latn:r comb:caron by latn:rcaron;
+        sub latn:r comb:dotaccent by latn:rdot;
+        sub latn:r comb:tilde by latn:rtilde;
+        sub latn:s comb:acute by latn:sacute;
+        sub latn:s comb:caron by latn:scaron;
+        sub latn:s comb:circumflex by latn:scircumflex;
+        sub latn:s comb:dotaccent by latn:sdot;
+        sub latn:t comb:caron by latn:tcaron;
+        sub latn:u comb:acute by latn:uacute;
+        sub latn:u comb:breve by latn:ubreve;
+        sub latn:u comb:circumflex by latn:ucircumflex;
+        sub latn:u comb:diaeresis by latn:udiaeresis;
+        sub latn:u comb:doubleacute by latn:udoubleacute;
+        sub latn:u comb:grave by latn:ugrave;
+        sub latn:u comb:macron by latn:umacron;
+        sub latn:u comb:macron comb:acute by latn:umacronacute;
+        sub latn:u comb:macron comb:tilde by latn:umacrontilde;
+        sub latn:u comb:ringabove by latn:uring;
+        sub latn:u comb:tilde by latn:utilde;
+        sub latn:umacron comb:acute by latn:umacronacute;
+        sub latn:umacron comb:tilde by latn:umacrontilde;
+        sub latn:uogonek comb:acute by latn:uogonekacute;
+        sub latn:uogonek comb:tilde by latn:uogonektilde;
+        sub latn:w comb:acute by latn:wacute;
+        sub latn:w comb:circumflex by latn:wcirfumflex;
+        sub latn:w comb:diaeresis by latn:wdiaeresis;
+        sub latn:w comb:grave by latn:wgrave;
+        sub latn:z comb:acute by latn:zacute;
+        sub latn:z comb:caron by latn:zcaron;
+        sub latn:z comb:dotaccent by latn:zdotaccent;
     } SubstitutePrecomposedCharactersWithTopAccents;
 
     lookup SubstituteSoftDottedCharacters {
         # A list of characters currently tagged as soft-dotted is available at
         # https://www.unicodecharacter.org/property/Soft_Dotted/Y
         lookupflag UseMarkFilteringSet @COMBINING_MARKS_ABOVE;
-        sub [i dotlessi]' dotaccentcomb' by i;
-        sub afii10103' dotaccentcomb' by afii10103;
-        sub iogonek' dotaccentcomb' by iogonek;
-        sub uni0268' dotaccentcomb' by uni0268;
-        sub [j jdotless]' dotaccentcomb' by j;
-        sub [i afii10103 iogonek uni0268 j]' @COMBINING_MARKS_ABOVE by [dotlessi dotlessi iogonek.dotless uni0268.dotless jdotless];
+        # First replace any occurrence of a soft-dotted character
+        # followed by a combining dot above with the character itself
+        # and stop processing the lookup.
+        # Also replace dotless forms with dotted ones.
+        sub [latn:i latn:idotless]' comb:dotaccent' by latn:i;
+        sub latn:iogonek' comb:dotaccent' by latn:iogonek;
+        sub latn:istroke' comb:dotaccent' by latn:istroke;
+        sub [latn:j latn:jdotless]' comb:dotaccent' by latn:j;
+        sub cyrl:iukr' comb:dotaccent' by cyrl:iukr;
+        # Replace remaining soft-dotted characters followed by combining marks above
+        # with their dotless forms.
+        sub [latn:i latn:iogonek latn:istroke latn:j cyrl:iukr]' @COMBINING_MARKS_ABOVE by [latn:idotless latn:iogonek.dotless latn:istroke.dotless latn:jdotless latn:idotless];
     } SubstituteSoftDottedCharacters;
 } ccmp;
 
 feature liga {
     lookup SubstituteLigatures {
-        sub I J by IJ;
-        sub i j by ij;
-        sub f i by fi;
-        sub f l by fl;
-        sub uni02BC n by napostrophe;
+        sub latn:I latn:J by latn:I_J;
+        sub latn:i latn:j by latn:i_j;
+        sub latn:f latn:i by latn:f_i;
+        sub latn:f latn:l by latn:f_l;
+        sub sign:apostrophemod latn:n by latn:napostrophe;
     } SubstituteLigatures;
 } liga;

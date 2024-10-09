@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="box:dblverthorz" format="2">
+  <advance width="1536"/>
+  <unicode hex="256C"/>
+  <outline>
+    <contour>
+      <point x="964" y="2000" type="line" name="av01"/>
+      <point x="964" y="900" type="line" name="sh01"/>
+      <point x="1611" y="900" type="line" name="dv03"/>
+      <point x="1611" y="778" type="line" name="dv02"/>
+      <point x="872" y="778" type="line" name="ah01"/>
+      <point x="872" y="2000" type="line"/>
+    </contour>
+    <contour>
+      <point x="45" y="900" type="line" name="sv01"/>
+      <point x="689" y="900" type="line" name="sh02"/>
+      <point x="689" y="2000" type="line" name="av02"/>
+      <point x="781" y="2000" type="line"/>
+      <point x="781" y="778" type="line" name="sh03"/>
+      <point x="45" y="778" type="line"/>
+    </contour>
+    <contour>
+      <point x="964" y="534" type="line" name="sh04"/>
+      <point x="964" y="-566" type="line" name="av03"/>
+      <point x="872" y="-566" type="line" name="sh05"/>
+      <point x="872" y="656" type="line" name="dv01"/>
+      <point x="1611" y="656" type="line"/>
+      <point x="1611" y="534" type="line"/>
+    </contour>
+    <contour>
+      <point x="689" y="-566" type="line" name="sh06"/>
+      <point x="689" y="534" type="line" name="sv02"/>
+      <point x="45" y="534" type="line"/>
+      <point x="45" y="656" type="line" name="sv03"/>
+      <point x="781" y="656" type="line" name="sh07"/>
+      <point x="781" y="-566" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -545 -21</string>
+              <string>hstem 534 122</string>
+              <string>hstem 778 122</string>
+              <string>hstem 2000 -20</string>
+              <string>vstem 689 92</string>
+              <string>vstem 872 92</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="lsb" align="round"/&gt;
+    &lt;ttc code="alignh" point="ah01" align="round"/&gt;
+    &lt;ttc code="singleh" point1="ah01" point2="sh01" stem="X: 122"/&gt;
+    &lt;ttc code="singleh" point1="lsb" point2="sh02" align="round"/&gt;
+    &lt;ttc code="singleh" point1="sh02" point2="sh03" stem="X: 122"/&gt;
+    &lt;ttc code="singleh" point1="sh01" point2="sh04"/&gt;
+    &lt;ttc code="singleh" point1="ah01" point2="sh05"/&gt;
+    &lt;ttc code="singleh" point1="sh02" point2="sh06"/&gt;
+    &lt;ttc code="singleh" point1="sh03" point2="sh07"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+    &lt;ttc code="alignv" point="av03" align="round"/&gt;
+    &lt;ttc code="alignv" point="sh06" align="round"/&gt;
+    &lt;ttc code="doublev" point1="sh04" point2="dv01" stem="Y: 122"/&gt;
+    &lt;ttc code="doublev" point1="dv02" point2="dv03" stem="Y: 122"/&gt;
+    &lt;ttc code="singlev" point1="dv03" point2="sv01"/&gt;
+    &lt;ttc code="singlev" point1="dv02" point2="sh03"/&gt;
+    &lt;ttc code="singlev" point1="sh04" point2="sv02"/&gt;
+    &lt;ttc code="singlev" point1="dv01" point2="sv03"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 1 value pushed */
+24
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+4
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 2 values pushed */
+1 6
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+24
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+7
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+7
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 2 values pushed */
+10 6
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+1
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+12
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+4
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+14
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+7
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+18
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+10
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+22
+MDRP[10000]	/* MoveDirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+8
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+13
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+18
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 4 values pushed */
+15 2 12 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+2 2 3 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+2
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+6
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+3
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+10
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+12
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+19
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+15
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+21
+MDRP[10000]	/* MoveDirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>96f8f7ab0d548b10079065d9108d8fae8e9367e5ac5b2c89306686ef3f5cb510c2314c48b9fbdff0607582ce915dbd9db44cd95ad5ee35b4ed725574513a4a8d</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="misc:heartblack" format="2">
+  <advance width="2048"/>
+  <unicode hex="2665"/>
+  <outline>
+    <contour>
+      <point x="1104" y="-30" type="qcurve" name="ab01"/>
+      <point x="1030" y="21"/>
+      <point x="863" y="169"/>
+      <point x="698" y="348"/>
+      <point x="548" y="547"/>
+      <point x="433" y="750"/>
+      <point x="364" y="950"/>
+      <point x="364" y="1039" type="qcurve"/>
+      <point x="364" y="1125"/>
+      <point x="416" y="1279"/>
+      <point x="514" y="1396"/>
+      <point x="656" y="1464"/>
+      <point x="745" y="1464" type="qcurve" name="at01"/>
+      <point x="961" y="1464"/>
+      <point x="1104" y="1242" type="qcurve" name="iv01"/>
+      <point x="1246" y="1464"/>
+      <point x="1464" y="1464" type="qcurve" name="at02"/>
+      <point x="1554" y="1464"/>
+      <point x="1695" y="1395"/>
+      <point x="1792" y="1278"/>
+      <point x="1844" y="1123"/>
+      <point x="1844" y="1038" type="qcurve"/>
+      <point x="1844" y="949"/>
+      <point x="1775" y="749"/>
+      <point x="1660" y="546"/>
+      <point x="1510" y="347"/>
+      <point x="1345" y="169"/>
+      <point x="1178" y="21"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>ab01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -9 -21</string>
+              <string>hstem 1464 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 1"/&gt;
+    &lt;ttc code="alignt" point="at02" zone="t: 1"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="interpolatev" point="iv01" point1="ab01" point2="at01"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  12
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  12 18
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  16
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  16 18
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  0
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  0 10
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 3 values pushed */
+14 0 12
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>27a2dadee661c23feb9a760f3e9a8f87169dfa96b53394f517e11d24fe397ffb7cc395a6807ede0e464fe0c68b102c8bcd6d8a735d1a317b0e93f7f9f0634a4a</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

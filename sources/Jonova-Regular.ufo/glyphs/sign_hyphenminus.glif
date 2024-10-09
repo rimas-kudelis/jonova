@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sign:hyphenminus" format="2">
+  <advance width="736"/>
+  <unicode hex="002D"/>
+  <outline>
+    <contour>
+      <point x="82" y="548" type="line" name="sv01"/>
+      <point x="654" y="548" type="line"/>
+      <point x="654" y="426" type="line"/>
+      <point x="82" y="426" type="line" name="mh01"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 426 122</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="mdeltah" point="mh01" delta="3" ppm1="11" ppm2="11"/&gt;
+    &lt;ttc code="mdeltah" point="rsb" delta="8" ppm1="11" ppm2="11"/&gt;
+    &lt;ttc code="alignv" point="mh01" align="round"/&gt;
+    &lt;ttc code="mdeltav" point="mh01" delta="6" ppm1="11" ppm2="11"/&gt;
+    &lt;ttc code="mdeltav" point="mh01" delta="6" ppm1="16" ppm2="16"/&gt;
+    &lt;ttc code="mdeltav" point="mh01" delta="-6" ppm1="22" ppm2="22"/&gt;
+    &lt;ttc code="singlev" point1="mh01" point2="sv01" stem="Y: 122"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHW[ ]	/* 3 values pushed */
+42 3 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 3 values pushed */
+47 5 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+3
+MDAP[1]	/* MoveDirectAbsPt */
+NPUSHW[ ]	/* 3 values pushed */
+45 3 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 3 values pushed */
+125 3 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 3 values pushed */
+210 3 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 2 values pushed */
+0 2
+MIRP[10100]	/* MoveIndirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w736l82+548l654+548l654+426l82+426|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

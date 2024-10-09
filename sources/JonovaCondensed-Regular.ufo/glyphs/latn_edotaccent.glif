@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="latn:edotaccent" format="2">
+  <advance width="768"/>
+  <unicode hex="0117"/>
+  <anchor x="400" y="1450" name="AccentAbove"/>
+  <anchor x="650" y="1200" name="AccentAboveRight"/>
+  <outline>
+    <component base="latn:e" identifier="component0"/>
+    <component base="sign:dotaccent" xOffset="123" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <false/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <false/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+NPUSHW[ ]	/* 3 values pushed */
+111 49 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>2ba79488985874daf5fd4b8fe420035895442795bed461e7795b4d81f07c41062956aaa2fefcd73a22ba68cfd998ad7181353b4f26cc3ada6d1d7148e397df3d</string>
+      </dict>
+      <key>public.truetype.overlap</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

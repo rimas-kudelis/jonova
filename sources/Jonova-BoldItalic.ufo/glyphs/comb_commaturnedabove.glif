@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="comb:commaturnedabove" format="2">
+  <unicode hex="0312"/>
+  <anchor x="-229" y="1500" name="_AccentAbove"/>
+  <outline>
+    <contour>
+      <point x="-69" y="1664" type="line" name="sh01"/>
+      <point x="-217" y="1516" type="line" name="av02"/>
+      <point x="-244" y="1516" type="line"/>
+      <point x="-252" y="1523"/>
+      <point x="-284" y="1560"/>
+      <point x="-316" y="1623"/>
+      <point x="-341" y="1710"/>
+      <point x="-341" y="1767" type="qcurve" name="dh01"/>
+      <point x="-341" y="1826"/>
+      <point x="-307" y="1923"/>
+      <point x="-252" y="2001"/>
+      <point x="-182" y="2060"/>
+      <point x="-146" y="2083" type="qcurve" name="av01"/>
+      <point x="-69" y="2006" type="line" name="ah01"/>
+      <point x="-83" y="1996"/>
+      <point x="-114" y="1965"/>
+      <point x="-141" y="1921"/>
+      <point x="-159" y="1867"/>
+      <point x="-159" y="1834" type="qcurve" name="dh02"/>
+      <point x="-159" y="1803"/>
+      <point x="-138" y="1755"/>
+      <point x="-108" y="1719"/>
+      <point x="-78" y="1696"/>
+      <point x="-69" y="1690" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1537 -21</string>
+              <string>hstem 2083 -20</string>
+              <string>vstem -341 182</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="ah01" align="round"/&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 182"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="sh01" round="true"/&gt;
+    &lt;ttc code="alignv" point="av01" align="right"/&gt;
+    &lt;ttc code="alignv" point="av02" align="round"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 1 value pushed */
+13
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 4 values pushed */
+18 6 7 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+18
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDRP[11100]	/* MoveDirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+RUTG[ ]	/* RoundUpToGrid */
+PUSHW[ ]	/* 1 value pushed */
+12
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>c7eb60f6099dfcda2ce72561af8fb3f3a8542823007402e7b5f7e183c035343e7631d6a80263fc5ccd073d7f2625eba521e838f13b530ef885fe24fc713b8333</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

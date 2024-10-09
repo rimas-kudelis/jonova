@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="comb:palatalizedhookbelow" format="2">
+  <unicode hex="0321"/>
+  <outline>
+    <contour>
+      <point x="-573" y="-388" type="line" name="sv01"/>
+      <point x="-515" y="-388"/>
+      <point x="-434" y="-352"/>
+      <point x="-380" y="-289"/>
+      <point x="-348" y="-203"/>
+      <point x="-339" y="-152" type="qcurve"/>
+      <point x="-298" y="82" type="line" name="dh01"/>
+      <point x="-137" y="82" type="line" name="dh02"/>
+      <point x="-164" y="-77" type="line"/>
+      <point x="-185" y="-196"/>
+      <point x="-262" y="-354"/>
+      <point x="-370" y="-450"/>
+      <point x="-508" y="-490"/>
+      <point x="-591" y="-490" type="qcurve" name="ah01"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -490 102</string>
+              <string>hstem 82 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="ah01" align="round"/&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 162"/&gt;
+    &lt;ttc code="alignv" point="dh01" align="round"/&gt;
+    &lt;ttc code="alignb" point="ah01" zone="b: 1"/&gt;
+    &lt;ttc code="singlev" point1="ah01" point2="sv01" stem="Y: 102"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 1 value pushed */
+13
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 4 values pushed */
+7 7 6 4
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+6
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  13
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  13 12
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 2 values pushed */
+0 1
+MIRP[10100]	/* MoveIndirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-573-388o-515-388o-434-352o-380-289o-348-203q-339-152l-298+82l-137+82l-164-77o-185-196o-262-354o-370-450o-508-490q-591-490|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

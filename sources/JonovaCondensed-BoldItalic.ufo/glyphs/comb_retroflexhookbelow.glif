@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="comb:retroflexhookbelow" format="2">
+  <unicode hex="0322"/>
+  <guideline x="24" y="0" angle="90"/>
+  <outline>
+    <contour>
+      <point x="-64" y="136" type="line" name="av01"/>
+      <point x="-110" y="-221" type="line" name="sh01"/>
+      <point x="-113" y="-240"/>
+      <point x="-116" y="-276"/>
+      <point x="-116" y="-289" type="qcurve" name="dh02"/>
+      <point x="-116" y="-319"/>
+      <point x="-104" y="-354"/>
+      <point x="-81" y="-372"/>
+      <point x="-50" y="-378"/>
+      <point x="-30" y="-378" type="qcurve"/>
+      <point x="-45" y="-490" type="line" name="ab01"/>
+      <point x="-128" y="-490"/>
+      <point x="-233" y="-455"/>
+      <point x="-292" y="-388"/>
+      <point x="-314" y="-289"/>
+      <point x="-314" y="-225" type="qcurve" name="dh01"/>
+      <point x="-314" y="-191"/>
+      <point x="-308" y="-116"/>
+      <point x="-303" y="-78" type="qcurve" name="sh02"/>
+      <point x="-275" y="136" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -469 -21</string>
+              <string>hstem 136 -20</string>
+              <string>vstem -314 198</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 212"/&gt;
+    &lt;ttc code="mdeltah" point="dh02" delta="-2" ppm1="9" ppm2="12"/&gt;
+    &lt;ttc code="mdeltah" point="dh02" delta="-3" ppm1="13" ppm2="14"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="sh01" align="round"/&gt;
+    &lt;ttc code="singleh" point1="dh01" point2="sh02" align="round"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 1"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+4 8 15 4
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 9 values pushed */
+6 4 22 4 38 4 54 4 4
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 5 values pushed */
+69 4 85 4 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 1 value pushed */
+4
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+1
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+15
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+18
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+18
+MDAP[1]	/* MoveDirectAbsPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  10
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  10 13
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>4d1f89b2abc368c99d8cca98e54c5e4d3bebc0e80176d9d80ead35ca9c6669e08f91dd476e89dd58184b3df1a0c9a5723589b721177e30ad1d1e3528b3afae27</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

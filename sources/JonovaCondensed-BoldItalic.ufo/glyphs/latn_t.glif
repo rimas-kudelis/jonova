@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="latn:t" format="2">
+  <advance width="552"/>
+  <unicode hex="0074"/>
+  <guideline x="0" y="175" angle="0"/>
+  <guideline x="0" y="863" angle="357.44"/>
+  <guideline x="38" y="0" angle="80"/>
+  <guideline x="488" y="0" angle="80"/>
+  <guideline x="487" y="0" angle="90"/>
+  <anchor x="380" y="1600" name="AccentAbove"/>
+  <anchor x="400" y="1300" name="AccentAboveRight"/>
+  <anchor x="200" y="0" name="AccentBelow"/>
+  <anchor x="150" y="0" name="AccentCedilla"/>
+  <anchor x="350" y="500" name="AccentOverlay"/>
+  <outline>
+    <contour>
+      <point x="527" y="1322" type="line" name="av01"/>
+      <point x="485" y="1004" type="line"/>
+      <point x="619" y="1004" type="line"/>
+      <point x="601" y="865" type="line"/>
+      <point x="467" y="873" type="line"/>
+      <point x="388" y="269" type="line" name="sh01"/>
+      <point x="386" y="251"/>
+      <point x="383" y="219"/>
+      <point x="383" y="205" type="qcurve" name="dh02"/>
+      <point x="383" y="142"/>
+      <point x="436" y="82"/>
+      <point x="497" y="82" type="qcurve"/>
+      <point x="482" y="-30" type="line" name="ab01"/>
+      <point x="392" y="-30"/>
+      <point x="273" y="-3"/>
+      <point x="203" y="54"/>
+      <point x="176" y="142"/>
+      <point x="176" y="203" type="qcurve" name="dh01"/>
+      <point x="176" y="233"/>
+      <point x="181" y="303"/>
+      <point x="186" y="342" type="qcurve" name="sh02"/>
+      <point x="258" y="885" type="line"/>
+      <point x="157" y="892" type="line"/>
+      <point x="172" y="1004" type="line" name="sh03"/>
+      <point x="274" y="1004" type="line"/>
+      <point x="311" y="1292" type="line"/>
+      <point x="482" y="1322" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -9 -21</string>
+              <string>hstem 869 135</string>
+              <string>hstem 1322 -20</string>
+              <string>vstem 176 207</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="T1 V: 212"/&gt;
+    &lt;ttc code="mdeltah" point="dh02" delta="-2" ppm1="9" ppm2="12"/&gt;
+    &lt;ttc code="mdeltah" point="dh02" delta="-3" ppm1="13" ppm2="14"/&gt;
+    &lt;ttc code="singleh" point1="dh02" point2="sh01" align="round"/&gt;
+    &lt;ttc code="singleh" point1="dh01" point2="sh02" align="round"/&gt;
+    &lt;ttc code="singleh" point1="dh01" point2="sh03" align="round"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+8 8 17 4
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 9 values pushed */
+6 8 22 8 38 8 54 8 4
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 5 values pushed */
+69 8 85 8 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 1 value pushed */
+8
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+17
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+20
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+20
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+17
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+23
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+23
+MDAP[1]	/* MoveDirectAbsPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  12
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  12 11
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>366b10d99d0f89e42981ace9c1a35c6f401163a3927044a82da710e315618baaab113e0e25a66aedd82fae66dc1340dc8c5e1f0f749d599b6b119c040de63080</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

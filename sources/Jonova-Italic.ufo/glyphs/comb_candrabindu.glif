@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="comb:candrabindu" format="2">
+  <unicode hex="0310"/>
+  <anchor x="-232" y="1500" name="_AccentAbove"/>
+  <outline>
+    <contour>
+      <point x="-236" y="1638" type="qcurve" name="av01"/>
+      <point x="-190" y="1638"/>
+      <point x="-113" y="1668"/>
+      <point x="-57" y="1715"/>
+      <point x="-25" y="1774"/>
+      <point x="-25" y="1804" type="qcurve" name="ah02"/>
+      <point x="57" y="1804" type="line" name="sh01"/>
+      <point x="57" y="1745"/>
+      <point x="13" y="1640"/>
+      <point x="-65" y="1562" name="hr00"/>
+      <point x="-172" y="1516" name="hr01"/>
+      <point x="-235" y="1516" type="qcurve" name="sv01"/>
+      <point x="-299" y="1516"/>
+      <point x="-407" y="1562"/>
+      <point x="-485" y="1640"/>
+      <point x="-529" y="1745" name="hr02"/>
+      <point x="-529" y="1804" type="qcurve" name="sh02"/>
+      <point x="-447" y="1804" type="line" name="ah01"/>
+      <point x="-447" y="1774"/>
+      <point x="-415" y="1715"/>
+      <point x="-359" y="1668"/>
+      <point x="-282" y="1638"/>
+    </contour>
+    <contour>
+      <point x="-190" y="1804" type="qcurve" name="av02"/>
+      <point x="-237" y="1804"/>
+      <point x="-303" y="1870"/>
+      <point x="-303" y="1917" type="qcurve" name="sh03"/>
+      <point x="-303" y="1964"/>
+      <point x="-237" y="2030"/>
+      <point x="-190" y="2030" type="qcurve" name="sv02"/>
+      <point x="-143" y="2030"/>
+      <point x="-77" y="1964"/>
+      <point x="-77" y="1917" type="qcurve" name="sh04"/>
+      <point x="-77" y="1870"/>
+      <point x="-143" y="1804"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1516 288</string>
+              <string>hstem 2030 -20</string>
+              <string>vstem -303 226</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1516 122</string>
+              <string>hstem 2030 -20</string>
+              <string>vstem -303 226</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1516 288</string>
+              <string>hstem 2030 -20</string>
+              <string>vstem -303 226</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1516 122</string>
+              <string>hstem 2030 -20</string>
+              <string>vstem -303 226</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="alignh" point="ah01" align="round"/&gt;
+    &lt;ttc code="alignh" point="ah02" align="round"/&gt;
+    &lt;ttc code="singleh" point1="ah02" point2="sh01" round="true"/&gt;
+    &lt;ttc code="singleh" point1="ah01" point2="sh02" round="true"/&gt;
+    &lt;ttc code="singleh" point1="ah01" point2="sh03" round="true"/&gt;
+    &lt;ttc code="singleh" point1="sh03" point2="sh04" stem="X: 246"/&gt;
+    &lt;ttc code="alignv" point="av01" align="round"/&gt;
+    &lt;ttc code="alignv" point="av02" align="right"/&gt;
+    &lt;ttc code="mdeltav" point="av01" delta="8" ppm1="13" ppm2="15"/&gt;
+    &lt;ttc code="mdeltav" point="av01" delta="-3" ppm1="16" ppm2="16"/&gt;
+    &lt;ttc code="mdeltav" point="av01" delta="-3" ppm1="18" ppm2="18"/&gt;
+    &lt;ttc code="singlev" point1="av02" point2="ah02"/&gt;
+    &lt;ttc code="singlev" point1="av01" point2="sv01" stem="Y: 122"/&gt;
+    &lt;ttc code="singlev" point1="av02" point2="sh02"/&gt;
+    &lt;ttc code="singlev" point1="av02" point2="sv02" stem="Y: 246"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 1 value pushed */
+17
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+6
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+17
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+16
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+17
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+25
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 2 values pushed */
+31 9
+MIRP[10100]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+RUTG[ ]	/* RoundUpToGrid */
+PUSHW[ ]	/* 1 value pushed */
+22
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+NPUSHW[ ]	/* 7 values pushed */
+79 0 95 0 111 0 3
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 3 values pushed */
+117 0 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 3 values pushed */
+149 0 1
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 1 value pushed */
+5
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+0
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+11 2
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+22
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+16
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+22
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+28 3
+MIRP[10100]	/* MoveIndirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>0edd67a2d0c766a567b54370615683062748a82bf689b5d221b40316def7a379197dff084fd3ba634868b34156cb59125c6de5e51b96370d77a28bf6759bc4b3</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

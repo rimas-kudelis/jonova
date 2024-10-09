@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="latn:ls" format="2">
+  <advance width="1248"/>
+  <unicode hex="02AA"/>
+  <outline>
+    <contour>
+      <point x="327" y="1494" type="line" name="av01"/>
+      <point x="327" y="219" type="line" name="dh02"/>
+      <point x="327" y="149"/>
+      <point x="366" y="72"/>
+      <point x="414" y="72" type="qcurve" name="sv01"/>
+      <point x="811" y="72" type="line"/>
+      <point x="846" y="72"/>
+      <point x="914" y="91"/>
+      <point x="967" y="132"/>
+      <point x="1000" y="194"/>
+      <point x="1000" y="238" type="qcurve" name="dh05"/>
+      <point x="1000" y="272"/>
+      <point x="976" y="325"/>
+      <point x="922" y="372"/>
+      <point x="836" y="414"/>
+      <point x="774" y="437" type="qcurve"/>
+      <point x="730" y="453"/>
+      <point x="641" y="507"/>
+      <point x="570" y="583"/>
+      <point x="525" y="685"/>
+      <point x="525" y="749" type="qcurve" name="dh03"/>
+      <point x="525" y="807"/>
+      <point x="570" y="902"/>
+      <point x="648" y="968"/>
+      <point x="751" y="1004"/>
+      <point x="809" y="1004" type="qcurve" name="at01"/>
+      <point x="857" y="1004"/>
+      <point x="949" y="980"/>
+      <point x="1032" y="938"/>
+      <point x="1103" y="882"/>
+      <point x="1131" y="849" type="qcurve"/>
+      <point x="1030" y="747" type="line" name="ih01"/>
+      <point x="1014" y="778"/>
+      <point x="969" y="834"/>
+      <point x="913" y="877"/>
+      <point x="847" y="902"/>
+      <point x="810" y="902" type="qcurve" name="sv02"/>
+      <point x="782" y="902"/>
+      <point x="734" y="884"/>
+      <point x="698" y="850"/>
+      <point x="677" y="800"/>
+      <point x="677" y="768" type="qcurve" name="dh04"/>
+      <point x="677" y="733"/>
+      <point x="708" y="673"/>
+      <point x="759" y="624"/>
+      <point x="824" y="587"/>
+      <point x="858" y="575" type="qcurve"/>
+      <point x="933" y="548"/>
+      <point x="1044" y="484"/>
+      <point x="1117" y="404"/>
+      <point x="1152" y="306"/>
+      <point x="1152" y="246" type="qcurve" name="dh06"/>
+      <point x="1152" y="182"/>
+      <point x="1095" y="80"/>
+      <point x="1000" y="8"/>
+      <point x="877" y="-30"/>
+      <point x="810" y="-30" type="qcurve" name="ab01"/>
+      <point x="360" y="-30" type="line"/>
+      <point x="270" y="-30"/>
+      <point x="165" y="92"/>
+      <point x="165" y="226" type="qcurve" name="dh01"/>
+      <point x="165" y="1464" type="line"/>
+      <point x="296" y="1494" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -30 102</string>
+              <string>hstem 902 102</string>
+              <string>hstem 1494 -20</string>
+              <string>vstem 165 162</string>
+              <string>vstem 525 152</string>
+              <string>vstem 1000 152</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+      <key>com.fontlab.ttprogram</key>
+      <string>  &lt;ttProgram&gt;
+    &lt;ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 162"/&gt;
+    &lt;ttc code="doubleh" point1="dh03" point2="dh04" stem="X: 162"/&gt;
+    &lt;ttc code="doubleh" point1="dh05" point2="dh06" stem="X: 162"/&gt;
+    &lt;ttc code="mdeltah" point="dh05" delta="3" ppm1="17" ppm2="18"/&gt;
+    &lt;ttc code="mdeltah" point="dh05" delta="2" ppm1="9" ppm2="16"/&gt;
+    &lt;ttc code="interpolateh" point="ih01" point1="dh05" point2="dh06"/&gt;
+    &lt;ttc code="mdeltah" point="dh04" delta="-2" ppm1="9" ppm2="16"/&gt;
+    &lt;ttc code="mdeltah" point="dh04" delta="-3" ppm1="17" ppm2="18"/&gt;
+    &lt;ttc code="singleh" point1="dh06" point2="rsb" round="true"/&gt;
+    &lt;ttc code="alignv" point="av01" align="right"/&gt;
+    &lt;ttc code="alignt" point="at01" zone="t: 0"/&gt;
+    &lt;ttc code="alignb" point="ab01" zone="b: 0"/&gt;
+    &lt;ttc code="singlev" point1="ab01" point2="sv01" stem="Y: 102"/&gt;
+    &lt;ttc code="interpolatev" point="ih01" point1="ab01" point2="av01"/&gt;
+    &lt;ttc code="singlev" point1="at01" point2="sv02" stem="Y: 102"/&gt;
+    &lt;ttc code="mdeltav" point="sv02" delta="2" ppm1="29" ppm2="30"/&gt;
+    &lt;ttc code="mdeltav" point="sv02" delta="1" ppm1="9" ppm2="28"/&gt;
+  &lt;/ttProgram&gt;
+</string>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>
+PUSHW[ ]	/* 4 values pushed */
+1 6 60 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+41 6 20 4
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+51 6 10 4
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 5 values pushed */
+138 10 154 10 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 17 values pushed */
+9 10 25 10 41 10 57 10 73 10 89 10 105 10 121 10 8
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 3 values pushed */
+31 10 51
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+NPUSHW[ ]	/* 17 values pushed */
+6 41 22 41 38 41 54 41 70 41 86 41 102 41 118 41 8
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 5 values pushed */
+133 41 149 41 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 1 value pushed */
+51
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+64
+MDRP[11100]	/* MoveDirectRelPt */
+SVTCA[0]	/* SetFPVectorToAxis */
+RUTG[ ]	/* RoundUpToGrid */
+PUSHW[ ]	/* 1 value pushed */
+0
+MDAP[1]	/* MoveDirectAbsPt */
+RTG[ ]	/* RoundToGrid */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  25
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  25 15
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+0
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+  PUSHW[ ]	/* 1 value pushed */
+  56
+  MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+  PUSHW[ ]	/* 2 values pushed */
+  56 9
+  MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 2 values pushed */
+4 1
+MIRP[10100]	/* MoveIndirectRelPt */
+PUSHW[ ]	/* 3 values pushed */
+31 56 0
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 1 value pushed */
+25
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 2 values pushed */
+36 1
+MIRP[10100]	/* MoveIndirectRelPt */
+NPUSHW[ ]	/* 5 values pushed */
+73 36 89 36 2
+DELTAP2[ ]	/* DeltaExceptionP2 */
+NPUSHW[ ]	/* 33 values pushed */
+8 36 24 36 40 36 56 36 72 36 88 36 104 36 120 36 136 36 152 36 168 36 184 36 200 36 216 36 232 36 248 36 16
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 9 values pushed */
+8 36 24 36 40 36 56 36 4
+DELTAP2[ ]	/* DeltaExceptionP2 */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */
+</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>44f832df5a6bae39e0220482bbb7e94cebafc3cfbf19e07d7925a0b359fff664f095f0f355a16c6909910e0448f9e27b52fedc3efca5b65b2729bf18b052983d</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
