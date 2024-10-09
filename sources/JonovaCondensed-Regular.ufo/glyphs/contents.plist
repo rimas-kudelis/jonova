@@ -502,8 +502,12 @@
   <string>cyrl_ishortacute.glif</string>
   <key>cyrl:iukr</key>
   <string>cyrl_iukr.glif</string>
+  <key>cyrl:iukr.dotless</key>
+  <string>cyrl_iukr.dotless.glif</string>
   <key>cyrl:je</key>
   <string>cyrl_je.glif</string>
+  <key>cyrl:je.dotless</key>
+  <string>cyrl_je.dotless.glif</string>
   <key>cyrl:ka</key>
   <string>cyrl_ka.glif</string>
   <key>cyrl:kje</key>
@@ -1476,6 +1480,8 @@
   <string>latn_jcircumflex.glif</string>
   <key>latn:jcrossedtail</key>
   <string>latn_jcrossedtail.glif</string>
+  <key>latn:jcrossedtail.dotless</key>
+  <string>latn_jcrossedtail.dotless.glif</string>
   <key>latn:jdotaccenttilde</key>
   <string>latn_jdotaccenttilde.glif</string>
   <key>latn:jdotless</key>

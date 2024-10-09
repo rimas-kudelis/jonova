@@ -379,10 +379,13 @@ feature ccmp {
         sub latn:iogonek' comb:dotaccent' by latn:iogonek;
         sub latn:istroke' comb:dotaccent' by latn:istroke;
         sub [latn:j latn:jdotless]' comb:dotaccent' by latn:j;
+        sub latn:jcrossedtail' comb:dotaccent' by latn:jcrossedtail;
         sub cyrl:iukr' comb:dotaccent' by cyrl:iukr;
+        sub cyrl:je' comb:dotaccent' by cyrl:je;
         # Replace remaining soft-dotted characters followed by combining marks above
         # with their dotless forms.
-        sub [latn:i latn:iogonek latn:istroke latn:j cyrl:iukr]' @COMBINING_MARKS_ABOVE by [latn:idotless latn:iogonek.dotless latn:istroke.dotless latn:jdotless latn:idotless];
+        sub [latn:i        latn:iogonek         latn:istroke         latn:j        latn:jcrossedtail         cyrl:iukr         cyrl:je]' @COMBINING_MARKS_ABOVE
+         by [latn:idotless latn:iogonek.dotless latn:istroke.dotless latn:jdotless latn:jcrossedtail.dotless cyrl:iukr.dotless cyrl:je.dotless];
     } SubstituteSoftDottedCharacters;
 } ccmp;
 

@@ -711,6 +711,7 @@
     <string>latn:Ghooksmall</string>
     <string>latn:Hsmall</string>
     <string>latn:jcrossedtail</string>
+    <string>latn:jcrossedtail.dotless</string>
     <string>latn:kturned</string>
     <string>latn:Lsmall</string>
     <string>latn:qhook</string>
@@ -999,8 +1000,10 @@
     <string>cyrl:ieukr</string>
     <string>cyrl:dze</string>
     <string>cyrl:iukr</string>
+    <string>cyrl:iukr.dotless</string>
     <string>cyrl:yi</string>
     <string>cyrl:je</string>
+    <string>cyrl:je.dotless</string>
     <string>cyrl:lje</string>
     <string>cyrl:nje</string>
     <string>cyrl:tshe</string>
@@ -1910,7 +1913,11 @@
     <string>base</string>
     <key>cyrl:iukr</key>
     <string>base</string>
+    <key>cyrl:iukr.dotless</key>
+    <string>base</string>
     <key>cyrl:je</key>
+    <string>base</string>
+    <key>cyrl:je.dotless</key>
     <string>base</string>
     <key>cyrl:ka</key>
     <string>base</string>
@@ -2883,6 +2890,8 @@
     <key>latn:jcircumflex</key>
     <string>base</string>
     <key>latn:jcrossedtail</key>
+    <string>base</string>
+    <key>latn:jcrossedtail.dotless</key>
     <string>base</string>
     <key>latn:jdotaccenttilde</key>
     <string>base</string>

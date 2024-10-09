@@ -200,6 +200,7 @@
   <key>public.kern1.i</key>
   <array>
     <string>cyrl:iukr</string>
+    <string>cyrl:iukr.dotless</string>
     <string>latn:i</string>
     <string>latn:i.alt</string>
     <string>latn:icircumflexbelow</string>
