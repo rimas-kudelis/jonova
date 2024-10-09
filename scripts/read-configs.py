@@ -42,6 +42,7 @@ for file_name in get_config_files():
             m = re.match(r"^\s*-\s*(.*)", line)
             if m:
                 sources.append("sources/" + m[1])
+                sources.append("sources/" + m[1] + '/glyphs/')
             else:
                 toggle = False
 
