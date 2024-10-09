@@ -1092,12 +1092,6 @@
     <string>arrow:SE</string>
     <string>arrow:SW</string>
     <string>arrow:updownwithbase</string>
-    <string>arrow:leftuptip</string>
-    <string>arrow:rightuptip</string>
-    <string>arrow:leftdowntip</string>
-    <string>arrow:rightdowntip</string>
-    <string>arrow:rightdowncorner</string>
-    <string>arrow:leftdowncorner</string>
     <string>arrow:dblleft</string>
     <string>arrow:dblup</string>
     <string>arrow:dblright</string>
@@ -1145,6 +1139,7 @@
     <string>misc:integralbt</string>
     <string>misc:angleleft</string>
     <string>misc:angleright</string>
+    <string>misc:return</string>
     <string>box:lighthorz</string>
     <string>box:lightvert</string>
     <string>box:lightdnright</string>
@@ -1237,6 +1232,11 @@
     <string>misc:diamondblack</string>
     <string>misc:eighthnote</string>
     <string>misc:beamedeighthnotes</string>
+    <string>arrow:ribbondownleft</string>
+    <string>arrow:ribbondownright</string>
+    <string>arrow:ribbonupleft</string>
+    <string>arrow:ribbonupright</string>
+    <string>arrow:ribbonrightdown</string>
     <string>latn:Aogonekacute</string>
     <string>latn:aogonekacute</string>
     <string>latn:Aogonektilde</string>
@@ -1388,21 +1388,19 @@
     <string>base</string>
     <key>arrow:left</key>
     <string>base</string>
-    <key>arrow:leftdowncorner</key>
-    <string>base</string>
-    <key>arrow:leftdowntip</key>
-    <string>base</string>
     <key>arrow:leftright</key>
     <string>base</string>
-    <key>arrow:leftuptip</key>
+    <key>arrow:ribbondownleft</key>
+    <string>base</string>
+    <key>arrow:ribbondownright</key>
+    <string>base</string>
+    <key>arrow:ribbonrightdown</key>
+    <string>base</string>
+    <key>arrow:ribbonupleft</key>
+    <string>base</string>
+    <key>arrow:ribbonupright</key>
     <string>base</string>
     <key>arrow:right</key>
-    <string>base</string>
-    <key>arrow:rightdowncorner</key>
-    <string>base</string>
-    <key>arrow:rightdowntip</key>
-    <string>base</string>
-    <key>arrow:rightuptip</key>
     <string>base</string>
     <key>arrow:up</key>
     <string>base</string>
@@ -3273,6 +3271,8 @@
     <key>misc:numero</key>
     <string>base</string>
     <key>misc:paragraph</key>
+    <string>base</string>
+    <key>misc:return</key>
     <string>base</string>
     <key>misc:revlogicalnot</key>
     <string>base</string>

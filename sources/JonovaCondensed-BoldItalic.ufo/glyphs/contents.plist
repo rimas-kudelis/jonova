@@ -24,22 +24,20 @@
   <string>arrow_down.glif</string>
   <key>arrow:left</key>
   <string>arrow_left.glif</string>
-  <key>arrow:leftdowncorner</key>
-  <string>arrow_leftdowncorner.glif</string>
-  <key>arrow:leftdowntip</key>
-  <string>arrow_leftdowntip.glif</string>
   <key>arrow:leftright</key>
   <string>arrow_leftright.glif</string>
-  <key>arrow:leftuptip</key>
-  <string>arrow_leftuptip.glif</string>
+  <key>arrow:ribbondownleft</key>
+  <string>arrow_ribbondownleft.glif</string>
+  <key>arrow:ribbondownright</key>
+  <string>arrow_ribbondownright.glif</string>
+  <key>arrow:ribbonrightdown</key>
+  <string>arrow_ribbonrightdown.glif</string>
+  <key>arrow:ribbonupleft</key>
+  <string>arrow_ribbonupleft.glif</string>
+  <key>arrow:ribbonupright</key>
+  <string>arrow_ribbonupright.glif</string>
   <key>arrow:right</key>
   <string>arrow_right.glif</string>
-  <key>arrow:rightdowncorner</key>
-  <string>arrow_rightdowncorner.glif</string>
-  <key>arrow:rightdowntip</key>
-  <string>arrow_rightdowntip.glif</string>
-  <key>arrow:rightuptip</key>
-  <string>arrow_rightuptip.glif</string>
   <key>arrow:up</key>
   <string>arrow_up.glif</string>
   <key>arrow:updown</key>
@@ -1910,6 +1908,8 @@
   <string>misc_numero.glif</string>
   <key>misc:paragraph</key>
   <string>misc_paragraph.glif</string>
+  <key>misc:return</key>
+  <string>misc_return.glif</string>
   <key>misc:revlogicalnot</key>
   <string>misc_revlogicalnot.glif</string>
   <key>misc:smilingfaceblack</key>
