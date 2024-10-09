@@ -140,13 +140,19 @@
 			}
 
 	  
-
+	    @font-face{
+    src: url("old-JonovaCondensed-Italic.ttf");
+    font-family: "old Jonova Condensed";
+    font-weight: 400;
+    
+    font-style: italic;
+}
 	  
 
 	  
 	    @font-face{
-    src: url("JonovaCondensed-Italic.ttf");
-    font-family: "Jonova Condensed";
+    src: url("new-JonovaCondensed-Italic.ttf");
+    font-family: "new Jonova Condensed";
     font-weight: 400;
     
     font-style: italic;
@@ -156,15 +162,25 @@
 	  
 
 	  
-
-	  
-	    .Italic{
-    font-family: "Jonova Condensed", "Adobe NotDef";
+	    .old-Italic{
+    font-family: "old Jonova Condensed", "Adobe NotDef";
     font-weight: 400;
     
     font-style: italic;
     font-variation-settings: "wght" 400;
 }
+	  
+
+	  
+	    .new-Italic{
+    font-family: "new Jonova Condensed", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 400;
+}
+	  
+
 	  
 	
 
@@ -180,6 +196,8 @@
 <body>
     <div id="nav">
 		
+			<div class="nav-item" id="font-toggle">old</div>
+		
 			<div class="nav-item" id="ot-button">OT features</div>
 			<div id="ot-panel">
 			</div>
@@ -193,8 +211,8 @@
   
     
       <div class="box">
-        <div class="box-title">Italic 7pt</div>
-        <div contenteditable=true spellcheck="false" class="box-text Italic" style="font-size: 7pt">
+        <div class="box-title">old-Italic 7pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Italic" style="font-size: 7pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -202,8 +220,8 @@
       </div>
     
       <div class="box">
-        <div class="box-title">Italic 10pt</div>
-        <div contenteditable=true spellcheck="false" class="box-text Italic" style="font-size: 10pt">
+        <div class="box-title">old-Italic 10pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Italic" style="font-size: 10pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -211,8 +229,8 @@
       </div>
     
       <div class="box">
-        <div class="box-title">Italic 11pt</div>
-        <div contenteditable=true spellcheck="false" class="box-text Italic" style="font-size: 11pt">
+        <div class="box-title">old-Italic 11pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Italic" style="font-size: 11pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -220,8 +238,8 @@
       </div>
     
       <div class="box">
-        <div class="box-title">Italic 12pt</div>
-        <div contenteditable=true spellcheck="false" class="box-text Italic" style="font-size: 12pt">
+        <div class="box-title">old-Italic 12pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Italic" style="font-size: 12pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -229,8 +247,8 @@
       </div>
     
       <div class="box">
-        <div class="box-title">Italic 14pt</div>
-        <div contenteditable=true spellcheck="false" class="box-text Italic" style="font-size: 14pt">
+        <div class="box-title">old-Italic 14pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Italic" style="font-size: 14pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -238,8 +256,8 @@
       </div>
     
       <div class="box">
-        <div class="box-title">Italic 16pt</div>
-        <div contenteditable=true spellcheck="false" class="box-text Italic" style="font-size: 16pt">
+        <div class="box-title">old-Italic 16pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Italic" style="font-size: 16pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -247,8 +265,8 @@
       </div>
     
       <div class="box">
-        <div class="box-title">Italic 18pt</div>
-        <div contenteditable=true spellcheck="false" class="box-text Italic" style="font-size: 18pt">
+        <div class="box-title">old-Italic 18pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Italic" style="font-size: 18pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -256,8 +274,8 @@
       </div>
     
       <div class="box">
-        <div class="box-title">Italic 21pt</div>
-        <div contenteditable=true spellcheck="false" class="box-text Italic" style="font-size: 21pt">
+        <div class="box-title">old-Italic 21pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Italic" style="font-size: 21pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -265,8 +283,8 @@
       </div>
     
       <div class="box">
-        <div class="box-title">Italic 27pt</div>
-        <div contenteditable=true spellcheck="false" class="box-text Italic" style="font-size: 27pt">
+        <div class="box-title">old-Italic 27pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Italic" style="font-size: 27pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
@@ -274,8 +292,8 @@
       </div>
     
       <div class="box">
-        <div class="box-title">Italic 32pt</div>
-        <div contenteditable=true spellcheck="false" class="box-text Italic" style="font-size: 32pt">
+        <div class="box-title">old-Italic 32pt</div>
+        <div contenteditable=true spellcheck="false" class="box-text old-Italic" style="font-size: 32pt">
             QUICK WAFTING ZEPHYRS VEX BOLD JIM.<br>
             quick wafting zephyrs vex bold jim.<br>
             $14.95<br>
