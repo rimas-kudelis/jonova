@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="comb:tildedouble" format="2">
   <unicode hex="0360"/>
+  <anchor x="-260" y="1425" name="_AccentAbove"/>
   <outline>
     <contour>
       <point x="-432" y="1515" type="line" name="sh01"/>

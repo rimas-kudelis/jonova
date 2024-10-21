@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="latn:istroke.dotless" format="2">
   <advance width="432"/>
-  <anchor x="220" y="1100" name="AccentAbove"/>
+  <anchor x="216" y="1100" name="AccentAbove"/>
   <anchor x="270" y="1200" name="AccentAboveRight"/>
-  <anchor x="218" y="0" name="AccentAttachedBelow"/>
-  <anchor x="120" y="0" name="AccentBelow"/>
-  <anchor x="120" y="486" name="AccentOverlay"/>
+  <anchor x="216" y="0" name="AccentAttachedBelow"/>
+  <anchor x="316" y="0" name="AccentBelow"/>
+  <anchor x="216" y="486" name="AccentOverlay"/>
   <outline>
     <contour>
       <point x="31" y="589" type="line" name="hr00"/>

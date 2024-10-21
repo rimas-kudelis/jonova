@@ -4,7 +4,7 @@
   <unicode hex="0131"/>
   <anchor x="288" y="1100" name="AccentAbove"/>
   <anchor x="338" y="1200" name="AccentAboveRight"/>
-  <anchor x="238" y="0" name="AccentAttachedBelow"/>
+  <anchor x="288" y="0" name="AccentAttachedBelow"/>
   <anchor x="288" y="0" name="AccentBelow"/>
   <anchor x="288" y="486" name="AccentOverlay"/>
   <outline>

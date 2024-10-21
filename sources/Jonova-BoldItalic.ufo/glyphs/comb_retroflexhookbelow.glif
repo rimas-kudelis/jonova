@@ -2,6 +2,7 @@
 <glyph name="comb:retroflexhookbelow" format="2">
   <unicode hex="0322"/>
   <guideline x="32" y="0" angle="90"/>
+  <anchor x="-239" y="60" name="_AccentAttachedBelow"/>
   <outline>
     <contour>
       <point x="-85" y="136" type="line" name="dh02"/>

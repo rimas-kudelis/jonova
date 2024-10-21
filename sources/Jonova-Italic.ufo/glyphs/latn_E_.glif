@@ -6,7 +6,7 @@
   <guideline x="989" y="0" angle="80"/>
   <anchor x="904" y="1600" name="AccentAbove"/>
   <anchor x="1174" y="1600" name="AccentAboveRight"/>
-  <anchor x="868" y="0" name="AccentAttachedBelow"/>
+  <anchor x="908" y="0" name="AccentAttachedBelow"/>
   <anchor x="624" y="0" name="AccentBelow"/>
   <anchor x="624" y="780" name="AccentOverlay"/>
   <outline>

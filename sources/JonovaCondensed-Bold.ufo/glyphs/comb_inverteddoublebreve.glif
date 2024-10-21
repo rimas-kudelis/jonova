@@ -6,6 +6,7 @@
   <guideline x="-365" y="0" angle="45"/>
   <guideline x="-520" y="0" angle="90"/>
   <guideline x="521" y="0" angle="90"/>
+  <anchor x="-330" y="1425" name="_AccentAbove"/>
   <outline>
     <contour>
       <point x="478" y="1516" type="line" name="av01"/>

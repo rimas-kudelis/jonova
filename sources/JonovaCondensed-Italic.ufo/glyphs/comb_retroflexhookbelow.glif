@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="comb:retroflexhookbelow" format="2">
   <unicode hex="0322"/>
+  <anchor x="-166" y="60" name="_AccentAttachedBelow"/>
   <outline>
     <contour>
       <point x="-102" y="82" type="line" name="av01"/>

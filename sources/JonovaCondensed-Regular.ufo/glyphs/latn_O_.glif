@@ -4,8 +4,9 @@
   <unicode hex="004F"/>
   <anchor x="600" y="1600" name="AccentAbove"/>
   <anchor x="850" y="1600" name="AccentAboveRight"/>
-  <anchor x="500" y="0" name="AccentBelow"/>
-  <anchor x="500" y="712" name="AccentOverlay"/>
+  <anchor x="600" y="0" name="AccentBelow"/>
+  <anchor x="850" y="1330" name="AccentHorn"/>
+  <anchor x="600" y="712" name="AccentOverlay"/>
   <outline>
     <contour>
       <point x="75" y="717" type="qcurve" name="sh01"/>

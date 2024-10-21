@@ -5,8 +5,9 @@
   <guideline x="419" y="0" angle="80"/>
   <anchor x="530" y="1100" name="AccentAbove"/>
   <anchor x="750" y="1100" name="AccentAboveRight"/>
-  <anchor x="250" y="0" name="AccentBelow"/>
-  <anchor x="500" y="500" name="AccentOverlay"/>
+  <anchor x="420" y="0" name="AccentBelow"/>
+  <anchor x="814" y="798" name="AccentHorn"/>
+  <anchor x="480" y="500" name="AccentOverlay"/>
   <outline>
     <contour>
       <point x="538" y="892" type="qcurve" name="sv01"/>

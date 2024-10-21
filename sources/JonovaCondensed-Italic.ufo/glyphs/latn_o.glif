@@ -5,6 +5,7 @@
   <anchor x="600" y="1100" name="AccentAbove"/>
   <anchor x="750" y="1100" name="AccentAboveRight"/>
   <anchor x="416" y="0" name="AccentBelow"/>
+  <anchor x="820" y="798" name="AccentHorn"/>
   <anchor x="480" y="486" name="AccentOverlay"/>
   <outline>
     <contour>

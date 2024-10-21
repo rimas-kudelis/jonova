@@ -3,6 +3,7 @@
   <unicode hex="0360"/>
   <guideline x="-556" y="0" angle="90"/>
   <guideline x="558" y="0" angle="90"/>
+  <anchor x="-183" y="1425" name="_AccentAbove"/>
   <outline>
     <contour>
       <point x="-32" y="1808" type="qcurve" name="sv02"/>

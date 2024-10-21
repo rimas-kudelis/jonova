@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="comb:minusbelow" format="2">
   <unicode hex="0320"/>
+  <anchor x="-384" y="0" name="_AccentBelow"/>
   <outline>
     <contour>
       <point x="-588" y="-169" type="line" name="av01"/>

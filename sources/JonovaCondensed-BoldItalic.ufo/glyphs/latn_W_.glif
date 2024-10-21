@@ -14,7 +14,7 @@
   <guideline x="760" y="0" angle="90"/>
   <anchor x="980" y="1600" name="AccentAbove"/>
   <anchor x="1600" y="1600" name="AccentAboveRight"/>
-  <anchor x="600" y="0" name="AccentBelow"/>
+  <anchor x="728" y="0" name="AccentBelow"/>
   <anchor x="850" y="712" name="AccentOverlay"/>
   <outline>
     <contour>

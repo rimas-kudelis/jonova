@@ -6,8 +6,9 @@
   <anchor x="420" y="1100" name="AccentAbove"/>
   <anchor x="750" y="1100" name="AccentAboveRight"/>
   <anchor x="669" y="0" name="AccentAttachedBelow"/>
-  <anchor x="320" y="0" name="AccentBelow"/>
-  <anchor x="390" y="486" name="AccentOverlay"/>
+  <anchor x="420" y="0" name="AccentBelow"/>
+  <anchor x="728" y="759" name="AccentHorn"/>
+  <anchor x="420" y="486" name="AccentOverlay"/>
   <outline>
     <contour>
       <point x="287" y="1004" type="line" name="at01"/>

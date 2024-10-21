@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="comb:horn" format="2">
   <unicode hex="031B"/>
+  <anchor x="-33" y="811" name="_AccentHorn"/>
   <outline>
     <contour>
       <point x="160" y="1122" type="line" name="dv02"/>

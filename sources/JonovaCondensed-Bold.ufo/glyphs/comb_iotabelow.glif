@@ -3,6 +3,7 @@
   <unicode hex="0345"/>
   <guideline x="0" y="-405" angle="320"/>
   <guideline x="-138" y="0" angle="90"/>
+  <anchor x="-372" y="74" name="_AccentBelow"/>
   <outline>
     <contour>
       <point x="-566" y="29" type="line" name="dh01"/>
