@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="fval.xsl"?>
-<FontValidatorReport RunDateTime="Wednesday, 09 October 2024 19:58" MachineName="fv-az520-749">
+<FontValidatorReport RunDateTime="Monday, 21 October 2024 19:58" MachineName="fv-az575-701">
 <FontFile FileName="Jonova-Bold.ttf" FileNameAndPath="fonts/ttf/Jonova-Bold.ttf">
 <Report ErrorType="I" ErrorCode="I0004" Message="The file begins with an Offset Table (file contains a single font)" />
 <Font FontIndex="0">
-<FontInfo FontName="Jonova Bold" FontVersion="2.103 beta" FontDate="10/09/2024" />
+<FontInfo FontName="Jonova Bold" FontVersion="2.103 beta" FontDate="10/21/2024" />
 <Report ErrorType="P" ErrorCode="P0011" Message="The numTables field is non-zero" Details="16" TestName="_OFFSET_numTables" />
 <Report ErrorType="P" ErrorCode="P0010" Message="The searchRange, entrySelector, and rangeShift fields are all valid" TestName="_OFFSET_BinarySearchFields" />
 <Report ErrorType="P" ErrorCode="P0032" Message="The directory entry tags are in ascending order" />
@@ -18,7 +18,7 @@
 <Report ErrorType="W" ErrorCode="W0022" Message="Recommended table is missing" Details="DSIG" />
 <Report ErrorType="P" ErrorCode="P0022" Message="No unnecessary tables are present" />
 <Report ErrorType="P" ErrorCode="P0021" Message="Tables are in optimal order" />
-<TableEntry Tag="GDEF" Offset="0x00043c6c" Length="0x0000009c" Checksum="0x182d2320" CodeFriendlyTag="GDEF">
+<TableEntry Tag="GDEF" Offset="0x00044450" Length="0x0000021c" Checksum="0xb81eaacf" CodeFriendlyTag="GDEF">
 <Report ErrorType="P" ErrorCode="P4006" Message="The version numbers 0x00010000 or 0x0001002 are okay" Details="0x00010002" TestName="GDEF_Version" />
 <Report ErrorType="P" ErrorCode="P4002" Message="All header offsets point within the table" TestName="GDEF_HeaderOffsets" />
 <Report ErrorType="P" ErrorCode="P4003" Message="The Coverage offset is nonzero and points within the GDEF table" Details="LigCaretList" />
@@ -31,7 +31,7 @@
 <Report ErrorType="I" ErrorCode="I4000" Message="The MarkSetCount of the GDEF table" Details="MarkGlyphSetsDef: MarkSetCount=1" />
 <Report ErrorType="P" ErrorCode="P4007" Message="The MarkGlyphSetsDefTable of the GDEF table is okay" Details="MarkGlyphSetsDef" />
 </TableEntry>
-<TableEntry Tag="GPOS" Offset="0x00043d08" Length="0x0000160e" Checksum="0xa9545172" CodeFriendlyTag="GPOS">
+<TableEntry Tag="GPOS" Offset="0x0004466c" Length="0x000015f6" Checksum="0xf358513d" CodeFriendlyTag="GPOS">
 <Report ErrorType="P" ErrorCode="P4132" Message="The version number is 0x00010000" TestName="GPOS_Version" />
 <Report ErrorType="P" ErrorCode="P4115" Message="All header offsets point within the table" TestName="GPOS_HeaderOffsets" />
 <Report ErrorType="P" ErrorCode="P5500" Message="The LangSysTable is valid" Details="ScriptList, ScriptRecord[0](DFLT), ScriptTable, DefaultLangSysTable" />
@@ -207,9 +207,11 @@
 <Report ErrorType="P" ErrorCode="P4121" Message="The MarkBasePos subtable is valid" Details="LookupList, Lookup[6], SubTable[0](MarkBasePos)" />
 <Report ErrorType="P" ErrorCode="P4101" Message="The BaseArray table is valid" Details="LookupList, Lookup[7], SubTable[0](MarkBasePos), BaseArray" />
 <Report ErrorType="P" ErrorCode="P4121" Message="The MarkBasePos subtable is valid" Details="LookupList, Lookup[7], SubTable[0](MarkBasePos)" />
+<Report ErrorType="P" ErrorCode="P4101" Message="The BaseArray table is valid" Details="LookupList, Lookup[8], SubTable[0](MarkBasePos), BaseArray" />
+<Report ErrorType="P" ErrorCode="P4121" Message="The MarkBasePos subtable is valid" Details="LookupList, Lookup[8], SubTable[0](MarkBasePos)" />
 <Report ErrorType="P" ErrorCode="P5600" Message="The LookupList table is valid" Details="LookupList" />
 </TableEntry>
-<TableEntry Tag="GSUB" Offset="0x00045318" Length="0x00000ed0" Checksum="0x7a1e8345" CodeFriendlyTag="GSUB">
+<TableEntry Tag="GSUB" Offset="0x00045c64" Length="0x00000efa" Checksum="0x1c24ba9d" CodeFriendlyTag="GSUB">
 <Report ErrorType="P" ErrorCode="P4208" Message="The version number is 0x00010000" TestName="GSUB_Version" />
 <Report ErrorType="P" ErrorCode="P4204" Message="All header offsets point within the table" TestName="GSUB_HeaderOffsets" />
 <Report ErrorType="P" ErrorCode="P5500" Message="The LangSysTable is valid" Details="ScriptList, ScriptRecord[0](DFLT), ScriptTable, DefaultLangSysTable" />
@@ -286,7 +288,7 @@
 <Report ErrorType="P" ErrorCode="P2114" Message="The usBreakChar is mapped to a glyf" TestName="OS_2_usBreakChar" />
 <Report ErrorType="P" ErrorCode="P2124" Message="The usMaxContext field matches the calculated value" Details="4" TestName="OS_2_usMaxContext" />
 </TableEntry>
-<TableEntry Tag="cmap" Offset="0x0000133c" Length="0x00000468" Checksum="0x51c0abd5" CodeFriendlyTag="cmap">
+<TableEntry Tag="cmap" Offset="0x0000133c" Length="0x00000c4a" Checksum="0x70ad2ffc" CodeFriendlyTag="cmap">
 <Report ErrorType="P" ErrorCode="P0312" Message="The table version number is 0" TestName="cmap_Version" />
 <Report ErrorType="P" ErrorCode="P0307" Message="Each subtable offset is within the table" TestName="cmap_SubtableOffset" />
 <Report ErrorType="P" ErrorCode="P0306" Message="Each subtable length is within the table" TestName="cmap_SubtableLength" />
@@ -302,35 +304,35 @@
 <Report ErrorType="W" ErrorCode="W0307" Message="Characters are mapped in the Unicode Private Use area" TestName="cmap_PrivateUse" />
 <Report ErrorType="P" ErrorCode="P0314" Message="All non mac subtables have a language field of zero" TestName="cmap_SubtableLanguage" />
 </TableEntry>
-<TableEntry Tag="cvt " Offset="0x00001a10" Length="0x0000002a" Checksum="0x046e09cc" CodeFriendlyTag="cvt_">
+<TableEntry Tag="cvt " Offset="0x000021f4" Length="0x0000002a" Checksum="0x046e09cc" CodeFriendlyTag="cvt_">
 <Report ErrorType="P" ErrorCode="P0400" Message="The length of the cvt table is an even number of bytes" TestName="cvt_length" />
 </TableEntry>
-<TableEntry Tag="fpgm" Offset="0x000017a4" Length="0x00000173" Checksum="0x065d9c37" CodeFriendlyTag="fpgm">
+<TableEntry Tag="fpgm" Offset="0x00001f88" Length="0x00000173" Checksum="0x065d9c37" CodeFriendlyTag="fpgm">
 <Report ErrorType="I" ErrorCode="I0900" Message="Validation for the fpgm table is not directly implemented, but rasterization testing will validate any executed hinting instructions" />
 </TableEntry>
-<TableEntry Tag="glyf" Offset="0x00002b94" Length="0x0003dbd3" Checksum="0x0a9074ee" CodeFriendlyTag="glyf">
+<TableEntry Tag="glyf" Offset="0x00003378" Length="0x0003dbd3" Checksum="0xc8d49399" CodeFriendlyTag="glyf">
 <Report ErrorType="P" ErrorCode="P1700" Message="Correct format of loca (0 or 1)" />
-<Report ErrorType="W" ErrorCode="W1110" Message="Intersecting components of composite glyph" Details="Glyph index 551" />
-<Report ErrorType="E" ErrorCode="E1111" Message="Intersecting contours" Details="Glyph index 837" />
-<Report ErrorType="I" ErrorCode="I1111" Message="Unable to perform test due to previously detected errors" Details="Glyph index 837 Test: ValidateSimpContMisor " />
-<Report ErrorType="E" ErrorCode="E1111" Message="Intersecting contours" Details="Glyph index 932" />
-<Report ErrorType="I" ErrorCode="I1111" Message="Unable to perform test due to previously detected errors" Details="Glyph index 932 Test: ValidateSimpContMisor " />
-<Report ErrorType="W" ErrorCode="W1111" Message="Duplicated knots" Details="Glyph index 1082" />
-<Report ErrorType="W" ErrorCode="W1111" Message="Duplicated knots" Details="Glyph index 1086" />
-<Report ErrorType="W" ErrorCode="W1111" Message="Duplicated knots" Details="Glyph index 1087" />
-<Report ErrorType="E" ErrorCode="E1111" Message="Intersecting contours" Details="Glyph index 1088" />
-<Report ErrorType="I" ErrorCode="I1111" Message="Unable to perform test due to previously detected errors" Details="Glyph index 1088 Test: ValidateSimpContMisor " />
-<Report ErrorType="W" ErrorCode="W1111" Message="Duplicated knots" Details="Glyph index 1089" />
-<Report ErrorType="E" ErrorCode="E1111" Message="Intersecting contours" Details="Glyph index 1089" />
-<Report ErrorType="I" ErrorCode="I1111" Message="Unable to perform test due to previously detected errors" Details="Glyph index 1089 Test: ValidateSimpContMisor " />
-<Report ErrorType="W" ErrorCode="W1111" Message="Duplicated knots" Details="Glyph index 1090" />
-<Report ErrorType="W" ErrorCode="W1111" Message="Duplicated knots" Details="Glyph index 1091" />
-<Report ErrorType="E" ErrorCode="E1110" Message="Misoriented contour" Details="Glyph index 1091" />
+<Report ErrorType="E" ErrorCode="E1111" Message="Intersecting contours" Details="Glyph index 20" />
+<Report ErrorType="I" ErrorCode="I1111" Message="Unable to perform test due to previously detected errors" Details="Glyph index 20 Test: ValidateSimpContMisor " />
+<Report ErrorType="E" ErrorCode="E1111" Message="Intersecting contours" Details="Glyph index 31" />
+<Report ErrorType="I" ErrorCode="I1111" Message="Unable to perform test due to previously detected errors" Details="Glyph index 31 Test: ValidateSimpContMisor " />
+<Report ErrorType="W" ErrorCode="W1110" Message="Intersecting components of composite glyph" Details="Glyph index 375" />
+<Report ErrorType="E" ErrorCode="E1111" Message="Intersecting contours" Details="Glyph index 969" />
+<Report ErrorType="I" ErrorCode="I1111" Message="Unable to perform test due to previously detected errors" Details="Glyph index 969 Test: ValidateSimpContMisor " />
+<Report ErrorType="W" ErrorCode="W1111" Message="Duplicated knots" Details="Glyph index 978" />
+<Report ErrorType="W" ErrorCode="W1111" Message="Duplicated knots" Details="Glyph index 979" />
+<Report ErrorType="E" ErrorCode="E1111" Message="Intersecting contours" Details="Glyph index 979" />
+<Report ErrorType="I" ErrorCode="I1111" Message="Unable to perform test due to previously detected errors" Details="Glyph index 979 Test: ValidateSimpContMisor " />
+<Report ErrorType="W" ErrorCode="W1111" Message="Duplicated knots" Details="Glyph index 980" />
+<Report ErrorType="W" ErrorCode="W1111" Message="Duplicated knots" Details="Glyph index 982" />
+<Report ErrorType="W" ErrorCode="W1111" Message="Duplicated knots" Details="Glyph index 984" />
+<Report ErrorType="W" ErrorCode="W1111" Message="Duplicated knots" Details="Glyph index 986" />
+<Report ErrorType="E" ErrorCode="E1110" Message="Misoriented contour" Details="Glyph index 986" />
 </TableEntry>
-<TableEntry Tag="head" Offset="0x0000010c" Length="0x00000036" Checksum="0x11c7b480" CodeFriendlyTag="head">
+<TableEntry Tag="head" Offset="0x0000010c" Length="0x00000036" Checksum="0x11d7867c" CodeFriendlyTag="head">
 <Report ErrorType="P" ErrorCode="P1323" Message="Table length is 54 bytes" TestName="head_TableLength" />
 <Report ErrorType="P" ErrorCode="P1324" Message="The table version number is 0x00010000" TestName="head_TableVersion" />
-<Report ErrorType="P" ErrorCode="P1307" Message="Font checksum is correct" Details="0x1a0f25a3" TestName="head_ChecksumAdjustment" />
+<Report ErrorType="P" ErrorCode="P1307" Message="Font checksum is correct" Details="0x43a390fd" TestName="head_ChecksumAdjustment" />
 <Report ErrorType="P" ErrorCode="P1321" Message="The magic number is 0x5f0f3cf5" TestName="head_MagicNumber" />
 <Report ErrorType="W" ErrorCode="W1302" Message="Non-linear scaling flag (bit 4) is set, but hdmx table is not present" TestName="head_FlagTests" />
 <Report ErrorType="W" ErrorCode="W1303" Message="Non-linear scaling flag (bit 4) is set, but LTSH table is not present" TestName="head_FlagTests" />
@@ -338,7 +340,7 @@
 <Report ErrorType="P" ErrorCode="P1302" Message="Reserved bit 15 of the flags field is clear" TestName="head_FlagTests" />
 <Report ErrorType="P" ErrorCode="P1325" Message="The unitsPerEm value is a power of two in the range 64..16384" Details="2048" TestName="head_UnitsPerEmValues" />
 <Report ErrorType="P" ErrorCode="P1300" Message="The created time is not zero" Details="created = 3416375362 (Wednesday, 04 April 2012 09:09)" TestName="head_Dates" />
-<Report ErrorType="P" ErrorCode="P1322" Message="The modified time is not zero" Details="modified = 3811348003 (Wednesday, 09 October 2024 19:46)" TestName="head_Dates" />
+<Report ErrorType="P" ErrorCode="P1322" Message="The modified time is not zero" Details="modified = 3812384799 (Monday, 21 October 2024 19:46)" TestName="head_Dates" />
 <Report ErrorType="P" ErrorCode="P1327" Message="The xMin value matches the minimum glyph xMin" Details="xMin = -1108" TestName="head_MinMaxValues" />
 <Report ErrorType="P" ErrorCode="P1329" Message="The yMin value matches the minimum glyph yMin" Details="yMin = -566" TestName="head_MinMaxValues" />
 <Report ErrorType="P" ErrorCode="P1326" Message="The xMax value matches the maximum glyph xMax" Details="xMax = 2076" TestName="head_MinMaxValues" />
@@ -373,11 +375,11 @@
 <Report ErrorType="P" ErrorCode="P1404" Message="The numberOfHMetrics value is consistent with the length of the hmtx table" TestName="hhea_numberOfHMetrics" />
 <Report ErrorType="P" ErrorCode="P1408" Message="The caretSlope angle matches the post.italicAngle" TestName="hhea_caretSlope" />
 </TableEntry>
-<TableEntry Tag="hmtx" Offset="0x000001e8" Length="0x00001152" Checksum="0x07087063" CodeFriendlyTag="hmtx">
+<TableEntry Tag="hmtx" Offset="0x000001e8" Length="0x00001152" Checksum="0x091c706f" CodeFriendlyTag="hmtx">
 <Report ErrorType="P" ErrorCode="P1501" Message="The size of the table matches the calculated size" TestName="hmtx_TableSize" />
 <Report ErrorType="P" ErrorCode="P1500" Message="The horizontal metrics are all within an allowable range of values" TestName="hmtx_CheckMetrics" />
 </TableEntry>
-<TableEntry Tag="loca" Offset="0x00001a3c" Length="0x00001158" Checksum="0x0674a24f" CodeFriendlyTag="loca">
+<TableEntry Tag="loca" Offset="0x00002220" Length="0x00001158" Checksum="0x065a0b54" CodeFriendlyTag="loca">
 <Report ErrorType="P" ErrorCode="P1700" Message="Correct format of loca (0 or 1)" />
 <Report ErrorType="P" ErrorCode="P1704" Message="The number of entries is equal to (maxp.numGlyphs + 1)" />
 <Report ErrorType="P" ErrorCode="P1705" Message="The entries are sorted in ascending order" />
@@ -393,7 +395,7 @@
 <Report ErrorType="I" ErrorCode="I1900" Message="maxSizeOfInstructions via method #1" Details="maxSizeOfInstructions=609, computed from the glyf table" TestName="maxp_GlyphStats" />
 <Report ErrorType="P" ErrorCode="P1900" Message="The points, contours, and component values match the calculated values" TestName="maxp_GlyphStats" />
 </TableEntry>
-<TableEntry Tag="name" Offset="0x00040768" Length="0x0000096e" Checksum="0xf91d0dcb" CodeFriendlyTag="name">
+<TableEntry Tag="name" Offset="0x00040f4c" Length="0x0000096e" Checksum="0xf91d0dcb" CodeFriendlyTag="name">
 <Report ErrorType="P" ErrorCode="P2001" Message="The format selector field is 0" TestName="name_FormatSelector" />
 <Report ErrorType="P" ErrorCode="P2007" Message="No strings extended past the end of the table" TestName="name_StringsWithinTable" />
 <Report ErrorType="P" ErrorCode="P2003" Message="The NameRecords array is in sorted order" TestName="name_NameRecordsSorted" />
@@ -412,7 +414,7 @@
 <Report ErrorType="P" ErrorCode="P2014" Message="No inconsistencies were found for Trademark strings" TestName="name_TrademarkConsistent" />
 <Report ErrorType="P" ErrorCode="P2013" Message="No inconsistencies were found for Description strings" TestName="name_DescriptionConsistent" />
 </TableEntry>
-<TableEntry Tag="post" Offset="0x000410d8" Length="0x00002b94" Checksum="0x3e3f57d8" CodeFriendlyTag="post">
+<TableEntry Tag="post" Offset="0x000418bc" Length="0x00002b94" Checksum="0x3e3f57d8" CodeFriendlyTag="post">
 <Report ErrorType="P" ErrorCode="P2304" Message="The table length is valid" TestName="post_TableLength" />
 <Report ErrorType="P" ErrorCode="P2308" Message="The version number is valid" TestName="post_Version" />
 <Report ErrorType="P" ErrorCode="P2302" Message="The italicAngle value is reasonable and consistent with other tables" TestName="post_italicAngle" />
@@ -423,7 +425,7 @@
 <Report ErrorType="P" ErrorCode="P2300" Message="The glyphNameIndex array contains valid indexes" TestName="post_v2_glyphNameIndex" />
 <Report ErrorType="P" ErrorCode="P2303" Message="The names in the post table are consistent with the Adobe Glyph List names" TestName="post_v2_names" />
 </TableEntry>
-<TableEntry Tag="prep" Offset="0x00001918" Length="0x000000f6" Checksum="0xbff37954" CodeFriendlyTag="prep">
+<TableEntry Tag="prep" Offset="0x000020fc" Length="0x000000f6" Checksum="0xbff37954" CodeFriendlyTag="prep">
 <Report ErrorType="I" ErrorCode="I2400" Message="Validation for the prep table is not directly implemented, but rasterization testing will validate any executed hinting instructions" />
 </TableEntry>
 <RasterizationTest_BW>
@@ -436,6 +438,6 @@
 <Report ErrorType="P" ErrorCode="P6000" Message="No problems were found during rasterization testing" />
 </RasterizationTest_ClearType>
 </Font>
-<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:52" />
+<Report ErrorType="I" ErrorCode="I0005" Message="Total time validating file" Details="0:00:53" />
 </FontFile>
 </FontValidatorReport>
