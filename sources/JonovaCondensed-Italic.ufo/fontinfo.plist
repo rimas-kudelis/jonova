@@ -83,7 +83,7 @@ with Reserved Font Name Jonova.</string>
     </dict>
     <dict>
       <key>angle</key>
-      <integer>80</integer>
+      <integer>82</integer>
       <key>x</key>
       <integer>-512</integer>
       <key>y</key>
@@ -91,7 +91,7 @@ with Reserved Font Name Jonova.</string>
     </dict>
     <dict>
       <key>angle</key>
-      <integer>80</integer>
+      <integer>82</integer>
       <key>x</key>
       <integer>537</integer>
       <key>y</key>
@@ -99,7 +99,23 @@ with Reserved Font Name Jonova.</string>
     </dict>
     <dict>
       <key>angle</key>
-      <integer>80</integer>
+      <integer>82</integer>
+      <key>x</key>
+      <integer>-384</integer>
+      <key>y</key>
+      <integer>0</integer>
+    </dict>
+    <dict>
+      <key>angle</key>
+      <integer>82</integer>
+      <key>x</key>
+      <integer>-404</integer>
+      <key>y</key>
+      <integer>0</integer>
+    </dict>
+    <dict>
+      <key>angle</key>
+      <integer>82</integer>
       <key>x</key>
       <integer>0</integer>
       <key>y</key>
@@ -107,7 +123,7 @@ with Reserved Font Name Jonova.</string>
     </dict>
     <dict>
       <key>angle</key>
-      <integer>80</integer>
+      <integer>82</integer>
       <key>x</key>
       <integer>2049</integer>
       <key>y</key>
@@ -123,7 +139,7 @@ with Reserved Font Name Jonova.</string>
     </dict>
     <dict>
       <key>angle</key>
-      <integer>80</integer>
+      <integer>82</integer>
       <key>x</key>
       <integer>-201</integer>
       <key>y</key>
@@ -131,7 +147,7 @@ with Reserved Font Name Jonova.</string>
     </dict>
     <dict>
       <key>angle</key>
-      <integer>80</integer>
+      <integer>82</integer>
       <key>x</key>
       <integer>-823</integer>
       <key>y</key>
