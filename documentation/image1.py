@@ -44,7 +44,7 @@ ttFont = TTFont(FONT_PATH)
 MY_URL = subprocess.check_output("git remote get-url origin", shell=True).decode()
 MY_HASH = subprocess.check_output("git rev-parse --short HEAD", shell=True).decode()
 FONT_NAME = ttFont["name"].getDebugName(4)
-FONT_VERSION = "v%s" % ttFont["name"].getDebugName(5)
+FONT_VERSION = ttFont["name"].getDebugName(5)
 
 
 # Draws a grid
