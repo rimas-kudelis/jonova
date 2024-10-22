@@ -6,10 +6,10 @@ Jonova started out as a commercial product at [Fotonija](https://www.fotonija.lt
 
 ## Samples
 
-![Sample Image](documentation/image1.png)
-![Latin alphabet sample image](documentation/image2.png)
-![Cyrillic alphabet sample image](documentation/image3.png)
-![Greek alphabet sample image](documentation/image4.png)
+![Sample Image](https://rimas-kudelis.github.io/jonova/samples/image1.png)
+![Latin alphabet sample image](https://rimas-kudelis.github.io/jonova/samples/image2.png)
+![Cyrillic alphabet sample image](https://rimas-kudelis.github.io/jonova/samples/image3.png)
+![Greek alphabet sample image](https://rimas-kudelis.github.io/jonova/samples/image4.png)
 
 ## TODO
 
@@ -25,13 +25,12 @@ If you want to build fonts manually on your own computer:
 * `make test` will run [FontBakery](https://github.com/rimas-kudelis/fontbakery)'s quality assurance tests.
 * `make proof` will generate HTML proof files.
 
-The proof files and QA tests are also available automatically via GitHub Actions - look at `https://yourname.github.io/your-font-repository-name`.
+The proof files and QA tests are also available automatically via GitHub Actions - look at https://rimas-kudelis.github.io/jonova/.
 
 ## License
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at
-https://scripts.sil.org/OFL
+This license is available with a FAQ at https://openfontlicense.org
 
 ## Badges
 

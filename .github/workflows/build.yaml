@@ -56,6 +56,11 @@ jobs:
     - name: diff
       run: make diff
       continue-on-error: true
+    - name: Generate images
+      run: |
+        make images
+        mkdir out/samples
+        cp documentation/*.png out/samples
     - name: setup site
       run: cp scripts/index.html out/index.html
     - name: Deploy
