@@ -255,6 +255,19 @@
   <array>
     <updateTimestamps>False</updateTimestamps>
   </array>
+  <key>public.openTypeMeta</key>
+  <dict>
+    <key>dlng</key>
+    <array>
+      <string>Latn</string>
+    </array>
+    <key>slng</key>
+    <array>
+      <string>Cyrl</string>
+      <string>Grek</string>
+      <string>Latn</string>
+    </array>
+  </dict>
   <key>public.truetype.instructions</key>
   <dict>
     <key>controlValue</key>
