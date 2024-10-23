@@ -124,6 +124,20 @@ with Reserved Font Name Jonova.</string>
   </array>
   <key>italicAngle</key>
   <integer>-8</integer>
+  <key>openTypeGaspRangeRecords</key>
+  <array>
+    <dict>
+      <key>rangeGaspBehavior</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>2</integer>
+        <integer>3</integer>
+      </array>
+      <key>rangeMaxPPEM</key>
+      <integer>65535</integer>
+    </dict>
+  </array>
   <key>openTypeHeadCreated</key>
   <string>2013/11/11 09:11:11</string>
   <key>openTypeHeadFlags</key>

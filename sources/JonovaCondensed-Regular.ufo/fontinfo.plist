@@ -98,6 +98,20 @@ with Reserved Font Name Jonova.</string>
       <integer>0</integer>
     </dict>
   </array>
+  <key>openTypeGaspRangeRecords</key>
+  <array>
+    <dict>
+      <key>rangeGaspBehavior</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>2</integer>
+        <integer>3</integer>
+      </array>
+      <key>rangeMaxPPEM</key>
+      <integer>65535</integer>
+    </dict>
+  </array>
   <key>openTypeHeadCreated</key>
   <string>2014/03/05 10:14:56</string>
   <key>openTypeHeadFlags</key>
