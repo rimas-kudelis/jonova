@@ -10,48 +10,48 @@ jobs:
     name: Build font
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v5
-      with:
-        python-version: "3.10"
-    - name: Install sys tools/deps
-      run: |
-        sudo apt-get update
-        sudo apt-get install ttfautohint
-        sudo snap install yq
-    - uses: actions/cache@v4
-      with:
-        path: ./venv/
-        key: ${{ runner.os }}-venv-${{ hashFiles('requirements.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-venv-
+      - uses: actions/checkout@v4
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Install sys tools/deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install ttfautohint
+          sudo snap install yq
+      - uses: actions/cache@v4
+        with:
+          path: ./venv/
+          key: ${{ runner.os }}-venv-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-venv-
 
-    # If a new release is cut, use the release tag to auto-bump the source files
-    # - name: Bump release
-    #   if: github.event_name == 'release'
-    #   run: |
-    #     . venv/bin/activate
-    #     SRCS=$(yq e ".sources[]" sources/config.yaml)
-    #     TAG_NAME=${GITHUB_REF/refs\/tags\//}
-    #     echo "Bumping $SRCS to $TAG_NAME"
-    #     for src in $SRCS
-    #     do
-    #       bumpfontversion sources/$src --new-version $TAG_NAME;
-    #     done
+      # If a new release is cut, use the release tag to auto-bump the source files
+      # - name: Bump release
+      #   if: github.event_name == 'release'
+      #   run: |
+      #     . venv/bin/activate
+      #     SRCS=$(yq e ".sources[]" sources/config.yaml)
+      #     TAG_NAME=${GITHUB_REF/refs\/tags\//}
+      #     echo "Bumping $SRCS to $TAG_NAME"
+      #     for src in $SRCS
+      #     do
+      #       bumpfontversion sources/$src --new-version $TAG_NAME;
+      #     done
 
-    - name: Build font
-      run: make build
-    - name: Generate zip filename
-      id: zip-name
-      shell: bash
-      # Set the archive name to repo name + "-fonts" e.g "MavenPro-fonts"
-      run: echo "FONTS_ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-fonts" >> $GITHUB_ENV
-    - name: Archive built fonts
-      uses: actions/upload-artifact@v4
-      with:
-        name: ${{ env.FONTS_ZIP_NAME }}
-        path: fonts/
+      - name: Build font
+        run: make build
+      - name: Generate zip filename
+        id: zip-name
+        shell: bash
+        # Set the archive name to repo name + "-fonts" e.g "MavenPro-fonts"
+        run: echo "FONTS_ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-fonts" >> $GITHUB_ENV
+      - name: Archive built fonts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.FONTS_ZIP_NAME }}
+          path: fonts/
     outputs:
       FONTS_ZIP_NAME: ${{ env.FONTS_ZIP_NAME }}
 
@@ -62,32 +62,32 @@ jobs:
     env:
       FONTS_ZIP_NAME: ${{ needs.build.outputs.FONTS_ZIP_NAME }}
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v5
-      with:
-        python-version: "3.10"
-    - uses: actions/cache@v4
-      with:
-        path: ./venv-test/
-        key: ${{ runner.os }}-venv-test-${{ hashFiles('requirements-test.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-venv-test-
-    - name: Download font
-      uses: actions/download-artifact@v4
-      with:
-        name: ${{ env.FONTS_ZIP_NAME }}
-        path: fonts/
-    - name: Check with FontBakery
-      # For this job, pretend that there's an updated venv in addition to build.stamp
-      run: mkdir venv && touch venv/touchfile && touch build.stamp && make test
-      continue-on-error: true
-    - name: Archive artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: site-fontbakery
-        path: out/
-        retention-days: 1
+      - uses: actions/checkout@v4
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - uses: actions/cache@v4
+        with:
+          path: ./venv-test/
+          key: ${{ runner.os }}-venv-test-${{ hashFiles('requirements-test.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-venv-test-
+      - name: Download font
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ env.FONTS_ZIP_NAME }}
+          path: fonts/
+      - name: Check with FontBakery
+        # For this job, pretend that there's an updated venv in addition to build.stamp
+        run: mkdir venv && touch venv/touchfile && touch build.stamp && make test
+        continue-on-error: true
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-fontbakery
+          path: out/
+          retention-days: 1
 
   test-fontvalidator:
     name: Check with Font Validator
@@ -96,22 +96,22 @@ jobs:
     env:
       FONTS_ZIP_NAME: ${{ needs.build.outputs.FONTS_ZIP_NAME }}
     steps:
-    - uses: actions/checkout@v4
-    - name: Download font
-      uses: actions/download-artifact@v4
-      with:
-        name: ${{ env.FONTS_ZIP_NAME }}
-        path: fonts/
-    - name: Check with FontValidator
-      # For this job, pretend that there's an updated venv in addition to build.stamp
-      run: mkdir venv && touch venv/touchfile && touch build.stamp && make fv-test
-      continue-on-error: true
-    - name: Archive artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: site-fontvalidator
-        path: out/
-        retention-days: 1
+      - uses: actions/checkout@v4
+      - name: Download font
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ env.FONTS_ZIP_NAME }}
+          path: fonts/
+      - name: Check with FontValidator
+        # For this job, pretend that there's an updated venv in addition to build.stamp
+        run: mkdir venv && touch venv/touchfile && touch build.stamp && make fv-test
+        continue-on-error: true
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-fontvalidator
+          path: out/
+          retention-days: 1
 
   test-diffs-jonova:
     name: Generate diffs (Jonova)
@@ -120,29 +120,29 @@ jobs:
     env:
       FONTS_ZIP_NAME: ${{ needs.build.outputs.FONTS_ZIP_NAME }}
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v5
-      with:
-        python-version: "3.10"
-    - uses: actions/cache@v4
-      with:
-        path: ./venv/
-        key: ${{ runner.os }}-venv-${{ hashFiles('requirements.txt') }}
-    - name: Download font
-      uses: actions/download-artifact@v4
-      with:
-        name: ${{ env.FONTS_ZIP_NAME }}
-        path: fonts/
-    - name: Generate diffs
-      run: touch build.stamp && make diff-jonova
-      continue-on-error: true
-    - name: Archive artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: site-diffs-jonova
-        path: out/
-        retention-days: 1
+      - uses: actions/checkout@v4
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - uses: actions/cache@v4
+        with:
+          path: ./venv/
+          key: ${{ runner.os }}-venv-${{ hashFiles('requirements.txt') }}
+      - name: Download font
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ env.FONTS_ZIP_NAME }}
+          path: fonts/
+      - name: Generate diffs
+        run: touch build.stamp && make diff-jonova
+        continue-on-error: true
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-diffs-jonova
+          path: out/
+          retention-days: 1
 
   test-diffs-jonova-condensed:
     name: Generate diffs (Jonova Condensed)
@@ -151,29 +151,29 @@ jobs:
     env:
       FONTS_ZIP_NAME: ${{ needs.build.outputs.FONTS_ZIP_NAME }}
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v5
-      with:
-        python-version: "3.10"
-    - uses: actions/cache@v4
-      with:
-        path: ./venv/
-        key: ${{ runner.os }}-venv-${{ hashFiles('requirements.txt') }}
-    - name: Download font
-      uses: actions/download-artifact@v4
-      with:
-        name: ${{ env.FONTS_ZIP_NAME }}
-        path: fonts/
-    - name: Generate diffs
-      run: touch build.stamp && make diff-jonova-condensed
-      continue-on-error: true
-    - name: Archive artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: site-diffs-jonova-condensed
-        path: out/
-        retention-days: 1
+      - uses: actions/checkout@v4
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - uses: actions/cache@v4
+        with:
+          path: ./venv/
+          key: ${{ runner.os }}-venv-${{ hashFiles('requirements.txt') }}
+      - name: Download font
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ env.FONTS_ZIP_NAME }}
+          path: fonts/
+      - name: Generate diffs
+        run: touch build.stamp && make diff-jonova-condensed
+        continue-on-error: true
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-diffs-jonova-condensed
+          path: out/
+          retention-days: 1
 
   generate-samples:
     name: Generate samples
@@ -182,68 +182,68 @@ jobs:
     env:
       FONTS_ZIP_NAME: ${{ needs.build.outputs.FONTS_ZIP_NAME }}
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v5
-      with:
-        python-version: "3.10"
-    - uses: actions/cache@v4
-      with:
-        path: ./venv/
-        key: ${{ runner.os }}-venv-${{ hashFiles('requirements.txt') }}
-    - name: Download font
-      uses: actions/download-artifact@v4
-      with:
-        name: ${{ env.FONTS_ZIP_NAME }}
-        path: fonts/
-    - name: Generate samples
-      run: |
-        touch build.stamp
-        make images
-        mkdir -p out/samples
-        cp documentation/*.png out/samples
-    - name: Archive artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: site-images
-        path: out/
-        retention-days: 1
+      - uses: actions/checkout@v4
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - uses: actions/cache@v4
+        with:
+          path: ./venv/
+          key: ${{ runner.os }}-venv-${{ hashFiles('requirements.txt') }}
+      - name: Download font
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ env.FONTS_ZIP_NAME }}
+          path: fonts/
+      - name: Generate samples
+        run: |
+          touch build.stamp
+          make images
+          mkdir -p out/samples
+          cp documentation/*.png out/samples
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-images
+          path: out/
+          retention-days: 1
 
   deploy-site:
     name: Deploy website
     needs:
-    - test-fontbakery
-    - test-fontvalidator
-    - test-diffs-jonova
-    - test-diffs-jonova-condensed
-    - generate-samples
+      - test-fontbakery
+      - test-fontvalidator
+      - test-diffs-jonova
+      - test-diffs-jonova-condensed
+      - generate-samples
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - name: Download artifacts
-      uses: actions/download-artifact@v4
-      with:
-        pattern: site-*
-        path: out/
-        merge-multiple: true
-    - name: Copy site index
-      run: cp scripts/index.html out/index.html
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v4
-      if: ${{ github.ref == 'refs/heads/main' }}
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./out
-    - name: Generate zip filename
-      id: zip-name
-      shell: bash
-      # Set the archive name to repo name + "-site" e.g "MavenPro-site"
-      run: echo "SITE_ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-site" >> $GITHUB_ENV
-    - name: Archive artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: ${{ env.SITE_ZIP_NAME }}
-        path: out/
+      - uses: actions/checkout@v4
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: site-*
+          path: out/
+          merge-multiple: true
+      - name: Copy site index
+        run: cp scripts/index.html out/index.html
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
+      - name: Generate zip filename
+        id: zip-name
+        shell: bash
+        # Set the archive name to repo name + "-site" e.g "MavenPro-site"
+        run: echo "SITE_ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-site" >> $GITHUB_ENV
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.SITE_ZIP_NAME }}
+          path: out/
     outputs:
       SITE_ZIP_NAME: ${{ env.SITE_ZIP_NAME }}
 
@@ -268,15 +268,15 @@ jobs:
         with:
           name: ${{ env.FONTS_ZIP_NAME }}
           path: ${{ env.FONTS_ZIP_NAME }}
-#      - name: Copy DESCRIPTION.en_us.html to artefact directory
-#        run: cp documentation/DESCRIPTION.en_us.html ${{ env.FONTS_ZIP_NAME }}/DESCRIPTION.en_us.html
-#      - name: Copy ARTICLE.en_us.html to artefact directory
-#        run: cp documentation/ARTICLE.en_us.html ${{ env.FONTS_ZIP_NAME }}/ARTICLE.en_us.html
-#        continue-on-error: true
+      # - name: Copy DESCRIPTION.en_us.html to artefact directory
+      #   run: cp documentation/DESCRIPTION.en_us.html ${{ env.FONTS_ZIP_NAME }}/DESCRIPTION.en_us.html
+      # - name: Copy ARTICLE.en_us.html to artefact directory
+      #   run: cp documentation/ARTICLE.en_us.html ${{ env.FONTS_ZIP_NAME }}/ARTICLE.en_us.html
+      #   continue-on-error: true
       - name: Copy OFL.txt to artefact directory
         run: cp OFL.txt ${{ env.FONTS_ZIP_NAME }}/OFL.txt
-#      - name: Remove proof/fontbakery stuff from release
-#        run: rm -rf ${{ env.FONTS_ZIP_NAME }}/out
+      # - name: Remove proof/fontbakery stuff from release
+      #   run: rm -rf ${{ env.FONTS_ZIP_NAME }}/out
       - name: gen release file name
         shell: bash
         run: echo "RELEASE_FONTS_ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-${{github.ref_name}}" >> $GITHUB_ENV
