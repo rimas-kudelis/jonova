@@ -12,7 +12,7 @@ Copyright © 2005-2024, UAB Fotonija (https://www.fotonija.lt/).
 Copyright © 2024, Rimas Kudelis (rimas@kudelis.lt),
 with Reserved Font Name Jonova.</string>
   <key>descender</key>
-  <integer>-490</integer>
+  <integer>-574</integer>
   <key>familyName</key>
   <string>Jonova</string>
   <key>guidelines</key>
@@ -147,7 +147,7 @@ with Reserved Font Name Jonova.</string>
   <key>openTypeHheaCaretSlopeRun</key>
   <integer>361</integer>
   <key>openTypeHheaDescender</key>
-  <integer>-490</integer>
+  <integer>-574</integer>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
@@ -284,7 +284,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2TypoAscender</key>
   <integer>2012</integer>
   <key>openTypeOS2TypoDescender</key>
-  <integer>-490</integer>
+  <integer>-574</integer>
   <key>openTypeOS2TypoLineGap</key>
   <integer>0</integer>
   <key>openTypeOS2UnicodeRanges</key>
@@ -322,7 +322,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WinAscent</key>
   <integer>2012</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>490</integer>
+  <integer>574</integer>
   <key>postscriptBlueValues</key>
   <array>
     <integer>-30</integer>
