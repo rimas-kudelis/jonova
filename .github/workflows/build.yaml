@@ -113,8 +113,8 @@ jobs:
         path: out/
         retention-days: 1
 
-  test-diffs:
-    name: Generate diffs
+  test-diffs-jonova:
+    name: Generate diffs (Jonova)
     needs: build
     runs-on: ubuntu-latest
     env:
@@ -135,12 +135,43 @@ jobs:
         name: ${{ env.FONTS_ZIP_NAME }}
         path: fonts/
     - name: Generate diffs
-      run: touch build.stamp && make diff
+      run: touch build.stamp && make diff-jonova
       continue-on-error: true
     - name: Archive artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: site-diffs
+        name: site-diffs-jonova
+        path: out/
+        retention-days: 1
+
+  test-diffs-jonova-condensed:
+    name: Generate diffs (Jonova Condensed)
+    needs: build
+    runs-on: ubuntu-latest
+    env:
+      FONTS_ZIP_NAME: ${{ needs.build.outputs.FONTS_ZIP_NAME }}
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.10"
+    - uses: actions/cache@v4
+      with:
+        path: ./venv/
+        key: ${{ runner.os }}-venv-${{ hashFiles('requirements.txt') }}
+    - name: Download font
+      uses: actions/download-artifact@v4
+      with:
+        name: ${{ env.FONTS_ZIP_NAME }}
+        path: fonts/
+    - name: Generate diffs
+      run: touch build.stamp && make diff-jonova-condensed
+      continue-on-error: true
+    - name: Archive artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: site-diffs-jonova-condensed
         path: out/
         retention-days: 1
 
@@ -183,7 +214,8 @@ jobs:
     needs:
     - test-fontbakery
     - test-fontvalidator
-    - test-diffs
+    - test-diffs-jonova
+    - test-diffs-jonova-condensed
     - generate-samples
     runs-on: ubuntu-latest
     steps:
