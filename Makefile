@@ -73,18 +73,24 @@ proof-jonova-condensed: venv build.stamp
 diff: diff-jonova diff-jonova-condensed
 
 diff-jonova: venv build.stamp jonova-2.032
+	mkdir -p out/proof/Jonova
 	TOCHECK=$$(find fonts/variable -type f -name "Jonova-*" 2>/dev/null); \
 	if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f -name "Jonova-*" 2>/dev/null); fi; \
 	. venv/bin/activate; \
-	mkdir -p out/proof/Jonova; \
-	diffenator2 diff --imgs --debug-gifs --fonts-before jonova-2.032/Jonova/*.ttf --fonts-after $$TOCHECK --out out/proof/Jonova
+	diffenator2 diff --imgs --fonts-before jonova-2.032/Jonova/*.ttf --fonts-after $$TOCHECK --user-wordlist scripts/wordlist.txt --out out/proof/Jonova; \
+	cd out/proof/Jonova; \
+	echo "<h3>Debug images</h3>" >> diffenator2-report.html; \
+	for FILE in $$(find imgs/ -type f); do echo "<p><a href='$$FILE'>$$(basename $$FILE)</a></p>" >> diffenator2-report.html; done
 
-diff-jonova-condensed: venv build.stamp
+diff-jonova-condensed: venv build.stamp jonova-2.032
+	mkdir -p out/proof/JonovaCondensed
 	TOCHECK=$$(find fonts/variable -type f -name "JonovaCondensed-*" 2>/dev/null); \
 	if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f -name "JonovaCondensed-*" 2>/dev/null); fi; \
 	. venv/bin/activate; \
-	mkdir -p out/proof/JonovaCondensed; \
-	diffenator2 diff --imgs --debug-gifs --fonts-before jonova-2.032/JonovaCondensed/*.ttf --fonts-after $$TOCHECK --out out/proof/JonovaCondensed
+	diffenator2 diff --imgs --fonts-before jonova-2.032/JonovaCondensed/*.ttf --fonts-after $$TOCHECK --user-wordlist scripts/wordlist.txt --out out/proof/JonovaCondensed; \
+	cd out/proof/JonovaCondensed; \
+	echo "<h3>Debug images</h3>" >> diffenator2-report.html; \
+	for FILE in $$(find imgs/ -type f); do echo "<p><a href='$$FILE'>$$(basename $$FILE)</a></p>" >> diffenator2-report.html; done
 
 jonova-2.032:
 	curl -L https://github.com/rimas-kudelis/jonova/archive/refs/tags/v2.032.tar.gz -o- | tar -xz
