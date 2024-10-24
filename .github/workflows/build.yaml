@@ -7,7 +7,7 @@ permissions:
 
 jobs:
   build:
-    name: Build and test
+    name: Build font
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
@@ -23,14 +23,9 @@ jobs:
     - uses: actions/cache@v4
       with:
         path: ./venv/
-        key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
+        key: ${{ runner.os }}-venv-${{ hashFiles('requirements.txt') }}
         restore-keys: |
           ${{ runner.os }}-venv-
-    - name: gen zip file name
-      id: zip-name
-      shell: bash
-      # Set the archive name to repo name + "-fonts" e.g "MavenPro-fonts"
-      run: echo "ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-fonts" >> $GITHUB_ENV
 
     # If a new release is cut, use the release tag to auto-bump the source files
     # - name: Bump release
@@ -47,21 +42,159 @@ jobs:
 
     - name: Build font
       run: make build
+    - name: Generate zip filename
+      id: zip-name
+      shell: bash
+      # Set the archive name to repo name + "-fonts" e.g "MavenPro-fonts"
+      run: echo "FONTS_ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-fonts" >> $GITHUB_ENV
+    - name: Archive built fonts
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ env.FONTS_ZIP_NAME }}
+        path: fonts/
+    outputs:
+      FONTS_ZIP_NAME: ${{ env.FONTS_ZIP_NAME }}
+
+  test-fontbakery:
+    name: Check with FontBakery
+    needs: build
+    runs-on: ubuntu-latest
+    env:
+      FONTS_ZIP_NAME: ${{ needs.build.outputs.FONTS_ZIP_NAME }}
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.10"
+    - uses: actions/cache@v4
+      with:
+        path: ./venv-test/
+        key: ${{ runner.os }}-venv-test-${{ hashFiles('requirements-test.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-venv-test-
+    - name: Download font
+      uses: actions/download-artifact@v4
+      with:
+        name: ${{ env.FONTS_ZIP_NAME }}
+        path: fonts/
     - name: Check with FontBakery
-      run: make test
+      # For this job, pretend that there's an updated venv in addition to build.stamp
+      run: mkdir venv && touch venv/touchfile && touch build.stamp && make test
       continue-on-error: true
+    - name: Archive artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: site-fontbakery
+        path: out/
+        retention-days: 1
+
+  test-fontvalidator:
+    name: Check with Font Validator
+    needs: build
+    runs-on: ubuntu-latest
+    env:
+      FONTS_ZIP_NAME: ${{ needs.build.outputs.FONTS_ZIP_NAME }}
+    steps:
+    - uses: actions/checkout@v4
+    - name: Download font
+      uses: actions/download-artifact@v4
+      with:
+        name: ${{ env.FONTS_ZIP_NAME }}
+        path: fonts/
     - name: Check with FontValidator
-      run: make fv-test
+      # For this job, pretend that there's an updated venv in addition to build.stamp
+      run: mkdir venv && touch venv/touchfile && touch build.stamp && make fv-test
       continue-on-error: true
-    - name: diff
-      run: make diff
+    - name: Archive artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: site-fontvalidator
+        path: out/
+        retention-days: 1
+
+  test-diffs:
+    name: Generate diffs
+    needs: build
+    runs-on: ubuntu-latest
+    env:
+      FONTS_ZIP_NAME: ${{ needs.build.outputs.FONTS_ZIP_NAME }}
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.10"
+    - uses: actions/cache@v4
+      with:
+        path: ./venv/
+        key: ${{ runner.os }}-venv-${{ hashFiles('requirements.txt') }}
+    - name: Download font
+      uses: actions/download-artifact@v4
+      with:
+        name: ${{ env.FONTS_ZIP_NAME }}
+        path: fonts/
+    - name: Generate diffs
+      run: touch build.stamp && make diff
       continue-on-error: true
-    - name: Generate images
+    - name: Archive artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: site-diffs
+        path: out/
+        retention-days: 1
+
+  generate-samples:
+    name: Generate samples
+    needs: build
+    runs-on: ubuntu-latest
+    env:
+      FONTS_ZIP_NAME: ${{ needs.build.outputs.FONTS_ZIP_NAME }}
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.10"
+    - uses: actions/cache@v4
+      with:
+        path: ./venv/
+        key: ${{ runner.os }}-venv-${{ hashFiles('requirements.txt') }}
+    - name: Download font
+      uses: actions/download-artifact@v4
+      with:
+        name: ${{ env.FONTS_ZIP_NAME }}
+        path: fonts/
+    - name: Generate samples
       run: |
+        touch build.stamp
         make images
-        mkdir out/samples
+        mkdir -p out/samples
         cp documentation/*.png out/samples
-    - name: setup site
+    - name: Archive artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: site-images
+        path: out/
+        retention-days: 1
+
+  deploy-site:
+    name: Deploy website
+    needs:
+    - test-fontbakery
+    - test-fontvalidator
+    - test-diffs
+    - generate-samples
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Download artifacts
+      uses: actions/download-artifact@v4
+      with:
+        pattern: site-*
+        path: out/
+        merge-multiple: true
+    - name: Copy site index
       run: cp scripts/index.html out/index.html
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
@@ -69,15 +202,18 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./out
+    - name: Generate zip filename
+      id: zip-name
+      shell: bash
+      # Set the archive name to repo name + "-site" e.g "MavenPro-site"
+      run: echo "SITE_ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-site" >> $GITHUB_ENV
     - name: Archive artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: ${{ env.ZIP_NAME }}
-        path: |
-          fonts
-          out
+        name: ${{ env.SITE_ZIP_NAME }}
+        path: out/
     outputs:
-      zip_name: ${{ env.ZIP_NAME }}
+      SITE_ZIP_NAME: ${{ env.SITE_ZIP_NAME }}
 
   # There are two ways a release can be created: either by pushing a tag, or by
   # creating a release from the GitHub UI. Pushing a tag does not automatically
@@ -91,29 +227,29 @@ jobs:
     runs-on: ubuntu-latest
     if: contains(github.ref, 'refs/tags/')
     env:
-      ZIP_NAME: ${{ needs.build.outputs.zip_name }}
+      FONTS_ZIP_NAME: ${{ needs.build.outputs.FONTS_ZIP_NAME }}
       GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
       - name: Download font artefact files
         uses: actions/download-artifact@v4
         with:
-          name: ${{ env.ZIP_NAME }}
-          path: ${{ env.ZIP_NAME }}
+          name: ${{ env.FONTS_ZIP_NAME }}
+          path: ${{ env.FONTS_ZIP_NAME }}
 #      - name: Copy DESCRIPTION.en_us.html to artefact directory
-#        run: cp documentation/DESCRIPTION.en_us.html ${{ env.ZIP_NAME }}/DESCRIPTION.en_us.html
+#        run: cp documentation/DESCRIPTION.en_us.html ${{ env.FONTS_ZIP_NAME }}/DESCRIPTION.en_us.html
 #      - name: Copy ARTICLE.en_us.html to artefact directory
-#        run: cp documentation/ARTICLE.en_us.html ${{ env.ZIP_NAME }}/ARTICLE.en_us.html
+#        run: cp documentation/ARTICLE.en_us.html ${{ env.FONTS_ZIP_NAME }}/ARTICLE.en_us.html
 #        continue-on-error: true
       - name: Copy OFL.txt to artefact directory
-        run: cp OFL.txt ${{ env.ZIP_NAME }}/OFL.txt
-      - name: Remove proof/fontbakery stuff from release
-        run: rm -rf ${{ env.ZIP_NAME }}/out
+        run: cp OFL.txt ${{ env.FONTS_ZIP_NAME }}/OFL.txt
+#      - name: Remove proof/fontbakery stuff from release
+#        run: rm -rf ${{ env.FONTS_ZIP_NAME }}/out
       - name: gen release file name
         shell: bash
-        run: echo "RELEASE_ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-${{github.ref_name}}" >> $GITHUB_ENV
+        run: echo "RELEASE_FONTS_ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-${{github.ref_name}}" >> $GITHUB_ENV
       - name: Create release bundle
-        run: mv ${{ env.ZIP_NAME }} ${{ env.RELEASE_ZIP_NAME }}; zip -r ${{ env.RELEASE_ZIP_NAME }}.zip ${{ env.RELEASE_ZIP_NAME }}
+        run: mv ${{ env.FONTS_ZIP_NAME }} ${{ env.RELEASE_FONTS_ZIP_NAME }}; zip -r ${{ env.RELEASE_FONTS_ZIP_NAME }}.zip ${{ env.RELEASE_FONTS_ZIP_NAME }}
       - name: Check for release
         id: create_release
         run: |
@@ -122,7 +258,7 @@ jobs:
           fi
       - name: Populate release
         run: |
-          gh release upload ${{ github.ref_name }} ${{ env.RELEASE_ZIP_NAME }}.zip --clobber
+          gh release upload ${{ github.ref_name }} ${{ env.RELEASE_FONTS_ZIP_NAME }}.zip --clobber
       - name: Set release live
         run: |
           gh release edit ${{ github.ref_name }} --draft=false
