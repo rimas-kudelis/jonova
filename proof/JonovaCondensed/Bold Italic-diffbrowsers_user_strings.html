@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - User Strings</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style type="text/css">
+    
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attr-before{
+                color: red;
+                cursor: text;
+            }
+            .attr-after{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+	    @font-face{
+    src: url("old-JonovaCondensed-BoldItalic.ttf");
+    font-family: "old Jonova Condensed";
+    font-weight: 700;
+    
+    font-style: italic;
+}
+	  
+
+	  
+	    @font-face{
+    src: url("new-JonovaCondensed-BoldItalic.ttf");
+    font-family: "new Jonova Condensed";
+    font-weight: 700;
+    
+    font-style: italic;
+}
+	  
+
+	  
+
+	  
+	    .old-Bold-Italic{
+    font-family: "old Jonova Condensed", "Adobe NotDef";
+    font-weight: 700;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 700;
+}
+	  
+
+	  
+	    .new-Bold-Italic{
+    font-family: "new Jonova Condensed", "Adobe NotDef";
+    font-weight: 700;
+    
+    font-style: italic;
+    font-variation-settings: "wght" 700;
+}
+	  
+
+	  
+	
+
+	   #ot-panel {
+		max-height: 400px;
+		overflow-y: scroll;
+		background: white;
+		padding: 10px;
+		display: none;
+	   }
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+			<div class="nav-item" id="font-toggle">old</div>
+		
+			<div class="nav-item" id="ot-button">OT features</div>
+			<div id="ot-panel">
+			</div>
+		
+	</div>
+    <div id="content">
+	<h2>
+<b>Text</b>
+</h2>
+	
+  
+    <div class="box">
+      <div class="box-title">old-Bold-Italic 20pt</div>
+		
+			<div class="old-Bold-Italic" dir="auto" style="font-size: 20pt; float: left;"><div style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        ŽEMAĨTĖ. MARTÌ&nbsp; 
+    </div>
+</div></div>
+		
+			<div class="old-Bold-Italic" dir="auto" style="font-size: 20pt; float: left;"><div style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        &nbsp; 
+    </div>
+</div></div>
+		
+			<div class="old-Bold-Italic" dir="auto" style="font-size: 20pt; float: left;"><div style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        Niẽko nevei̇̃ksi&comma; matušė̃le&comma; rei̇̃k léisti JONÙKUI vèsti; tegul̃ i̇́eško mergõs sù gerà dalià… Apsimokė́sim šiek ti̇́ek skolàs... Negali̇̀ niẽkur nė̃ nósies iški̇̀šti&comma; labiáusiai karčiamojè&comma; kai̇̃p apstõs&comma; vi̇́enas – palū́kų&comma; ki̇̀tas – šiẽno&comma; pasė́lio; ki̇̀tas vė̃l&comma; kai̇̃p vélnias&comma; prisispýręs kamantinė̃s: „Kuomèt atidúosi? Kuomèt atidúosi?“&comma; ródos&comma; kàd niẽko daugiaũ nė̃ šnekė́ti nebemóka.&nbsp; 
+    </div>
+</div></div>
+		
+			<div class="old-Bold-Italic" dir="auto" style="font-size: 20pt; float: left;"><div style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        – Užtàt kõ válkiojies põ kar̃čiamas? – priki̇̀šo pati̇̀.&nbsp; 
+    </div>
+</div></div>
+		
+			<div class="old-Bold-Italic" dir="auto" style="font-size: 20pt; float: left;"><div style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        – Kažiñ kai̇̃p nenorė́tumei ei̇̃ti&comma; bèt kai̇̃p apstõs miestè&comma; tai̇̃ nemi̇̀tęs turi̇̀ vèsties añt pùskvortės. Bepigù dár&comma; kàd tõ užtèktų. Tàs priẽ tõ&comma; tàs priẽ tõ&comma; bevéizint į̇̃ keli̇̀s bùtelius ĮVÃRĘ&comma; õ kai̇̃p pasiger̃s – tikri̇̀ velniai̇̃: įmanýtų suplė́šyti ùž tàs biẽso skolàs... Atidúosiu gyvẽnimą&comma; tesiži̇̀no vai̇̃kas&comma; tegul̃ mokė́sis&comma; niẽkur nebesiki̇̀šiu.&nbsp; 
+    </div>
+</div></div>
+		
+			<div class="old-Bold-Italic" dir="auto" style="font-size: 20pt; float: left;"><div style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        – Kai̇̃pgis&comma; kai̇̃pgis&comma; tõ betrū̃ko! Atidúok vi̇̀ską&comma; paskui̇̃ vai̇̃kas bevadžiõs mùs ùž čiuprõs! Àš nedúosiu&comma; neužléisiu&comma; kõl ti̇̀k gyvà! – šaũkė pati̇̀&comma; kaskar̃t didžiaũ įniršdamà. – Nepadúosiu sámčio&comma; nenóriu poniõs añt sàvo galvõs&comma; àš neméilysiu ką́snio i̇̀š marčiõs rañkų&comma; tõ nebùs&comma; neprašaũ!&nbsp; 
+    </div>
+</div></div>
+		
+			<div class="old-Bold-Italic" dir="auto" style="font-size: 20pt; float: left;"><div style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        – Nà&comma; nà&comma; nà&comma; tarškė́k netarškė́jusi&comma; kai̇̃p žỹdo rãtai! Gyvénk&comma; gyvénk&comma; nepadúok&comma; õ kai̇̃p ištaksavõs skõlininkai&comma; bùs táu šmi̇̀kšt per̃ danti̇̀s! Benè táu marti̇̀ sprándą nusùks? Neláidyk liežùvio – ir̃ bùs gerai̇̃.&nbsp; 
+    </div>
+</div></div>
+		
+			<div class="old-Bold-Italic" dir="auto" style="font-size: 20pt; float: left;"><div style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        – Dė̃l màno liežùvio išsitèks marti̇̀&comma; – atšóvė pati̇̀&comma; – bèt táu tai̇̃ užrùks&comma; nebeturė́si i̇̀š kõ sprógti. Kàs padãrė tàs skolàs? Màžne vi̇̀są gyvẽnimą pravarei̇̃ per̃ gérklę! Ar̃ negalė́tumei dár gyvénti&comma; dorai̇̃ el̃gdamos? Maũšas&comma; beróds&comma; prakùto&comma; bèt tù nusmukai̇̃. Añt gãlo&comma; mar̃čią užsodi̇̀nsi añt sprándo&comma; paláuk&comma; išmanýsi tù!..&nbsp; 
+    </div>
+</div></div>
+		
+			<div class="old-Bold-Italic" dir="auto" style="font-size: 20pt; float: left;"><div style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        – Tylė́k&comma; nà! – sušùko výras. – Tuõj gáuni į̇̃ snùkį! Kai̇̃p sakaũ&comma; tai̇̃p ir̃ bùs. Jonùkas vès&comma; gaũs pãspirtį ir̃ galė́sime gyvénti&comma; kai̇̃p gyvẽnę.&nbsp; 
+    </div>
+</div></div>
+		
+			<div class="old-Bold-Italic" dir="auto" style="font-size: 20pt; float: left;"><div style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        – Nebeñt tai̇̃p&comma; tai̇̃ pridúosiu&comma; – tãrė mótina. – Àš šeimininkáusiu&comma; õ marti̇̀ tegul̃ sáu bū̃na añt šaliẽs&comma; parsinèš sáu dúonos.&nbsp; 
+    </div>
+</div></div>
+		
+			<div class="old-Bold-Italic" dir="auto" style="font-size: 20pt; float: left;"><div style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        – Liẽpsiu Jonùkui pasiprašýti Mataũšą į̇̃ piršliùs&comma; – šnekė́jo tė́vas&comma; – ir̃ tegul̃ ei̇̃na pàs Dri̇́ežo Kãtrę; nõrs nelabai̇̃ áiški&comma; bèt pinigai̇̃&comma; kai̇̃p jéi rañkoje. Dúoda kẽturis šimtùs&comma; ir̃ dali̇̀s nemažà&comma; õ màno gyvẽnimas nõrs ir̃ apgriùvęs&comma; bèt žẽmė gerà. Nečiáudės Dri̇́ežas&comma; õgi ir̃ Jonùkas ar̃ nè výras... ir̃ i̇̀š stuomeñs&comma; ir̃ i̇̀š liemeñs&comma; pati̇̀ks mer̃gai.&nbsp; 
+    </div>
+</div></div>
+		
+			<div class="old-Bold-Italic" dir="auto" style="font-size: 20pt; float: left;"><div style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        – Ši̇̀taigis táu! Ką̃ gi̇̀ beišsiskýręs tą̃ pajúodėlę&comma; didnõsę&comma; pataikū̃nę&comma; valiū̃kę! – paki̇̀lo šaũkti pati̇̀. – Išlẽpinta&comma; išpustýta&comma; išsitai̇̃siusi&comma; trãtanti&comma; muslinúota&comma; krakmolúota&comma; ir̃ ei̇̃s pastỹrusi&comma; kai̇̃p pūslė̃. Neganà į̇̃ bažnýčią išsikvarkliúoja&comma; bèt ir̃ põ namùs išsipuõšusi&comma; kai̇̃p panà. Ei̇̃s šiẽno grė́bti – apvalkė̃lis báltas&comma; skepetė̃lis&comma; prikyštė̃lė išdáilinta&comma; kai̇̃p i̇̀š pi̇́eno plaũkusi! Ar̃ tàt kurią̃ diẽną bùs šeiminiñkė? Visà i̇̀škyla&comma; kàd išei̇̃na sù grėbleliù&comma; õ põ namùs&comma; sãko&comma; nepasi̇̀ima nė̃ kókio darbẽlio&comma; ti̇̀k šlavinė́ties&comma; plovinė́ties&comma; tai̇̃ įsė̃s į̇̃ staklelès&comma; tai̇̃ siuvinė̃lį nusitver̃s&comma; vi̇̀s niẽkniekius&comma; õ sunkaũs dárbo niẽko. Tfù! Tokiõs lengvadar̃bės neprašaũ. Mán nerei̇̃k cãckų pacãckų! Mán rei̇̃k tokiõs pàt purvãbridės&comma; kai̇̃p ir̃ àš pati̇̀!&nbsp; 
+    </div>
+</div></div>
+		
+			<div class="old-Bold-Italic" dir="auto" style="font-size: 20pt; float: left;"><div style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        – Nà&comma; mótin&comma; ką̃ tù čià pliauški̇̀? Kàs gi̇̀ tuõs dárbus nudi̇̀rba? Jùk Dri̇́ežas kitõs mergõs nesam̃do&comma; Katri̇̀kė vienà tėrà; tė́vas tóks šnerkšlỹs&comma; spáudžia priẽ dárbo&comma; kai̇̃p pašė́lęs.&nbsp; 
+    </div>
+</div></div>
+		
+			<div class="old-Bold-Italic" dir="auto" style="font-size: 20pt; float: left;"><div style="font-feature-settings: " lang="None">
+    <div class="tooltip">
+        &nbsp; 
+    </div>
+</div></div>
+		
+    </div>
+  
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+// apply optional ot feats
+
+function buildFeatureList() {
+	var features = [
+		'aalt', 'c2sc', 'calt', 'case', 'cpsp', 'dlig', 'dnom',
+		'fina', 'frac', 'init', 'kern', 'liga', 'lnum', 'numr', 'onum',
+		'ordn', 'pnum', 'salt', 'sinf', 'smcp', 'sups',
+		'swsh', 'titl', 'tnum', 'zero', 'ss01', 'ss02',
+		'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08',
+		'ss09', 'ss10', 'ss11', 'ss12', 'ss13', 'ss14',
+		'ss15', 'ss16', 'ss17', 'ss18', 'ss19', 'ss20'
+	]
+	
+	var otPanel = document.getElementById("ot-panel")
+	for (i=0; i<features.length; i++) {
+		var feat = features[i]
+		
+		var row = document.createElement("div");
+
+		var item = document.createElement("input");
+		item.type = "checkbox"
+		item.value = feat
+		item.classList.add("ot-checkbox")
+		var label = document.createElement("label")
+		label.textContent = feat
+
+		row.appendChild(item)
+		row.appendChild(label)
+
+		otPanel.appendChild(row)
+	}
+}
+
+buildFeatureList()
+
+
+function enableFeatures() {
+	var checkboxes = document.getElementsByClassName("ot-checkbox")
+	var res = []
+	var disableKerning = false
+	for (i=0; i<checkboxes.length; i++) {
+		if (checkboxes[i].checked === true) {
+			var checkbox = checkboxes[i]
+			res.push('"' + checkbox.value + '"')
+
+			if (checkbox.value === "kern") {
+				disableKerning = true
+			}
+		}
+	}	
+
+	var boxText = document.getElementsByClassName("box-text")
+	var otString = res.join(", ")
+	for (j=0; j<boxText.length; j++) {
+		boxText[j].style.fontFeatureSettings = otString
+		if (disableKerning === true) {
+			boxText[j].style.fontKerning = "none"
+		}
+	}
+}
+
+var otButton = document.getElementById("ot-button")
+otButton.addEventListener("click", function() {
+    otPanel = document.getElementById("ot-panel")
+    if (otPanel.style.display !== "block") {
+        otPanel.style.display = "block"
+    } else {
+        otPanel.style.display = "none"
+    }
+})
+var checkboxes = document.getElementsByClassName("ot-checkbox")
+for (i=0; i<checkboxes.length; i++) {
+	cb = checkboxes[i]
+	cb.addEventListener("click", enableFeatures)
+}	
+    
+	// break text so that no reflow happens
+async function breakText() {
+	boxContent = document.getElementsByClassName("box-text")
+	for (let box of boxContent) {
+		switchFonts()
+		await sleep(1)
+		break1 = getLineBreaks(box)
+		switchFonts()
+		await sleep(1)
+		break2 = getLineBreaks(box)
+
+		if (break1.length >= break2.length) {
+		breaks = break1
+		} else {
+		breaks = break2
+		}
+		insertBreaks(box, breaks)
+		box.style.whiteSpace = "pre"
+		console.log("set to pre")
+	}
+	}
+
+function getLineBreaks(elem) {
+	const nodes = grabTextNodes(elem);
+	for (const node of nodes) { // each node is a big block of text
+		let rangeIndex = 1;
+		let textIndex = 0;
+		let nodeText = node.textContent;
+		const textLength = nodeText.length;
+
+		linebreaks = []
+		prevTop = 0;
+		while (rangeIndex <= textLength) {
+			const range = document.createRange();
+			range.setStart(node, rangeIndex-1);
+			range.setEnd(node, rangeIndex)
+			currentTop = range.getBoundingClientRect().top
+		if (currentTop > prevTop) {
+			linebreaks.push(rangeIndex-2)
+		}
+		rangeIndex += 1;
+		prevTop = currentTop
+		}
+	}
+	return linebreaks
+}
+
+function grabTextNodes(elem) {
+	const walker = document.createTreeWalker(elem, NodeFilter.SHOW_TEXT, null);
+	const nodes = [];
+	while (walker.nextNode()) {
+		nodes.push(walker.currentNode);
+	}
+	return nodes;
+}
+
+	function sleep(ms) {
+		return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+
+function insertBreaks(node, breaks) {
+	console.log(node, breaks)
+	newText = ""
+	currentText = node.textContent
+	for (i=0; i<currentText.length; i++) {
+		if (breaks.includes(i)) {
+		newText += "<br>"
+		} else {
+		newText += currentText[i]
+		}
+	}
+	node.innerHTML = newText
+}
+
+	if (fontToggle !== null) {
+		breakText()
+}
+
+	
+
+
+    </script>
+</html>
