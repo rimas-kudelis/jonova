@@ -116,7 +116,10 @@ jobs:
   test-diffs-jonova:
     name: Generate diffs (Jonova)
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
     env:
       FONTS_ZIP_NAME: ${{ needs.build.outputs.FONTS_ZIP_NAME }}
     steps:
@@ -129,6 +132,10 @@ jobs:
         with:
           path: ./venv/
           key: ${{ runner.os }}-venv-${{ hashFiles('requirements.txt') }}
+      - uses: actions/cache@v4
+        with:
+          path: ./jonova-2.032/
+          key: jonova-2.032
       - name: Download font
         uses: actions/download-artifact@v4
         with:
@@ -140,14 +147,17 @@ jobs:
       - name: Archive artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: site-diffs-jonova
+          name: site-diffs-jonova-${{ runner.os }}
           path: out/
           retention-days: 1
 
   test-diffs-jonova-condensed:
     name: Generate diffs (Jonova Condensed)
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
     env:
       FONTS_ZIP_NAME: ${{ needs.build.outputs.FONTS_ZIP_NAME }}
     steps:
@@ -160,6 +170,10 @@ jobs:
         with:
           path: ./venv/
           key: ${{ runner.os }}-venv-${{ hashFiles('requirements.txt') }}
+      - uses: actions/cache@v4
+        with:
+          path: ./jonova-2.032/
+          key: jonova-2.032
       - name: Download font
         uses: actions/download-artifact@v4
         with:
@@ -171,7 +185,7 @@ jobs:
       - name: Archive artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: site-diffs-jonova-condensed
+          name: site-diffs-jonova-condensed-${{ runner.os }}
           path: out/
           retention-days: 1
 
@@ -228,6 +242,14 @@ jobs:
           merge-multiple: true
       - name: Copy site index
         run: cp scripts/index.html out/index.html
+      - name: Append image lists to Diffenator2 report homepages
+        run: |
+          cd out/proof/Jonova
+          echo "<h3>Debug images</h3>" >> diffenator2-report.html
+          find imgs/ -type f -printf "<p><a href='%h/%f'>%f</a></p>\n" >> diffenator2-report.html
+          cd out/proof/JonovaCondensed
+          echo "<h3>Debug images</h3>" >> diffenator2-report.html
+          find imgs/ -type f -printf "<p><a href='%h/%f'>%f</a></p>\n" >> diffenator2-report.html
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         if: ${{ github.ref == 'refs/heads/main' }}
