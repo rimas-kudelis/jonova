@@ -159,19 +159,19 @@
 
 	  
 	    @font-face{
-    src: url("new-Jonova-Bold.ttf");
-    font-family: "new Jonova";
-    font-weight: 700;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
     src: url("new-Jonova-BoldItalic.ttf");
     font-family: "new Jonova";
     font-weight: 700;
     
     font-style: italic;
+}
+	  
+	    @font-face{
+    src: url("new-Jonova-Bold.ttf");
+    font-family: "new Jonova";
+    font-weight: 700;
+    
+    font-style: normal;
 }
 	  
 
@@ -580,42 +580,6 @@ function getLineBreaks(elem) {
 
 function grabTextNodes(elem) {
 	const walker = document.createTreeWalker(elem, NodeFilter.SHOW_TEXT, null);
-	const nodes = [];
-	while (walker.nextNode()) {
-		nodes.push(walker.currentNode);
-	}
-	return nodes;
-}
-
-	function sleep(ms) {
-		return new Promise(resolve => setTimeout(resolve, ms));
-}
-
-
-function insertBreaks(node, breaks) {
-	console.log(node, breaks)
-	newText = ""
-	currentText = node.textContent
-	for (i=0; i<currentText.length; i++) {
-		if (breaks.includes(i)) {
-		newText += "<br>"
-		} else {
-		newText += currentText[i]
-		}
-	}
-	node.innerHTML = newText
-}
-
-	if (fontToggle !== null) {
-		breakText()
-}
-
-	
-
-
-    </script>
-</html>
-ateTreeWalker(elem, NodeFilter.SHOW_TEXT, null);
 	const nodes = [];
 	while (walker.nextNode()) {
 		nodes.push(walker.currentNode);
